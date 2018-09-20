@@ -1,0 +1,886 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type='text/xsl' href='PresetUsageReport.xslt'?>
+<Presets showName="Onyx Training" showBuild="67109874" cnt="126" cntInUse="20" cntUnused="100" cntEmpty="6">
+<Preset ID="Beam 1" name="SHARP">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 2" name="OPEN NARROW">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 3" name="OPEN MEDIUM">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 4" name="OPEN WIDE">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 5" name="BLURRED">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 6" name="OPEN NARROW">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 7" name="OPEN MEDIUM">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 8" name="OPEN WIDE">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 9" name="PRISM">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 10" name="3- FACET PRISM">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 11" name="LINEAR PRISM">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 12" name="PRISMS STACKED">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 14" name="ZOOM">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 15" name="ZOOM 0%">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>106</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 17" name="GOBO 1 NARROW">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>106</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 18" name="GOBO 1 MED">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 19" name="GOBO 1 WIDE">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 21" name="GOBO 2 NARROW">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 22" name="GOBO 2 MED">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 23" name="GOBO 1 WIDE">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 25" name="PRISM ROTATION SLOW">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 26" name="PRISM ROTATION MED">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 27" name="PRISM ROT FAST">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 29" name="ZOOM 25%">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 30" name="ZOOM 50%">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 32" name="GOBO 2 NARROW">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 33" name="GOBO 2 MED">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 34" name="GOBO 2 WIDE">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 36" name="GOBO 2 NARROW">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 37" name="GOBO 2 MED">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 38" name="GOBO 2 WIDE">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 40" name="OPEN PRISM">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 44" name="ZOOM 75%">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 45" name="ZOOM 100%">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 1" name="WHITE MIX">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>301.1</Fixture><Fixture>301.10</Fixture><Fixture>301.11</Fixture><Fixture>301.12</Fixture><Fixture>301.2</Fixture><Fixture>301.3</Fixture><Fixture>301.4</Fixture><Fixture>301.5</Fixture><Fixture>301.6</Fixture><Fixture>301.7</Fixture><Fixture>301.8</Fixture><Fixture>301.9</Fixture><Fixture>302.1</Fixture><Fixture>302.10</Fixture><Fixture>302.11</Fixture><Fixture>302.12</Fixture><Fixture>302.2</Fixture><Fixture>302.3</Fixture><Fixture>302.4</Fixture><Fixture>302.5</Fixture><Fixture>302.6</Fixture><Fixture>302.7</Fixture><Fixture>302.8</Fixture><Fixture>302.9</Fixture><Fixture>303.1</Fixture><Fixture>303.10</Fixture><Fixture>303.11</Fixture><Fixture>303.12</Fixture><Fixture>303.2</Fixture><Fixture>303.3</Fixture><Fixture>303.4</Fixture><Fixture>303.5</Fixture><Fixture>303.6</Fixture><Fixture>303.7</Fixture><Fixture>303.8</Fixture><Fixture>303.9</Fixture><Fixture>304.1</Fixture><Fixture>304.10</Fixture><Fixture>304.11</Fixture><Fixture>304.12</Fixture><Fixture>304.2</Fixture><Fixture>304.3</Fixture><Fixture>304.4</Fixture><Fixture>304.5</Fixture><Fixture>304.6</Fixture><Fixture>304.7</Fixture><Fixture>304.8</Fixture><Fixture>304.9</Fixture><Fixture>305.1</Fixture><Fixture>305.10</Fixture><Fixture>305.11</Fixture><Fixture>305.12</Fixture><Fixture>305.2</Fixture><Fixture>305.3</Fixture><Fixture>305.4</Fixture><Fixture>305.5</Fixture><Fixture>305.6</Fixture><Fixture>305.7</Fixture><Fixture>305.8</Fixture><Fixture>305.9</Fixture><Fixture>306.1</Fixture><Fixture>306.10</Fixture><Fixture>306.11</Fixture><Fixture>306.12</Fixture><Fixture>306.2</Fixture><Fixture>306.3</Fixture><Fixture>306.4</Fixture><Fixture>306.5</Fixture><Fixture>306.6</Fixture><Fixture>306.7</Fixture><Fixture>306.8</Fixture><Fixture>306.9</Fixture><Fixture>307.1</Fixture><Fixture>307.10</Fixture><Fixture>307.11</Fixture><Fixture>307.12</Fixture><Fixture>307.2</Fixture><Fixture>307.3</Fixture><Fixture>307.4</Fixture><Fixture>307.5</Fixture><Fixture>307.6</Fixture><Fixture>307.7</Fixture><Fixture>307.8</Fixture><Fixture>307.9</Fixture><Fixture>308.1</Fixture><Fixture>308.10</Fixture><Fixture>308.11</Fixture><Fixture>308.12</Fixture><Fixture>308.2</Fixture><Fixture>308.3</Fixture><Fixture>308.4</Fixture><Fixture>308.5</Fixture><Fixture>308.6</Fixture><Fixture>308.7</Fixture><Fixture>308.8</Fixture><Fixture>308.9</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 2" name="CYAN MIX">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>301.1</Fixture><Fixture>301.10</Fixture><Fixture>301.11</Fixture><Fixture>301.12</Fixture><Fixture>301.2</Fixture><Fixture>301.3</Fixture><Fixture>301.4</Fixture><Fixture>301.5</Fixture><Fixture>301.6</Fixture><Fixture>301.7</Fixture><Fixture>301.8</Fixture><Fixture>301.9</Fixture><Fixture>302.1</Fixture><Fixture>302.10</Fixture><Fixture>302.11</Fixture><Fixture>302.12</Fixture><Fixture>302.2</Fixture><Fixture>302.3</Fixture><Fixture>302.4</Fixture><Fixture>302.5</Fixture><Fixture>302.6</Fixture><Fixture>302.7</Fixture><Fixture>302.8</Fixture><Fixture>302.9</Fixture><Fixture>303.1</Fixture><Fixture>303.10</Fixture><Fixture>303.11</Fixture><Fixture>303.12</Fixture><Fixture>303.2</Fixture><Fixture>303.3</Fixture><Fixture>303.4</Fixture><Fixture>303.5</Fixture><Fixture>303.6</Fixture><Fixture>303.7</Fixture><Fixture>303.8</Fixture><Fixture>303.9</Fixture><Fixture>304.1</Fixture><Fixture>304.10</Fixture><Fixture>304.11</Fixture><Fixture>304.12</Fixture><Fixture>304.2</Fixture><Fixture>304.3</Fixture><Fixture>304.4</Fixture><Fixture>304.5</Fixture><Fixture>304.6</Fixture><Fixture>304.7</Fixture><Fixture>304.8</Fixture><Fixture>304.9</Fixture><Fixture>305.1</Fixture><Fixture>305.10</Fixture><Fixture>305.11</Fixture><Fixture>305.12</Fixture><Fixture>305.2</Fixture><Fixture>305.3</Fixture><Fixture>305.4</Fixture><Fixture>305.5</Fixture><Fixture>305.6</Fixture><Fixture>305.7</Fixture><Fixture>305.8</Fixture><Fixture>305.9</Fixture><Fixture>306.1</Fixture><Fixture>306.10</Fixture><Fixture>306.11</Fixture><Fixture>306.12</Fixture><Fixture>306.2</Fixture><Fixture>306.3</Fixture><Fixture>306.4</Fixture><Fixture>306.5</Fixture><Fixture>306.6</Fixture><Fixture>306.7</Fixture><Fixture>306.8</Fixture><Fixture>306.9</Fixture><Fixture>307.1</Fixture><Fixture>307.10</Fixture><Fixture>307.11</Fixture><Fixture>307.12</Fixture><Fixture>307.2</Fixture><Fixture>307.3</Fixture><Fixture>307.4</Fixture><Fixture>307.5</Fixture><Fixture>307.6</Fixture><Fixture>307.7</Fixture><Fixture>307.8</Fixture><Fixture>307.9</Fixture><Fixture>308.1</Fixture><Fixture>308.10</Fixture><Fixture>308.11</Fixture><Fixture>308.12</Fixture><Fixture>308.2</Fixture><Fixture>308.3</Fixture><Fixture>308.4</Fixture><Fixture>308.5</Fixture><Fixture>308.6</Fixture><Fixture>308.7</Fixture><Fixture>308.8</Fixture><Fixture>308.9</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 3" name="MAGENTA MIX">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>301.1</Fixture><Fixture>301.10</Fixture><Fixture>301.11</Fixture><Fixture>301.12</Fixture><Fixture>301.2</Fixture><Fixture>301.3</Fixture><Fixture>301.4</Fixture><Fixture>301.5</Fixture><Fixture>301.6</Fixture><Fixture>301.7</Fixture><Fixture>301.8</Fixture><Fixture>301.9</Fixture><Fixture>302.1</Fixture><Fixture>302.10</Fixture><Fixture>302.11</Fixture><Fixture>302.12</Fixture><Fixture>302.2</Fixture><Fixture>302.3</Fixture><Fixture>302.4</Fixture><Fixture>302.5</Fixture><Fixture>302.6</Fixture><Fixture>302.7</Fixture><Fixture>302.8</Fixture><Fixture>302.9</Fixture><Fixture>303.1</Fixture><Fixture>303.10</Fixture><Fixture>303.11</Fixture><Fixture>303.12</Fixture><Fixture>303.2</Fixture><Fixture>303.3</Fixture><Fixture>303.4</Fixture><Fixture>303.5</Fixture><Fixture>303.6</Fixture><Fixture>303.7</Fixture><Fixture>303.8</Fixture><Fixture>303.9</Fixture><Fixture>304.1</Fixture><Fixture>304.10</Fixture><Fixture>304.11</Fixture><Fixture>304.12</Fixture><Fixture>304.2</Fixture><Fixture>304.3</Fixture><Fixture>304.4</Fixture><Fixture>304.5</Fixture><Fixture>304.6</Fixture><Fixture>304.7</Fixture><Fixture>304.8</Fixture><Fixture>304.9</Fixture><Fixture>305.1</Fixture><Fixture>305.10</Fixture><Fixture>305.11</Fixture><Fixture>305.12</Fixture><Fixture>305.2</Fixture><Fixture>305.3</Fixture><Fixture>305.4</Fixture><Fixture>305.5</Fixture><Fixture>305.6</Fixture><Fixture>305.7</Fixture><Fixture>305.8</Fixture><Fixture>305.9</Fixture><Fixture>306.1</Fixture><Fixture>306.10</Fixture><Fixture>306.11</Fixture><Fixture>306.12</Fixture><Fixture>306.2</Fixture><Fixture>306.3</Fixture><Fixture>306.4</Fixture><Fixture>306.5</Fixture><Fixture>306.6</Fixture><Fixture>306.7</Fixture><Fixture>306.8</Fixture><Fixture>306.9</Fixture><Fixture>307.1</Fixture><Fixture>307.10</Fixture><Fixture>307.11</Fixture><Fixture>307.12</Fixture><Fixture>307.2</Fixture><Fixture>307.3</Fixture><Fixture>307.4</Fixture><Fixture>307.5</Fixture><Fixture>307.6</Fixture><Fixture>307.7</Fixture><Fixture>307.8</Fixture><Fixture>307.9</Fixture><Fixture>308.1</Fixture><Fixture>308.10</Fixture><Fixture>308.11</Fixture><Fixture>308.12</Fixture><Fixture>308.2</Fixture><Fixture>308.3</Fixture><Fixture>308.4</Fixture><Fixture>308.5</Fixture><Fixture>308.6</Fixture><Fixture>308.7</Fixture><Fixture>308.8</Fixture><Fixture>308.9</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 4" name="MIXED YELLOW">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>301.1</Fixture><Fixture>301.10</Fixture><Fixture>301.11</Fixture><Fixture>301.12</Fixture><Fixture>301.2</Fixture><Fixture>301.3</Fixture><Fixture>301.4</Fixture><Fixture>301.5</Fixture><Fixture>301.6</Fixture><Fixture>301.7</Fixture><Fixture>301.8</Fixture><Fixture>301.9</Fixture><Fixture>302.1</Fixture><Fixture>302.10</Fixture><Fixture>302.11</Fixture><Fixture>302.12</Fixture><Fixture>302.2</Fixture><Fixture>302.3</Fixture><Fixture>302.4</Fixture><Fixture>302.5</Fixture><Fixture>302.6</Fixture><Fixture>302.7</Fixture><Fixture>302.8</Fixture><Fixture>302.9</Fixture><Fixture>303.1</Fixture><Fixture>303.10</Fixture><Fixture>303.11</Fixture><Fixture>303.12</Fixture><Fixture>303.2</Fixture><Fixture>303.3</Fixture><Fixture>303.4</Fixture><Fixture>303.5</Fixture><Fixture>303.6</Fixture><Fixture>303.7</Fixture><Fixture>303.8</Fixture><Fixture>303.9</Fixture><Fixture>304.1</Fixture><Fixture>304.10</Fixture><Fixture>304.11</Fixture><Fixture>304.12</Fixture><Fixture>304.2</Fixture><Fixture>304.3</Fixture><Fixture>304.4</Fixture><Fixture>304.5</Fixture><Fixture>304.6</Fixture><Fixture>304.7</Fixture><Fixture>304.8</Fixture><Fixture>304.9</Fixture><Fixture>305.1</Fixture><Fixture>305.10</Fixture><Fixture>305.11</Fixture><Fixture>305.12</Fixture><Fixture>305.2</Fixture><Fixture>305.3</Fixture><Fixture>305.4</Fixture><Fixture>305.5</Fixture><Fixture>305.6</Fixture><Fixture>305.7</Fixture><Fixture>305.8</Fixture><Fixture>305.9</Fixture><Fixture>306.1</Fixture><Fixture>306.10</Fixture><Fixture>306.11</Fixture><Fixture>306.12</Fixture><Fixture>306.2</Fixture><Fixture>306.3</Fixture><Fixture>306.4</Fixture><Fixture>306.5</Fixture><Fixture>306.6</Fixture><Fixture>306.7</Fixture><Fixture>306.8</Fixture><Fixture>306.9</Fixture><Fixture>307.1</Fixture><Fixture>307.10</Fixture><Fixture>307.11</Fixture><Fixture>307.12</Fixture><Fixture>307.2</Fixture><Fixture>307.3</Fixture><Fixture>307.4</Fixture><Fixture>307.5</Fixture><Fixture>307.6</Fixture><Fixture>307.7</Fixture><Fixture>307.8</Fixture><Fixture>307.9</Fixture><Fixture>308.1</Fixture><Fixture>308.10</Fixture><Fixture>308.11</Fixture><Fixture>308.12</Fixture><Fixture>308.2</Fixture><Fixture>308.3</Fixture><Fixture>308.4</Fixture><Fixture>308.5</Fixture><Fixture>308.6</Fixture><Fixture>308.7</Fixture><Fixture>308.8</Fixture><Fixture>308.9</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 5" name="MIXED RED">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>301.1</Fixture><Fixture>301.10</Fixture><Fixture>301.11</Fixture><Fixture>301.12</Fixture><Fixture>301.2</Fixture><Fixture>301.3</Fixture><Fixture>301.4</Fixture><Fixture>301.5</Fixture><Fixture>301.6</Fixture><Fixture>301.7</Fixture><Fixture>301.8</Fixture><Fixture>301.9</Fixture><Fixture>302.1</Fixture><Fixture>302.10</Fixture><Fixture>302.11</Fixture><Fixture>302.12</Fixture><Fixture>302.2</Fixture><Fixture>302.3</Fixture><Fixture>302.4</Fixture><Fixture>302.5</Fixture><Fixture>302.6</Fixture><Fixture>302.7</Fixture><Fixture>302.8</Fixture><Fixture>302.9</Fixture><Fixture>303.1</Fixture><Fixture>303.10</Fixture><Fixture>303.11</Fixture><Fixture>303.12</Fixture><Fixture>303.2</Fixture><Fixture>303.3</Fixture><Fixture>303.4</Fixture><Fixture>303.5</Fixture><Fixture>303.6</Fixture><Fixture>303.7</Fixture><Fixture>303.8</Fixture><Fixture>303.9</Fixture><Fixture>304.1</Fixture><Fixture>304.10</Fixture><Fixture>304.11</Fixture><Fixture>304.12</Fixture><Fixture>304.2</Fixture><Fixture>304.3</Fixture><Fixture>304.4</Fixture><Fixture>304.5</Fixture><Fixture>304.6</Fixture><Fixture>304.7</Fixture><Fixture>304.8</Fixture><Fixture>304.9</Fixture><Fixture>305.1</Fixture><Fixture>305.10</Fixture><Fixture>305.11</Fixture><Fixture>305.12</Fixture><Fixture>305.2</Fixture><Fixture>305.3</Fixture><Fixture>305.4</Fixture><Fixture>305.5</Fixture><Fixture>305.6</Fixture><Fixture>305.7</Fixture><Fixture>305.8</Fixture><Fixture>305.9</Fixture><Fixture>306.1</Fixture><Fixture>306.10</Fixture><Fixture>306.11</Fixture><Fixture>306.12</Fixture><Fixture>306.2</Fixture><Fixture>306.3</Fixture><Fixture>306.4</Fixture><Fixture>306.5</Fixture><Fixture>306.6</Fixture><Fixture>306.7</Fixture><Fixture>306.8</Fixture><Fixture>306.9</Fixture><Fixture>307.1</Fixture><Fixture>307.10</Fixture><Fixture>307.11</Fixture><Fixture>307.12</Fixture><Fixture>307.2</Fixture><Fixture>307.3</Fixture><Fixture>307.4</Fixture><Fixture>307.5</Fixture><Fixture>307.6</Fixture><Fixture>307.7</Fixture><Fixture>307.8</Fixture><Fixture>307.9</Fixture><Fixture>308.1</Fixture><Fixture>308.10</Fixture><Fixture>308.11</Fixture><Fixture>308.12</Fixture><Fixture>308.2</Fixture><Fixture>308.3</Fixture><Fixture>308.4</Fixture><Fixture>308.5</Fixture><Fixture>308.6</Fixture><Fixture>308.7</Fixture><Fixture>308.8</Fixture><Fixture>308.9</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 6" name="MIXED GREEN">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>301.1</Fixture><Fixture>301.10</Fixture><Fixture>301.11</Fixture><Fixture>301.12</Fixture><Fixture>301.2</Fixture><Fixture>301.3</Fixture><Fixture>301.4</Fixture><Fixture>301.5</Fixture><Fixture>301.6</Fixture><Fixture>301.7</Fixture><Fixture>301.8</Fixture><Fixture>301.9</Fixture><Fixture>302.1</Fixture><Fixture>302.10</Fixture><Fixture>302.11</Fixture><Fixture>302.12</Fixture><Fixture>302.2</Fixture><Fixture>302.3</Fixture><Fixture>302.4</Fixture><Fixture>302.5</Fixture><Fixture>302.6</Fixture><Fixture>302.7</Fixture><Fixture>302.8</Fixture><Fixture>302.9</Fixture><Fixture>303.1</Fixture><Fixture>303.10</Fixture><Fixture>303.11</Fixture><Fixture>303.12</Fixture><Fixture>303.2</Fixture><Fixture>303.3</Fixture><Fixture>303.4</Fixture><Fixture>303.5</Fixture><Fixture>303.6</Fixture><Fixture>303.7</Fixture><Fixture>303.8</Fixture><Fixture>303.9</Fixture><Fixture>304.1</Fixture><Fixture>304.10</Fixture><Fixture>304.11</Fixture><Fixture>304.12</Fixture><Fixture>304.2</Fixture><Fixture>304.3</Fixture><Fixture>304.4</Fixture><Fixture>304.5</Fixture><Fixture>304.6</Fixture><Fixture>304.7</Fixture><Fixture>304.8</Fixture><Fixture>304.9</Fixture><Fixture>305.1</Fixture><Fixture>305.10</Fixture><Fixture>305.11</Fixture><Fixture>305.12</Fixture><Fixture>305.2</Fixture><Fixture>305.3</Fixture><Fixture>305.4</Fixture><Fixture>305.5</Fixture><Fixture>305.6</Fixture><Fixture>305.7</Fixture><Fixture>305.8</Fixture><Fixture>305.9</Fixture><Fixture>306.1</Fixture><Fixture>306.10</Fixture><Fixture>306.11</Fixture><Fixture>306.12</Fixture><Fixture>306.2</Fixture><Fixture>306.3</Fixture><Fixture>306.4</Fixture><Fixture>306.5</Fixture><Fixture>306.6</Fixture><Fixture>306.7</Fixture><Fixture>306.8</Fixture><Fixture>306.9</Fixture><Fixture>307.1</Fixture><Fixture>307.10</Fixture><Fixture>307.11</Fixture><Fixture>307.12</Fixture><Fixture>307.2</Fixture><Fixture>307.3</Fixture><Fixture>307.4</Fixture><Fixture>307.5</Fixture><Fixture>307.6</Fixture><Fixture>307.7</Fixture><Fixture>307.8</Fixture><Fixture>307.9</Fixture><Fixture>308.1</Fixture><Fixture>308.10</Fixture><Fixture>308.11</Fixture><Fixture>308.12</Fixture><Fixture>308.2</Fixture><Fixture>308.3</Fixture><Fixture>308.4</Fixture><Fixture>308.5</Fixture><Fixture>308.6</Fixture><Fixture>308.7</Fixture><Fixture>308.8</Fixture><Fixture>308.9</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 7" name="MIXED BLUE">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>301.1</Fixture><Fixture>301.10</Fixture><Fixture>301.11</Fixture><Fixture>301.12</Fixture><Fixture>301.2</Fixture><Fixture>301.3</Fixture><Fixture>301.4</Fixture><Fixture>301.5</Fixture><Fixture>301.6</Fixture><Fixture>301.7</Fixture><Fixture>301.8</Fixture><Fixture>301.9</Fixture><Fixture>302.1</Fixture><Fixture>302.10</Fixture><Fixture>302.11</Fixture><Fixture>302.12</Fixture><Fixture>302.2</Fixture><Fixture>302.3</Fixture><Fixture>302.4</Fixture><Fixture>302.5</Fixture><Fixture>302.6</Fixture><Fixture>302.7</Fixture><Fixture>302.8</Fixture><Fixture>302.9</Fixture><Fixture>303.1</Fixture><Fixture>303.10</Fixture><Fixture>303.11</Fixture><Fixture>303.12</Fixture><Fixture>303.2</Fixture><Fixture>303.3</Fixture><Fixture>303.4</Fixture><Fixture>303.5</Fixture><Fixture>303.6</Fixture><Fixture>303.7</Fixture><Fixture>303.8</Fixture><Fixture>303.9</Fixture><Fixture>304.1</Fixture><Fixture>304.10</Fixture><Fixture>304.11</Fixture><Fixture>304.12</Fixture><Fixture>304.2</Fixture><Fixture>304.3</Fixture><Fixture>304.4</Fixture><Fixture>304.5</Fixture><Fixture>304.6</Fixture><Fixture>304.7</Fixture><Fixture>304.8</Fixture><Fixture>304.9</Fixture><Fixture>305.1</Fixture><Fixture>305.10</Fixture><Fixture>305.11</Fixture><Fixture>305.12</Fixture><Fixture>305.2</Fixture><Fixture>305.3</Fixture><Fixture>305.4</Fixture><Fixture>305.5</Fixture><Fixture>305.6</Fixture><Fixture>305.7</Fixture><Fixture>305.8</Fixture><Fixture>305.9</Fixture><Fixture>306.1</Fixture><Fixture>306.10</Fixture><Fixture>306.11</Fixture><Fixture>306.12</Fixture><Fixture>306.2</Fixture><Fixture>306.3</Fixture><Fixture>306.4</Fixture><Fixture>306.5</Fixture><Fixture>306.6</Fixture><Fixture>306.7</Fixture><Fixture>306.8</Fixture><Fixture>306.9</Fixture><Fixture>307.1</Fixture><Fixture>307.10</Fixture><Fixture>307.11</Fixture><Fixture>307.12</Fixture><Fixture>307.2</Fixture><Fixture>307.3</Fixture><Fixture>307.4</Fixture><Fixture>307.5</Fixture><Fixture>307.6</Fixture><Fixture>307.7</Fixture><Fixture>307.8</Fixture><Fixture>307.9</Fixture><Fixture>308.1</Fixture><Fixture>308.10</Fixture><Fixture>308.11</Fixture><Fixture>308.12</Fixture><Fixture>308.2</Fixture><Fixture>308.3</Fixture><Fixture>308.4</Fixture><Fixture>308.5</Fixture><Fixture>308.6</Fixture><Fixture>308.7</Fixture><Fixture>308.8</Fixture><Fixture>308.9</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 16" name="RED">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 17" name="BLUE">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 18" name="GREEN">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 19" name="YELLOW">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 20" name="HALF MINUS GREEN">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 21" name="CTB">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 22" name="TIPTON BLUE">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 31" name="WHITE RGB">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>301.1</Fixture><Fixture>301.10</Fixture><Fixture>301.11</Fixture><Fixture>301.12</Fixture><Fixture>301.2</Fixture><Fixture>301.3</Fixture><Fixture>301.4</Fixture><Fixture>301.5</Fixture><Fixture>301.6</Fixture><Fixture>301.7</Fixture><Fixture>301.8</Fixture><Fixture>301.9</Fixture><Fixture>302.1</Fixture><Fixture>302.10</Fixture><Fixture>302.11</Fixture><Fixture>302.12</Fixture><Fixture>302.2</Fixture><Fixture>302.3</Fixture><Fixture>302.4</Fixture><Fixture>302.5</Fixture><Fixture>302.6</Fixture><Fixture>302.7</Fixture><Fixture>302.8</Fixture><Fixture>302.9</Fixture><Fixture>303.1</Fixture><Fixture>303.10</Fixture><Fixture>303.11</Fixture><Fixture>303.12</Fixture><Fixture>303.2</Fixture><Fixture>303.3</Fixture><Fixture>303.4</Fixture><Fixture>303.5</Fixture><Fixture>303.6</Fixture><Fixture>303.7</Fixture><Fixture>303.8</Fixture><Fixture>303.9</Fixture><Fixture>304.1</Fixture><Fixture>304.10</Fixture><Fixture>304.11</Fixture><Fixture>304.12</Fixture><Fixture>304.2</Fixture><Fixture>304.3</Fixture><Fixture>304.4</Fixture><Fixture>304.5</Fixture><Fixture>304.6</Fixture><Fixture>304.7</Fixture><Fixture>304.8</Fixture><Fixture>304.9</Fixture><Fixture>305.1</Fixture><Fixture>305.10</Fixture><Fixture>305.11</Fixture><Fixture>305.12</Fixture><Fixture>305.2</Fixture><Fixture>305.3</Fixture><Fixture>305.4</Fixture><Fixture>305.5</Fixture><Fixture>305.6</Fixture><Fixture>305.7</Fixture><Fixture>305.8</Fixture><Fixture>305.9</Fixture><Fixture>306.1</Fixture><Fixture>306.10</Fixture><Fixture>306.11</Fixture><Fixture>306.12</Fixture><Fixture>306.2</Fixture><Fixture>306.3</Fixture><Fixture>306.4</Fixture><Fixture>306.5</Fixture><Fixture>306.6</Fixture><Fixture>306.7</Fixture><Fixture>306.8</Fixture><Fixture>306.9</Fixture><Fixture>307.1</Fixture><Fixture>307.10</Fixture><Fixture>307.11</Fixture><Fixture>307.12</Fixture><Fixture>307.2</Fixture><Fixture>307.3</Fixture><Fixture>307.4</Fixture><Fixture>307.5</Fixture><Fixture>307.6</Fixture><Fixture>307.7</Fixture><Fixture>307.8</Fixture><Fixture>307.9</Fixture><Fixture>308.1</Fixture><Fixture>308.10</Fixture><Fixture>308.11</Fixture><Fixture>308.12</Fixture><Fixture>308.2</Fixture><Fixture>308.3</Fixture><Fixture>308.4</Fixture><Fixture>308.5</Fixture><Fixture>308.6</Fixture><Fixture>308.7</Fixture><Fixture>308.8</Fixture><Fixture>308.9</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 32" name="BLACK RGB">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>301.1</Fixture><Fixture>301.10</Fixture><Fixture>301.11</Fixture><Fixture>301.12</Fixture><Fixture>301.2</Fixture><Fixture>301.3</Fixture><Fixture>301.4</Fixture><Fixture>301.5</Fixture><Fixture>301.6</Fixture><Fixture>301.7</Fixture><Fixture>301.8</Fixture><Fixture>301.9</Fixture><Fixture>302.1</Fixture><Fixture>302.10</Fixture><Fixture>302.11</Fixture><Fixture>302.12</Fixture><Fixture>302.2</Fixture><Fixture>302.3</Fixture><Fixture>302.4</Fixture><Fixture>302.5</Fixture><Fixture>302.6</Fixture><Fixture>302.7</Fixture><Fixture>302.8</Fixture><Fixture>302.9</Fixture><Fixture>303.1</Fixture><Fixture>303.10</Fixture><Fixture>303.11</Fixture><Fixture>303.12</Fixture><Fixture>303.2</Fixture><Fixture>303.3</Fixture><Fixture>303.4</Fixture><Fixture>303.5</Fixture><Fixture>303.6</Fixture><Fixture>303.7</Fixture><Fixture>303.8</Fixture><Fixture>303.9</Fixture><Fixture>304.1</Fixture><Fixture>304.10</Fixture><Fixture>304.11</Fixture><Fixture>304.12</Fixture><Fixture>304.2</Fixture><Fixture>304.3</Fixture><Fixture>304.4</Fixture><Fixture>304.5</Fixture><Fixture>304.6</Fixture><Fixture>304.7</Fixture><Fixture>304.8</Fixture><Fixture>304.9</Fixture><Fixture>305.1</Fixture><Fixture>305.10</Fixture><Fixture>305.11</Fixture><Fixture>305.12</Fixture><Fixture>305.2</Fixture><Fixture>305.3</Fixture><Fixture>305.4</Fixture><Fixture>305.5</Fixture><Fixture>305.6</Fixture><Fixture>305.7</Fixture><Fixture>305.8</Fixture><Fixture>305.9</Fixture><Fixture>306.1</Fixture><Fixture>306.10</Fixture><Fixture>306.11</Fixture><Fixture>306.12</Fixture><Fixture>306.2</Fixture><Fixture>306.3</Fixture><Fixture>306.4</Fixture><Fixture>306.5</Fixture><Fixture>306.6</Fixture><Fixture>306.7</Fixture><Fixture>306.8</Fixture><Fixture>306.9</Fixture><Fixture>307.1</Fixture><Fixture>307.10</Fixture><Fixture>307.11</Fixture><Fixture>307.12</Fixture><Fixture>307.2</Fixture><Fixture>307.3</Fixture><Fixture>307.4</Fixture><Fixture>307.5</Fixture><Fixture>307.6</Fixture><Fixture>307.7</Fixture><Fixture>307.8</Fixture><Fixture>307.9</Fixture><Fixture>308.1</Fixture><Fixture>308.10</Fixture><Fixture>308.11</Fixture><Fixture>308.12</Fixture><Fixture>308.2</Fixture><Fixture>308.3</Fixture><Fixture>308.4</Fixture><Fixture>308.5</Fixture><Fixture>308.6</Fixture><Fixture>308.7</Fixture><Fixture>308.8</Fixture><Fixture>308.9</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 33" name="WHEEL O/W">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 1" name="GOBO 1 OPEN">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 2" name="GOBO 1.1">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 3" name="GOBO 1.2">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 4" name="GOBO 1.3">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 5" name="GOBO 1.4">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 6" name="GOBO 1.5">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 7" name="GOBO 1.6">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 9" name="GOBO 1 ROTATE FAST &lt;&lt;&lt;">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 10" name="GOBO 1 ROTATE MED &lt;&lt;">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 11" name="GOBO 1 ROTATE SLOW &lt;">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 12" name="GOBO ROTATE STOP">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 13" name="GOBO 1 ROTATE SLOW &gt;">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 14" name="GOBO 1 ROTATE MED &gt;&gt;">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 15" name="GOBO 1 ROTATE FAST &gt;&gt;&gt;">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 16" name="GOBO 2 OPEN">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 17" name="GOBO 2.1">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 18" name="GOBO 2.2">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 19" name="GOBO 2.3">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 20" name="GOBO 2.4">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 21" name="GOBO 2.5">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 22" name="GOBO 2.6">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 24" name="ANIMATION ROTATE &lt;&lt;&lt;">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 25" name="ANIMATION ROTATE &lt;&lt;">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 26" name="ANMATION ROTATE &lt;">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 27" name="ANIMATE WHEEL STOP">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>106</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 28" name="ANMATION ROTATE &gt;">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 29" name="ANIMATION ROTATE &gt;&gt;">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 30" name="ANIMATION WHEEL &gt;&gt;&gt;">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 31" name="ANIMATION WHEEL OPEN">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 32" name="GOBO 2.7">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 33" name="GOBO 2.8">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 34" name="GOBO 2.9">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 1" name="Intensity">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 2" name="INT @ 0%">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>1</Fixture><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>2</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>3</Fixture><Fixture>301.1</Fixture><Fixture>301.10</Fixture><Fixture>301.11</Fixture><Fixture>301.12</Fixture><Fixture>301.2</Fixture><Fixture>301.3</Fixture><Fixture>301.4</Fixture><Fixture>301.5</Fixture><Fixture>301.6</Fixture><Fixture>301.7</Fixture><Fixture>301.8</Fixture><Fixture>301.9</Fixture><Fixture>302.1</Fixture><Fixture>302.10</Fixture><Fixture>302.11</Fixture><Fixture>302.12</Fixture><Fixture>302.2</Fixture><Fixture>302.3</Fixture><Fixture>302.4</Fixture><Fixture>302.5</Fixture><Fixture>302.6</Fixture><Fixture>302.7</Fixture><Fixture>302.8</Fixture><Fixture>302.9</Fixture><Fixture>303.1</Fixture><Fixture>303.10</Fixture><Fixture>303.11</Fixture><Fixture>303.12</Fixture><Fixture>303.2</Fixture><Fixture>303.3</Fixture><Fixture>303.4</Fixture><Fixture>303.5</Fixture><Fixture>303.6</Fixture><Fixture>303.7</Fixture><Fixture>303.8</Fixture><Fixture>303.9</Fixture><Fixture>304.1</Fixture><Fixture>304.10</Fixture><Fixture>304.11</Fixture><Fixture>304.12</Fixture><Fixture>304.2</Fixture><Fixture>304.3</Fixture><Fixture>304.4</Fixture><Fixture>304.5</Fixture><Fixture>304.6</Fixture><Fixture>304.7</Fixture><Fixture>304.8</Fixture><Fixture>304.9</Fixture><Fixture>305.1</Fixture><Fixture>305.10</Fixture><Fixture>305.11</Fixture><Fixture>305.12</Fixture><Fixture>305.2</Fixture><Fixture>305.3</Fixture><Fixture>305.4</Fixture><Fixture>305.5</Fixture><Fixture>305.6</Fixture><Fixture>305.7</Fixture><Fixture>305.8</Fixture><Fixture>305.9</Fixture><Fixture>306.1</Fixture><Fixture>306.10</Fixture><Fixture>306.11</Fixture><Fixture>306.12</Fixture><Fixture>306.2</Fixture><Fixture>306.3</Fixture><Fixture>306.4</Fixture><Fixture>306.5</Fixture><Fixture>306.6</Fixture><Fixture>306.7</Fixture><Fixture>306.8</Fixture><Fixture>306.9</Fixture><Fixture>307.1</Fixture><Fixture>307.10</Fixture><Fixture>307.11</Fixture><Fixture>307.12</Fixture><Fixture>307.2</Fixture><Fixture>307.3</Fixture><Fixture>307.4</Fixture><Fixture>307.5</Fixture><Fixture>307.6</Fixture><Fixture>307.7</Fixture><Fixture>307.8</Fixture><Fixture>307.9</Fixture><Fixture>308.1</Fixture><Fixture>308.10</Fixture><Fixture>308.11</Fixture><Fixture>308.12</Fixture><Fixture>308.2</Fixture><Fixture>308.3</Fixture><Fixture>308.4</Fixture><Fixture>308.5</Fixture><Fixture>308.6</Fixture><Fixture>308.7</Fixture><Fixture>308.8</Fixture><Fixture>308.9</Fixture><Fixture>4</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture><Fixture>5</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 3" name="INT @ 50%">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>1</Fixture><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>2</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>3</Fixture><Fixture>301.1</Fixture><Fixture>301.10</Fixture><Fixture>301.11</Fixture><Fixture>301.12</Fixture><Fixture>301.2</Fixture><Fixture>301.3</Fixture><Fixture>301.4</Fixture><Fixture>301.5</Fixture><Fixture>301.6</Fixture><Fixture>301.7</Fixture><Fixture>301.8</Fixture><Fixture>301.9</Fixture><Fixture>302.1</Fixture><Fixture>302.10</Fixture><Fixture>302.11</Fixture><Fixture>302.12</Fixture><Fixture>302.2</Fixture><Fixture>302.3</Fixture><Fixture>302.4</Fixture><Fixture>302.5</Fixture><Fixture>302.6</Fixture><Fixture>302.7</Fixture><Fixture>302.8</Fixture><Fixture>302.9</Fixture><Fixture>303.1</Fixture><Fixture>303.10</Fixture><Fixture>303.11</Fixture><Fixture>303.12</Fixture><Fixture>303.2</Fixture><Fixture>303.3</Fixture><Fixture>303.4</Fixture><Fixture>303.5</Fixture><Fixture>303.6</Fixture><Fixture>303.7</Fixture><Fixture>303.8</Fixture><Fixture>303.9</Fixture><Fixture>304.1</Fixture><Fixture>304.10</Fixture><Fixture>304.11</Fixture><Fixture>304.12</Fixture><Fixture>304.2</Fixture><Fixture>304.3</Fixture><Fixture>304.4</Fixture><Fixture>304.5</Fixture><Fixture>304.6</Fixture><Fixture>304.7</Fixture><Fixture>304.8</Fixture><Fixture>304.9</Fixture><Fixture>305.1</Fixture><Fixture>305.10</Fixture><Fixture>305.11</Fixture><Fixture>305.12</Fixture><Fixture>305.2</Fixture><Fixture>305.3</Fixture><Fixture>305.4</Fixture><Fixture>305.5</Fixture><Fixture>305.6</Fixture><Fixture>305.7</Fixture><Fixture>305.8</Fixture><Fixture>305.9</Fixture><Fixture>306.1</Fixture><Fixture>306.10</Fixture><Fixture>306.11</Fixture><Fixture>306.12</Fixture><Fixture>306.2</Fixture><Fixture>306.3</Fixture><Fixture>306.4</Fixture><Fixture>306.5</Fixture><Fixture>306.6</Fixture><Fixture>306.7</Fixture><Fixture>306.8</Fixture><Fixture>306.9</Fixture><Fixture>307.1</Fixture><Fixture>307.10</Fixture><Fixture>307.11</Fixture><Fixture>307.12</Fixture><Fixture>307.2</Fixture><Fixture>307.3</Fixture><Fixture>307.4</Fixture><Fixture>307.5</Fixture><Fixture>307.6</Fixture><Fixture>307.7</Fixture><Fixture>307.8</Fixture><Fixture>307.9</Fixture><Fixture>308.1</Fixture><Fixture>308.10</Fixture><Fixture>308.11</Fixture><Fixture>308.12</Fixture><Fixture>308.2</Fixture><Fixture>308.3</Fixture><Fixture>308.4</Fixture><Fixture>308.5</Fixture><Fixture>308.6</Fixture><Fixture>308.7</Fixture><Fixture>308.8</Fixture><Fixture>308.9</Fixture><Fixture>4</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture><Fixture>5</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 4" name="INT @ 100%">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>1</Fixture><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>2</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>3</Fixture><Fixture>301.1</Fixture><Fixture>301.10</Fixture><Fixture>301.11</Fixture><Fixture>301.12</Fixture><Fixture>301.2</Fixture><Fixture>301.3</Fixture><Fixture>301.4</Fixture><Fixture>301.5</Fixture><Fixture>301.6</Fixture><Fixture>301.7</Fixture><Fixture>301.8</Fixture><Fixture>301.9</Fixture><Fixture>302.1</Fixture><Fixture>302.10</Fixture><Fixture>302.11</Fixture><Fixture>302.12</Fixture><Fixture>302.2</Fixture><Fixture>302.3</Fixture><Fixture>302.4</Fixture><Fixture>302.5</Fixture><Fixture>302.6</Fixture><Fixture>302.7</Fixture><Fixture>302.8</Fixture><Fixture>302.9</Fixture><Fixture>303.1</Fixture><Fixture>303.10</Fixture><Fixture>303.11</Fixture><Fixture>303.12</Fixture><Fixture>303.2</Fixture><Fixture>303.3</Fixture><Fixture>303.4</Fixture><Fixture>303.5</Fixture><Fixture>303.6</Fixture><Fixture>303.7</Fixture><Fixture>303.8</Fixture><Fixture>303.9</Fixture><Fixture>304.1</Fixture><Fixture>304.10</Fixture><Fixture>304.11</Fixture><Fixture>304.12</Fixture><Fixture>304.2</Fixture><Fixture>304.3</Fixture><Fixture>304.4</Fixture><Fixture>304.5</Fixture><Fixture>304.6</Fixture><Fixture>304.7</Fixture><Fixture>304.8</Fixture><Fixture>304.9</Fixture><Fixture>305.1</Fixture><Fixture>305.10</Fixture><Fixture>305.11</Fixture><Fixture>305.12</Fixture><Fixture>305.2</Fixture><Fixture>305.3</Fixture><Fixture>305.4</Fixture><Fixture>305.5</Fixture><Fixture>305.6</Fixture><Fixture>305.7</Fixture><Fixture>305.8</Fixture><Fixture>305.9</Fixture><Fixture>306.1</Fixture><Fixture>306.10</Fixture><Fixture>306.11</Fixture><Fixture>306.12</Fixture><Fixture>306.2</Fixture><Fixture>306.3</Fixture><Fixture>306.4</Fixture><Fixture>306.5</Fixture><Fixture>306.6</Fixture><Fixture>306.7</Fixture><Fixture>306.8</Fixture><Fixture>306.9</Fixture><Fixture>307.1</Fixture><Fixture>307.10</Fixture><Fixture>307.11</Fixture><Fixture>307.12</Fixture><Fixture>307.2</Fixture><Fixture>307.3</Fixture><Fixture>307.4</Fixture><Fixture>307.5</Fixture><Fixture>307.6</Fixture><Fixture>307.7</Fixture><Fixture>307.8</Fixture><Fixture>307.9</Fixture><Fixture>308.1</Fixture><Fixture>308.10</Fixture><Fixture>308.11</Fixture><Fixture>308.12</Fixture><Fixture>308.2</Fixture><Fixture>308.3</Fixture><Fixture>308.4</Fixture><Fixture>308.5</Fixture><Fixture>308.6</Fixture><Fixture>308.7</Fixture><Fixture>308.8</Fixture><Fixture>308.9</Fixture><Fixture>4</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture><Fixture>5</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 13" name="0%">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>1</Fixture><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>2</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>3</Fixture><Fixture>301.1</Fixture><Fixture>301.10</Fixture><Fixture>301.11</Fixture><Fixture>301.12</Fixture><Fixture>301.2</Fixture><Fixture>301.3</Fixture><Fixture>301.4</Fixture><Fixture>301.5</Fixture><Fixture>301.6</Fixture><Fixture>301.7</Fixture><Fixture>301.8</Fixture><Fixture>301.9</Fixture><Fixture>302.1</Fixture><Fixture>302.10</Fixture><Fixture>302.11</Fixture><Fixture>302.12</Fixture><Fixture>302.2</Fixture><Fixture>302.3</Fixture><Fixture>302.4</Fixture><Fixture>302.5</Fixture><Fixture>302.6</Fixture><Fixture>302.7</Fixture><Fixture>302.8</Fixture><Fixture>302.9</Fixture><Fixture>303.1</Fixture><Fixture>303.10</Fixture><Fixture>303.11</Fixture><Fixture>303.12</Fixture><Fixture>303.2</Fixture><Fixture>303.3</Fixture><Fixture>303.4</Fixture><Fixture>303.5</Fixture><Fixture>303.6</Fixture><Fixture>303.7</Fixture><Fixture>303.8</Fixture><Fixture>303.9</Fixture><Fixture>304.1</Fixture><Fixture>304.10</Fixture><Fixture>304.11</Fixture><Fixture>304.12</Fixture><Fixture>304.2</Fixture><Fixture>304.3</Fixture><Fixture>304.4</Fixture><Fixture>304.5</Fixture><Fixture>304.6</Fixture><Fixture>304.7</Fixture><Fixture>304.8</Fixture><Fixture>304.9</Fixture><Fixture>305.1</Fixture><Fixture>305.10</Fixture><Fixture>305.11</Fixture><Fixture>305.12</Fixture><Fixture>305.2</Fixture><Fixture>305.3</Fixture><Fixture>305.4</Fixture><Fixture>305.5</Fixture><Fixture>305.6</Fixture><Fixture>305.7</Fixture><Fixture>305.8</Fixture><Fixture>305.9</Fixture><Fixture>306.1</Fixture><Fixture>306.10</Fixture><Fixture>306.11</Fixture><Fixture>306.12</Fixture><Fixture>306.2</Fixture><Fixture>306.3</Fixture><Fixture>306.4</Fixture><Fixture>306.5</Fixture><Fixture>306.6</Fixture><Fixture>306.7</Fixture><Fixture>306.8</Fixture><Fixture>306.9</Fixture><Fixture>307.1</Fixture><Fixture>307.10</Fixture><Fixture>307.11</Fixture><Fixture>307.12</Fixture><Fixture>307.2</Fixture><Fixture>307.3</Fixture><Fixture>307.4</Fixture><Fixture>307.5</Fixture><Fixture>307.6</Fixture><Fixture>307.7</Fixture><Fixture>307.8</Fixture><Fixture>307.9</Fixture><Fixture>308.1</Fixture><Fixture>308.10</Fixture><Fixture>308.11</Fixture><Fixture>308.12</Fixture><Fixture>308.2</Fixture><Fixture>308.3</Fixture><Fixture>308.4</Fixture><Fixture>308.5</Fixture><Fixture>308.6</Fixture><Fixture>308.7</Fixture><Fixture>308.8</Fixture><Fixture>308.9</Fixture><Fixture>4</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture><Fixture>5</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 14" name="5%">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>1</Fixture><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>2</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>3</Fixture><Fixture>301.1</Fixture><Fixture>301.10</Fixture><Fixture>301.11</Fixture><Fixture>301.12</Fixture><Fixture>301.2</Fixture><Fixture>301.3</Fixture><Fixture>301.4</Fixture><Fixture>301.5</Fixture><Fixture>301.6</Fixture><Fixture>301.7</Fixture><Fixture>301.8</Fixture><Fixture>301.9</Fixture><Fixture>302.1</Fixture><Fixture>302.10</Fixture><Fixture>302.11</Fixture><Fixture>302.12</Fixture><Fixture>302.2</Fixture><Fixture>302.3</Fixture><Fixture>302.4</Fixture><Fixture>302.5</Fixture><Fixture>302.6</Fixture><Fixture>302.7</Fixture><Fixture>302.8</Fixture><Fixture>302.9</Fixture><Fixture>303.1</Fixture><Fixture>303.10</Fixture><Fixture>303.11</Fixture><Fixture>303.12</Fixture><Fixture>303.2</Fixture><Fixture>303.3</Fixture><Fixture>303.4</Fixture><Fixture>303.5</Fixture><Fixture>303.6</Fixture><Fixture>303.7</Fixture><Fixture>303.8</Fixture><Fixture>303.9</Fixture><Fixture>304.1</Fixture><Fixture>304.10</Fixture><Fixture>304.11</Fixture><Fixture>304.12</Fixture><Fixture>304.2</Fixture><Fixture>304.3</Fixture><Fixture>304.4</Fixture><Fixture>304.5</Fixture><Fixture>304.6</Fixture><Fixture>304.7</Fixture><Fixture>304.8</Fixture><Fixture>304.9</Fixture><Fixture>305.1</Fixture><Fixture>305.10</Fixture><Fixture>305.11</Fixture><Fixture>305.12</Fixture><Fixture>305.2</Fixture><Fixture>305.3</Fixture><Fixture>305.4</Fixture><Fixture>305.5</Fixture><Fixture>305.6</Fixture><Fixture>305.7</Fixture><Fixture>305.8</Fixture><Fixture>305.9</Fixture><Fixture>306.1</Fixture><Fixture>306.10</Fixture><Fixture>306.11</Fixture><Fixture>306.12</Fixture><Fixture>306.2</Fixture><Fixture>306.3</Fixture><Fixture>306.4</Fixture><Fixture>306.5</Fixture><Fixture>306.6</Fixture><Fixture>306.7</Fixture><Fixture>306.8</Fixture><Fixture>306.9</Fixture><Fixture>307.1</Fixture><Fixture>307.10</Fixture><Fixture>307.11</Fixture><Fixture>307.12</Fixture><Fixture>307.2</Fixture><Fixture>307.3</Fixture><Fixture>307.4</Fixture><Fixture>307.5</Fixture><Fixture>307.6</Fixture><Fixture>307.7</Fixture><Fixture>307.8</Fixture><Fixture>307.9</Fixture><Fixture>308.1</Fixture><Fixture>308.10</Fixture><Fixture>308.11</Fixture><Fixture>308.12</Fixture><Fixture>308.2</Fixture><Fixture>308.3</Fixture><Fixture>308.4</Fixture><Fixture>308.5</Fixture><Fixture>308.6</Fixture><Fixture>308.7</Fixture><Fixture>308.8</Fixture><Fixture>308.9</Fixture><Fixture>4</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture><Fixture>5</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 15" name="10%">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>1</Fixture><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>2</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>3</Fixture><Fixture>301.1</Fixture><Fixture>301.10</Fixture><Fixture>301.11</Fixture><Fixture>301.12</Fixture><Fixture>301.2</Fixture><Fixture>301.3</Fixture><Fixture>301.4</Fixture><Fixture>301.5</Fixture><Fixture>301.6</Fixture><Fixture>301.7</Fixture><Fixture>301.8</Fixture><Fixture>301.9</Fixture><Fixture>302.1</Fixture><Fixture>302.10</Fixture><Fixture>302.11</Fixture><Fixture>302.12</Fixture><Fixture>302.2</Fixture><Fixture>302.3</Fixture><Fixture>302.4</Fixture><Fixture>302.5</Fixture><Fixture>302.6</Fixture><Fixture>302.7</Fixture><Fixture>302.8</Fixture><Fixture>302.9</Fixture><Fixture>303.1</Fixture><Fixture>303.10</Fixture><Fixture>303.11</Fixture><Fixture>303.12</Fixture><Fixture>303.2</Fixture><Fixture>303.3</Fixture><Fixture>303.4</Fixture><Fixture>303.5</Fixture><Fixture>303.6</Fixture><Fixture>303.7</Fixture><Fixture>303.8</Fixture><Fixture>303.9</Fixture><Fixture>304.1</Fixture><Fixture>304.10</Fixture><Fixture>304.11</Fixture><Fixture>304.12</Fixture><Fixture>304.2</Fixture><Fixture>304.3</Fixture><Fixture>304.4</Fixture><Fixture>304.5</Fixture><Fixture>304.6</Fixture><Fixture>304.7</Fixture><Fixture>304.8</Fixture><Fixture>304.9</Fixture><Fixture>305.1</Fixture><Fixture>305.10</Fixture><Fixture>305.11</Fixture><Fixture>305.12</Fixture><Fixture>305.2</Fixture><Fixture>305.3</Fixture><Fixture>305.4</Fixture><Fixture>305.5</Fixture><Fixture>305.6</Fixture><Fixture>305.7</Fixture><Fixture>305.8</Fixture><Fixture>305.9</Fixture><Fixture>306.1</Fixture><Fixture>306.10</Fixture><Fixture>306.11</Fixture><Fixture>306.12</Fixture><Fixture>306.2</Fixture><Fixture>306.3</Fixture><Fixture>306.4</Fixture><Fixture>306.5</Fixture><Fixture>306.6</Fixture><Fixture>306.7</Fixture><Fixture>306.8</Fixture><Fixture>306.9</Fixture><Fixture>307.1</Fixture><Fixture>307.10</Fixture><Fixture>307.11</Fixture><Fixture>307.12</Fixture><Fixture>307.2</Fixture><Fixture>307.3</Fixture><Fixture>307.4</Fixture><Fixture>307.5</Fixture><Fixture>307.6</Fixture><Fixture>307.7</Fixture><Fixture>307.8</Fixture><Fixture>307.9</Fixture><Fixture>308.1</Fixture><Fixture>308.10</Fixture><Fixture>308.11</Fixture><Fixture>308.12</Fixture><Fixture>308.2</Fixture><Fixture>308.3</Fixture><Fixture>308.4</Fixture><Fixture>308.5</Fixture><Fixture>308.6</Fixture><Fixture>308.7</Fixture><Fixture>308.8</Fixture><Fixture>308.9</Fixture><Fixture>4</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture><Fixture>5</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 16" name="STROBE STOP">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 17" name="STROBE RND SLOW">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 18" name="STROBE RND FAST">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 19" name="STROBE RND MED">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 28" name="20%">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>1</Fixture><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>2</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>3</Fixture><Fixture>301.1</Fixture><Fixture>301.10</Fixture><Fixture>301.11</Fixture><Fixture>301.12</Fixture><Fixture>301.2</Fixture><Fixture>301.3</Fixture><Fixture>301.4</Fixture><Fixture>301.5</Fixture><Fixture>301.6</Fixture><Fixture>301.7</Fixture><Fixture>301.8</Fixture><Fixture>301.9</Fixture><Fixture>302.1</Fixture><Fixture>302.10</Fixture><Fixture>302.11</Fixture><Fixture>302.12</Fixture><Fixture>302.2</Fixture><Fixture>302.3</Fixture><Fixture>302.4</Fixture><Fixture>302.5</Fixture><Fixture>302.6</Fixture><Fixture>302.7</Fixture><Fixture>302.8</Fixture><Fixture>302.9</Fixture><Fixture>303.1</Fixture><Fixture>303.10</Fixture><Fixture>303.11</Fixture><Fixture>303.12</Fixture><Fixture>303.2</Fixture><Fixture>303.3</Fixture><Fixture>303.4</Fixture><Fixture>303.5</Fixture><Fixture>303.6</Fixture><Fixture>303.7</Fixture><Fixture>303.8</Fixture><Fixture>303.9</Fixture><Fixture>304.1</Fixture><Fixture>304.10</Fixture><Fixture>304.11</Fixture><Fixture>304.12</Fixture><Fixture>304.2</Fixture><Fixture>304.3</Fixture><Fixture>304.4</Fixture><Fixture>304.5</Fixture><Fixture>304.6</Fixture><Fixture>304.7</Fixture><Fixture>304.8</Fixture><Fixture>304.9</Fixture><Fixture>305.1</Fixture><Fixture>305.10</Fixture><Fixture>305.11</Fixture><Fixture>305.12</Fixture><Fixture>305.2</Fixture><Fixture>305.3</Fixture><Fixture>305.4</Fixture><Fixture>305.5</Fixture><Fixture>305.6</Fixture><Fixture>305.7</Fixture><Fixture>305.8</Fixture><Fixture>305.9</Fixture><Fixture>306.1</Fixture><Fixture>306.10</Fixture><Fixture>306.11</Fixture><Fixture>306.12</Fixture><Fixture>306.2</Fixture><Fixture>306.3</Fixture><Fixture>306.4</Fixture><Fixture>306.5</Fixture><Fixture>306.6</Fixture><Fixture>306.7</Fixture><Fixture>306.8</Fixture><Fixture>306.9</Fixture><Fixture>307.1</Fixture><Fixture>307.10</Fixture><Fixture>307.11</Fixture><Fixture>307.12</Fixture><Fixture>307.2</Fixture><Fixture>307.3</Fixture><Fixture>307.4</Fixture><Fixture>307.5</Fixture><Fixture>307.6</Fixture><Fixture>307.7</Fixture><Fixture>307.8</Fixture><Fixture>307.9</Fixture><Fixture>308.1</Fixture><Fixture>308.10</Fixture><Fixture>308.11</Fixture><Fixture>308.12</Fixture><Fixture>308.2</Fixture><Fixture>308.3</Fixture><Fixture>308.4</Fixture><Fixture>308.5</Fixture><Fixture>308.6</Fixture><Fixture>308.7</Fixture><Fixture>308.8</Fixture><Fixture>308.9</Fixture><Fixture>4</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture><Fixture>5</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 29" name="30%">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>1</Fixture><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>2</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>3</Fixture><Fixture>301.1</Fixture><Fixture>301.10</Fixture><Fixture>301.11</Fixture><Fixture>301.12</Fixture><Fixture>301.2</Fixture><Fixture>301.3</Fixture><Fixture>301.4</Fixture><Fixture>301.5</Fixture><Fixture>301.6</Fixture><Fixture>301.7</Fixture><Fixture>301.8</Fixture><Fixture>301.9</Fixture><Fixture>302.1</Fixture><Fixture>302.10</Fixture><Fixture>302.11</Fixture><Fixture>302.12</Fixture><Fixture>302.2</Fixture><Fixture>302.3</Fixture><Fixture>302.4</Fixture><Fixture>302.5</Fixture><Fixture>302.6</Fixture><Fixture>302.7</Fixture><Fixture>302.8</Fixture><Fixture>302.9</Fixture><Fixture>303.1</Fixture><Fixture>303.10</Fixture><Fixture>303.11</Fixture><Fixture>303.12</Fixture><Fixture>303.2</Fixture><Fixture>303.3</Fixture><Fixture>303.4</Fixture><Fixture>303.5</Fixture><Fixture>303.6</Fixture><Fixture>303.7</Fixture><Fixture>303.8</Fixture><Fixture>303.9</Fixture><Fixture>304.1</Fixture><Fixture>304.10</Fixture><Fixture>304.11</Fixture><Fixture>304.12</Fixture><Fixture>304.2</Fixture><Fixture>304.3</Fixture><Fixture>304.4</Fixture><Fixture>304.5</Fixture><Fixture>304.6</Fixture><Fixture>304.7</Fixture><Fixture>304.8</Fixture><Fixture>304.9</Fixture><Fixture>305.1</Fixture><Fixture>305.10</Fixture><Fixture>305.11</Fixture><Fixture>305.12</Fixture><Fixture>305.2</Fixture><Fixture>305.3</Fixture><Fixture>305.4</Fixture><Fixture>305.5</Fixture><Fixture>305.6</Fixture><Fixture>305.7</Fixture><Fixture>305.8</Fixture><Fixture>305.9</Fixture><Fixture>306.1</Fixture><Fixture>306.10</Fixture><Fixture>306.11</Fixture><Fixture>306.12</Fixture><Fixture>306.2</Fixture><Fixture>306.3</Fixture><Fixture>306.4</Fixture><Fixture>306.5</Fixture><Fixture>306.6</Fixture><Fixture>306.7</Fixture><Fixture>306.8</Fixture><Fixture>306.9</Fixture><Fixture>307.1</Fixture><Fixture>307.10</Fixture><Fixture>307.11</Fixture><Fixture>307.12</Fixture><Fixture>307.2</Fixture><Fixture>307.3</Fixture><Fixture>307.4</Fixture><Fixture>307.5</Fixture><Fixture>307.6</Fixture><Fixture>307.7</Fixture><Fixture>307.8</Fixture><Fixture>307.9</Fixture><Fixture>308.1</Fixture><Fixture>308.10</Fixture><Fixture>308.11</Fixture><Fixture>308.12</Fixture><Fixture>308.2</Fixture><Fixture>308.3</Fixture><Fixture>308.4</Fixture><Fixture>308.5</Fixture><Fixture>308.6</Fixture><Fixture>308.7</Fixture><Fixture>308.8</Fixture><Fixture>308.9</Fixture><Fixture>4</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture><Fixture>5</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 30" name="40%">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>1</Fixture><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>2</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>3</Fixture><Fixture>301.1</Fixture><Fixture>301.10</Fixture><Fixture>301.11</Fixture><Fixture>301.12</Fixture><Fixture>301.2</Fixture><Fixture>301.3</Fixture><Fixture>301.4</Fixture><Fixture>301.5</Fixture><Fixture>301.6</Fixture><Fixture>301.7</Fixture><Fixture>301.8</Fixture><Fixture>301.9</Fixture><Fixture>302.1</Fixture><Fixture>302.10</Fixture><Fixture>302.11</Fixture><Fixture>302.12</Fixture><Fixture>302.2</Fixture><Fixture>302.3</Fixture><Fixture>302.4</Fixture><Fixture>302.5</Fixture><Fixture>302.6</Fixture><Fixture>302.7</Fixture><Fixture>302.8</Fixture><Fixture>302.9</Fixture><Fixture>303.1</Fixture><Fixture>303.10</Fixture><Fixture>303.11</Fixture><Fixture>303.12</Fixture><Fixture>303.2</Fixture><Fixture>303.3</Fixture><Fixture>303.4</Fixture><Fixture>303.5</Fixture><Fixture>303.6</Fixture><Fixture>303.7</Fixture><Fixture>303.8</Fixture><Fixture>303.9</Fixture><Fixture>304.1</Fixture><Fixture>304.10</Fixture><Fixture>304.11</Fixture><Fixture>304.12</Fixture><Fixture>304.2</Fixture><Fixture>304.3</Fixture><Fixture>304.4</Fixture><Fixture>304.5</Fixture><Fixture>304.6</Fixture><Fixture>304.7</Fixture><Fixture>304.8</Fixture><Fixture>304.9</Fixture><Fixture>305.1</Fixture><Fixture>305.10</Fixture><Fixture>305.11</Fixture><Fixture>305.12</Fixture><Fixture>305.2</Fixture><Fixture>305.3</Fixture><Fixture>305.4</Fixture><Fixture>305.5</Fixture><Fixture>305.6</Fixture><Fixture>305.7</Fixture><Fixture>305.8</Fixture><Fixture>305.9</Fixture><Fixture>306.1</Fixture><Fixture>306.10</Fixture><Fixture>306.11</Fixture><Fixture>306.12</Fixture><Fixture>306.2</Fixture><Fixture>306.3</Fixture><Fixture>306.4</Fixture><Fixture>306.5</Fixture><Fixture>306.6</Fixture><Fixture>306.7</Fixture><Fixture>306.8</Fixture><Fixture>306.9</Fixture><Fixture>307.1</Fixture><Fixture>307.10</Fixture><Fixture>307.11</Fixture><Fixture>307.12</Fixture><Fixture>307.2</Fixture><Fixture>307.3</Fixture><Fixture>307.4</Fixture><Fixture>307.5</Fixture><Fixture>307.6</Fixture><Fixture>307.7</Fixture><Fixture>307.8</Fixture><Fixture>307.9</Fixture><Fixture>308.1</Fixture><Fixture>308.10</Fixture><Fixture>308.11</Fixture><Fixture>308.12</Fixture><Fixture>308.2</Fixture><Fixture>308.3</Fixture><Fixture>308.4</Fixture><Fixture>308.5</Fixture><Fixture>308.6</Fixture><Fixture>308.7</Fixture><Fixture>308.8</Fixture><Fixture>308.9</Fixture><Fixture>4</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture><Fixture>5</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 32" name="STROBE SLOW">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 33" name="STROBE MED">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 34" name="STROBE FAST">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 43" name="50%">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>1</Fixture><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>2</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>3</Fixture><Fixture>301.1</Fixture><Fixture>301.10</Fixture><Fixture>301.11</Fixture><Fixture>301.12</Fixture><Fixture>301.2</Fixture><Fixture>301.3</Fixture><Fixture>301.4</Fixture><Fixture>301.5</Fixture><Fixture>301.6</Fixture><Fixture>301.7</Fixture><Fixture>301.8</Fixture><Fixture>301.9</Fixture><Fixture>302.1</Fixture><Fixture>302.10</Fixture><Fixture>302.11</Fixture><Fixture>302.12</Fixture><Fixture>302.2</Fixture><Fixture>302.3</Fixture><Fixture>302.4</Fixture><Fixture>302.5</Fixture><Fixture>302.6</Fixture><Fixture>302.7</Fixture><Fixture>302.8</Fixture><Fixture>302.9</Fixture><Fixture>303.1</Fixture><Fixture>303.10</Fixture><Fixture>303.11</Fixture><Fixture>303.12</Fixture><Fixture>303.2</Fixture><Fixture>303.3</Fixture><Fixture>303.4</Fixture><Fixture>303.5</Fixture><Fixture>303.6</Fixture><Fixture>303.7</Fixture><Fixture>303.8</Fixture><Fixture>303.9</Fixture><Fixture>304.1</Fixture><Fixture>304.10</Fixture><Fixture>304.11</Fixture><Fixture>304.12</Fixture><Fixture>304.2</Fixture><Fixture>304.3</Fixture><Fixture>304.4</Fixture><Fixture>304.5</Fixture><Fixture>304.6</Fixture><Fixture>304.7</Fixture><Fixture>304.8</Fixture><Fixture>304.9</Fixture><Fixture>305.1</Fixture><Fixture>305.10</Fixture><Fixture>305.11</Fixture><Fixture>305.12</Fixture><Fixture>305.2</Fixture><Fixture>305.3</Fixture><Fixture>305.4</Fixture><Fixture>305.5</Fixture><Fixture>305.6</Fixture><Fixture>305.7</Fixture><Fixture>305.8</Fixture><Fixture>305.9</Fixture><Fixture>306.1</Fixture><Fixture>306.10</Fixture><Fixture>306.11</Fixture><Fixture>306.12</Fixture><Fixture>306.2</Fixture><Fixture>306.3</Fixture><Fixture>306.4</Fixture><Fixture>306.5</Fixture><Fixture>306.6</Fixture><Fixture>306.7</Fixture><Fixture>306.8</Fixture><Fixture>306.9</Fixture><Fixture>307.1</Fixture><Fixture>307.10</Fixture><Fixture>307.11</Fixture><Fixture>307.12</Fixture><Fixture>307.2</Fixture><Fixture>307.3</Fixture><Fixture>307.4</Fixture><Fixture>307.5</Fixture><Fixture>307.6</Fixture><Fixture>307.7</Fixture><Fixture>307.8</Fixture><Fixture>307.9</Fixture><Fixture>308.1</Fixture><Fixture>308.10</Fixture><Fixture>308.11</Fixture><Fixture>308.12</Fixture><Fixture>308.2</Fixture><Fixture>308.3</Fixture><Fixture>308.4</Fixture><Fixture>308.5</Fixture><Fixture>308.6</Fixture><Fixture>308.7</Fixture><Fixture>308.8</Fixture><Fixture>308.9</Fixture><Fixture>4</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture><Fixture>5</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 44" name="60%">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>1</Fixture><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>2</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>3</Fixture><Fixture>301.1</Fixture><Fixture>301.10</Fixture><Fixture>301.11</Fixture><Fixture>301.12</Fixture><Fixture>301.2</Fixture><Fixture>301.3</Fixture><Fixture>301.4</Fixture><Fixture>301.5</Fixture><Fixture>301.6</Fixture><Fixture>301.7</Fixture><Fixture>301.8</Fixture><Fixture>301.9</Fixture><Fixture>302.1</Fixture><Fixture>302.10</Fixture><Fixture>302.11</Fixture><Fixture>302.12</Fixture><Fixture>302.2</Fixture><Fixture>302.3</Fixture><Fixture>302.4</Fixture><Fixture>302.5</Fixture><Fixture>302.6</Fixture><Fixture>302.7</Fixture><Fixture>302.8</Fixture><Fixture>302.9</Fixture><Fixture>303.1</Fixture><Fixture>303.10</Fixture><Fixture>303.11</Fixture><Fixture>303.12</Fixture><Fixture>303.2</Fixture><Fixture>303.3</Fixture><Fixture>303.4</Fixture><Fixture>303.5</Fixture><Fixture>303.6</Fixture><Fixture>303.7</Fixture><Fixture>303.8</Fixture><Fixture>303.9</Fixture><Fixture>304.1</Fixture><Fixture>304.10</Fixture><Fixture>304.11</Fixture><Fixture>304.12</Fixture><Fixture>304.2</Fixture><Fixture>304.3</Fixture><Fixture>304.4</Fixture><Fixture>304.5</Fixture><Fixture>304.6</Fixture><Fixture>304.7</Fixture><Fixture>304.8</Fixture><Fixture>304.9</Fixture><Fixture>305.1</Fixture><Fixture>305.10</Fixture><Fixture>305.11</Fixture><Fixture>305.12</Fixture><Fixture>305.2</Fixture><Fixture>305.3</Fixture><Fixture>305.4</Fixture><Fixture>305.5</Fixture><Fixture>305.6</Fixture><Fixture>305.7</Fixture><Fixture>305.8</Fixture><Fixture>305.9</Fixture><Fixture>306.1</Fixture><Fixture>306.10</Fixture><Fixture>306.11</Fixture><Fixture>306.12</Fixture><Fixture>306.2</Fixture><Fixture>306.3</Fixture><Fixture>306.4</Fixture><Fixture>306.5</Fixture><Fixture>306.6</Fixture><Fixture>306.7</Fixture><Fixture>306.8</Fixture><Fixture>306.9</Fixture><Fixture>307.1</Fixture><Fixture>307.10</Fixture><Fixture>307.11</Fixture><Fixture>307.12</Fixture><Fixture>307.2</Fixture><Fixture>307.3</Fixture><Fixture>307.4</Fixture><Fixture>307.5</Fixture><Fixture>307.6</Fixture><Fixture>307.7</Fixture><Fixture>307.8</Fixture><Fixture>307.9</Fixture><Fixture>308.1</Fixture><Fixture>308.10</Fixture><Fixture>308.11</Fixture><Fixture>308.12</Fixture><Fixture>308.2</Fixture><Fixture>308.3</Fixture><Fixture>308.4</Fixture><Fixture>308.5</Fixture><Fixture>308.6</Fixture><Fixture>308.7</Fixture><Fixture>308.8</Fixture><Fixture>308.9</Fixture><Fixture>4</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture><Fixture>5</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 45" name="70%">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>1</Fixture><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>2</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>3</Fixture><Fixture>301.1</Fixture><Fixture>301.10</Fixture><Fixture>301.11</Fixture><Fixture>301.12</Fixture><Fixture>301.2</Fixture><Fixture>301.3</Fixture><Fixture>301.4</Fixture><Fixture>301.5</Fixture><Fixture>301.6</Fixture><Fixture>301.7</Fixture><Fixture>301.8</Fixture><Fixture>301.9</Fixture><Fixture>302.1</Fixture><Fixture>302.10</Fixture><Fixture>302.11</Fixture><Fixture>302.12</Fixture><Fixture>302.2</Fixture><Fixture>302.3</Fixture><Fixture>302.4</Fixture><Fixture>302.5</Fixture><Fixture>302.6</Fixture><Fixture>302.7</Fixture><Fixture>302.8</Fixture><Fixture>302.9</Fixture><Fixture>303.1</Fixture><Fixture>303.10</Fixture><Fixture>303.11</Fixture><Fixture>303.12</Fixture><Fixture>303.2</Fixture><Fixture>303.3</Fixture><Fixture>303.4</Fixture><Fixture>303.5</Fixture><Fixture>303.6</Fixture><Fixture>303.7</Fixture><Fixture>303.8</Fixture><Fixture>303.9</Fixture><Fixture>304.1</Fixture><Fixture>304.10</Fixture><Fixture>304.11</Fixture><Fixture>304.12</Fixture><Fixture>304.2</Fixture><Fixture>304.3</Fixture><Fixture>304.4</Fixture><Fixture>304.5</Fixture><Fixture>304.6</Fixture><Fixture>304.7</Fixture><Fixture>304.8</Fixture><Fixture>304.9</Fixture><Fixture>305.1</Fixture><Fixture>305.10</Fixture><Fixture>305.11</Fixture><Fixture>305.12</Fixture><Fixture>305.2</Fixture><Fixture>305.3</Fixture><Fixture>305.4</Fixture><Fixture>305.5</Fixture><Fixture>305.6</Fixture><Fixture>305.7</Fixture><Fixture>305.8</Fixture><Fixture>305.9</Fixture><Fixture>306.1</Fixture><Fixture>306.10</Fixture><Fixture>306.11</Fixture><Fixture>306.12</Fixture><Fixture>306.2</Fixture><Fixture>306.3</Fixture><Fixture>306.4</Fixture><Fixture>306.5</Fixture><Fixture>306.6</Fixture><Fixture>306.7</Fixture><Fixture>306.8</Fixture><Fixture>306.9</Fixture><Fixture>307.1</Fixture><Fixture>307.10</Fixture><Fixture>307.11</Fixture><Fixture>307.12</Fixture><Fixture>307.2</Fixture><Fixture>307.3</Fixture><Fixture>307.4</Fixture><Fixture>307.5</Fixture><Fixture>307.6</Fixture><Fixture>307.7</Fixture><Fixture>307.8</Fixture><Fixture>307.9</Fixture><Fixture>308.1</Fixture><Fixture>308.10</Fixture><Fixture>308.11</Fixture><Fixture>308.12</Fixture><Fixture>308.2</Fixture><Fixture>308.3</Fixture><Fixture>308.4</Fixture><Fixture>308.5</Fixture><Fixture>308.6</Fixture><Fixture>308.7</Fixture><Fixture>308.8</Fixture><Fixture>308.9</Fixture><Fixture>4</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture><Fixture>5</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 58" name="80%">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>1</Fixture><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>2</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>3</Fixture><Fixture>301.1</Fixture><Fixture>301.10</Fixture><Fixture>301.11</Fixture><Fixture>301.12</Fixture><Fixture>301.2</Fixture><Fixture>301.3</Fixture><Fixture>301.4</Fixture><Fixture>301.5</Fixture><Fixture>301.6</Fixture><Fixture>301.7</Fixture><Fixture>301.8</Fixture><Fixture>301.9</Fixture><Fixture>302.1</Fixture><Fixture>302.10</Fixture><Fixture>302.11</Fixture><Fixture>302.12</Fixture><Fixture>302.2</Fixture><Fixture>302.3</Fixture><Fixture>302.4</Fixture><Fixture>302.5</Fixture><Fixture>302.6</Fixture><Fixture>302.7</Fixture><Fixture>302.8</Fixture><Fixture>302.9</Fixture><Fixture>303.1</Fixture><Fixture>303.10</Fixture><Fixture>303.11</Fixture><Fixture>303.12</Fixture><Fixture>303.2</Fixture><Fixture>303.3</Fixture><Fixture>303.4</Fixture><Fixture>303.5</Fixture><Fixture>303.6</Fixture><Fixture>303.7</Fixture><Fixture>303.8</Fixture><Fixture>303.9</Fixture><Fixture>304.1</Fixture><Fixture>304.10</Fixture><Fixture>304.11</Fixture><Fixture>304.12</Fixture><Fixture>304.2</Fixture><Fixture>304.3</Fixture><Fixture>304.4</Fixture><Fixture>304.5</Fixture><Fixture>304.6</Fixture><Fixture>304.7</Fixture><Fixture>304.8</Fixture><Fixture>304.9</Fixture><Fixture>305.1</Fixture><Fixture>305.10</Fixture><Fixture>305.11</Fixture><Fixture>305.12</Fixture><Fixture>305.2</Fixture><Fixture>305.3</Fixture><Fixture>305.4</Fixture><Fixture>305.5</Fixture><Fixture>305.6</Fixture><Fixture>305.7</Fixture><Fixture>305.8</Fixture><Fixture>305.9</Fixture><Fixture>306.1</Fixture><Fixture>306.10</Fixture><Fixture>306.11</Fixture><Fixture>306.12</Fixture><Fixture>306.2</Fixture><Fixture>306.3</Fixture><Fixture>306.4</Fixture><Fixture>306.5</Fixture><Fixture>306.6</Fixture><Fixture>306.7</Fixture><Fixture>306.8</Fixture><Fixture>306.9</Fixture><Fixture>307.1</Fixture><Fixture>307.10</Fixture><Fixture>307.11</Fixture><Fixture>307.12</Fixture><Fixture>307.2</Fixture><Fixture>307.3</Fixture><Fixture>307.4</Fixture><Fixture>307.5</Fixture><Fixture>307.6</Fixture><Fixture>307.7</Fixture><Fixture>307.8</Fixture><Fixture>307.9</Fixture><Fixture>308.1</Fixture><Fixture>308.10</Fixture><Fixture>308.11</Fixture><Fixture>308.12</Fixture><Fixture>308.2</Fixture><Fixture>308.3</Fixture><Fixture>308.4</Fixture><Fixture>308.5</Fixture><Fixture>308.6</Fixture><Fixture>308.7</Fixture><Fixture>308.8</Fixture><Fixture>308.9</Fixture><Fixture>4</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture><Fixture>5</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 59" name="90%">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>1</Fixture><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>2</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>3</Fixture><Fixture>301.1</Fixture><Fixture>301.10</Fixture><Fixture>301.11</Fixture><Fixture>301.12</Fixture><Fixture>301.2</Fixture><Fixture>301.3</Fixture><Fixture>301.4</Fixture><Fixture>301.5</Fixture><Fixture>301.6</Fixture><Fixture>301.7</Fixture><Fixture>301.8</Fixture><Fixture>301.9</Fixture><Fixture>302.1</Fixture><Fixture>302.10</Fixture><Fixture>302.11</Fixture><Fixture>302.12</Fixture><Fixture>302.2</Fixture><Fixture>302.3</Fixture><Fixture>302.4</Fixture><Fixture>302.5</Fixture><Fixture>302.6</Fixture><Fixture>302.7</Fixture><Fixture>302.8</Fixture><Fixture>302.9</Fixture><Fixture>303.1</Fixture><Fixture>303.10</Fixture><Fixture>303.11</Fixture><Fixture>303.12</Fixture><Fixture>303.2</Fixture><Fixture>303.3</Fixture><Fixture>303.4</Fixture><Fixture>303.5</Fixture><Fixture>303.6</Fixture><Fixture>303.7</Fixture><Fixture>303.8</Fixture><Fixture>303.9</Fixture><Fixture>304.1</Fixture><Fixture>304.10</Fixture><Fixture>304.11</Fixture><Fixture>304.12</Fixture><Fixture>304.2</Fixture><Fixture>304.3</Fixture><Fixture>304.4</Fixture><Fixture>304.5</Fixture><Fixture>304.6</Fixture><Fixture>304.7</Fixture><Fixture>304.8</Fixture><Fixture>304.9</Fixture><Fixture>305.1</Fixture><Fixture>305.10</Fixture><Fixture>305.11</Fixture><Fixture>305.12</Fixture><Fixture>305.2</Fixture><Fixture>305.3</Fixture><Fixture>305.4</Fixture><Fixture>305.5</Fixture><Fixture>305.6</Fixture><Fixture>305.7</Fixture><Fixture>305.8</Fixture><Fixture>305.9</Fixture><Fixture>306.1</Fixture><Fixture>306.10</Fixture><Fixture>306.11</Fixture><Fixture>306.12</Fixture><Fixture>306.2</Fixture><Fixture>306.3</Fixture><Fixture>306.4</Fixture><Fixture>306.5</Fixture><Fixture>306.6</Fixture><Fixture>306.7</Fixture><Fixture>306.8</Fixture><Fixture>306.9</Fixture><Fixture>307.1</Fixture><Fixture>307.10</Fixture><Fixture>307.11</Fixture><Fixture>307.12</Fixture><Fixture>307.2</Fixture><Fixture>307.3</Fixture><Fixture>307.4</Fixture><Fixture>307.5</Fixture><Fixture>307.6</Fixture><Fixture>307.7</Fixture><Fixture>307.8</Fixture><Fixture>307.9</Fixture><Fixture>308.1</Fixture><Fixture>308.10</Fixture><Fixture>308.11</Fixture><Fixture>308.12</Fixture><Fixture>308.2</Fixture><Fixture>308.3</Fixture><Fixture>308.4</Fixture><Fixture>308.5</Fixture><Fixture>308.6</Fixture><Fixture>308.7</Fixture><Fixture>308.8</Fixture><Fixture>308.9</Fixture><Fixture>4</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture><Fixture>5</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 60" name="100%">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>1</Fixture><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>2</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>3</Fixture><Fixture>301.1</Fixture><Fixture>301.10</Fixture><Fixture>301.11</Fixture><Fixture>301.12</Fixture><Fixture>301.2</Fixture><Fixture>301.3</Fixture><Fixture>301.4</Fixture><Fixture>301.5</Fixture><Fixture>301.6</Fixture><Fixture>301.7</Fixture><Fixture>301.8</Fixture><Fixture>301.9</Fixture><Fixture>302.1</Fixture><Fixture>302.10</Fixture><Fixture>302.11</Fixture><Fixture>302.12</Fixture><Fixture>302.2</Fixture><Fixture>302.3</Fixture><Fixture>302.4</Fixture><Fixture>302.5</Fixture><Fixture>302.6</Fixture><Fixture>302.7</Fixture><Fixture>302.8</Fixture><Fixture>302.9</Fixture><Fixture>303.1</Fixture><Fixture>303.10</Fixture><Fixture>303.11</Fixture><Fixture>303.12</Fixture><Fixture>303.2</Fixture><Fixture>303.3</Fixture><Fixture>303.4</Fixture><Fixture>303.5</Fixture><Fixture>303.6</Fixture><Fixture>303.7</Fixture><Fixture>303.8</Fixture><Fixture>303.9</Fixture><Fixture>304.1</Fixture><Fixture>304.10</Fixture><Fixture>304.11</Fixture><Fixture>304.12</Fixture><Fixture>304.2</Fixture><Fixture>304.3</Fixture><Fixture>304.4</Fixture><Fixture>304.5</Fixture><Fixture>304.6</Fixture><Fixture>304.7</Fixture><Fixture>304.8</Fixture><Fixture>304.9</Fixture><Fixture>305.1</Fixture><Fixture>305.10</Fixture><Fixture>305.11</Fixture><Fixture>305.12</Fixture><Fixture>305.2</Fixture><Fixture>305.3</Fixture><Fixture>305.4</Fixture><Fixture>305.5</Fixture><Fixture>305.6</Fixture><Fixture>305.7</Fixture><Fixture>305.8</Fixture><Fixture>305.9</Fixture><Fixture>306.1</Fixture><Fixture>306.10</Fixture><Fixture>306.11</Fixture><Fixture>306.12</Fixture><Fixture>306.2</Fixture><Fixture>306.3</Fixture><Fixture>306.4</Fixture><Fixture>306.5</Fixture><Fixture>306.6</Fixture><Fixture>306.7</Fixture><Fixture>306.8</Fixture><Fixture>306.9</Fixture><Fixture>307.1</Fixture><Fixture>307.10</Fixture><Fixture>307.11</Fixture><Fixture>307.12</Fixture><Fixture>307.2</Fixture><Fixture>307.3</Fixture><Fixture>307.4</Fixture><Fixture>307.5</Fixture><Fixture>307.6</Fixture><Fixture>307.7</Fixture><Fixture>307.8</Fixture><Fixture>307.9</Fixture><Fixture>308.1</Fixture><Fixture>308.10</Fixture><Fixture>308.11</Fixture><Fixture>308.12</Fixture><Fixture>308.2</Fixture><Fixture>308.3</Fixture><Fixture>308.4</Fixture><Fixture>308.5</Fixture><Fixture>308.6</Fixture><Fixture>308.7</Fixture><Fixture>308.8</Fixture><Fixture>308.9</Fixture><Fixture>4</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture><Fixture>5</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 1" name="HOME">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>106</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 2" name="LEAD SINGER">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 3" name="GUITAR SL">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 4" name="DRUMS">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 5" name="KEYS SR">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 6" name="Band Wash">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 16" name="Fan Out">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 17" name="DOWN FANED TILT">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 18" name="UP EVEN">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 19" name="UP FANED PAN">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 20" name="DOWN FANNED PAN">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 21" name="Cross">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>106</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 22" name="DOWN 1">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 23" name="DOWN 2">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 24" name="DOWN 3">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 25" name="UP 1">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 26" name="UP 2">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 27" name="UP 3">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Special 1" name="Default Values">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Special 10" name="HighLight 0">
+<PresetUsage><Usage>Intensity</Usage><Usage>Pan Tilt</Usage><Usage>Color</Usage><Usage>Gobo</Usage><Usage>Beam</Usage><Usage>Beam Effects</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>1</Fixture><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>2</Fixture><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture><Fixture>3</Fixture><Fixture>301.1</Fixture><Fixture>301.10</Fixture><Fixture>301.11</Fixture><Fixture>301.12</Fixture><Fixture>301.2</Fixture><Fixture>301.3</Fixture><Fixture>301.4</Fixture><Fixture>301.5</Fixture><Fixture>301.6</Fixture><Fixture>301.7</Fixture><Fixture>301.8</Fixture><Fixture>301.9</Fixture><Fixture>302.1</Fixture><Fixture>302.10</Fixture><Fixture>302.11</Fixture><Fixture>302.12</Fixture><Fixture>302.2</Fixture><Fixture>302.3</Fixture><Fixture>302.4</Fixture><Fixture>302.5</Fixture><Fixture>302.6</Fixture><Fixture>302.7</Fixture><Fixture>302.8</Fixture><Fixture>302.9</Fixture><Fixture>303.1</Fixture><Fixture>303.10</Fixture><Fixture>303.11</Fixture><Fixture>303.12</Fixture><Fixture>303.2</Fixture><Fixture>303.3</Fixture><Fixture>303.4</Fixture><Fixture>303.5</Fixture><Fixture>303.6</Fixture><Fixture>303.7</Fixture><Fixture>303.8</Fixture><Fixture>303.9</Fixture><Fixture>304.1</Fixture><Fixture>304.10</Fixture><Fixture>304.11</Fixture><Fixture>304.12</Fixture><Fixture>304.2</Fixture><Fixture>304.3</Fixture><Fixture>304.4</Fixture><Fixture>304.5</Fixture><Fixture>304.6</Fixture><Fixture>304.7</Fixture><Fixture>304.8</Fixture><Fixture>304.9</Fixture><Fixture>305.1</Fixture><Fixture>305.10</Fixture><Fixture>305.11</Fixture><Fixture>305.12</Fixture><Fixture>305.2</Fixture><Fixture>305.3</Fixture><Fixture>305.4</Fixture><Fixture>305.5</Fixture><Fixture>305.6</Fixture><Fixture>305.7</Fixture><Fixture>305.8</Fixture><Fixture>305.9</Fixture><Fixture>306.1</Fixture><Fixture>306.10</Fixture><Fixture>306.11</Fixture><Fixture>306.12</Fixture><Fixture>306.2</Fixture><Fixture>306.3</Fixture><Fixture>306.4</Fixture><Fixture>306.5</Fixture><Fixture>306.6</Fixture><Fixture>306.7</Fixture><Fixture>306.8</Fixture><Fixture>306.9</Fixture><Fixture>307.1</Fixture><Fixture>307.10</Fixture><Fixture>307.11</Fixture><Fixture>307.12</Fixture><Fixture>307.2</Fixture><Fixture>307.3</Fixture><Fixture>307.4</Fixture><Fixture>307.5</Fixture><Fixture>307.6</Fixture><Fixture>307.7</Fixture><Fixture>307.8</Fixture><Fixture>307.9</Fixture><Fixture>308.1</Fixture><Fixture>308.10</Fixture><Fixture>308.11</Fixture><Fixture>308.12</Fixture><Fixture>308.2</Fixture><Fixture>308.3</Fixture><Fixture>308.4</Fixture><Fixture>308.5</Fixture><Fixture>308.6</Fixture><Fixture>308.7</Fixture><Fixture>308.8</Fixture><Fixture>308.9</Fixture><Fixture>4</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture><Fixture>5</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+</Presets>

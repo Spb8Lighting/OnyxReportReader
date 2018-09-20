@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type='text/xsl' href='CuelistReport.xslt'?>
+<CueLists showName="Onyx Training" showBuild="67109874">
+  <Submaster internalId="1" visualId="1" cuelistName="Singer KEY" overRidableByProgrammer="True" swop="False" ignoreBankChangeRelease="False" defaultFaderValue="False">
+    <Cue internalRowId="1" cueId="1" cueName="Cue 1" comment="" usesBase="False" usesFx="False" usesTiming="False" trigger="Go" delay="0s" fade="2.50s"></Cue>
+      <AnalogFader playbackPage="1" buttonPosition="1"></AnalogFader>
+  </Submaster>
+  <Submaster internalId="2" visualId="2" cuelistName="Keyboard KEY" overRidableByProgrammer="True" swop="False" ignoreBankChangeRelease="False" defaultFaderValue="False">
+    <Cue internalRowId="1" cueId="1" cueName="Cue 1" comment="" usesBase="False" usesFx="False" usesTiming="False" trigger="Go" delay="0s" fade="2.50s"></Cue>
+      <AnalogFader playbackPage="1" buttonPosition="2"></AnalogFader>
+  </Submaster>
+  <Submaster internalId="3" visualId="3" cuelistName="Guitar KEY" overRidableByProgrammer="True" swop="False" ignoreBankChangeRelease="False" defaultFaderValue="False">
+    <Cue internalRowId="1" cueId="1" cueName="Cue 1" comment="" usesBase="False" usesFx="False" usesTiming="False" trigger="Go" delay="0s" fade="2.50s"></Cue>
+      <AnalogFader playbackPage="1" buttonPosition="3"></AnalogFader>
+  </Submaster>
+  <Submaster internalId="4" visualId="4" cuelistName="Drummer KEY" overRidableByProgrammer="True" swop="False" ignoreBankChangeRelease="False" defaultFaderValue="False">
+    <Cue internalRowId="1" cueId="1" cueName="Cue 1" comment="" usesBase="False" usesFx="False" usesTiming="False" trigger="Go" delay="0s" fade="2.50s"></Cue>
+      <AnalogFader playbackPage="1" buttonPosition="4"></AnalogFader>
+  </Submaster>
+  <Submaster internalId="5" visualId="5" cuelistName="SPOTS" overRidableByProgrammer="True" swop="False" ignoreBankChangeRelease="False" defaultFaderValue="False">
+    <Cue internalRowId="1" cueId="1" cueName="Cue 1" comment="" usesBase="False" usesFx="False" usesTiming="False" trigger="Go" delay="0s" fade="2.50s"></Cue>
+      <PlayBackFader playbackPage="1" playbackNumber="1" playbackBankName="Bank 1"></PlayBackFader>
+  </Submaster>
+  <Submaster internalId="6" visualId="6" cuelistName="WASH" overRidableByProgrammer="True" swop="False" ignoreBankChangeRelease="False" defaultFaderValue="False">
+    <Cue internalRowId="1" cueId="1" cueName="Cue 1" comment="" usesBase="False" usesFx="False" usesTiming="False" trigger="Go" delay="0s" fade="2.50s"></Cue>
+      <PlayBackFader playbackPage="1" playbackNumber="2" playbackBankName="Bank 1"></PlayBackFader>
+  </Submaster>
+  <Submaster internalId="7" visualId="7" cuelistName="BEAMS" overRidableByProgrammer="True" swop="False" ignoreBankChangeRelease="False" defaultFaderValue="False">
+    <Cue internalRowId="1" cueId="1" cueName="Cue 1" comment="" usesBase="False" usesFx="False" usesTiming="False" trigger="Go" delay="0s" fade="2.50s"></Cue>
+      <PlayBackFader playbackPage="1" playbackNumber="3" playbackBankName="Bank 1"></PlayBackFader>
+  </Submaster>
+  <Submaster internalId="8" visualId="8" cuelistName="STRIPS" overRidableByProgrammer="True" swop="False" ignoreBankChangeRelease="False" defaultFaderValue="False">
+    <Cue internalRowId="1" cueId="1" cueName="Cue 1" comment="" usesBase="False" usesFx="False" usesTiming="False" trigger="Go" delay="0s" fade="2.50s"></Cue>
+      <PlayBackFader playbackPage="1" playbackNumber="4" playbackBankName="Bank 1"></PlayBackFader>
+  </Submaster>
+  <Override internalId="9" visualId="9" cuelistName="ALL WHITE OVERRIDE" priorityLevel="50" backTrack="True" autoRelease="True" releaseOnNextGo="False" releasewhenRestart="True" ResetWhenReleased="True" defaultReleaseTime="3000" releaseDimmersFirst="False" ignoreGlobalRelease="False" defaultFaderValue="False" endOfCuelist="0" faderTriggerLevel="False" tracking="True">
+    <Cue internalRowId="1" cueId="1" cueName="Cue 1" comment="" usesBase="False" usesFx="False" usesTiming="False" trigger="Go" delay="0s" fade="2.50s"></Cue>
+      <PlayBackFader playbackPage="1" playbackNumber="6" playbackBankName="Bank 1"></PlayBackFader>
+  </Override>
+  <Cuelist internalId="10" visualId="10" cuelistName="Timing Example" priorityLevel="50" backTrack="True" autoRelease="True" releaseOnNextGo="False" releasewhenRestart="True" ResetWhenReleased="True" defaultReleaseTime="3000" releaseDimmersFirst="False" ignoreGlobalRelease="False" defaultFaderValue="False" endOfCuelist="0" faderTriggerLevel="False" GoExitLink="False" tracking="True">
+    <Cue internalRowId="1" cueId="1" cueName="Cue 1" comment="" usesBase="False" usesFx="False" usesTiming="False" fadeMode="Default" trigger="Follow" time="3s" delay="0s" fade="0s"></Cue>
+    <Cue internalRowId="2" cueId="2" cueName="Cue 2" comment="" usesBase="False" usesFx="False" usesTiming="False" fadeMode="Default" trigger="Follow" time="3s" delay="0s [0s>2s]" fade="1s"></Cue>
+    <Cue internalRowId="3" cueId="3" cueName="Cue 3" comment="" usesBase="False" usesFx="False" usesTiming="False" fadeMode="Default" trigger="Follow" time="3s" delay="0s [0s>2s]" fade="2s"></Cue>
+    <Cue internalRowId="4" cueId="4" cueName="Cue 4" comment="" usesBase="False" usesFx="False" usesTiming="False" fadeMode="Default" trigger="Follow" time="3s" delay="0s" fade="2.50s"></Cue>
+    <Cue internalRowId="5" cueId="5" cueName="Cue 5" comment="" usesBase="False" usesFx="False" usesTiming="False" fadeMode="Default" trigger="Follow" time="3s" delay="0s" fade="2.50s"></Cue>
+    <Cue internalRowId="7" cueId="5.5" cueName="Cue 5.5" comment="" usesBase="False" usesFx="False" usesTiming="False" fadeMode="Default" trigger="Follow" time="3s" delay="0s" fade="2s"></Cue>
+    <Cue internalRowId="8" cueId="5.6" cueName="Cue 5.6" comment="" usesBase="False" usesFx="False" usesTiming="False" fadeMode="Default" trigger="Follow" time="0s" delay="0s" fade="0s"></Cue>
+    <Cue internalRowId="6" cueId="6" cueName="Cue 6" comment="" usesBase="False" usesFx="False" usesTiming="False" fadeMode="Default" trigger="Follow" time="3s" delay="0s" fade="2.50s"></Cue>
+    <Cue internalRowId="9" cueId="7" cueName="Cue 7" comment="" usesBase="False" usesFx="False" usesTiming="False" fadeMode="Default" trigger="Follow" time="3s" delay="0s [0s>2s]" fade="0s"></Cue>
+    <Cue internalRowId="10" cueId="8" cueName="Cue 8" comment="" usesBase="False" usesFx="False" usesTiming="False" fadeMode="Default" trigger="Follow" time="3s" delay="0s [0s>2s]" fade="0s"></Cue>
+    <Cue internalRowId="11" cueId="9" cueName="Cue 9" comment="" usesBase="False" usesFx="False" usesTiming="False" fadeMode="Default" trigger="Follow" time="3s" delay="0s [0s>2s]" fade="0s"></Cue>
+    <Cue internalRowId="12" cueId="10" cueName="Cue 10" comment="" usesBase="False" usesFx="False" usesTiming="False" fadeMode="Default" trigger="Follow" time="3s" delay="0s [0s>2s]" fade="1s [1s]"></Cue>
+      <PlayBackFader playbackPage="1" playbackNumber="9" playbackBankName="Bank 1"></PlayBackFader>
+  </Cuelist>
+  <Submaster internalId="11" visualId="11" cuelistName="SPECIAL" overRidableByProgrammer="True" swop="False" ignoreBankChangeRelease="False" defaultFaderValue="False">
+    <Cue internalRowId="1" cueId="1" cueName="Cue 1" comment="" usesBase="False" usesFx="False" usesTiming="False" trigger="Go" delay="0s" fade="2.50s"></Cue>
+      <PlayBackFader playbackPage="1" playbackNumber="5" playbackBankName="Bank 1"></PlayBackFader>
+  </Submaster>
+  <Override internalId="12" visualId="12" cuelistName="Dimmer FX" priorityLevel="50" backTrack="True" autoRelease="True" releaseOnNextGo="False" releasewhenRestart="True" ResetWhenReleased="True" defaultReleaseTime="3000" releaseDimmersFirst="False" ignoreGlobalRelease="False" defaultFaderValue="False" endOfCuelist="0" faderTriggerLevel="False" tracking="True">
+    <Cue internalRowId="1" cueId="1" cueName="fader" comment="" usesBase="False" usesFx="False" usesTiming="False" trigger="Go" delay="0s" fade="2.50s"></Cue>
+    <Cue internalRowId="2" cueId="2" cueName="chaser" comment="" usesBase="False" usesFx="False" usesTiming="False" trigger="Go" delay="0s" fade="2.50s"></Cue>
+  </Override>
+  <Override internalId="13" visualId="13" cuelistName="P/T FX" priorityLevel="50" backTrack="True" autoRelease="True" releaseOnNextGo="False" releasewhenRestart="True" ResetWhenReleased="True" defaultReleaseTime="3000" releaseDimmersFirst="False" ignoreGlobalRelease="False" defaultFaderValue="False" endOfCuelist="0" faderTriggerLevel="False" tracking="True">
+    <Cue internalRowId="1" cueId="1" cueName="Cue 1" comment="" usesBase="False" usesFx="False" usesTiming="False" trigger="Go" delay="0s" fade="2.50s"></Cue>
+  </Override>
+  <Cuelist internalId="14" visualId="14" cuelistName="CL14" priorityLevel="50" backTrack="True" autoRelease="True" releaseOnNextGo="False" releasewhenRestart="True" ResetWhenReleased="True" defaultReleaseTime="3000" releaseDimmersFirst="False" ignoreGlobalRelease="False" defaultFaderValue="False" endOfCuelist="0" faderTriggerLevel="False" GoExitLink="False" tracking="True">
+    <Cue internalRowId="1" cueId="1" cueName="Cue 1" comment="" usesBase="False" usesFx="False" usesTiming="False" fadeMode="Default" trigger="Go" delay="0s" fade="2.50s"></Cue>
+  </Cuelist>
+  <Cuelist internalId="15" visualId="15" cuelistName="CL15" priorityLevel="50" backTrack="True" autoRelease="True" releaseOnNextGo="False" releasewhenRestart="True" ResetWhenReleased="True" defaultReleaseTime="3000" releaseDimmersFirst="False" ignoreGlobalRelease="False" defaultFaderValue="False" endOfCuelist="0" faderTriggerLevel="False" GoExitLink="False" tracking="True">
+    <Cue internalRowId="1" cueId="1" cueName="Cue 1" comment="" usesBase="False" usesFx="False" usesTiming="False" fadeMode="Default" trigger="Go" delay="0s" fade="2.50s"></Cue>
+    <Cue internalRowId="2" cueId="2" cueName="Cue 2" comment="" usesBase="False" usesFx="False" usesTiming="False" fadeMode="Default" trigger="Go" delay="0s" fade="2.50s"></Cue>
+    <Cue internalRowId="3" cueId="3" cueName="Cue 3" comment="" usesBase="False" usesFx="False" usesTiming="False" fadeMode="Default" trigger="Go" delay="0s" fade="2.50s"></Cue>
+  </Cuelist>
+  <Cuelist internalId="16" visualId="16" cuelistName="MAIN SHOW" priorityLevel="50" backTrack="True" autoRelease="True" releaseOnNextGo="False" releasewhenRestart="True" ResetWhenReleased="True" defaultReleaseTime="3000" releaseDimmersFirst="False" ignoreGlobalRelease="False" defaultFaderValue="False" endOfCuelist="0" faderTriggerLevel="False" GoExitLink="False" tracking="True">
+    <Cue internalRowId="1" cueId="1" cueName="Cue 1" comment="" usesBase="False" usesFx="False" usesTiming="False" fadeMode="Default" trigger="Go" delay="0s" fade="0s"></Cue>
+    <Cue internalRowId="2" cueId="2" cueName="Cue 2" comment="" usesBase="False" usesFx="False" usesTiming="False" fadeMode="Default" trigger="Go" delay="0s [0s>2s]" fade="2s"></Cue>
+    <Cue internalRowId="3" cueId="3" cueName="Cue 3" comment="" usesBase="False" usesFx="False" usesTiming="False" fadeMode="Default" trigger="Go" delay="0s [0s>2s]" fade="1s"></Cue>
+    <Cue internalRowId="4" cueId="4" cueName="Cue 4" comment="" usesBase="False" usesFx="False" usesTiming="False" fadeMode="Default" trigger="Go" delay="0s" fade="2.50s"></Cue>
+    <Cue internalRowId="5" cueId="5" cueName="Cue 5" comment="" usesBase="False" usesFx="False" usesTiming="False" fadeMode="Default" trigger="Go" delay="0s [0s>2s]" fade="2.50s"></Cue>
+    <Cue internalRowId="6" cueId="6" cueName="Cue 6" comment="" usesBase="False" usesFx="False" usesTiming="False" fadeMode="Default" trigger="Go" delay="0s" fade="2.50s"></Cue>
+    <Cue internalRowId="7" cueId="7" cueName="Cue 7" comment="" usesBase="False" usesFx="False" usesTiming="False" fadeMode="Default" trigger="Go" delay="0s" fade="2.50s"></Cue>
+    <Cue internalRowId="8" cueId="8" cueName="Cue 8" comment="" usesBase="False" usesFx="False" usesTiming="False" fadeMode="Default" trigger="Go" delay="0s" fade="2.50s"></Cue>
+      <PlayBackFader playbackPage="1" playbackNumber="10" playbackBankName="Bank 1"></PlayBackFader>
+  </Cuelist>
+</CueLists>

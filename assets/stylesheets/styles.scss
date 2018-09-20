@@ -1,0 +1,64 @@
+@import '../../node_modules/knacss/sass/knacss';
+@import 'variables';
+@import 'font';
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: $gray-800;
+}
+
+header {
+    background-color: $header-color;
+    height: 60px;
+    line-height: 60px;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+    color: $white;
+    display: flex;
+    font-size: 150%;
+    font-weight: bold;
+    img {
+        object-fit: contain;
+        margin: 2px;
+    }
+}
+
+aside {
+    background-color: $header-color;
+    min-height: calc(100vh - 60px);
+    fieldset {
+        >button {
+            display: none;
+        }
+        >input {
+            width: 0.1px;
+            height: 0.1px;
+            opacity: 0;
+            overflow: hidden;
+            position: absolute;
+            z-index: -1;
+        }
+        >label {
+            cursor: pointer;
+            margin-bottom: 0;
+            vertical-align: middle;
+            >svg {
+                width: 100%;
+                transform: scale(0.5);
+                &:hover, &:focus {
+                  transform: scale(0.95);
+                }
+            }
+            &[for=PatchXML] {
+              fill: #5AC8FA
+            }
+            &[for=FixtureGroupXML] {
+              fill: #D4AA08
+            }
+            &[for=PresetXML] {
+              fill: #3A791D
+            }
+            &[for=CuelistXML] {
+              fill: #FF2D55
+            }
+        }
+    }
+}
