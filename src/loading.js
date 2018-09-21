@@ -3,16 +3,13 @@ export default () => {
         , Labels = document.querySelectorAll('label')
 
     for (var i = 0; i < Labels.length; ++i) {
-        let Title = document.createElement('title')
-            , Label = Labels[i]
+        let Label = Labels[i]
             , LabelFor = Label.getAttribute('for')
-            , LabelTitle = Label.innerHTML
+            , LabelName = Config[LabelFor].Name
             , LabelPicture = Config[LabelFor].Picture
             , LabelExt = Config[LabelFor].FileExt
 
-        Label.innerHTML = LabelPicture
-        Title.innerHTML = LabelTitle
-        Label.querySelector('svg').appendChild(Title)
+        Label.innerHTML = `<span class="w100p txtcenter">${LabelName}</span>${LabelPicture}`
         Label.setAttribute('accept', LabelExt)
     }
 }
