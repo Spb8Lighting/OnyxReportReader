@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Report Reader for Onyx</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="app.css" />
+    </head>
+
+    <body>
+        <header>
+            <img src="./img/logo-obsidian.png" alt="Logo Obsidian" /> Report Reader for Onyx
+        </header>
+
+        <div class="flex-container">
+            <aside class="w100p">
+                <form method="POST" class="flex-container-v" enctype="multipart/form-data">
+                    <fieldset class="mat pan dropzone" id="Patch">
+                        <input type="file" name="PatchXML" id="PatchXML" accept=".xml" />
+                        <label for="PatchXML">Choose Patch file or drag it here</label>
+                        <button class="box_button" type="submit">Upload</button>
+                    </fieldset>
+                    <fieldset class="mat pan dropzone" id="FixtureGroup">
+                        <input type="file" name="FixtureGroupXML" id="FixtureGroupXML" accept=".xml" />
+                        <label for="FixtureGroupXML">Choose Fixture Group file or drag it here</label>
+                        <button class="box_button" type="submit">Upload</button>
+                    </fieldset>
+                    <fieldset class="mat pan dropzone" id="Preset">
+                        <input type="file" name="PresetXML" id="PresetXML" accept=".xml" />
+                        <label for="PresetXML">Choose Preset file or drag it here</label>
+                        <button class="box_button" type="submit">Upload</button>
+                    </fieldset>
+                    <fieldset class="mat pan dropzone" id="Cuelist">
+                        <input type="file" name="CuelistXML" id="CuelistXML" accept=".xml" />
+                        <label for="CuelistXML">Choose Cuelist file or drag it here</label>
+                        <button class="box_button" type="submit">Upload</button>
+                    </fieldset>
+                </form>
+            </aside>
+            <article>Patch</article>
+            <article>Fixture Group</article>
+            <article>Preset</article>
+            <article>Cuelist</article>
+        </div>
+        <script src="app.js"></script>
+    </body>
+
+</html>

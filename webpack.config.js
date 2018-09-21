@@ -1,14 +1,14 @@
-const webpack = require('webpack')
 const path = require('path')
 const ExtractTextWebpackPlugin = require('extract-text-webpack-plugin')
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 const OptimizeCSSAssets = require('optimize-css-assets-webpack-plugin')
 const DashboardPlugin = require('webpack-dashboard/plugin')
+const CleanWebpackPlugin = require('clean-webpack-plugin')
 const IsDev = (process.env.NODE_ENV == 'development') ? true : false
 
 let config = {
     mode: process.env.NODE_ENV,
-    entry: ['./src/index.js', './assets/stylesheets/styles.scss', './assets/images/logo-obsidian.png'],
+    entry: ['./src/index.js', './assets/stylesheets/styles.scss', './assets/images/logo-obsidian.png', './src/html/index.html'],
     output: {
         path: path.resolve(__dirname, './public'),
         filename: './app.js'
@@ -24,6 +24,15 @@ let config = {
                     }
                 },
                     'img-loader']
+            },
+            {
+                test: /\.(html?)$/,
+                loaders: [{
+                    loader: 'file-loader',
+                    options: {
+                        name: './[name].[ext]'
+                    }
+                }]
             },
             {
                 test: /\.(woff2?)$/,
@@ -48,11 +57,7 @@ let config = {
             }
         ]
     },
-    plugins: [
-        new ExtractTextWebpackPlugin('app.css'),
-        new DashboardPlugin(),
-        new webpack.HotModuleReplacementPlugin()
-    ],
+    plugins: [],
     devServer: {
         contentBase: path.resolve(__dirname, './public'),
         historyApiFallback: true,
@@ -64,10 +69,20 @@ let config = {
 }
 
 if (process.env.NODE_ENV === 'production') {
-    module.exports.plugins.push(
-        new webpack.optimize.UglifyJSPlugin(),
-        new OptimizeCSSAssets()
+    config.plugins.push(
+        new ExtractTextWebpackPlugin('app.css'),
+        new UglifyJSPlugin(),
+        new OptimizeCSSAssets(),
+        new CleanWebpackPlugin(['./public'], {
+            verbose: true,
+            dry: false
+        })
     );
 } else {
-    module.exports = config;
+    config.plugins.push(
+        new DashboardPlugin(),
+        new HotModuleReplacementPlugin()
+    );
 }
+
+module.exports = config;
