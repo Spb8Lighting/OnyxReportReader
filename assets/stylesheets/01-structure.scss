@@ -1,0 +1,104 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: $gray-800;
+    >div>* {
+        min-height: calc(100vh - #{$header-height});
+    }
+}
+
+header {
+    background-color: $header-color;
+    height: $header-height;
+    line-height: $header-height;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+    color: $white;
+    font-size: 150%;
+    font-weight: bold;
+    img {
+        object-fit: contain;
+        margin: 2px;
+    }
+}
+
+aside {
+    z-index: 10;
+    width: $aside-width;
+    background-color: $header-color;
+    fieldset {
+        >button {
+            display: none;
+        }
+        >input {
+            width: 0.1px;
+            height: 0.1px;
+            opacity: 0;
+            overflow: hidden;
+            position: absolute;
+            z-index: -1;
+        }
+        >label,
+        >.label {
+            &:hover,
+            &:focus,
+            &.active {
+                >svg {
+                    transform: scale(0.95);
+                }
+                >span {
+                    margin-top: 95px;
+                    transform: rotate(0deg);
+                    left: 0;
+                }
+                &[for=PatchXML] {
+                    color: #5AC8FA;
+                    fill: #5AC8FA
+                }
+                &[for=FixtureGroupXML] {
+                    color: #D4AA08;
+                    fill: #D4AA08
+                }
+                &[for=PresetXML] {
+                    color: #3A791D;
+                    fill: #3A791D
+                }
+                &[for=CuelistXML] {
+                    color: #FF2D55;
+                    fill: #FF2D55
+                }
+            }
+            &.loaded {
+                color: $white;
+                fill: $white;
+            }
+            color: $gray-600;
+            fill: $gray-600;
+            cursor: pointer;
+            margin-bottom: 0;
+            vertical-align: middle;
+            >span {
+                transform: rotate(-90deg);
+                position: absolute;
+                left: -40px;
+                margin-top: 35px;
+                transition: 0.25s ease-in-out;
+            }
+            >svg {
+                width: 100%;
+                transform: scale(0.5);
+                transition: 0.25s ease-in-out;
+            }
+        }
+    }
+}
+
+footer {
+    position: fixed;
+    top: 0;
+    margin: 4px;
+    left: 0;
+    opacity: 0;
+    transition: 0.25s ease-in-out!important; 
+    &.fade {
+        opacity: 1;
+    }
+}

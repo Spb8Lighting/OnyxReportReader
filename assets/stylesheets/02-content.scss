@@ -1,0 +1,22 @@
+article {
+    color: $white;
+    opacity: 0;
+    width: calc(100% - #{$aside-width});
+    transition: 0.5s ease-in-out !important;
+    position: absolute;
+    left: -100%;
+    z-index: 8;
+    &#default {
+        >svg {
+            height: $advertisement-svg-height;
+            fill: $white;
+            float: left;
+        }
+        line-height: $advertisement-svg-height;
+    }
+    &.fade {
+        z-index: 9;
+        left: $aside-width;
+        opacity: 1;
+    }
+}

@@ -1,5 +1,4 @@
-import $Message from './json/string'
-import Loading from './loading'
+import Input from './input'
 
 // Change the form label by their associated picture
-Loading()
+Input()
