@@ -154,9 +154,9 @@ $forms-color     : $gray-800;
 // ---------------
 
 // Component: links
-$link-color            : $gray-800;
+$link-color            : #effb41;
 $link-color-hover      : darken($link-color, 15%);
-$link-decoration       : underline;
+$link-decoration       : none;
 $link-decoration-hover : underline;
 
 // Global border-radius

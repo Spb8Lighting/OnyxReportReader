@@ -1,10 +1,14 @@
-@import '../../node_modules/knacss/sass/knacss';
 @import 'variables';
+@import '../../node_modules/knacss/sass/knacss';
 @import 'font';
 
 $header-height: 60px;
 $aside-width: 100px;
 $advertisement-svg-height: 400px;
+$Onyx-Color1: #5AC8FA;
+$Onyx-Color2: #D4AA08;
+$Onyx-Color3: #3A791D;
+$Onyx-Color4: #FF2D55;
 
 @import '01-structure';
 @import '02-content';

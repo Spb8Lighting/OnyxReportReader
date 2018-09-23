@@ -50,20 +50,20 @@ aside {
                     left: 0;
                 }
                 &[for=PatchXML] {
-                    color: #5AC8FA;
-                    fill: #5AC8FA
+                    color: $Onyx-Color1;
+                    fill: $Onyx-Color1
                 }
                 &[for=FixtureGroupXML] {
-                    color: #D4AA08;
-                    fill: #D4AA08
+                    color: $Onyx-Color2;
+                    fill: $Onyx-Color2
                 }
                 &[for=PresetXML] {
-                    color: #3A791D;
-                    fill: #3A791D
+                    color: $Onyx-Color3;
+                    fill: $Onyx-Color3
                 }
                 &[for=CuelistXML] {
-                    color: #FF2D55;
-                    fill: #FF2D55
+                    color: $Onyx-Color4;
+                    fill: $Onyx-Color4
                 }
             }
             &.loaded {

@@ -2,6 +2,8 @@ article {
     color: $white;
     opacity: 0;
     width: calc(100% - #{$aside-width});
+    height: calc(100% - #{$header-height});
+    overflow-y: scroll;
     transition: 0.5s ease-in-out !important;
     position: absolute;
     left: -100%;
@@ -18,5 +20,25 @@ article {
         z-index: 9;
         left: $aside-width;
         opacity: 1;
+    }
+    &#Patch {
+        h2 {
+            color: $Onyx-Color1;
+        }
+    }
+    &#FixtureGroup {
+        h2 {
+            color: $Onyx-Color2;
+        }
+    }
+    &#Preset {
+        h2 {
+            color: $Onyx-Color3;
+        }
+    }
+    &#Cuelist {
+        h2 {
+            color: $Onyx-Color4;
+        }
     }
 }

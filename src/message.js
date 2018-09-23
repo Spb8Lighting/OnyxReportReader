@@ -1,4 +1,4 @@
-module.exports = (message) => {
+module.exports = message => {
     /**
      * Display a temporary message which can be close by clicking on it before timemout
      * @param {JSON} message
