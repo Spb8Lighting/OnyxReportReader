@@ -18,6 +18,12 @@ header {
         object-fit: contain;
         margin: 2px;
     }
+    span {
+        margin-right: 1em;
+        em {
+            font-size: 50%;
+        }
+    }
 }
 
 aside {

@@ -6,7 +6,10 @@ article {
     overflow-y: scroll;
     transition: 0.5s ease-in-out !important;
     position: absolute;
+    padding: 10px;
+    box-sizing: border-box;
     left: -100%;
+    font-size: 90%;
     z-index: 8;
     &#default {
         >svg {
@@ -21,9 +24,43 @@ article {
         left: $aside-width;
         opacity: 1;
     }
+    table {
+        thead td {
+            font-weight: bold
+        }
+        tr {
+            border-bottom: 1px solid $gray-600;
+        }
+        tr td.number {
+            width: 1em;
+            font-family: "Digital 7"
+        }
+        tr td.number {
+            width: auto;
+        }
+        tbody tr:last-child {
+            border-bottom: none
+        }
+        td {
+            padding: 0 .5em;
+            vertical-align: middle
+        }
+    }
     &#Patch {
         h2 {
             color: $Onyx-Color1;
+        }
+        table {
+            th:nth-child(1),
+            th:nth-child(6),
+            th:nth-child(7),
+            th:nth-child(8),
+            td:nth-child(1),
+            td:nth-child(6),
+            td:nth-child(7),
+            td:nth-child(8) {
+                width: 70px;
+            }
         }
     }
     &#FixtureGroup {

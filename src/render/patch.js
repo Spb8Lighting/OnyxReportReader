@@ -24,7 +24,7 @@ let Render = () => {
             + "\t" + '<td class="number">' + Fixture.ID + '</td>' + "\n"
             + "\t" + '<td>' + Fixture.Name + '</td>' + "\n"
             + "\t" + '<td><a target="_blank" href="https://onyxfixturefinder.com/#SearchMode=live&amp;DisplayMode=1&amp;Manufacturer=' + encodeURIComponent(Fixture.Manufacturer) + '" />' + Fixture.Manufacturer + '</a></td>' + "\n"
-            + "\t" + '<td><a pop href="https://onyxfixturefinder.com/fixture/' + encodeURIComponent(Fixture.Manufacturer) + '/' + encodeURIComponent(Fixture.Model) + '" />' + Fixture.Model + '</a></td>' + "\n"
+            + "\t" + '<td><a target="_blank" href="https://onyxfixturefinder.com/fixture/' + encodeURIComponent(Fixture.Manufacturer) + '/' + encodeURIComponent(Fixture.Model) + '" />' + Fixture.Model + '</a></td>' + "\n"
             + "\t" + '<td>' + Fixture.Mode + '</td>' + "\n"
             + "\t" + '<td class="number">' + Fixture.Universe + '</td>' + "\n"
             + "\t" + '<td class="number">' + Fixture.Address + '</td>' + "\n"
@@ -45,10 +45,10 @@ let Render = () => {
     let PatchArticle = document.getElementById('Patch')
 
     PatchArticle.innerHTML = `<h2>Patch</h2>
-                                <p>${Content.Header}</p>
                                 <p>${Content.Description}</p>
                                 ${Content.Table}`
     document.querySelector('label[for="PatchXML"]').classList.add('loaded', 'active')
+    document.querySelector('header>span').innerHTML = Content.Header
     PatchRender('Patch')
 }
 

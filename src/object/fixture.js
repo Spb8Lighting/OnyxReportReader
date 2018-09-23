@@ -1,12 +1,30 @@
 const Option = require('./../config/option')
 
+let SubFixtureObject = PartXML => {
+    this.ID = PartXML.getAttribute('nr')
+    this.Ref = PartXML.getAttribute('ID')
+    this.Name = ((PartXML.getAttribute('name') != null) ? PartXML.getAttribute('name') : '')
+    return this
+}
+
 let FixtureObject = FixtureXML => {
     this.ID = FixtureXML.getAttribute('nr')
+    this.Ref = FixtureXML.getAttribute('ID')
     this.Name = ((FixtureXML.getAttribute('name') != null) ? FixtureXML.getAttribute('name') : '')
     this.Manufacturer = FixtureXML.getAttribute('manufacturer')
     this.Model = FixtureXML.getAttribute('model')
     this.Mode = FixtureXML.getAttribute('displayName').replace(FixtureXML.getAttribute('model'), '')
     this.Invert = ''
+    this.Multipart = false
+
+    let Parts = FixtureXML.getElementsByTagName('Part')
+
+    if (Parts.length > 0) {
+        this.Multipart = {}
+        for (let i = 0; i < Parts.length; i++) {
+            this.Multipart[i] = JSON.parse(JSON.stringify(new SubFixtureObject(Parts[i])))
+        }
+    }
 
     let DMXInfos = FixtureXML.getElementsByTagName('DMXChannel')[0]
     if (typeof DMXInfos !== 'undefined') {

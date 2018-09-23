@@ -36,7 +36,7 @@ let config = {
                 }]
             },
             {
-                test: /\.(woff2?)$/,
+                test: /\.(woff2?|ttf)$/,
                 loaders: [{
                     loader: IsDev ? 'url-loader' : 'file-loader',
                     options: {
