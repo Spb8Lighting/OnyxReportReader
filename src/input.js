@@ -1,8 +1,9 @@
 import Message from './message'
 import Config from './config/type'
 import Wording from './config/wording'
-import LStorage from './localstorage'
+import DB from './database'
 import Parser from './parser'
+import $File from './object/file'
 
 export default () => {
 
@@ -45,16 +46,11 @@ export default () => {
                             default:
                                 break
                         }
-                        LStorage.Set({
-                            key: `File${ActicleID}`,
-                            value: {
-                                'name': UploadedFile.name,
-                                'lastModified': UploadedFile.lastModified,
-                                'type': UploadedFile.type,
-                                'size': UploadedFile.size
-                            }
+                        UploadedFile.Key = ActicleID
+                        DB.Add({
+                            Object: 'File',
+                            Item: new $File(UploadedFile)
                         })
-                        LStorage.Stats()
                         Message({ ok: `<em>File selected: ${UploadedFile.name}</em><br />${Wording.Ok.File.Loaded}` })
                         reader = false
                         xmlDoc = false

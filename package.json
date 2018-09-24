@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Report Reader for Onyx",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "idb": "^2.1.3"
+  },
   "scripts": {
     "dev": "NODE_ENV=development webpack",
     "start": "NODE_ENV=development webpack-dashboard webpack-dev-server -d --hot --config webpack.config.js --watch",

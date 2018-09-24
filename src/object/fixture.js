@@ -1,20 +1,14 @@
 const Option = require('./../config/option')
 
 let SubFixtureObject = PartXML => {
-    this.ID = PartXML.getAttribute('nr')
+    this.ID = Number(PartXML.getAttribute('nr'))
     this.Ref = PartXML.getAttribute('ID')
     this.Name = ((PartXML.getAttribute('name') != null) ? PartXML.getAttribute('name') : '')
     return this
 }
 
 let FixtureObject = FixtureXML => {
-    this.ID = FixtureXML.getAttribute('nr')
-    this.Ref = FixtureXML.getAttribute('ID')
-    this.Name = ((FixtureXML.getAttribute('name') != null) ? FixtureXML.getAttribute('name') : '')
-    this.Manufacturer = FixtureXML.getAttribute('manufacturer')
-    this.Model = FixtureXML.getAttribute('model')
-    this.Mode = FixtureXML.getAttribute('displayName').replace(FixtureXML.getAttribute('model'), '')
-    this.Invert = ''
+    let FixtureID = Number(FixtureXML.getAttribute('nr'))
     this.Multipart = false
 
     let Parts = FixtureXML.getElementsByTagName('Part')
@@ -25,6 +19,14 @@ let FixtureObject = FixtureXML => {
             this.Multipart[i] = JSON.parse(JSON.stringify(new SubFixtureObject(Parts[i])))
         }
     }
+
+    this.ID = FixtureID
+    this.Ref = FixtureXML.getAttribute('ID')
+    this.Name = ((FixtureXML.getAttribute('name') != null) ? FixtureXML.getAttribute('name') : '')
+    this.Manufacturer = FixtureXML.getAttribute('manufacturer')
+    this.Model = FixtureXML.getAttribute('model')
+    this.Mode = FixtureXML.getAttribute('displayName').replace(FixtureXML.getAttribute('model'), '')
+    this.Invert = ''
 
     let DMXInfos = FixtureXML.getElementsByTagName('DMXChannel')[0]
     if (typeof DMXInfos !== 'undefined') {
@@ -49,8 +51,8 @@ let FixtureObject = FixtureXML => {
                 this.Invert += '<abbr title="Pan/Tilt swapped">S</abbr>'
             }
         }
-        this.Universe = DMXInfos.getAttribute('universe')
-        this.Address = DMXInfos.getAttribute('startAddress')
+        this.Universe = Number(DMXInfos.getAttribute('universe'))
+        this.Address = Number(DMXInfos.getAttribute('startAddress'))
     } else {
         this.Universe = ''
         this.Address = ''

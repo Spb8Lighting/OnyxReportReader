@@ -1,10 +1,13 @@
 import Input from './input'
-import LStorage from './localstorage'
+import DB from './database'
 import PatchRender from './render/patch'
 
 // Change the form label by their associated picture
 Input()
 
-if(LStorage.Get({ key: 'FilePatch' })) {
-    PatchRender()
-}
+DB.Get({ Object: 'File', ItemID: 'Patch' })
+    .then(item => {
+        if (typeof item != 'undefined') {
+            PatchRender()
+        }
+    })

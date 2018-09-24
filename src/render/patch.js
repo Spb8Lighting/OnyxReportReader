@@ -1,4 +1,4 @@
-const LStorage = require('./../localstorage')
+const DB = require('./../database')
     , PatchRender = require('./../display')
 
 let Render = () => {
@@ -15,41 +15,57 @@ let Render = () => {
             + '</tr>',
         tbody: []
     }
-    const Fixtures = LStorage.Get({ key: 'Fixtures' })
-    const Show = LStorage.Get({ key: 'Show' })
+    DB.GetAll({ Object: 'Fixture' }).then(Fixtures => {
+        DB.Get({ Object: 'Show', ItemID: 'Show' }).then(Show => {
+            for (let i = 0; i < Object.keys(Fixtures).length; ++i) {
+                let Fixture = Fixtures[i]
+                    , Multipart = 0
+                if (Fixture.Multipart) {
+                    Multipart = Object.keys(Fixture.Multipart).length
+                }
+                Content.tbody.push('<tr' + ((Multipart > 0) ? ' class="masterpart" data-id="' + Fixture.ID + '"' : '') + '>' + "\n"
+                    + "\t" + '<td class="number">' + Fixture.ID + '</td>' + "\n"
+                    + "\t" + '<td>' + Fixture.Name + '</td>' + "\n"
+                    + "\t" + '<td' + ((Multipart > 0) ? ' rowspan="' + (Multipart + 1) + '"' : '') + '><a target="_blank" href="https://onyxfixturefinder.com/#SearchMode=live&amp;DisplayMode=1&amp;Manufacturer=' + encodeURIComponent(Fixture.Manufacturer) + '" />' + Fixture.Manufacturer + '</a></td>' + "\n"
+                    + "\t" + '<td' + ((Multipart > 0) ? ' rowspan="' + (Multipart + 1) + '"' : '') + '><a target="_blank" href="https://onyxfixturefinder.com/fixture/' + encodeURIComponent(Fixture.Manufacturer) + '/' + encodeURIComponent(Fixture.Model) + '" />' + Fixture.Model + '</a></td>' + "\n"
+                    + "\t" + '<td' + ((Multipart > 0) ? ' rowspan="' + (Multipart + 1) + '"' : '') + '>' + Fixture.Mode + '</td>' + "\n"
+                    + "\t" + '<td' + ((Multipart > 0) ? ' rowspan="' + (Multipart + 1) + '"' : '') + ' class="number">' + Fixture.Universe + '</td>' + "\n"
+                    + "\t" + '<td' + ((Multipart > 0) ? ' rowspan="' + (Multipart + 1) + '"' : '') + ' class="number">' + Fixture.Address + '</td>' + "\n"
+                    + "\t" + '<td>' + Fixture.Invert + '</td>' + "\n"
+                    + '</tr>')
+                if (Fixture.Multipart) {
+                    for (let i = 0; i < Multipart; ++i) {
+                        let FixturePart = Fixture.Multipart[i]
+                        Content.tbody.push('<tr class="multipart" data-id="' + Fixture.ID + '">' + "\n"
+                            + "\t" + '<td class="number txtright">.' + FixturePart.ID + '</td>' + "\n"
+                            + "\t" + '<td>' + FixturePart.Name + '</td>' + "\n"
+                            + "\t" + '<td>' + Fixture.Invert + '</td>' + "\n"
+                            + '</tr>')
+                    }
+                }
+            }
+            Content.Header = 'Onyx patch summary for "' + Show.Name + '" <em>(software build ' + Show.Build + ')</em>'
+            Content.Description = 'Patch summary: ' + Show.Name + ' <em>(' + Show.FixturesCount + ' fixture' + ((Show.FixturesCount > 1) ? 's' : '') + ')</em>'
+            Content.Table = '<table class="patch">' + "\n"
+                + '<thead>' + "\n"
+                + Content.thead + "\n"
+                + '</thead>' + "\n"
+                + '<tbody>' + "\n"
+                + Content.tbody.join("\n") + "\n"
+                + '</tbody>' + "\n"
+                + '</table>'
 
-    for (let i = 0; i < Object.keys(Fixtures).length; ++i) {
-        let Fixture = Fixtures[i]
-        Content.tbody.push('<tr>' + "\n"
-            + "\t" + '<td class="number">' + Fixture.ID + '</td>' + "\n"
-            + "\t" + '<td>' + Fixture.Name + '</td>' + "\n"
-            + "\t" + '<td><a target="_blank" href="https://onyxfixturefinder.com/#SearchMode=live&amp;DisplayMode=1&amp;Manufacturer=' + encodeURIComponent(Fixture.Manufacturer) + '" />' + Fixture.Manufacturer + '</a></td>' + "\n"
-            + "\t" + '<td><a target="_blank" href="https://onyxfixturefinder.com/fixture/' + encodeURIComponent(Fixture.Manufacturer) + '/' + encodeURIComponent(Fixture.Model) + '" />' + Fixture.Model + '</a></td>' + "\n"
-            + "\t" + '<td>' + Fixture.Mode + '</td>' + "\n"
-            + "\t" + '<td class="number">' + Fixture.Universe + '</td>' + "\n"
-            + "\t" + '<td class="number">' + Fixture.Address + '</td>' + "\n"
-            + "\t" + '<td>' + Fixture.Invert + '</td>' + "\n"
-            + '</tr>')
-    }
-    Content.Header = 'Onyx patch summary for "' + Show.Name + '" <em>(software build ' + Show.Build + ')</em>'
-    Content.Description = 'Patch summary: ' + Show.Name + ' <em>(' + Show.FixturesCount + ' fixture' + ((Show.FixturesCount > 1) ? 's' : '') + ')</em>'
-    Content.Table = '<table class="patch">' + "\n"
-        + '<thead>' + "\n"
-        + Content.thead + "\n"
-        + '</thead>' + "\n"
-        + '<tbody>' + "\n"
-        + Content.tbody.join("\n") + "\n"
-        + '</tbody>' + "\n"
-        + '</table>'
+            let PatchArticle = document.getElementById('Patch')
 
-    let PatchArticle = document.getElementById('Patch')
+            PatchArticle.innerHTML = `<h2>Patch</h2>
+                                        <p>${Content.Description}</p>
+                                        ${Content.Table}`
+            document.querySelector('label[for="PatchXML"]').classList.add('loaded', 'active')
+            document.querySelector('header>span').innerHTML = Content.Header
+            PatchRender('Patch')
+        })
+    })
 
-    PatchArticle.innerHTML = `<h2>Patch</h2>
-                                <p>${Content.Description}</p>
-                                ${Content.Table}`
-    document.querySelector('label[for="PatchXML"]').classList.add('loaded', 'active')
-    document.querySelector('header>span').innerHTML = Content.Header
-    PatchRender('Patch')
 }
 
 module.exports = Render
