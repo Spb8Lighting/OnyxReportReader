@@ -1,7 +1,11 @@
 const webpack = require('webpack')
 const path = require('path')
 const ExtractTextWebpackPlugin = require('extract-text-webpack-plugin')
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
+const OptimizeCSSAssets = require('optimize-css-assets-webpack-plugin')
 const DashboardPlugin = require('webpack-dashboard/plugin')
+const CleanWebpackPlugin = require('clean-webpack-plugin')
+const IsDev = (process.env.NODE_ENV == 'development') ? true : false
 
 let config = {
     mode: process.env.NODE_ENV,
@@ -34,7 +38,7 @@ let config = {
             {
                 test: /\.(woff2?|ttf)$/,
                 loaders: [{
-                    loader: 'url-loader',
+                    loader: IsDev ? 'url-loader' : 'file-loader',
                     options: {
                         name: './fonts/[name].[ext]'
                     }
@@ -54,12 +58,8 @@ let config = {
             }
         ]
     },
-    plugins: [
-        new ExtractTextWebpackPlugin('app.css'),
-        new DashboardPlugin(),
-        new webpack.HotModuleReplacementPlugin()
-    ],
-    devtool: 'eval-source-map',
+    plugins: [],
+    devtool: IsDev ? 'eval-source-map' : '',
     devServer : {
         contentBase: path.resolve(__dirname, './public'),
         historyApiFallback: true,
@@ -68,4 +68,23 @@ let config = {
         hot: true
     }
 }
+
+if (!IsDev) {
+    config.plugins.push(
+        new ExtractTextWebpackPlugin('app.css'),
+        new UglifyJSPlugin(),
+        new OptimizeCSSAssets(),
+        new CleanWebpackPlugin(['./public'], {
+            verbose: true,
+            dry: false
+        })
+    )
+} else {
+    config.plugins.push(
+        new ExtractTextWebpackPlugin('app.css'),
+        new DashboardPlugin(),
+        new webpack.HotModuleReplacementPlugin()
+    )
+}
+
 module.exports = config;

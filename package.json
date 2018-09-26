@@ -9,7 +9,9 @@
   "scripts": {
     "dev": "NODE_ENV=development webpack",
     "start": "NODE_ENV=development webpack-dashboard webpack-dev-server -d --hot --config webpack.config.js --watch",
-    "prod": "NODE_ENV=production webpack --progress"
+    "Build": "NODE_ENV=production webpack --progress  --config ./legacy.config.js",
+    "BuildLegacy": "NODE_ENV=production webpack --progress --config ./newer.config.js",
+    "prod": "npm run BuildLegacy && npm run Build"
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.1.0",
+    "@babel/polyfill": "^7.0.0",
     "@babel/preset-env": "^7.1.0",
     "autoprefixer": "^9.1.5",
     "babel-loader": "^8.0.2",
@@ -39,7 +42,9 @@
     "knacss": "^7.0.7",
     "node-sass": "^4.9.3",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-cli": "^6.0.0",
     "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.0.6",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
     "uglifyjs-webpack-plugin": "^2.0.1",
@@ -48,5 +53,8 @@
     "webpack-cli": "^3.1.0",
     "webpack-dashboard": "^2.0.0",
     "webpack-dev-server": "^3.1.8"
-  }
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
 }
