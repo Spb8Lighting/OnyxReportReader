@@ -1,10 +1,17 @@
-let FileObject = UploadedFile => {
-    this.Key = UploadedFile.Key
-    this.Name = UploadedFile.name
-    this.LastModified = UploadedFile.lastModified
-    this.Type = UploadedFile.type
-    this.Size = UploadedFile.size
-    return this
+'use strict'
+
+class FileObject {
+  /**
+   * Uploaded File Attributs
+   * @param {object} Attributs Uploaded File object
+   */
+  constructor (Attributs) {
+    this.Key = Attributs.Key
+    this.Name = Attributs.name
+    this.LastModified = Attributs.lastModified
+    this.Type = Attributs.type
+    this.Size = Attributs.size
+  }
 }
 
 module.exports = FileObject
