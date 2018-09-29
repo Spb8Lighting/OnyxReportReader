@@ -7,8 +7,8 @@
         }
     },
     "globals": {
-        "FileReader" : true,
-        "DOMParser" : true
+        "FileReader": true,
+        "DOMParser": true
     },
     "extends": "standard"
 }
