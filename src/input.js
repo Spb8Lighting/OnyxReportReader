@@ -6,58 +6,57 @@ import Parser from './parser'
 import $File from './object/file'
 
 export default () => {
+  // ########################
+  //   Form Configuration
+  // ########################
+  let Labels = document.querySelectorAll('label')
 
-    //########################
-    //   Form Configuration
-    //########################
-    let Labels = document.querySelectorAll('label')
+  for (let i = 0; i < Labels.length; ++i) {
+    let Label = Labels[i]
+    let LabelFor = Label.getAttribute('for')
+    let LabelName = Config[LabelFor].Name
+    let LabelPicture = Config[LabelFor].Picture
+    let LabelExt = Config[LabelFor].FileExt
+    let Input = document.getElementById(LabelFor)
+    let InputMatchRegex = Config[LabelFor].Regex
+    let ActicleID = LabelFor.slice(0, -3)
 
-    for (let i = 0; i < Labels.length; ++i) {
-        let Label = Labels[i]
-            , LabelFor = Label.getAttribute('for')
-            , LabelName = Config[LabelFor].Name
-            , LabelPicture = Config[LabelFor].Picture
-            , LabelExt = Config[LabelFor].FileExt
-            , Input = document.getElementById(LabelFor)
-            , InputMatchRegex = Config[LabelFor].Regex
-            , ActicleID = LabelFor.slice(0, -3)
+    // Label display
+    Label.innerHTML = `<span class="w100p txtcenter">${LabelName}</span>${LabelPicture}`
+    Label.setAttribute('accept', `${LabelExt}, text/xml`)
 
-        // Label display
-        Label.innerHTML = `<span class="w100p txtcenter">${LabelName}</span>${LabelPicture}`
-        Label.setAttribute('accept', `${LabelExt}, text/xml`)
-
-        // Input listeners for XML upload
-        Input.addEventListener('change', () => {
-            let UploadedFile = Input.files[0]
-            if (typeof UploadedFile.name != 'undefined') {
-                if (UploadedFile.name.search(InputMatchRegex) == -1) {
-                    Message({ error: `<em>File selected: ${UploadedFile.name}</em><br />${Wording.Error.File.Extension} <strong>${LabelExt}</strong>` })
-                } else {
-                    let reader = new FileReader()
-                    , parser = new DOMParser()
-                    , xmlDoc
-                    reader.addEventListener('load', e => {
-                        xmlDoc = parser.parseFromString(e.target.result, 'text/xml')
-                        switch(ActicleID) {
-                            case 'Patch':
-                                Parser.Patch(xmlDoc)
-                                require('./render/patch')()
-                                break
-                            default:
-                                break
-                        }
-                        UploadedFile.Key = ActicleID
-                        DB.Add({
-                            Object: 'File',
-                            Item: new $File(UploadedFile)
-                        })
-                        Message({ ok: `<em>File selected: ${UploadedFile.name}</em><br />${Wording.Ok.File.Loaded}` })
-                        reader = false
-                        xmlDoc = false
-                    })
-                    reader.readAsText(UploadedFile)
-                }
+    // Input listeners for XML upload
+    Input.addEventListener('change', () => {
+      let UploadedFile = Input.files[0]
+      if (typeof UploadedFile.name !== 'undefined') {
+        if (UploadedFile.name.search(InputMatchRegex) === -1) {
+          Message({ error: `<em>File selected: ${UploadedFile.name}</em><br />${Wording.Error.File.Extension} <strong>${LabelExt}</strong>` })
+        } else {
+          let reader = new FileReader()
+          let parser = new DOMParser()
+          let xmlDoc
+          reader.addEventListener('load', e => {
+            xmlDoc = parser.parseFromString(e.target.result, 'text/xml')
+            switch (ActicleID) {
+              case 'Patch':
+                Parser.Patch(xmlDoc)
+                require('./render/patch')()
+                break
+              default:
+                break
             }
-        })
-    }
+            UploadedFile.Key = ActicleID
+            DB.Add({
+              Object: 'File',
+              Item: new $File(UploadedFile)
+            })
+            Message({ ok: `<em>File selected: ${UploadedFile.name}</em><br />${Wording.Ok.File.Loaded}` })
+            reader = false
+            xmlDoc = false
+          })
+          reader.readAsText(UploadedFile)
+        }
+      }
+    })
+  }
 }

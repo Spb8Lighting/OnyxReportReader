@@ -6,8 +6,8 @@ import PatchRender from './render/patch'
 Input()
 
 DB.Get({ Object: 'File', ItemID: 'Patch' })
-    .then(item => {
-        if (typeof item != 'undefined') {
-            PatchRender()
-        }
-    })
+  .then(item => {
+    if (typeof item !== 'undefined') {
+      PatchRender()
+    }
+  })
