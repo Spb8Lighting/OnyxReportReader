@@ -1,5 +1,5 @@
 module.exports = {
-    Patch : {
-        DisplayInvertAxesIcon : false
-    }
+  Patch: {
+    DisplayInvertAxesIcon: false
+  }
 }

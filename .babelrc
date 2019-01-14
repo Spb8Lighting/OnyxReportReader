@@ -1,17 +1,17 @@
 {
-    "presets": [
-        [
-            "@babel/preset-env",
-            {
-                "useBuiltIns": "entry",
-                "targets": {
-                    "browsers": [
-                        "last 2 versions",
-                        "safari >=7",
-                        "ie >=9"
-                    ]
-                }
-            }
-        ]
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "entry",
+        "targets": {
+          "browsers": [
+            "last 2 versions",
+            "safari >=7",
+            "ie >=9"
+          ]
+        }
+      }
     ]
+  ]
 }
