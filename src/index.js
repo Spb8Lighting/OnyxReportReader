@@ -11,3 +11,8 @@ DB.Get({ Object: 'File', ItemID: 'Patch' })
       PatchRender()
     }
   })
+
+document.querySelector('a[href="#Reset"]').addEventListener('click', e => {
+  e.preventDefault()
+  DB.DeleteDB('ReportReader')
+})
