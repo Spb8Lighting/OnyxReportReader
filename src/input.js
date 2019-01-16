@@ -42,6 +42,10 @@ export default () => {
                 Parser.Patch(xmlDoc)
                 require('./render/patch')()
                 break
+              case 'FixtureGroup':
+                Parser.FixtureGroup(xmlDoc)
+                require('./render/group')()
+                break
               default:
                 break
             }
