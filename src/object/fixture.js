@@ -25,7 +25,7 @@ class FixtureObject {
     this.Manufacturer = FixtureXML.getAttribute('manufacturer')
     this.Model = FixtureXML.getAttribute('model')
     this.Mode = FixtureXML.getAttribute('displayName').replace(this.Model, '')
-    this.Invert = false
+    this.Invert = ''
     this.Universe = false
     this.Address = false
     this.CheckMultipart(FixtureXML)
@@ -45,26 +45,14 @@ class FixtureObject {
   CheckDMXInfos (FixtureXML) {
     let DMXInfos = FixtureXML.getElementsByTagName('DMXChannel')[0]
     if (typeof DMXInfos !== 'undefined') {
-      if (Option.Patch.DisplayInvertAxesIcon) {
-        if (DMXInfos.getAttribute('panTiltSwapped') === 1) {
-          this.Invert += '<span data-option="swap"><span>Swap</span></span>'
-        }
-        if (DMXInfos.getAttribute('panInverted') === -1) {
-          this.Invert += '<span data-option="pan"><span>Pan</span></span>'
-        }
-        if (DMXInfos.getAttribute('tiltInverted') === -1) {
-          this.Invert += '<span data-option="tilt"><span>Tilt</span></span>'
-        }
-      } else {
-        if (DMXInfos.getAttribute('panInverted') === -1) {
-          this.Invert += '<abbr title="Pan inverted">P</abbr>'
-        }
-        if (DMXInfos.getAttribute('tiltInverted') === -1) {
-          this.Invert += '<abbr title="Tilt inverted">T</abbr>'
-        }
-        if (DMXInfos.getAttribute('panTiltSwapped') === 1) {
-          this.Invert += '<abbr title="Pan/Tilt swapped">S</abbr>'
-        }
+      if (DMXInfos.getAttribute('panTiltSwapped') > 0) {
+        this.Invert += (Option.Patch.DisplayInvertAxesIcon) ? '<span data-option="swap"><span>Swap</span></span>' : '<abbr title="Pan/Tilt swapped">S</abbr>'
+      }
+      if (DMXInfos.getAttribute('panInverted') < 0) {
+        this.Invert += (Option.Patch.DisplayInvertAxesIcon) ? '<span data-option="pan"><span>Pan</span></span>' : '<abbr title="Pan inverted">P</abbr>'
+      }
+      if (DMXInfos.getAttribute('tiltInverted') < 0) {
+        this.Invert += (Option.Patch.DisplayInvertAxesIcon) ? '<span data-option="tilt"><span>Tilt</span></span>' : '<abbr title="Tilt inverted">T</abbr>'
       }
       this.Universe = Number(DMXInfos.getAttribute('universe'))
       this.Address = Number(DMXInfos.getAttribute('startAddress'))
