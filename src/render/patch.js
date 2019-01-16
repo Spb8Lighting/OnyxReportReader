@@ -1,6 +1,6 @@
 'use strict'
 const DB = require('./../database')
-const PatchRender = require('./../display')
+const Display = require('./../display')
 
 const NotFalse = val => {
   return val === false ? '' : val
@@ -67,7 +67,7 @@ let Render = () => {
                                 ${Content.Table}`
       document.querySelector('label[for="PatchXML"]').classList.add('loaded', 'active')
       document.querySelector('header>span').innerHTML = Content.Header
-      PatchRender('Patch')
+      Display('Patch')
     })
   })
 }
