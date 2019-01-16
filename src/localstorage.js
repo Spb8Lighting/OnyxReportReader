@@ -1,4 +1,5 @@
 // let StorageMethod = localStorage
+// eslint-disable-next-line no-undef
 let StorageMethod = sessionStorage
 
 module.exports = {
