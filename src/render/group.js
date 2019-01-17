@@ -25,7 +25,6 @@ let Render = () => {
           '\t' + '<td>' + ((Group.Mask) ? 'True' : '') + '</a></td>' + '\n' +
           '</tr>')
       }
-      Content.Header = 'Onyx fixture groups for "' + Show.Name + '" <em>(software build ' + Show.Build + ')</em>'
       Content.Description = 'Fixture groups summary: ' + Show.Name
       Content.Table = '<table class="fixturegroup">' + '\n' +
         '<thead>' + '\n' +
@@ -38,10 +37,7 @@ let Render = () => {
 
       let FixtureGroupArticle = document.getElementById('FixtureGroup')
 
-      FixtureGroupArticle.innerHTML = `<h2>Fixture Groups</h2>
-                                <p>${Content.Description}</p>
-                                ${Content.Table}`
-      document.querySelector('header>span').innerHTML = Content.Header
+      FixtureGroupArticle.innerHTML = `<h2>Fixture Groups</h2><p>${Content.Description}</p>${Content.Table}`
       Display.SetLoaded('FixtureGroup')
     })
   })

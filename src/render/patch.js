@@ -49,7 +49,7 @@ let Render = () => {
           }
         }
       }
-      Content.Header = 'Onyx patch summary for "' + Show.Name + '" <em>(software build ' + Show.Build + ')</em>'
+      Content.Header = `Onyx Reports for "${Show.Name}" <em>(software build ${Show.Build})</em>`
       Content.Description = 'Patch summary: ' + Show.Name + ' <em>(' + Show.FixturesCount + ' fixture' + ((Show.FixturesCount > 1) ? 's' : '') + ')</em>'
       Content.Table = '<table class="patch">' + '\n' +
         '<thead>' + '\n' +
@@ -62,9 +62,7 @@ let Render = () => {
 
       let PatchArticle = document.getElementById('Patch')
 
-      PatchArticle.innerHTML = `<h2>Patch</h2>
-                                <p>${Content.Description}</p>
-                                ${Content.Table}`
+      PatchArticle.innerHTML = `<h2>Patch</h2><p>${Content.Description}</p>${Content.Table}`
       document.querySelector('header>span').innerHTML = Content.Header
       Display.SetLoaded('Patch')
     })
