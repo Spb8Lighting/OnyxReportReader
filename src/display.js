@@ -22,7 +22,7 @@ let Display = ActicleID => {
   }
 }
 let Loaded = ArticleID => {
-  let Label = document.querySelector('label[for="' + ArticleID + 'XML"]')
+  let Label = document.querySelector(`label[for="${ArticleID}XML"]`)
   // Set Loaded class on the Label
   Label.classList.add('loaded')
   // Convert the Label to a navigation link
@@ -31,7 +31,7 @@ let Loaded = ArticleID => {
     Display(ArticleID)
   })
   // Remove the input once document loaded
-  let Input = document.getElementById(ArticleID + 'XML')
+  let Input = document.getElementById(`${ArticleID}XML`)
   Input.parentNode.removeChild(Input)
 
   // Force to display the new content
