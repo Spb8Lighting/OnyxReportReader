@@ -47,7 +47,8 @@ aside {
             }
             &:hover,
             &:focus,
-            &.active {
+            &.active,
+            &.dragover {
                 >svg {
                     transform: scale(0.95);
                 }

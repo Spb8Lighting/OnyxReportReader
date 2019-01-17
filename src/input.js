@@ -21,13 +21,18 @@ export default () => {
     let ActicleID = LabelFor.slice(0, -3)
 
     // Label display
-    Label.innerHTML = `<span class="w100p txtcenter">${LabelName}</span>${LabelPicture}<input type="file" name="${LabelFor}" id="${LabelFor}" accept="${LabelExt}, text/xml" />`
+    Label.innerHTML = `<span class="w100p txtcenter">${LabelName}</span>${LabelPicture}<input type="file" name="${LabelFor}" id="${LabelFor}" accept="${LabelExt}" />`
 
     let Input = document.getElementById(LabelFor)
 
+    Input.addEventListener('dragover', e => {
+      Input.parentNode.classList.add('dragover')
+    })
+    Input.addEventListener('dragleave', e => {
+      Input.parentNode.classList.remove('dragover')
+    })
     Input.addEventListener('drop', e => {
-      // eslint-disable-next-line no-undef
-      Input.dispatchEvent(new Event('change'))
+      Input.parentNode.classList.remove('dragover')
     })
 
     // Input listeners for XML upload
