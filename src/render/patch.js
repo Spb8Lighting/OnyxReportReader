@@ -65,9 +65,8 @@ let Render = () => {
       PatchArticle.innerHTML = `<h2>Patch</h2>
                                 <p>${Content.Description}</p>
                                 ${Content.Table}`
-      document.querySelector('label[for="PatchXML"]').classList.add('loaded', 'active')
       document.querySelector('header>span').innerHTML = Content.Header
-      Display('Patch')
+      Display.SetLoaded('Patch')
     })
   })
 }

@@ -1,6 +1,6 @@
 'use strict'
 const DB = require('./../database')
-const PatchRender = require('./../display')
+const Display = require('./../display')
 
 const NotFalse = val => {
   return val === false ? '' : val
@@ -41,9 +41,8 @@ let Render = () => {
       FixtureGroupArticle.innerHTML = `<h2>Fixture Groups</h2>
                                 <p>${Content.Description}</p>
                                 ${Content.Table}`
-      document.querySelector('label[for="FixtureGroupXML"]').classList.add('loaded', 'active')
       document.querySelector('header>span').innerHTML = Content.Header
-      PatchRender('FixtureGroup')
+      Display.SetLoaded('FixtureGroup')
     })
   })
 }
