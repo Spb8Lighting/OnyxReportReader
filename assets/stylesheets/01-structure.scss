@@ -34,16 +34,17 @@ aside {
         >button {
             display: none;
         }
-        >input {
-            width: 0.1px;
-            height: 0.1px;
-            opacity: 0;
-            overflow: hidden;
-            position: absolute;
-            z-index: -1;
-        }
         >label,
         >.label {
+            >input {
+                width: 100px;
+                height: 100px;
+                opacity: 0;
+                left: 0;
+                overflow: hidden;
+                position: absolute;
+                z-index: 1;
+            }
             &:hover,
             &:focus,
             &.active {

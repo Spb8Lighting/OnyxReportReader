@@ -17,13 +17,18 @@ export default () => {
     let LabelName = Config[LabelFor].Name
     let LabelPicture = Config[LabelFor].Picture
     let LabelExt = Config[LabelFor].FileExt
-    let Input = document.getElementById(LabelFor)
     let InputMatchRegex = Config[LabelFor].Regex
     let ActicleID = LabelFor.slice(0, -3)
 
     // Label display
-    Label.innerHTML = `<span class="w100p txtcenter">${LabelName}</span>${LabelPicture}`
-    Label.setAttribute('accept', `${LabelExt}, text/xml`)
+    Label.innerHTML = `<span class="w100p txtcenter">${LabelName}</span>${LabelPicture}<input type="file" name="${LabelFor}" id="${LabelFor}" accept="${LabelExt}, text/xml" />`
+
+    let Input = document.getElementById(LabelFor)
+
+    Input.addEventListener('drop', e => {
+      // eslint-disable-next-line no-undef
+      Input.dispatchEvent(new Event('change'))
+    })
 
     // Input listeners for XML upload
     Input.addEventListener('change', () => {
