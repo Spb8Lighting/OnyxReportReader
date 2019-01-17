@@ -1,14 +1,16 @@
 const idb = require('idb')
 
-const DbPromise = idb.openDb('ReportReader', 1, upgradeDb => {
+const DbPromise = idb.openDb('ReportReader', 2, upgradeDb => {
   switch (upgradeDb.oldVersion) {
     case 0:
       upgradeDb.createObjectStore('Show', { keyPath: 'Key' })
       const Fixture = upgradeDb.createObjectStore('Fixture', { keyPath: 'ID' })
       Fixture.createIndex('ID', 'ID', { unique: true })
       Fixture.createIndex('Ref', 'Ref', { unique: true })
-      upgradeDb.createObjectStore('FixtureGroup', { keyPath: 'Key', autoIncrement: true })
       upgradeDb.createObjectStore('File', { keyPath: 'Key' })
+    // eslint-disable-next-line no-fallthrough
+    case 1:
+      upgradeDb.createObjectStore('FixtureGroup', { keyPath: 'Key', autoIncrement: true })
   }
 })
 
