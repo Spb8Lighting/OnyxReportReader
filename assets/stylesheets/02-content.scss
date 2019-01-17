@@ -25,6 +25,11 @@ article {
         opacity: 1;
     }
     table {
+        thead th {
+            position: sticky;
+            top: 0;
+            background-color: $header-color;
+        }
         thead td {
             font-weight: bold
         }
