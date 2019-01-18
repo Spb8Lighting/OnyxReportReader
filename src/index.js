@@ -1,3 +1,4 @@
+import '@babel/polyfill'
 import Input from './input'
 import DB from './database'
 import PatchRender from './render/patch'
