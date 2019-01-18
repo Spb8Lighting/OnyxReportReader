@@ -4,14 +4,25 @@
 	<xsl:template match="/">
 		<xsl:element name="html">
 			<xsl:element name="head">
-				<xsl:element name="link"><xsl:attribute name="rel">stylesheet</xsl:attribute><xsl:attribute name="type">text/css</xsl:attribute><xsl:attribute name="href">FixtureGroupStyles.css</xsl:attribute></xsl:element>
+				<xsl:element name="link"><xsl:attribute name="rel">stylesheet</xsl:attribute><xsl:attribute name="type">text/css</xsl:attribute><xsl:attribute name="href">FixtureGroupReport.Onyx.css</xsl:attribute></xsl:element>
 				<xsl:element name="title">"<xsl:value-of select="FixtureGroups/@showName"/>" - Onyx Fixture Group Summary</xsl:element>
 			</xsl:element>
 			<xsl:element name="body">
 				<xsl:element name="h1">"<xsl:value-of select="FixtureGroups/@showName"/>" - Onyx Fixture Group Summary</xsl:element>
 				<xsl:element name="p">
 					<xsl:attribute name="class">body</xsl:attribute>
-					This is a summary of the Onyx fixtures and fixture groups for show "<xsl:value-of select="FixtureGroups/@showName"/>" <xsl:element name="b">(requires software build <xsl:value-of select="FixtureGroups/@showBuild"/>)</xsl:element>.
+					This is a summary of the Onyx fixtures and fixture groups for show "<xsl:value-of select="FixtureGroups/@showName"/>"
+				  <xsl:element name="b">
+				    (requires software build
+				    <xsl:if test="FixtureGroups/@showBuild &gt; 65535">
+							<xsl:value-of select="(FixtureGroups/@showBuild - (FixtureGroups/@showBuild mod 16777216)) div 16777216"/>
+							<xsl:text>.</xsl:text>
+							<xsl:value-of select="((FixtureGroups/@showBuild - (FixtureGroups/@showBuild mod 65536)) div 65536) mod 256"/>
+							<xsl:text>.</xsl:text>
+						</xsl:if>
+						<xsl:value-of select="FixtureGroups/@showBuild mod 65536"/><xsl:text>)</xsl:text>
+					</xsl:element>
+					<xsl:text>.</xsl:text>
 				</xsl:element>
 				<xsl:apply-templates select="FixtureGroups/Fixtures"/>
 				<xsl:apply-templates select="FixtureGroups"/>

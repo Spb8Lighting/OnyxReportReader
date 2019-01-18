@@ -1,6 +1,13 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type='text/xsl' href='PresetUsageReport.xslt'?>
-<Presets showName="Onyx Training" showBuild="67109874" cnt="126" cntInUse="20" cntUnused="100" cntEmpty="6">
+<?xml-stylesheet type='text/xsl' href='PresetReport.Onyx.xslt'?>
+<Presets showName="Onyx Training" showBuild="67175434" cnt="133" cntInUse="20" cntUnused="100" cntEmpty="13">
+<Preset ID="Beam Effects 91" name="BEAMFX">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
 <Preset ID="Beam 1" name="SHARP">
 <PresetUsage></PresetUsage>
 <UsedValuesFor></UsedValuesFor>
@@ -239,6 +246,13 @@
 <PresetUsesPreset></PresetUsesPreset>
 <PresetUsedByPreset></PresetUsedByPreset>
 </Preset>
+<Preset ID="Beam 91" name="BEAM">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
 <Preset ID="Color 1" name="WHITE MIX">
 <PresetUsage><Usage>Color</Usage></PresetUsage>
 <UsedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>106</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UsedValuesFor>
@@ -355,6 +369,20 @@
 <PresetUsage><Usage>Color</Usage></PresetUsage>
 <UsedValuesFor></UsedValuesFor>
 <UnusedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 91" name="COLOR">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 91" name="FRAMING">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
 <PresetUsesPreset></PresetUsesPreset>
 <PresetUsedByPreset></PresetUsedByPreset>
 </Preset>
@@ -582,6 +610,13 @@
 <PresetUsesPreset></PresetUsesPreset>
 <PresetUsedByPreset></PresetUsedByPreset>
 </Preset>
+<Preset ID="Gobo 91" name="GOBO">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
 <Preset ID="Intensity 1" name="Intensity">
 <PresetUsage></PresetUsage>
 <UsedValuesFor></UsedValuesFor>
@@ -743,6 +778,13 @@
 <PresetUsesPreset></PresetUsesPreset>
 <PresetUsedByPreset></PresetUsedByPreset>
 </Preset>
+<Preset ID="Intensity 91" name="INTENSITY">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
 <Preset ID="Pan Tilt 1" name="HOME">
 <PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
 <UsedValuesFor><Fixture>106</Fixture></UsedValuesFor>
@@ -866,6 +908,13 @@
 <PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
 <UsedValuesFor><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>104</Fixture><Fixture>105</Fixture><Fixture>107</Fixture><Fixture>108</Fixture><Fixture>109</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>401</Fixture><Fixture>402</Fixture><Fixture>403</Fixture><Fixture>404</Fixture><Fixture>405</Fixture><Fixture>406</Fixture><Fixture>407</Fixture><Fixture>408</Fixture><Fixture>409</Fixture><Fixture>410</Fixture><Fixture>411</Fixture><Fixture>412</Fixture></UsedValuesFor>
 <UnusedValuesFor><Fixture>201</Fixture><Fixture>202</Fixture><Fixture>203</Fixture><Fixture>204</Fixture><Fixture>205</Fixture><Fixture>206</Fixture><Fixture>207</Fixture><Fixture>208</Fixture><Fixture>209</Fixture><Fixture>210</Fixture><Fixture>211</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 91" name="PANTILT">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
 <PresetUsesPreset></PresetUsesPreset>
 <PresetUsedByPreset></PresetUsedByPreset>
 </Preset>

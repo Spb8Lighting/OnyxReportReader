@@ -1,0 +1,101 @@
+A
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10px;
+    COLOR: #324f91;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: none
+}
+.bread
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10px;
+    COLOR: #3c3b3b;
+    LINE-HEIGHT: 14px;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: none
+}
+.spechead
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    PADDING-BOTTOM: 2px;
+    TEXT-TRANSFORM: uppercase;
+    COLOR: #3c3b3b;
+    PADDING-TOP: 2px;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: none
+}
+.subheadline
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 14px;
+    COLOR: #b2b2b2;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: none
+}
+.headline
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14px;
+    TEXT-TRANSFORM: uppercase;
+    COLOR: #b2b2b2;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: none
+}
+.small
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9px;
+    PADDING-BOTTOM: 2px;
+    COLOR: #3c3b3b;
+    PADDING-TOP: 2px;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: none
+}
+.menu
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    COLOR: #324F91;
+    LINE-HEIGHT: 20px;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: none
+}
+.body        { font-family: Verdana; font-size: 10px; color: #333333 }
+.bodyOdd     { font-family: Verdana; font-size: 10px; color: #333333 }
+.bodyEven    { font-family: Verdana; font-size: 10px; color: #333333; background-color: #e0edff }
+.bodyOddExc  { font-family: Verdana; font-size: 10px; color: #FF0000 }
+.bodyEvenExc { font-family: Verdana; font-size: 10px; color: #FF0000; background-color: #e0edff }
+.header      { font-family: Verdana; font-size: 12px; color: #333333; border-bottom: 1 solid black }
+.table       { width: 650px; font-family: verdana; font-size: 67%; text-align: left; vertical-align: top }
+
+.menu A:active
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10px;
+    TEXT-TRANSFORM: uppercase;
+    COLOR: #000000;
+   LINE-HEIGHT: 20px;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: none
+}
+.selected A
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10px;
+    COLOR: #000000;
+   LINE-HEIGHT: 20px;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: none
+}
+.selected A:active
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10px;
+    COLOR: #000000;
+   LINE-HEIGHT: 20px;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: none
+}

@@ -1,0 +1,1248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="FixtureGroupReport.Onyx.xslt"?>
+<FixtureGroups showName="Onyx Training" showBuild="67175434">
+   <FixtureGroup nr="1" name="Ariste Davinci">
+      <Fixture IDREF="{A8F831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{A9F831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{AAF831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{ABF831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{ACF831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{AEF831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{AFF831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{B0F831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{B1F831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{B2F831E5-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="1" name="Every 2">
+      <Mask type="Every" inverted="0" spread="ACTIVE" index="0">2</Mask>
+      <Fixture IDREF="{A8F831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{A9F831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{AAF831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{ABF831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{ACF831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{AEF831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{AFF831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{B0F831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{B1F831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{B2F831E5-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="1" name="Artiste DaVinci Standard">
+      <Fixture IDREF="{A8F831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{A9F831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{AAF831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{ABF831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{ACF831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{AEF831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{AFF831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{B0F831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{B1F831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{B2F831E5-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="2" name="Fuze Wash Z350">
+      <Fixture IDREF="{4CC0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{4DC0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{4EC0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{4FC0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{50C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{51C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{52C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{53C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{54C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{55C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{56C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="2" name="Block of 2">
+      <Mask type="Block" inverted="0" spread="ACTIVE" index="0">2</Mask>
+      <Fixture IDREF="{4CC0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{4DC0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{4EC0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{4FC0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{50C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{51C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{52C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{53C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{54C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{55C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{56C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="2" name="FUZE WASH Z350 15 Ch">
+      <Fixture IDREF="{4CC0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{4DC0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{4EC0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{4FC0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{50C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{51C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{52C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{53C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{54C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{55C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{56C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="3" name="Color Chorus 72">
+      <Fixture IDREF="{9E271F42-D925-4845-9A8B-81E1147E89EF}" active="-1" />
+      <Fixture IDREF="{09BE8BFF-8E36-462D-9088-2E16BC180F7F}" active="-1" />
+      <Fixture IDREF="{8A97BF40-5509-41A3-8C4B-6B46E7FFD620}" active="-1" />
+      <Fixture IDREF="{3C0E1839-A810-401B-81CF-602EC1C11129}" active="-1" />
+      <Fixture IDREF="{051B2773-C723-4A8E-AA78-52F8BCB71496}" active="-1" />
+      <Fixture IDREF="{AF20EB9A-88DE-4F9B-92D9-1F56D8C965E2}" active="-1" />
+      <Fixture IDREF="{1D754A5F-8CD1-44C8-9A1B-883348CD9110}" active="-1" />
+      <Fixture IDREF="{A31E6707-DEC1-4B44-A9D8-82E62097690D}" active="-1" />
+      <Fixture IDREF="{377124EA-C5D6-4A15-B9C6-5EEDC7E46DE6}" active="-1" />
+      <Fixture IDREF="{BD737170-0B70-414B-8B14-B0069FAEDE5C}" active="-1" />
+      <Fixture IDREF="{17C0AB0B-3BE9-4797-8942-6160AD993FEE}" active="-1" />
+      <Fixture IDREF="{C7EC4C9A-BF96-4EC4-8A7A-C8907E5BC7A0}" active="-1" />
+      <Fixture IDREF="{2D7EC1E1-19BB-40F5-AA22-E9EB94F0F7A3}" active="-1" />
+      <Fixture IDREF="{A43FBCDE-2936-4614-B3E5-C2862FC9EECD}" active="-1" />
+      <Fixture IDREF="{1BA41129-89D8-44E5-AAA1-B55F5AC6D326}" active="-1" />
+      <Fixture IDREF="{95B6DE0E-350A-4E32-A50E-378DC52631B1}" active="-1" />
+      <Fixture IDREF="{13CA65E5-E8B7-45BA-9254-9D74F1631423}" active="-1" />
+      <Fixture IDREF="{F89ADC91-0003-408A-BE73-22CF7B869861}" active="-1" />
+      <Fixture IDREF="{65CB1EF0-4992-4FC5-8D91-F092B1AC9B5B}" active="-1" />
+      <Fixture IDREF="{4CC0B516-E134-450A-BEB4-905BF5C78968}" active="-1" />
+      <Fixture IDREF="{75D48E70-FED7-4227-B24D-6DFC0A32A0CA}" active="-1" />
+      <Fixture IDREF="{3F2351BD-E96F-462C-8B4C-D4D95B471BBC}" active="-1" />
+      <Fixture IDREF="{218217D1-0A36-4DE6-9A18-9D561D3665C6}" active="-1" />
+      <Fixture IDREF="{DCC030D9-96E5-49CC-AB55-1CF13F914619}" active="-1" />
+      <Fixture IDREF="{894E036B-CE5C-49EC-80B5-CF1E0E76CFEB}" active="-1" />
+      <Fixture IDREF="{4E6DDB16-8F43-44DB-B503-BE7B2A5D198A}" active="-1" />
+      <Fixture IDREF="{A6522325-1E1C-4AE1-B212-E281C20C4A08}" active="-1" />
+      <Fixture IDREF="{BC8E4694-88A7-4C67-807B-80D0E5172FF3}" active="-1" />
+      <Fixture IDREF="{0A16640A-714E-408C-A388-31529B46B65C}" active="-1" />
+      <Fixture IDREF="{1B985D13-196B-471C-BC94-88D49E530AAF}" active="-1" />
+      <Fixture IDREF="{AD82192C-8966-4E63-9256-8A41D54D8755}" active="-1" />
+      <Fixture IDREF="{A8590629-0614-4617-86F1-5DC4CDA2430D}" active="-1" />
+      <Fixture IDREF="{C5756E0B-F6E0-417B-AF84-304E81157FD7}" active="-1" />
+      <Fixture IDREF="{6FBFBC37-7ADB-482C-BBF4-E135732FABC2}" active="-1" />
+      <Fixture IDREF="{E1D13DB0-4C99-49BF-B280-8186432AB2A4}" active="-1" />
+      <Fixture IDREF="{BD778654-E788-4AB2-A57D-C92D38C957F5}" active="-1" />
+      <Fixture IDREF="{61F95CF0-04AD-4664-A770-6BE9D27729B1}" active="-1" />
+      <Fixture IDREF="{7745F79F-8686-4ECB-A940-FC0FD5797D48}" active="-1" />
+      <Fixture IDREF="{C7B94844-4257-4942-AE73-A749D7E07627}" active="-1" />
+      <Fixture IDREF="{9D8208D3-2942-4C0B-88D4-37C68F817F20}" active="-1" />
+      <Fixture IDREF="{BC8A567E-CCA7-4304-BBBB-6E81236E1A2E}" active="-1" />
+      <Fixture IDREF="{54F886D5-8724-4DA6-8918-C0BA8F8D7E39}" active="-1" />
+      <Fixture IDREF="{708C190F-0C7B-428B-8C72-312679CC4251}" active="-1" />
+      <Fixture IDREF="{6C73EF7C-8CED-4D65-A59C-96F80547721D}" active="-1" />
+      <Fixture IDREF="{095DCAE0-E22F-4B70-8273-780A2EABC904}" active="-1" />
+      <Fixture IDREF="{53D5692C-9AB3-4932-A2E0-CBF5426BDB50}" active="-1" />
+      <Fixture IDREF="{B4DEE64E-73F4-4011-ACE8-7BD985EB5562}" active="-1" />
+      <Fixture IDREF="{A684FEE2-A647-4FFB-96EC-1F98A67082A1}" active="-1" />
+      <Fixture IDREF="{3897BBAE-7DE6-42B3-A83F-356A920FD1F5}" active="-1" />
+      <Fixture IDREF="{2AC7F15D-9E92-416A-A0E5-4F2165243811}" active="-1" />
+      <Fixture IDREF="{C1BC3A0D-2046-48D3-8D47-63024C6052C0}" active="-1" />
+      <Fixture IDREF="{D717CF06-AD0B-46B3-AC96-1483926E7BEC}" active="-1" />
+      <Fixture IDREF="{F18C28D0-A0FE-4C96-B989-108D3CB5DEDA}" active="-1" />
+      <Fixture IDREF="{225882FC-AF2F-4697-9D21-DB0B83F48470}" active="-1" />
+      <Fixture IDREF="{374BD3C1-1702-483D-8A47-DEF2B84E89D3}" active="-1" />
+      <Fixture IDREF="{B954A11D-D8E5-4E8F-AF67-AB5886E5C6A0}" active="-1" />
+      <Fixture IDREF="{8C301E55-82A8-49B2-A0CC-2A407D32AB6D}" active="-1" />
+      <Fixture IDREF="{7409F988-2382-40EB-A895-948B07540077}" active="-1" />
+      <Fixture IDREF="{4E03C157-C3B5-4BA8-A687-57B97FBDEBAD}" active="-1" />
+      <Fixture IDREF="{DB23F9BD-0BA7-4ED6-AE8C-1CB33FE1C80C}" active="-1" />
+      <Fixture IDREF="{958FADB4-B51C-48CC-929D-220608FAD846}" active="-1" />
+      <Fixture IDREF="{EFCC65CD-86D4-40A0-B43B-45B64F4FF9AE}" active="-1" />
+      <Fixture IDREF="{DC746F49-E556-4D3B-8A80-769ADC606486}" active="-1" />
+      <Fixture IDREF="{C8D78A73-D094-4C37-B8A2-3B3B762E9CE1}" active="-1" />
+      <Fixture IDREF="{E701EC4B-2DD0-4AFA-8A6F-BBD9F7393B52}" active="-1" />
+      <Fixture IDREF="{EE821D54-EE63-4A2D-A97A-2BDF7F77641A}" active="-1" />
+      <Fixture IDREF="{DA4504F9-CA0D-4091-AF9F-0360311EE8F2}" active="-1" />
+      <Fixture IDREF="{CE5DFCDD-A756-4960-B2A9-B21126FBBBAA}" active="-1" />
+      <Fixture IDREF="{D17ED7A0-82B4-4A9D-A247-FD2CDA7D788A}" active="-1" />
+      <Fixture IDREF="{2E9BECB4-BC20-465C-A7DD-6C2B00A7C6CE}" active="-1" />
+      <Fixture IDREF="{C6C9708D-82BB-469E-A3E6-19EB09087011}" active="-1" />
+      <Fixture IDREF="{A9890A91-3B0B-41C2-A7C1-EB52FCCAC50D}" active="-1" />
+      <Fixture IDREF="{D92A5801-0A51-484C-850A-4A9D188B58FE}" active="-1" />
+      <Fixture IDREF="{F547D82C-1FCE-4E96-BECB-422C6AAFC23D}" active="-1" />
+      <Fixture IDREF="{2978439B-6EA7-45DC-ADE3-AF163BDDC8C8}" active="-1" />
+      <Fixture IDREF="{1031F9C6-D518-4CDE-8424-1E4410FB168A}" active="-1" />
+      <Fixture IDREF="{A960E9F0-CADC-4B44-9EC4-F4E76FD8D87E}" active="-1" />
+      <Fixture IDREF="{EFC8A1EC-20FA-4705-A8DA-059DA833F6F1}" active="-1" />
+      <Fixture IDREF="{10EED29E-A549-41D4-89ED-52FC8FF4D24F}" active="-1" />
+      <Fixture IDREF="{572954C4-1FB9-4094-8718-B8A64A9FCB2C}" active="-1" />
+      <Fixture IDREF="{A6F6EA79-F96B-42F4-BD7F-FC732AA281F3}" active="-1" />
+      <Fixture IDREF="{E3C31C6A-0EB2-4047-AB9A-E7F25F73F5D0}" active="-1" />
+      <Fixture IDREF="{110EE330-01AE-4968-BF04-B7299B208658}" active="-1" />
+      <Fixture IDREF="{D5D377ED-4E9E-4DAA-BD9D-0D098DC5B631}" active="-1" />
+      <Fixture IDREF="{30D842A7-DA92-4779-8E16-39DA4BA465D2}" active="-1" />
+      <Fixture IDREF="{CE0B6518-5394-46A4-B763-1C588D28B14C}" active="-1" />
+      <Fixture IDREF="{6176764B-B4F9-4F8E-A19E-FD2BA111006F}" active="-1" />
+      <Fixture IDREF="{5BD2F810-C42A-4521-B2C1-4C5CD73AD2F4}" active="-1" />
+      <Fixture IDREF="{65D8FC89-CD60-4CCD-A694-CE1528563176}" active="-1" />
+      <Fixture IDREF="{B6358FCB-E33C-44DA-BCAB-13FD8B55DDF8}" active="-1" />
+      <Fixture IDREF="{69B40E1C-CB19-44D7-8150-B6B1973B407B}" active="-1" />
+      <Fixture IDREF="{1B4560E3-A409-4609-9634-F984641C5D15}" active="-1" />
+      <Fixture IDREF="{BAB8AA9D-AACA-457D-B77F-C2C47BF53135}" active="-1" />
+      <Fixture IDREF="{47AC235D-F007-4B6D-8AD1-DF23816B4644}" active="-1" />
+      <Fixture IDREF="{E6F2A5A9-9624-4EA4-B65C-92CB26999E69}" active="-1" />
+      <Fixture IDREF="{5A137478-E923-480C-8E29-6A30130E39FF}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="3" name="Divide by 2">
+      <Mask type="Divide" inverted="0" spread="ACTIVE" index="0">2</Mask>
+      <Fixture IDREF="{9E271F42-D925-4845-9A8B-81E1147E89EF}" active="-1" />
+      <Fixture IDREF="{09BE8BFF-8E36-462D-9088-2E16BC180F7F}" active="-1" />
+      <Fixture IDREF="{8A97BF40-5509-41A3-8C4B-6B46E7FFD620}" active="-1" />
+      <Fixture IDREF="{3C0E1839-A810-401B-81CF-602EC1C11129}" active="-1" />
+      <Fixture IDREF="{051B2773-C723-4A8E-AA78-52F8BCB71496}" active="-1" />
+      <Fixture IDREF="{AF20EB9A-88DE-4F9B-92D9-1F56D8C965E2}" active="-1" />
+      <Fixture IDREF="{1D754A5F-8CD1-44C8-9A1B-883348CD9110}" active="-1" />
+      <Fixture IDREF="{A31E6707-DEC1-4B44-A9D8-82E62097690D}" active="-1" />
+      <Fixture IDREF="{377124EA-C5D6-4A15-B9C6-5EEDC7E46DE6}" active="-1" />
+      <Fixture IDREF="{BD737170-0B70-414B-8B14-B0069FAEDE5C}" active="-1" />
+      <Fixture IDREF="{17C0AB0B-3BE9-4797-8942-6160AD993FEE}" active="-1" />
+      <Fixture IDREF="{C7EC4C9A-BF96-4EC4-8A7A-C8907E5BC7A0}" active="-1" />
+      <Fixture IDREF="{2D7EC1E1-19BB-40F5-AA22-E9EB94F0F7A3}" active="-1" />
+      <Fixture IDREF="{A43FBCDE-2936-4614-B3E5-C2862FC9EECD}" active="-1" />
+      <Fixture IDREF="{1BA41129-89D8-44E5-AAA1-B55F5AC6D326}" active="-1" />
+      <Fixture IDREF="{95B6DE0E-350A-4E32-A50E-378DC52631B1}" active="-1" />
+      <Fixture IDREF="{13CA65E5-E8B7-45BA-9254-9D74F1631423}" active="-1" />
+      <Fixture IDREF="{F89ADC91-0003-408A-BE73-22CF7B869861}" active="-1" />
+      <Fixture IDREF="{65CB1EF0-4992-4FC5-8D91-F092B1AC9B5B}" active="-1" />
+      <Fixture IDREF="{4CC0B516-E134-450A-BEB4-905BF5C78968}" active="-1" />
+      <Fixture IDREF="{75D48E70-FED7-4227-B24D-6DFC0A32A0CA}" active="-1" />
+      <Fixture IDREF="{3F2351BD-E96F-462C-8B4C-D4D95B471BBC}" active="-1" />
+      <Fixture IDREF="{218217D1-0A36-4DE6-9A18-9D561D3665C6}" active="-1" />
+      <Fixture IDREF="{DCC030D9-96E5-49CC-AB55-1CF13F914619}" active="-1" />
+      <Fixture IDREF="{894E036B-CE5C-49EC-80B5-CF1E0E76CFEB}" active="-1" />
+      <Fixture IDREF="{4E6DDB16-8F43-44DB-B503-BE7B2A5D198A}" active="-1" />
+      <Fixture IDREF="{A6522325-1E1C-4AE1-B212-E281C20C4A08}" active="-1" />
+      <Fixture IDREF="{BC8E4694-88A7-4C67-807B-80D0E5172FF3}" active="-1" />
+      <Fixture IDREF="{0A16640A-714E-408C-A388-31529B46B65C}" active="-1" />
+      <Fixture IDREF="{1B985D13-196B-471C-BC94-88D49E530AAF}" active="-1" />
+      <Fixture IDREF="{AD82192C-8966-4E63-9256-8A41D54D8755}" active="-1" />
+      <Fixture IDREF="{A8590629-0614-4617-86F1-5DC4CDA2430D}" active="-1" />
+      <Fixture IDREF="{C5756E0B-F6E0-417B-AF84-304E81157FD7}" active="-1" />
+      <Fixture IDREF="{6FBFBC37-7ADB-482C-BBF4-E135732FABC2}" active="-1" />
+      <Fixture IDREF="{E1D13DB0-4C99-49BF-B280-8186432AB2A4}" active="-1" />
+      <Fixture IDREF="{BD778654-E788-4AB2-A57D-C92D38C957F5}" active="-1" />
+      <Fixture IDREF="{61F95CF0-04AD-4664-A770-6BE9D27729B1}" active="-1" />
+      <Fixture IDREF="{7745F79F-8686-4ECB-A940-FC0FD5797D48}" active="-1" />
+      <Fixture IDREF="{C7B94844-4257-4942-AE73-A749D7E07627}" active="-1" />
+      <Fixture IDREF="{9D8208D3-2942-4C0B-88D4-37C68F817F20}" active="-1" />
+      <Fixture IDREF="{BC8A567E-CCA7-4304-BBBB-6E81236E1A2E}" active="-1" />
+      <Fixture IDREF="{54F886D5-8724-4DA6-8918-C0BA8F8D7E39}" active="-1" />
+      <Fixture IDREF="{708C190F-0C7B-428B-8C72-312679CC4251}" active="-1" />
+      <Fixture IDREF="{6C73EF7C-8CED-4D65-A59C-96F80547721D}" active="-1" />
+      <Fixture IDREF="{095DCAE0-E22F-4B70-8273-780A2EABC904}" active="-1" />
+      <Fixture IDREF="{53D5692C-9AB3-4932-A2E0-CBF5426BDB50}" active="-1" />
+      <Fixture IDREF="{B4DEE64E-73F4-4011-ACE8-7BD985EB5562}" active="-1" />
+      <Fixture IDREF="{A684FEE2-A647-4FFB-96EC-1F98A67082A1}" active="-1" />
+      <Fixture IDREF="{3897BBAE-7DE6-42B3-A83F-356A920FD1F5}" active="-1" />
+      <Fixture IDREF="{2AC7F15D-9E92-416A-A0E5-4F2165243811}" active="-1" />
+      <Fixture IDREF="{C1BC3A0D-2046-48D3-8D47-63024C6052C0}" active="-1" />
+      <Fixture IDREF="{D717CF06-AD0B-46B3-AC96-1483926E7BEC}" active="-1" />
+      <Fixture IDREF="{F18C28D0-A0FE-4C96-B989-108D3CB5DEDA}" active="-1" />
+      <Fixture IDREF="{225882FC-AF2F-4697-9D21-DB0B83F48470}" active="-1" />
+      <Fixture IDREF="{374BD3C1-1702-483D-8A47-DEF2B84E89D3}" active="-1" />
+      <Fixture IDREF="{B954A11D-D8E5-4E8F-AF67-AB5886E5C6A0}" active="-1" />
+      <Fixture IDREF="{8C301E55-82A8-49B2-A0CC-2A407D32AB6D}" active="-1" />
+      <Fixture IDREF="{7409F988-2382-40EB-A895-948B07540077}" active="-1" />
+      <Fixture IDREF="{4E03C157-C3B5-4BA8-A687-57B97FBDEBAD}" active="-1" />
+      <Fixture IDREF="{DB23F9BD-0BA7-4ED6-AE8C-1CB33FE1C80C}" active="-1" />
+      <Fixture IDREF="{958FADB4-B51C-48CC-929D-220608FAD846}" active="-1" />
+      <Fixture IDREF="{EFCC65CD-86D4-40A0-B43B-45B64F4FF9AE}" active="-1" />
+      <Fixture IDREF="{DC746F49-E556-4D3B-8A80-769ADC606486}" active="-1" />
+      <Fixture IDREF="{C8D78A73-D094-4C37-B8A2-3B3B762E9CE1}" active="-1" />
+      <Fixture IDREF="{E701EC4B-2DD0-4AFA-8A6F-BBD9F7393B52}" active="-1" />
+      <Fixture IDREF="{EE821D54-EE63-4A2D-A97A-2BDF7F77641A}" active="-1" />
+      <Fixture IDREF="{DA4504F9-CA0D-4091-AF9F-0360311EE8F2}" active="-1" />
+      <Fixture IDREF="{CE5DFCDD-A756-4960-B2A9-B21126FBBBAA}" active="-1" />
+      <Fixture IDREF="{D17ED7A0-82B4-4A9D-A247-FD2CDA7D788A}" active="-1" />
+      <Fixture IDREF="{2E9BECB4-BC20-465C-A7DD-6C2B00A7C6CE}" active="-1" />
+      <Fixture IDREF="{C6C9708D-82BB-469E-A3E6-19EB09087011}" active="-1" />
+      <Fixture IDREF="{A9890A91-3B0B-41C2-A7C1-EB52FCCAC50D}" active="-1" />
+      <Fixture IDREF="{D92A5801-0A51-484C-850A-4A9D188B58FE}" active="-1" />
+      <Fixture IDREF="{F547D82C-1FCE-4E96-BECB-422C6AAFC23D}" active="-1" />
+      <Fixture IDREF="{2978439B-6EA7-45DC-ADE3-AF163BDDC8C8}" active="-1" />
+      <Fixture IDREF="{1031F9C6-D518-4CDE-8424-1E4410FB168A}" active="-1" />
+      <Fixture IDREF="{A960E9F0-CADC-4B44-9EC4-F4E76FD8D87E}" active="-1" />
+      <Fixture IDREF="{EFC8A1EC-20FA-4705-A8DA-059DA833F6F1}" active="-1" />
+      <Fixture IDREF="{10EED29E-A549-41D4-89ED-52FC8FF4D24F}" active="-1" />
+      <Fixture IDREF="{572954C4-1FB9-4094-8718-B8A64A9FCB2C}" active="-1" />
+      <Fixture IDREF="{A6F6EA79-F96B-42F4-BD7F-FC732AA281F3}" active="-1" />
+      <Fixture IDREF="{E3C31C6A-0EB2-4047-AB9A-E7F25F73F5D0}" active="-1" />
+      <Fixture IDREF="{110EE330-01AE-4968-BF04-B7299B208658}" active="-1" />
+      <Fixture IDREF="{D5D377ED-4E9E-4DAA-BD9D-0D098DC5B631}" active="-1" />
+      <Fixture IDREF="{30D842A7-DA92-4779-8E16-39DA4BA465D2}" active="-1" />
+      <Fixture IDREF="{CE0B6518-5394-46A4-B763-1C588D28B14C}" active="-1" />
+      <Fixture IDREF="{6176764B-B4F9-4F8E-A19E-FD2BA111006F}" active="-1" />
+      <Fixture IDREF="{5BD2F810-C42A-4521-B2C1-4C5CD73AD2F4}" active="-1" />
+      <Fixture IDREF="{65D8FC89-CD60-4CCD-A694-CE1528563176}" active="-1" />
+      <Fixture IDREF="{B6358FCB-E33C-44DA-BCAB-13FD8B55DDF8}" active="-1" />
+      <Fixture IDREF="{69B40E1C-CB19-44D7-8150-B6B1973B407B}" active="-1" />
+      <Fixture IDREF="{1B4560E3-A409-4609-9634-F984641C5D15}" active="-1" />
+      <Fixture IDREF="{BAB8AA9D-AACA-457D-B77F-C2C47BF53135}" active="-1" />
+      <Fixture IDREF="{47AC235D-F007-4B6D-8AD1-DF23816B4644}" active="-1" />
+      <Fixture IDREF="{E6F2A5A9-9624-4EA4-B65C-92CB26999E69}" active="-1" />
+      <Fixture IDREF="{5A137478-E923-480C-8E29-6A30130E39FF}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="3" name="WW Profile 1 Ch">
+      <Fixture IDREF="{9E271F42-D925-4845-9A8B-81E1147E89EF}" active="-1" />
+      <Fixture IDREF="{09BE8BFF-8E36-462D-9088-2E16BC180F7F}" active="-1" />
+      <Fixture IDREF="{8A97BF40-5509-41A3-8C4B-6B46E7FFD620}" active="-1" />
+      <Fixture IDREF="{3C0E1839-A810-401B-81CF-602EC1C11129}" active="-1" />
+      <Fixture IDREF="{051B2773-C723-4A8E-AA78-52F8BCB71496}" active="-1" />
+      <Fixture IDREF="{AF20EB9A-88DE-4F9B-92D9-1F56D8C965E2}" active="-1" />
+      <Fixture IDREF="{1D754A5F-8CD1-44C8-9A1B-883348CD9110}" active="-1" />
+      <Fixture IDREF="{A31E6707-DEC1-4B44-A9D8-82E62097690D}" active="-1" />
+      <Fixture IDREF="{377124EA-C5D6-4A15-B9C6-5EEDC7E46DE6}" active="-1" />
+      <Fixture IDREF="{BD737170-0B70-414B-8B14-B0069FAEDE5C}" active="-1" />
+      <Fixture IDREF="{17C0AB0B-3BE9-4797-8942-6160AD993FEE}" active="-1" />
+      <Fixture IDREF="{C7EC4C9A-BF96-4EC4-8A7A-C8907E5BC7A0}" active="-1" />
+      <Fixture IDREF="{2D7EC1E1-19BB-40F5-AA22-E9EB94F0F7A3}" active="-1" />
+      <Fixture IDREF="{A43FBCDE-2936-4614-B3E5-C2862FC9EECD}" active="-1" />
+      <Fixture IDREF="{1BA41129-89D8-44E5-AAA1-B55F5AC6D326}" active="-1" />
+      <Fixture IDREF="{95B6DE0E-350A-4E32-A50E-378DC52631B1}" active="-1" />
+      <Fixture IDREF="{13CA65E5-E8B7-45BA-9254-9D74F1631423}" active="-1" />
+      <Fixture IDREF="{F89ADC91-0003-408A-BE73-22CF7B869861}" active="-1" />
+      <Fixture IDREF="{65CB1EF0-4992-4FC5-8D91-F092B1AC9B5B}" active="-1" />
+      <Fixture IDREF="{4CC0B516-E134-450A-BEB4-905BF5C78968}" active="-1" />
+      <Fixture IDREF="{75D48E70-FED7-4227-B24D-6DFC0A32A0CA}" active="-1" />
+      <Fixture IDREF="{3F2351BD-E96F-462C-8B4C-D4D95B471BBC}" active="-1" />
+      <Fixture IDREF="{218217D1-0A36-4DE6-9A18-9D561D3665C6}" active="-1" />
+      <Fixture IDREF="{DCC030D9-96E5-49CC-AB55-1CF13F914619}" active="-1" />
+      <Fixture IDREF="{894E036B-CE5C-49EC-80B5-CF1E0E76CFEB}" active="-1" />
+      <Fixture IDREF="{4E6DDB16-8F43-44DB-B503-BE7B2A5D198A}" active="-1" />
+      <Fixture IDREF="{A6522325-1E1C-4AE1-B212-E281C20C4A08}" active="-1" />
+      <Fixture IDREF="{BC8E4694-88A7-4C67-807B-80D0E5172FF3}" active="-1" />
+      <Fixture IDREF="{0A16640A-714E-408C-A388-31529B46B65C}" active="-1" />
+      <Fixture IDREF="{1B985D13-196B-471C-BC94-88D49E530AAF}" active="-1" />
+      <Fixture IDREF="{AD82192C-8966-4E63-9256-8A41D54D8755}" active="-1" />
+      <Fixture IDREF="{A8590629-0614-4617-86F1-5DC4CDA2430D}" active="-1" />
+      <Fixture IDREF="{C5756E0B-F6E0-417B-AF84-304E81157FD7}" active="-1" />
+      <Fixture IDREF="{6FBFBC37-7ADB-482C-BBF4-E135732FABC2}" active="-1" />
+      <Fixture IDREF="{E1D13DB0-4C99-49BF-B280-8186432AB2A4}" active="-1" />
+      <Fixture IDREF="{BD778654-E788-4AB2-A57D-C92D38C957F5}" active="-1" />
+      <Fixture IDREF="{61F95CF0-04AD-4664-A770-6BE9D27729B1}" active="-1" />
+      <Fixture IDREF="{7745F79F-8686-4ECB-A940-FC0FD5797D48}" active="-1" />
+      <Fixture IDREF="{C7B94844-4257-4942-AE73-A749D7E07627}" active="-1" />
+      <Fixture IDREF="{9D8208D3-2942-4C0B-88D4-37C68F817F20}" active="-1" />
+      <Fixture IDREF="{BC8A567E-CCA7-4304-BBBB-6E81236E1A2E}" active="-1" />
+      <Fixture IDREF="{54F886D5-8724-4DA6-8918-C0BA8F8D7E39}" active="-1" />
+      <Fixture IDREF="{708C190F-0C7B-428B-8C72-312679CC4251}" active="-1" />
+      <Fixture IDREF="{6C73EF7C-8CED-4D65-A59C-96F80547721D}" active="-1" />
+      <Fixture IDREF="{095DCAE0-E22F-4B70-8273-780A2EABC904}" active="-1" />
+      <Fixture IDREF="{53D5692C-9AB3-4932-A2E0-CBF5426BDB50}" active="-1" />
+      <Fixture IDREF="{B4DEE64E-73F4-4011-ACE8-7BD985EB5562}" active="-1" />
+      <Fixture IDREF="{A684FEE2-A647-4FFB-96EC-1F98A67082A1}" active="-1" />
+      <Fixture IDREF="{3897BBAE-7DE6-42B3-A83F-356A920FD1F5}" active="-1" />
+      <Fixture IDREF="{2AC7F15D-9E92-416A-A0E5-4F2165243811}" active="-1" />
+      <Fixture IDREF="{C1BC3A0D-2046-48D3-8D47-63024C6052C0}" active="-1" />
+      <Fixture IDREF="{D717CF06-AD0B-46B3-AC96-1483926E7BEC}" active="-1" />
+      <Fixture IDREF="{F18C28D0-A0FE-4C96-B989-108D3CB5DEDA}" active="-1" />
+      <Fixture IDREF="{225882FC-AF2F-4697-9D21-DB0B83F48470}" active="-1" />
+      <Fixture IDREF="{374BD3C1-1702-483D-8A47-DEF2B84E89D3}" active="-1" />
+      <Fixture IDREF="{B954A11D-D8E5-4E8F-AF67-AB5886E5C6A0}" active="-1" />
+      <Fixture IDREF="{8C301E55-82A8-49B2-A0CC-2A407D32AB6D}" active="-1" />
+      <Fixture IDREF="{7409F988-2382-40EB-A895-948B07540077}" active="-1" />
+      <Fixture IDREF="{4E03C157-C3B5-4BA8-A687-57B97FBDEBAD}" active="-1" />
+      <Fixture IDREF="{DB23F9BD-0BA7-4ED6-AE8C-1CB33FE1C80C}" active="-1" />
+      <Fixture IDREF="{958FADB4-B51C-48CC-929D-220608FAD846}" active="-1" />
+      <Fixture IDREF="{EFCC65CD-86D4-40A0-B43B-45B64F4FF9AE}" active="-1" />
+      <Fixture IDREF="{DC746F49-E556-4D3B-8A80-769ADC606486}" active="-1" />
+      <Fixture IDREF="{C8D78A73-D094-4C37-B8A2-3B3B762E9CE1}" active="-1" />
+      <Fixture IDREF="{E701EC4B-2DD0-4AFA-8A6F-BBD9F7393B52}" active="-1" />
+      <Fixture IDREF="{EE821D54-EE63-4A2D-A97A-2BDF7F77641A}" active="-1" />
+      <Fixture IDREF="{DA4504F9-CA0D-4091-AF9F-0360311EE8F2}" active="-1" />
+      <Fixture IDREF="{CE5DFCDD-A756-4960-B2A9-B21126FBBBAA}" active="-1" />
+      <Fixture IDREF="{D17ED7A0-82B4-4A9D-A247-FD2CDA7D788A}" active="-1" />
+      <Fixture IDREF="{2E9BECB4-BC20-465C-A7DD-6C2B00A7C6CE}" active="-1" />
+      <Fixture IDREF="{C6C9708D-82BB-469E-A3E6-19EB09087011}" active="-1" />
+      <Fixture IDREF="{A9890A91-3B0B-41C2-A7C1-EB52FCCAC50D}" active="-1" />
+      <Fixture IDREF="{D92A5801-0A51-484C-850A-4A9D188B58FE}" active="-1" />
+      <Fixture IDREF="{F547D82C-1FCE-4E96-BECB-422C6AAFC23D}" active="-1" />
+      <Fixture IDREF="{2978439B-6EA7-45DC-ADE3-AF163BDDC8C8}" active="-1" />
+      <Fixture IDREF="{1031F9C6-D518-4CDE-8424-1E4410FB168A}" active="-1" />
+      <Fixture IDREF="{A960E9F0-CADC-4B44-9EC4-F4E76FD8D87E}" active="-1" />
+      <Fixture IDREF="{EFC8A1EC-20FA-4705-A8DA-059DA833F6F1}" active="-1" />
+      <Fixture IDREF="{10EED29E-A549-41D4-89ED-52FC8FF4D24F}" active="-1" />
+      <Fixture IDREF="{572954C4-1FB9-4094-8718-B8A64A9FCB2C}" active="-1" />
+      <Fixture IDREF="{A6F6EA79-F96B-42F4-BD7F-FC732AA281F3}" active="-1" />
+      <Fixture IDREF="{E3C31C6A-0EB2-4047-AB9A-E7F25F73F5D0}" active="-1" />
+      <Fixture IDREF="{110EE330-01AE-4968-BF04-B7299B208658}" active="-1" />
+      <Fixture IDREF="{D5D377ED-4E9E-4DAA-BD9D-0D098DC5B631}" active="-1" />
+      <Fixture IDREF="{30D842A7-DA92-4779-8E16-39DA4BA465D2}" active="-1" />
+      <Fixture IDREF="{CE0B6518-5394-46A4-B763-1C588D28B14C}" active="-1" />
+      <Fixture IDREF="{6176764B-B4F9-4F8E-A19E-FD2BA111006F}" active="-1" />
+      <Fixture IDREF="{5BD2F810-C42A-4521-B2C1-4C5CD73AD2F4}" active="-1" />
+      <Fixture IDREF="{65D8FC89-CD60-4CCD-A694-CE1528563176}" active="-1" />
+      <Fixture IDREF="{B6358FCB-E33C-44DA-BCAB-13FD8B55DDF8}" active="-1" />
+      <Fixture IDREF="{69B40E1C-CB19-44D7-8150-B6B1973B407B}" active="-1" />
+      <Fixture IDREF="{1B4560E3-A409-4609-9634-F984641C5D15}" active="-1" />
+      <Fixture IDREF="{BAB8AA9D-AACA-457D-B77F-C2C47BF53135}" active="-1" />
+      <Fixture IDREF="{47AC235D-F007-4B6D-8AD1-DF23816B4644}" active="-1" />
+      <Fixture IDREF="{E6F2A5A9-9624-4EA4-B65C-92CB26999E69}" active="-1" />
+      <Fixture IDREF="{5A137478-E923-480C-8E29-6A30130E39FF}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="4" name="Dartz 360">
+      <Fixture IDREF="{003AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{013AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{023AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{033AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{043AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{053AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{063AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{073AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{083AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{093AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{0A3AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{0B3AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="4" name="Mirror per 2">
+      <Mask type="Mirror" inverted="0" spread="ACTIVE" index="0">2</Mask>
+      <Fixture IDREF="{003AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{013AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{023AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{033AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{043AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{053AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{063AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{073AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{083AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{093AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{0A3AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{0B3AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="4" name="Dartz 360 Extended">
+      <Fixture IDREF="{003AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{013AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{023AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{033AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{043AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{053AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{063AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{073AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{083AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{093AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{0A3AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{0B3AE2FE-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="5" name="Use Group">
+      <Mask type="Group" inverted="0" spread="ACTIVE" index="0">0</Mask>
+   </FixtureGroup>
+   <FixtureGroup nr="5" name="Colour Chorus 72 48 Ch (d)" />
+   <FixtureGroup nr="6" name="Fan &lt;&gt; Every 2">
+      <Mask type="Every" inverted="0" spread="MASK" index="0">2</Mask>
+   </FixtureGroup>
+   <FixtureGroup nr="6" name="Colour Chorus 72 48 Ch (d) PARTS">
+      <Mask type="Every" inverted="0" spread="ACTIVE" index="0">12</Mask>
+   </FixtureGroup>
+   <FixtureGroup nr="7" name="Fan &lt;&gt; Block of 2">
+      <Mask type="Block" inverted="0" spread="MASK" index="0">2</Mask>
+   </FixtureGroup>
+   <FixtureGroup nr="8" name="Fan &lt;&gt; Divide by 2">
+      <Mask type="Divide" inverted="0" spread="MASK" index="0">2</Mask>
+   </FixtureGroup>
+   <FixtureGroup nr="9" name="Fan Mirror per 2">
+      <Mask type="Mirror" inverted="0" spread="MASK" index="0">2</Mask>
+   </FixtureGroup>
+   <FixtureGroup nr="10" name="Key Light" />
+   <FixtureGroup nr="10" name="Fan &lt;&gt; Grouo">
+      <Mask type="Group" inverted="0" spread="MASK" index="0">0</Mask>
+   </FixtureGroup>
+   <FixtureGroup nr="11" name="Keys">
+      <Fixture IDREF="{177ABAF7-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="11" name="Every 3">
+      <Mask type="Every" inverted="0" spread="ACTIVE" index="0">3</Mask>
+      <Fixture IDREF="{177ABAF7-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="12" name="Singer">
+      <Fixture IDREF="{187ABAF7-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="12" name="Block of 3">
+      <Mask type="Block" inverted="0" spread="ACTIVE" index="0">3</Mask>
+      <Fixture IDREF="{187ABAF7-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="13" name="Gtr">
+      <Fixture IDREF="{197ABAF7-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="13" name="Divide by 3">
+      <Mask type="Divide" inverted="0" spread="ACTIVE" index="0">3</Mask>
+      <Fixture IDREF="{197ABAF7-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="14" name="Drums">
+      <Fixture IDREF="{1A7ABAF7-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="14" name="Mirror per 3">
+      <Mask type="Mirror" inverted="0" spread="ACTIVE" index="0">3</Mask>
+      <Fixture IDREF="{1A7ABAF7-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="15" name="ALL">
+      <Fixture IDREF="{177ABAF7-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{187ABAF7-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{197ABAF7-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{1A7ABAF7-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{1B7ABAF7-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="16" name="Center Davinci">
+      <Fixture IDREF="{ADF831E5-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="16" name="Fan &lt;&gt; Every 3">
+      <Mask type="Every" inverted="0" spread="MASK" index="0">3</Mask>
+      <Fixture IDREF="{ADF831E5-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="17" name="Center Fuze">
+      <Fixture IDREF="{51C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="17" name="Fan &lt;&gt; Block of 3">
+      <Mask type="Block" inverted="0" spread="MASK" index="0">3</Mask>
+      <Fixture IDREF="{51C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="18" name="Color Chorus 72 Cells">
+      <Fixture IDREF="{9E271F42-D925-4845-9A8B-81E1147E89EF}" active="-1" />
+      <Fixture IDREF="{09BE8BFF-8E36-462D-9088-2E16BC180F7F}" active="-1" />
+      <Fixture IDREF="{8A97BF40-5509-41A3-8C4B-6B46E7FFD620}" active="-1" />
+      <Fixture IDREF="{3C0E1839-A810-401B-81CF-602EC1C11129}" active="-1" />
+      <Fixture IDREF="{051B2773-C723-4A8E-AA78-52F8BCB71496}" active="-1" />
+      <Fixture IDREF="{AF20EB9A-88DE-4F9B-92D9-1F56D8C965E2}" active="-1" />
+      <Fixture IDREF="{1D754A5F-8CD1-44C8-9A1B-883348CD9110}" active="-1" />
+      <Fixture IDREF="{A31E6707-DEC1-4B44-A9D8-82E62097690D}" active="-1" />
+      <Fixture IDREF="{377124EA-C5D6-4A15-B9C6-5EEDC7E46DE6}" active="-1" />
+      <Fixture IDREF="{BD737170-0B70-414B-8B14-B0069FAEDE5C}" active="-1" />
+      <Fixture IDREF="{17C0AB0B-3BE9-4797-8942-6160AD993FEE}" active="-1" />
+      <Fixture IDREF="{C7EC4C9A-BF96-4EC4-8A7A-C8907E5BC7A0}" active="-1" />
+      <Fixture IDREF="{2D7EC1E1-19BB-40F5-AA22-E9EB94F0F7A3}" active="-1" />
+      <Fixture IDREF="{A43FBCDE-2936-4614-B3E5-C2862FC9EECD}" active="-1" />
+      <Fixture IDREF="{1BA41129-89D8-44E5-AAA1-B55F5AC6D326}" active="-1" />
+      <Fixture IDREF="{95B6DE0E-350A-4E32-A50E-378DC52631B1}" active="-1" />
+      <Fixture IDREF="{13CA65E5-E8B7-45BA-9254-9D74F1631423}" active="-1" />
+      <Fixture IDREF="{F89ADC91-0003-408A-BE73-22CF7B869861}" active="-1" />
+      <Fixture IDREF="{65CB1EF0-4992-4FC5-8D91-F092B1AC9B5B}" active="-1" />
+      <Fixture IDREF="{4CC0B516-E134-450A-BEB4-905BF5C78968}" active="-1" />
+      <Fixture IDREF="{75D48E70-FED7-4227-B24D-6DFC0A32A0CA}" active="-1" />
+      <Fixture IDREF="{3F2351BD-E96F-462C-8B4C-D4D95B471BBC}" active="-1" />
+      <Fixture IDREF="{218217D1-0A36-4DE6-9A18-9D561D3665C6}" active="-1" />
+      <Fixture IDREF="{DCC030D9-96E5-49CC-AB55-1CF13F914619}" active="-1" />
+      <Fixture IDREF="{894E036B-CE5C-49EC-80B5-CF1E0E76CFEB}" active="-1" />
+      <Fixture IDREF="{4E6DDB16-8F43-44DB-B503-BE7B2A5D198A}" active="-1" />
+      <Fixture IDREF="{A6522325-1E1C-4AE1-B212-E281C20C4A08}" active="-1" />
+      <Fixture IDREF="{BC8E4694-88A7-4C67-807B-80D0E5172FF3}" active="-1" />
+      <Fixture IDREF="{0A16640A-714E-408C-A388-31529B46B65C}" active="-1" />
+      <Fixture IDREF="{1B985D13-196B-471C-BC94-88D49E530AAF}" active="-1" />
+      <Fixture IDREF="{AD82192C-8966-4E63-9256-8A41D54D8755}" active="-1" />
+      <Fixture IDREF="{A8590629-0614-4617-86F1-5DC4CDA2430D}" active="-1" />
+      <Fixture IDREF="{C5756E0B-F6E0-417B-AF84-304E81157FD7}" active="-1" />
+      <Fixture IDREF="{6FBFBC37-7ADB-482C-BBF4-E135732FABC2}" active="-1" />
+      <Fixture IDREF="{E1D13DB0-4C99-49BF-B280-8186432AB2A4}" active="-1" />
+      <Fixture IDREF="{BD778654-E788-4AB2-A57D-C92D38C957F5}" active="-1" />
+      <Fixture IDREF="{61F95CF0-04AD-4664-A770-6BE9D27729B1}" active="-1" />
+      <Fixture IDREF="{7745F79F-8686-4ECB-A940-FC0FD5797D48}" active="-1" />
+      <Fixture IDREF="{C7B94844-4257-4942-AE73-A749D7E07627}" active="-1" />
+      <Fixture IDREF="{9D8208D3-2942-4C0B-88D4-37C68F817F20}" active="-1" />
+      <Fixture IDREF="{BC8A567E-CCA7-4304-BBBB-6E81236E1A2E}" active="-1" />
+      <Fixture IDREF="{54F886D5-8724-4DA6-8918-C0BA8F8D7E39}" active="-1" />
+      <Fixture IDREF="{708C190F-0C7B-428B-8C72-312679CC4251}" active="-1" />
+      <Fixture IDREF="{6C73EF7C-8CED-4D65-A59C-96F80547721D}" active="-1" />
+      <Fixture IDREF="{095DCAE0-E22F-4B70-8273-780A2EABC904}" active="-1" />
+      <Fixture IDREF="{53D5692C-9AB3-4932-A2E0-CBF5426BDB50}" active="-1" />
+      <Fixture IDREF="{B4DEE64E-73F4-4011-ACE8-7BD985EB5562}" active="-1" />
+      <Fixture IDREF="{A684FEE2-A647-4FFB-96EC-1F98A67082A1}" active="-1" />
+      <Fixture IDREF="{3897BBAE-7DE6-42B3-A83F-356A920FD1F5}" active="-1" />
+      <Fixture IDREF="{2AC7F15D-9E92-416A-A0E5-4F2165243811}" active="-1" />
+      <Fixture IDREF="{C1BC3A0D-2046-48D3-8D47-63024C6052C0}" active="-1" />
+      <Fixture IDREF="{D717CF06-AD0B-46B3-AC96-1483926E7BEC}" active="-1" />
+      <Fixture IDREF="{F18C28D0-A0FE-4C96-B989-108D3CB5DEDA}" active="-1" />
+      <Fixture IDREF="{225882FC-AF2F-4697-9D21-DB0B83F48470}" active="-1" />
+      <Fixture IDREF="{374BD3C1-1702-483D-8A47-DEF2B84E89D3}" active="-1" />
+      <Fixture IDREF="{B954A11D-D8E5-4E8F-AF67-AB5886E5C6A0}" active="-1" />
+      <Fixture IDREF="{8C301E55-82A8-49B2-A0CC-2A407D32AB6D}" active="-1" />
+      <Fixture IDREF="{7409F988-2382-40EB-A895-948B07540077}" active="-1" />
+      <Fixture IDREF="{4E03C157-C3B5-4BA8-A687-57B97FBDEBAD}" active="-1" />
+      <Fixture IDREF="{DB23F9BD-0BA7-4ED6-AE8C-1CB33FE1C80C}" active="-1" />
+      <Fixture IDREF="{958FADB4-B51C-48CC-929D-220608FAD846}" active="-1" />
+      <Fixture IDREF="{EFCC65CD-86D4-40A0-B43B-45B64F4FF9AE}" active="-1" />
+      <Fixture IDREF="{DC746F49-E556-4D3B-8A80-769ADC606486}" active="-1" />
+      <Fixture IDREF="{C8D78A73-D094-4C37-B8A2-3B3B762E9CE1}" active="-1" />
+      <Fixture IDREF="{E701EC4B-2DD0-4AFA-8A6F-BBD9F7393B52}" active="-1" />
+      <Fixture IDREF="{EE821D54-EE63-4A2D-A97A-2BDF7F77641A}" active="-1" />
+      <Fixture IDREF="{DA4504F9-CA0D-4091-AF9F-0360311EE8F2}" active="-1" />
+      <Fixture IDREF="{CE5DFCDD-A756-4960-B2A9-B21126FBBBAA}" active="-1" />
+      <Fixture IDREF="{D17ED7A0-82B4-4A9D-A247-FD2CDA7D788A}" active="-1" />
+      <Fixture IDREF="{2E9BECB4-BC20-465C-A7DD-6C2B00A7C6CE}" active="-1" />
+      <Fixture IDREF="{C6C9708D-82BB-469E-A3E6-19EB09087011}" active="-1" />
+      <Fixture IDREF="{A9890A91-3B0B-41C2-A7C1-EB52FCCAC50D}" active="-1" />
+      <Fixture IDREF="{D92A5801-0A51-484C-850A-4A9D188B58FE}" active="-1" />
+      <Fixture IDREF="{F547D82C-1FCE-4E96-BECB-422C6AAFC23D}" active="-1" />
+      <Fixture IDREF="{2978439B-6EA7-45DC-ADE3-AF163BDDC8C8}" active="-1" />
+      <Fixture IDREF="{1031F9C6-D518-4CDE-8424-1E4410FB168A}" active="-1" />
+      <Fixture IDREF="{A960E9F0-CADC-4B44-9EC4-F4E76FD8D87E}" active="-1" />
+      <Fixture IDREF="{EFC8A1EC-20FA-4705-A8DA-059DA833F6F1}" active="-1" />
+      <Fixture IDREF="{10EED29E-A549-41D4-89ED-52FC8FF4D24F}" active="-1" />
+      <Fixture IDREF="{572954C4-1FB9-4094-8718-B8A64A9FCB2C}" active="-1" />
+      <Fixture IDREF="{A6F6EA79-F96B-42F4-BD7F-FC732AA281F3}" active="-1" />
+      <Fixture IDREF="{E3C31C6A-0EB2-4047-AB9A-E7F25F73F5D0}" active="-1" />
+      <Fixture IDREF="{110EE330-01AE-4968-BF04-B7299B208658}" active="-1" />
+      <Fixture IDREF="{D5D377ED-4E9E-4DAA-BD9D-0D098DC5B631}" active="-1" />
+      <Fixture IDREF="{30D842A7-DA92-4779-8E16-39DA4BA465D2}" active="-1" />
+      <Fixture IDREF="{CE0B6518-5394-46A4-B763-1C588D28B14C}" active="-1" />
+      <Fixture IDREF="{6176764B-B4F9-4F8E-A19E-FD2BA111006F}" active="-1" />
+      <Fixture IDREF="{5BD2F810-C42A-4521-B2C1-4C5CD73AD2F4}" active="-1" />
+      <Fixture IDREF="{65D8FC89-CD60-4CCD-A694-CE1528563176}" active="-1" />
+      <Fixture IDREF="{B6358FCB-E33C-44DA-BCAB-13FD8B55DDF8}" active="-1" />
+      <Fixture IDREF="{69B40E1C-CB19-44D7-8150-B6B1973B407B}" active="-1" />
+      <Fixture IDREF="{1B4560E3-A409-4609-9634-F984641C5D15}" active="-1" />
+      <Fixture IDREF="{BAB8AA9D-AACA-457D-B77F-C2C47BF53135}" active="-1" />
+      <Fixture IDREF="{47AC235D-F007-4B6D-8AD1-DF23816B4644}" active="-1" />
+      <Fixture IDREF="{E6F2A5A9-9624-4EA4-B65C-92CB26999E69}" active="-1" />
+      <Fixture IDREF="{5A137478-E923-480C-8E29-6A30130E39FF}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="18" name="Fan &lt;&gt; Divide by 3">
+      <Mask type="Divide" inverted="0" spread="MASK" index="0">3</Mask>
+      <Fixture IDREF="{9E271F42-D925-4845-9A8B-81E1147E89EF}" active="-1" />
+      <Fixture IDREF="{09BE8BFF-8E36-462D-9088-2E16BC180F7F}" active="-1" />
+      <Fixture IDREF="{8A97BF40-5509-41A3-8C4B-6B46E7FFD620}" active="-1" />
+      <Fixture IDREF="{3C0E1839-A810-401B-81CF-602EC1C11129}" active="-1" />
+      <Fixture IDREF="{051B2773-C723-4A8E-AA78-52F8BCB71496}" active="-1" />
+      <Fixture IDREF="{AF20EB9A-88DE-4F9B-92D9-1F56D8C965E2}" active="-1" />
+      <Fixture IDREF="{1D754A5F-8CD1-44C8-9A1B-883348CD9110}" active="-1" />
+      <Fixture IDREF="{A31E6707-DEC1-4B44-A9D8-82E62097690D}" active="-1" />
+      <Fixture IDREF="{377124EA-C5D6-4A15-B9C6-5EEDC7E46DE6}" active="-1" />
+      <Fixture IDREF="{BD737170-0B70-414B-8B14-B0069FAEDE5C}" active="-1" />
+      <Fixture IDREF="{17C0AB0B-3BE9-4797-8942-6160AD993FEE}" active="-1" />
+      <Fixture IDREF="{C7EC4C9A-BF96-4EC4-8A7A-C8907E5BC7A0}" active="-1" />
+      <Fixture IDREF="{2D7EC1E1-19BB-40F5-AA22-E9EB94F0F7A3}" active="-1" />
+      <Fixture IDREF="{A43FBCDE-2936-4614-B3E5-C2862FC9EECD}" active="-1" />
+      <Fixture IDREF="{1BA41129-89D8-44E5-AAA1-B55F5AC6D326}" active="-1" />
+      <Fixture IDREF="{95B6DE0E-350A-4E32-A50E-378DC52631B1}" active="-1" />
+      <Fixture IDREF="{13CA65E5-E8B7-45BA-9254-9D74F1631423}" active="-1" />
+      <Fixture IDREF="{F89ADC91-0003-408A-BE73-22CF7B869861}" active="-1" />
+      <Fixture IDREF="{65CB1EF0-4992-4FC5-8D91-F092B1AC9B5B}" active="-1" />
+      <Fixture IDREF="{4CC0B516-E134-450A-BEB4-905BF5C78968}" active="-1" />
+      <Fixture IDREF="{75D48E70-FED7-4227-B24D-6DFC0A32A0CA}" active="-1" />
+      <Fixture IDREF="{3F2351BD-E96F-462C-8B4C-D4D95B471BBC}" active="-1" />
+      <Fixture IDREF="{218217D1-0A36-4DE6-9A18-9D561D3665C6}" active="-1" />
+      <Fixture IDREF="{DCC030D9-96E5-49CC-AB55-1CF13F914619}" active="-1" />
+      <Fixture IDREF="{894E036B-CE5C-49EC-80B5-CF1E0E76CFEB}" active="-1" />
+      <Fixture IDREF="{4E6DDB16-8F43-44DB-B503-BE7B2A5D198A}" active="-1" />
+      <Fixture IDREF="{A6522325-1E1C-4AE1-B212-E281C20C4A08}" active="-1" />
+      <Fixture IDREF="{BC8E4694-88A7-4C67-807B-80D0E5172FF3}" active="-1" />
+      <Fixture IDREF="{0A16640A-714E-408C-A388-31529B46B65C}" active="-1" />
+      <Fixture IDREF="{1B985D13-196B-471C-BC94-88D49E530AAF}" active="-1" />
+      <Fixture IDREF="{AD82192C-8966-4E63-9256-8A41D54D8755}" active="-1" />
+      <Fixture IDREF="{A8590629-0614-4617-86F1-5DC4CDA2430D}" active="-1" />
+      <Fixture IDREF="{C5756E0B-F6E0-417B-AF84-304E81157FD7}" active="-1" />
+      <Fixture IDREF="{6FBFBC37-7ADB-482C-BBF4-E135732FABC2}" active="-1" />
+      <Fixture IDREF="{E1D13DB0-4C99-49BF-B280-8186432AB2A4}" active="-1" />
+      <Fixture IDREF="{BD778654-E788-4AB2-A57D-C92D38C957F5}" active="-1" />
+      <Fixture IDREF="{61F95CF0-04AD-4664-A770-6BE9D27729B1}" active="-1" />
+      <Fixture IDREF="{7745F79F-8686-4ECB-A940-FC0FD5797D48}" active="-1" />
+      <Fixture IDREF="{C7B94844-4257-4942-AE73-A749D7E07627}" active="-1" />
+      <Fixture IDREF="{9D8208D3-2942-4C0B-88D4-37C68F817F20}" active="-1" />
+      <Fixture IDREF="{BC8A567E-CCA7-4304-BBBB-6E81236E1A2E}" active="-1" />
+      <Fixture IDREF="{54F886D5-8724-4DA6-8918-C0BA8F8D7E39}" active="-1" />
+      <Fixture IDREF="{708C190F-0C7B-428B-8C72-312679CC4251}" active="-1" />
+      <Fixture IDREF="{6C73EF7C-8CED-4D65-A59C-96F80547721D}" active="-1" />
+      <Fixture IDREF="{095DCAE0-E22F-4B70-8273-780A2EABC904}" active="-1" />
+      <Fixture IDREF="{53D5692C-9AB3-4932-A2E0-CBF5426BDB50}" active="-1" />
+      <Fixture IDREF="{B4DEE64E-73F4-4011-ACE8-7BD985EB5562}" active="-1" />
+      <Fixture IDREF="{A684FEE2-A647-4FFB-96EC-1F98A67082A1}" active="-1" />
+      <Fixture IDREF="{3897BBAE-7DE6-42B3-A83F-356A920FD1F5}" active="-1" />
+      <Fixture IDREF="{2AC7F15D-9E92-416A-A0E5-4F2165243811}" active="-1" />
+      <Fixture IDREF="{C1BC3A0D-2046-48D3-8D47-63024C6052C0}" active="-1" />
+      <Fixture IDREF="{D717CF06-AD0B-46B3-AC96-1483926E7BEC}" active="-1" />
+      <Fixture IDREF="{F18C28D0-A0FE-4C96-B989-108D3CB5DEDA}" active="-1" />
+      <Fixture IDREF="{225882FC-AF2F-4697-9D21-DB0B83F48470}" active="-1" />
+      <Fixture IDREF="{374BD3C1-1702-483D-8A47-DEF2B84E89D3}" active="-1" />
+      <Fixture IDREF="{B954A11D-D8E5-4E8F-AF67-AB5886E5C6A0}" active="-1" />
+      <Fixture IDREF="{8C301E55-82A8-49B2-A0CC-2A407D32AB6D}" active="-1" />
+      <Fixture IDREF="{7409F988-2382-40EB-A895-948B07540077}" active="-1" />
+      <Fixture IDREF="{4E03C157-C3B5-4BA8-A687-57B97FBDEBAD}" active="-1" />
+      <Fixture IDREF="{DB23F9BD-0BA7-4ED6-AE8C-1CB33FE1C80C}" active="-1" />
+      <Fixture IDREF="{958FADB4-B51C-48CC-929D-220608FAD846}" active="-1" />
+      <Fixture IDREF="{EFCC65CD-86D4-40A0-B43B-45B64F4FF9AE}" active="-1" />
+      <Fixture IDREF="{DC746F49-E556-4D3B-8A80-769ADC606486}" active="-1" />
+      <Fixture IDREF="{C8D78A73-D094-4C37-B8A2-3B3B762E9CE1}" active="-1" />
+      <Fixture IDREF="{E701EC4B-2DD0-4AFA-8A6F-BBD9F7393B52}" active="-1" />
+      <Fixture IDREF="{EE821D54-EE63-4A2D-A97A-2BDF7F77641A}" active="-1" />
+      <Fixture IDREF="{DA4504F9-CA0D-4091-AF9F-0360311EE8F2}" active="-1" />
+      <Fixture IDREF="{CE5DFCDD-A756-4960-B2A9-B21126FBBBAA}" active="-1" />
+      <Fixture IDREF="{D17ED7A0-82B4-4A9D-A247-FD2CDA7D788A}" active="-1" />
+      <Fixture IDREF="{2E9BECB4-BC20-465C-A7DD-6C2B00A7C6CE}" active="-1" />
+      <Fixture IDREF="{C6C9708D-82BB-469E-A3E6-19EB09087011}" active="-1" />
+      <Fixture IDREF="{A9890A91-3B0B-41C2-A7C1-EB52FCCAC50D}" active="-1" />
+      <Fixture IDREF="{D92A5801-0A51-484C-850A-4A9D188B58FE}" active="-1" />
+      <Fixture IDREF="{F547D82C-1FCE-4E96-BECB-422C6AAFC23D}" active="-1" />
+      <Fixture IDREF="{2978439B-6EA7-45DC-ADE3-AF163BDDC8C8}" active="-1" />
+      <Fixture IDREF="{1031F9C6-D518-4CDE-8424-1E4410FB168A}" active="-1" />
+      <Fixture IDREF="{A960E9F0-CADC-4B44-9EC4-F4E76FD8D87E}" active="-1" />
+      <Fixture IDREF="{EFC8A1EC-20FA-4705-A8DA-059DA833F6F1}" active="-1" />
+      <Fixture IDREF="{10EED29E-A549-41D4-89ED-52FC8FF4D24F}" active="-1" />
+      <Fixture IDREF="{572954C4-1FB9-4094-8718-B8A64A9FCB2C}" active="-1" />
+      <Fixture IDREF="{A6F6EA79-F96B-42F4-BD7F-FC732AA281F3}" active="-1" />
+      <Fixture IDREF="{E3C31C6A-0EB2-4047-AB9A-E7F25F73F5D0}" active="-1" />
+      <Fixture IDREF="{110EE330-01AE-4968-BF04-B7299B208658}" active="-1" />
+      <Fixture IDREF="{D5D377ED-4E9E-4DAA-BD9D-0D098DC5B631}" active="-1" />
+      <Fixture IDREF="{30D842A7-DA92-4779-8E16-39DA4BA465D2}" active="-1" />
+      <Fixture IDREF="{CE0B6518-5394-46A4-B763-1C588D28B14C}" active="-1" />
+      <Fixture IDREF="{6176764B-B4F9-4F8E-A19E-FD2BA111006F}" active="-1" />
+      <Fixture IDREF="{5BD2F810-C42A-4521-B2C1-4C5CD73AD2F4}" active="-1" />
+      <Fixture IDREF="{65D8FC89-CD60-4CCD-A694-CE1528563176}" active="-1" />
+      <Fixture IDREF="{B6358FCB-E33C-44DA-BCAB-13FD8B55DDF8}" active="-1" />
+      <Fixture IDREF="{69B40E1C-CB19-44D7-8150-B6B1973B407B}" active="-1" />
+      <Fixture IDREF="{1B4560E3-A409-4609-9634-F984641C5D15}" active="-1" />
+      <Fixture IDREF="{BAB8AA9D-AACA-457D-B77F-C2C47BF53135}" active="-1" />
+      <Fixture IDREF="{47AC235D-F007-4B6D-8AD1-DF23816B4644}" active="-1" />
+      <Fixture IDREF="{E6F2A5A9-9624-4EA4-B65C-92CB26999E69}" active="-1" />
+      <Fixture IDREF="{5A137478-E923-480C-8E29-6A30130E39FF}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="19" name="Fan Mirror per 3">
+      <Mask type="Mirror" inverted="0" spread="MASK" index="0">3</Mask>
+   </FixtureGroup>
+   <FixtureGroup nr="21" name="Every 4">
+      <Mask type="Every" inverted="0" spread="ACTIVE" index="0">4</Mask>
+   </FixtureGroup>
+   <FixtureGroup nr="22" name="Block of 4">
+      <Mask type="Block" inverted="0" spread="ACTIVE" index="0">4</Mask>
+   </FixtureGroup>
+   <FixtureGroup nr="23" name="Divide by 4">
+      <Mask type="Divide" inverted="0" spread="ACTIVE" index="0">4</Mask>
+   </FixtureGroup>
+   <FixtureGroup nr="24" name="Mirror per 4">
+      <Mask type="Mirror" inverted="0" spread="ACTIVE" index="0">4</Mask>
+   </FixtureGroup>
+   <FixtureGroup nr="26" name="Fan &lt;&gt; Every 4">
+      <Mask type="Every" inverted="0" spread="MASK" index="0">4</Mask>
+   </FixtureGroup>
+   <FixtureGroup nr="27" name="Fan &lt;&gt; Block of 4">
+      <Mask type="Block" inverted="0" spread="MASK" index="0">4</Mask>
+   </FixtureGroup>
+   <FixtureGroup nr="28" name="Fan &lt;&gt; Divide by 4">
+      <Mask type="Divide" inverted="0" spread="MASK" index="0">4</Mask>
+   </FixtureGroup>
+   <FixtureGroup nr="29" name="Fan Mirror per 4">
+      <Mask type="Mirror" inverted="0" spread="MASK" index="0">4</Mask>
+   </FixtureGroup>
+   <FixtureGroup nr="31" name="Stage Right Davinci">
+      <Fixture IDREF="{A8F831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{A9F831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{AAF831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{ABF831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{ACF831E5-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="31" name="Every 8">
+      <Mask type="Every" inverted="0" spread="ACTIVE" index="0">8</Mask>
+      <Fixture IDREF="{A8F831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{A9F831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{AAF831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{ABF831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{ACF831E5-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="32" name="Stage Right Fuze Wash">
+      <Fixture IDREF="{4CC0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{4DC0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{4EC0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{4FC0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{50C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="32" name="Block of 8">
+      <Mask type="Block" inverted="0" spread="ACTIVE" index="0">8</Mask>
+      <Fixture IDREF="{4CC0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{4DC0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{4EC0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{4FC0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{50C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="33" name="Divide by 8">
+      <Mask type="Divide" inverted="0" spread="ACTIVE" index="0">8</Mask>
+   </FixtureGroup>
+   <FixtureGroup nr="34" name="Mirror per 8">
+      <Mask type="Mirror" inverted="0" spread="ACTIVE" index="0">8</Mask>
+   </FixtureGroup>
+   <FixtureGroup nr="36" name="Fan &lt;&gt; Every 8">
+      <Mask type="Every" inverted="0" spread="MASK" index="0">8</Mask>
+   </FixtureGroup>
+   <FixtureGroup nr="37" name="Fan &lt;&gt; Block of 8">
+      <Mask type="Block" inverted="0" spread="MASK" index="0">8</Mask>
+   </FixtureGroup>
+   <FixtureGroup nr="38" name="Fan &lt;&gt; Divide by 8">
+      <Mask type="Divide" inverted="0" spread="MASK" index="0">8</Mask>
+   </FixtureGroup>
+   <FixtureGroup nr="39" name="Fan Mirror per 8">
+      <Mask type="Mirror" inverted="0" spread="MASK" index="0">8</Mask>
+   </FixtureGroup>
+   <FixtureGroup nr="46" name="Stage Left Davinci">
+      <Fixture IDREF="{AEF831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{AFF831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{B0F831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{B1F831E5-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{B2F831E5-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="47" name="Stage Left Fuze Wash ">
+      <Fixture IDREF="{52C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{53C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{54C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{55C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+      <Fixture IDREF="{56C0A3F1-5763-E811-A585-0013952355A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="61" name="COL 1">
+      <Fixture IDREF="{9E271F42-D925-4845-9A8B-81E1147E89EF}" active="-1" />
+      <Fixture IDREF="{09BE8BFF-8E36-462D-9088-2E16BC180F7F}" active="-1" />
+      <Fixture IDREF="{8A97BF40-5509-41A3-8C4B-6B46E7FFD620}" active="-1" />
+      <Fixture IDREF="{3C0E1839-A810-401B-81CF-602EC1C11129}" active="-1" />
+      <Fixture IDREF="{051B2773-C723-4A8E-AA78-52F8BCB71496}" active="-1" />
+      <Fixture IDREF="{AF20EB9A-88DE-4F9B-92D9-1F56D8C965E2}" active="-1" />
+      <Fixture IDREF="{1D754A5F-8CD1-44C8-9A1B-883348CD9110}" active="-1" />
+      <Fixture IDREF="{A31E6707-DEC1-4B44-A9D8-82E62097690D}" active="-1" />
+      <Fixture IDREF="{377124EA-C5D6-4A15-B9C6-5EEDC7E46DE6}" active="-1" />
+      <Fixture IDREF="{BD737170-0B70-414B-8B14-B0069FAEDE5C}" active="-1" />
+      <Fixture IDREF="{17C0AB0B-3BE9-4797-8942-6160AD993FEE}" active="-1" />
+      <Fixture IDREF="{C7EC4C9A-BF96-4EC4-8A7A-C8907E5BC7A0}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="62" name="COL2 ">
+      <Fixture IDREF="{2D7EC1E1-19BB-40F5-AA22-E9EB94F0F7A3}" active="-1" />
+      <Fixture IDREF="{A43FBCDE-2936-4614-B3E5-C2862FC9EECD}" active="-1" />
+      <Fixture IDREF="{1BA41129-89D8-44E5-AAA1-B55F5AC6D326}" active="-1" />
+      <Fixture IDREF="{95B6DE0E-350A-4E32-A50E-378DC52631B1}" active="-1" />
+      <Fixture IDREF="{13CA65E5-E8B7-45BA-9254-9D74F1631423}" active="-1" />
+      <Fixture IDREF="{F89ADC91-0003-408A-BE73-22CF7B869861}" active="-1" />
+      <Fixture IDREF="{65CB1EF0-4992-4FC5-8D91-F092B1AC9B5B}" active="-1" />
+      <Fixture IDREF="{4CC0B516-E134-450A-BEB4-905BF5C78968}" active="-1" />
+      <Fixture IDREF="{75D48E70-FED7-4227-B24D-6DFC0A32A0CA}" active="-1" />
+      <Fixture IDREF="{3F2351BD-E96F-462C-8B4C-D4D95B471BBC}" active="-1" />
+      <Fixture IDREF="{218217D1-0A36-4DE6-9A18-9D561D3665C6}" active="-1" />
+      <Fixture IDREF="{DCC030D9-96E5-49CC-AB55-1CF13F914619}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="63" name="COL 3">
+      <Fixture IDREF="{894E036B-CE5C-49EC-80B5-CF1E0E76CFEB}" active="-1" />
+      <Fixture IDREF="{4E6DDB16-8F43-44DB-B503-BE7B2A5D198A}" active="-1" />
+      <Fixture IDREF="{A6522325-1E1C-4AE1-B212-E281C20C4A08}" active="-1" />
+      <Fixture IDREF="{BC8E4694-88A7-4C67-807B-80D0E5172FF3}" active="-1" />
+      <Fixture IDREF="{0A16640A-714E-408C-A388-31529B46B65C}" active="-1" />
+      <Fixture IDREF="{1B985D13-196B-471C-BC94-88D49E530AAF}" active="-1" />
+      <Fixture IDREF="{AD82192C-8966-4E63-9256-8A41D54D8755}" active="-1" />
+      <Fixture IDREF="{A8590629-0614-4617-86F1-5DC4CDA2430D}" active="-1" />
+      <Fixture IDREF="{C5756E0B-F6E0-417B-AF84-304E81157FD7}" active="-1" />
+      <Fixture IDREF="{6FBFBC37-7ADB-482C-BBF4-E135732FABC2}" active="-1" />
+      <Fixture IDREF="{E1D13DB0-4C99-49BF-B280-8186432AB2A4}" active="-1" />
+      <Fixture IDREF="{BD778654-E788-4AB2-A57D-C92D38C957F5}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="64" name="COL 4">
+      <Fixture IDREF="{61F95CF0-04AD-4664-A770-6BE9D27729B1}" active="-1" />
+      <Fixture IDREF="{7745F79F-8686-4ECB-A940-FC0FD5797D48}" active="-1" />
+      <Fixture IDREF="{C7B94844-4257-4942-AE73-A749D7E07627}" active="-1" />
+      <Fixture IDREF="{9D8208D3-2942-4C0B-88D4-37C68F817F20}" active="-1" />
+      <Fixture IDREF="{BC8A567E-CCA7-4304-BBBB-6E81236E1A2E}" active="-1" />
+      <Fixture IDREF="{54F886D5-8724-4DA6-8918-C0BA8F8D7E39}" active="-1" />
+      <Fixture IDREF="{708C190F-0C7B-428B-8C72-312679CC4251}" active="-1" />
+      <Fixture IDREF="{6C73EF7C-8CED-4D65-A59C-96F80547721D}" active="-1" />
+      <Fixture IDREF="{095DCAE0-E22F-4B70-8273-780A2EABC904}" active="-1" />
+      <Fixture IDREF="{53D5692C-9AB3-4932-A2E0-CBF5426BDB50}" active="-1" />
+      <Fixture IDREF="{B4DEE64E-73F4-4011-ACE8-7BD985EB5562}" active="-1" />
+      <Fixture IDREF="{A684FEE2-A647-4FFB-96EC-1F98A67082A1}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="65" name="COL 5">
+      <Fixture IDREF="{3897BBAE-7DE6-42B3-A83F-356A920FD1F5}" active="-1" />
+      <Fixture IDREF="{2AC7F15D-9E92-416A-A0E5-4F2165243811}" active="-1" />
+      <Fixture IDREF="{C1BC3A0D-2046-48D3-8D47-63024C6052C0}" active="-1" />
+      <Fixture IDREF="{D717CF06-AD0B-46B3-AC96-1483926E7BEC}" active="-1" />
+      <Fixture IDREF="{F18C28D0-A0FE-4C96-B989-108D3CB5DEDA}" active="-1" />
+      <Fixture IDREF="{225882FC-AF2F-4697-9D21-DB0B83F48470}" active="-1" />
+      <Fixture IDREF="{374BD3C1-1702-483D-8A47-DEF2B84E89D3}" active="-1" />
+      <Fixture IDREF="{B954A11D-D8E5-4E8F-AF67-AB5886E5C6A0}" active="-1" />
+      <Fixture IDREF="{8C301E55-82A8-49B2-A0CC-2A407D32AB6D}" active="-1" />
+      <Fixture IDREF="{7409F988-2382-40EB-A895-948B07540077}" active="-1" />
+      <Fixture IDREF="{4E03C157-C3B5-4BA8-A687-57B97FBDEBAD}" active="-1" />
+      <Fixture IDREF="{DB23F9BD-0BA7-4ED6-AE8C-1CB33FE1C80C}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="66" name="COL 6">
+      <Fixture IDREF="{958FADB4-B51C-48CC-929D-220608FAD846}" active="-1" />
+      <Fixture IDREF="{EFCC65CD-86D4-40A0-B43B-45B64F4FF9AE}" active="-1" />
+      <Fixture IDREF="{DC746F49-E556-4D3B-8A80-769ADC606486}" active="-1" />
+      <Fixture IDREF="{C8D78A73-D094-4C37-B8A2-3B3B762E9CE1}" active="-1" />
+      <Fixture IDREF="{E701EC4B-2DD0-4AFA-8A6F-BBD9F7393B52}" active="-1" />
+      <Fixture IDREF="{EE821D54-EE63-4A2D-A97A-2BDF7F77641A}" active="-1" />
+      <Fixture IDREF="{DA4504F9-CA0D-4091-AF9F-0360311EE8F2}" active="-1" />
+      <Fixture IDREF="{CE5DFCDD-A756-4960-B2A9-B21126FBBBAA}" active="-1" />
+      <Fixture IDREF="{D17ED7A0-82B4-4A9D-A247-FD2CDA7D788A}" active="-1" />
+      <Fixture IDREF="{2E9BECB4-BC20-465C-A7DD-6C2B00A7C6CE}" active="-1" />
+      <Fixture IDREF="{C6C9708D-82BB-469E-A3E6-19EB09087011}" active="-1" />
+      <Fixture IDREF="{A9890A91-3B0B-41C2-A7C1-EB52FCCAC50D}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="67" name="COL 7">
+      <Fixture IDREF="{D92A5801-0A51-484C-850A-4A9D188B58FE}" active="-1" />
+      <Fixture IDREF="{F547D82C-1FCE-4E96-BECB-422C6AAFC23D}" active="-1" />
+      <Fixture IDREF="{2978439B-6EA7-45DC-ADE3-AF163BDDC8C8}" active="-1" />
+      <Fixture IDREF="{1031F9C6-D518-4CDE-8424-1E4410FB168A}" active="-1" />
+      <Fixture IDREF="{A960E9F0-CADC-4B44-9EC4-F4E76FD8D87E}" active="-1" />
+      <Fixture IDREF="{EFC8A1EC-20FA-4705-A8DA-059DA833F6F1}" active="-1" />
+      <Fixture IDREF="{10EED29E-A549-41D4-89ED-52FC8FF4D24F}" active="-1" />
+      <Fixture IDREF="{572954C4-1FB9-4094-8718-B8A64A9FCB2C}" active="-1" />
+      <Fixture IDREF="{A6F6EA79-F96B-42F4-BD7F-FC732AA281F3}" active="-1" />
+      <Fixture IDREF="{E3C31C6A-0EB2-4047-AB9A-E7F25F73F5D0}" active="-1" />
+      <Fixture IDREF="{110EE330-01AE-4968-BF04-B7299B208658}" active="-1" />
+      <Fixture IDREF="{D5D377ED-4E9E-4DAA-BD9D-0D098DC5B631}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="68" name="COL 8">
+      <Fixture IDREF="{30D842A7-DA92-4779-8E16-39DA4BA465D2}" active="-1" />
+      <Fixture IDREF="{CE0B6518-5394-46A4-B763-1C588D28B14C}" active="-1" />
+      <Fixture IDREF="{6176764B-B4F9-4F8E-A19E-FD2BA111006F}" active="-1" />
+      <Fixture IDREF="{5BD2F810-C42A-4521-B2C1-4C5CD73AD2F4}" active="-1" />
+      <Fixture IDREF="{65D8FC89-CD60-4CCD-A694-CE1528563176}" active="-1" />
+      <Fixture IDREF="{B6358FCB-E33C-44DA-BCAB-13FD8B55DDF8}" active="-1" />
+      <Fixture IDREF="{69B40E1C-CB19-44D7-8150-B6B1973B407B}" active="-1" />
+      <Fixture IDREF="{1B4560E3-A409-4609-9634-F984641C5D15}" active="-1" />
+      <Fixture IDREF="{BAB8AA9D-AACA-457D-B77F-C2C47BF53135}" active="-1" />
+      <Fixture IDREF="{47AC235D-F007-4B6D-8AD1-DF23816B4644}" active="-1" />
+      <Fixture IDREF="{E6F2A5A9-9624-4EA4-B65C-92CB26999E69}" active="-1" />
+      <Fixture IDREF="{5A137478-E923-480C-8E29-6A30130E39FF}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="76" name="ROW 1">
+      <Fixture IDREF="{9E271F42-D925-4845-9A8B-81E1147E89EF}" active="-1" />
+      <Fixture IDREF="{2D7EC1E1-19BB-40F5-AA22-E9EB94F0F7A3}" active="-1" />
+      <Fixture IDREF="{894E036B-CE5C-49EC-80B5-CF1E0E76CFEB}" active="-1" />
+      <Fixture IDREF="{61F95CF0-04AD-4664-A770-6BE9D27729B1}" active="-1" />
+      <Fixture IDREF="{3897BBAE-7DE6-42B3-A83F-356A920FD1F5}" active="-1" />
+      <Fixture IDREF="{958FADB4-B51C-48CC-929D-220608FAD846}" active="-1" />
+      <Fixture IDREF="{D92A5801-0A51-484C-850A-4A9D188B58FE}" active="-1" />
+      <Fixture IDREF="{30D842A7-DA92-4779-8E16-39DA4BA465D2}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="77" name="ROW 2">
+      <Fixture IDREF="{09BE8BFF-8E36-462D-9088-2E16BC180F7F}" active="-1" />
+      <Fixture IDREF="{A43FBCDE-2936-4614-B3E5-C2862FC9EECD}" active="-1" />
+      <Fixture IDREF="{4E6DDB16-8F43-44DB-B503-BE7B2A5D198A}" active="-1" />
+      <Fixture IDREF="{7745F79F-8686-4ECB-A940-FC0FD5797D48}" active="-1" />
+      <Fixture IDREF="{2AC7F15D-9E92-416A-A0E5-4F2165243811}" active="-1" />
+      <Fixture IDREF="{EFCC65CD-86D4-40A0-B43B-45B64F4FF9AE}" active="-1" />
+      <Fixture IDREF="{F547D82C-1FCE-4E96-BECB-422C6AAFC23D}" active="-1" />
+      <Fixture IDREF="{CE0B6518-5394-46A4-B763-1C588D28B14C}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="78" name="ROW 3">
+      <Fixture IDREF="{8A97BF40-5509-41A3-8C4B-6B46E7FFD620}" active="-1" />
+      <Fixture IDREF="{1BA41129-89D8-44E5-AAA1-B55F5AC6D326}" active="-1" />
+      <Fixture IDREF="{A6522325-1E1C-4AE1-B212-E281C20C4A08}" active="-1" />
+      <Fixture IDREF="{C7B94844-4257-4942-AE73-A749D7E07627}" active="-1" />
+      <Fixture IDREF="{C1BC3A0D-2046-48D3-8D47-63024C6052C0}" active="-1" />
+      <Fixture IDREF="{DC746F49-E556-4D3B-8A80-769ADC606486}" active="-1" />
+      <Fixture IDREF="{2978439B-6EA7-45DC-ADE3-AF163BDDC8C8}" active="-1" />
+      <Fixture IDREF="{6176764B-B4F9-4F8E-A19E-FD2BA111006F}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="79" name="ROW 4">
+      <Fixture IDREF="{3C0E1839-A810-401B-81CF-602EC1C11129}" active="-1" />
+      <Fixture IDREF="{95B6DE0E-350A-4E32-A50E-378DC52631B1}" active="-1" />
+      <Fixture IDREF="{BC8E4694-88A7-4C67-807B-80D0E5172FF3}" active="-1" />
+      <Fixture IDREF="{9D8208D3-2942-4C0B-88D4-37C68F817F20}" active="-1" />
+      <Fixture IDREF="{D717CF06-AD0B-46B3-AC96-1483926E7BEC}" active="-1" />
+      <Fixture IDREF="{C8D78A73-D094-4C37-B8A2-3B3B762E9CE1}" active="-1" />
+      <Fixture IDREF="{1031F9C6-D518-4CDE-8424-1E4410FB168A}" active="-1" />
+      <Fixture IDREF="{5BD2F810-C42A-4521-B2C1-4C5CD73AD2F4}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="80" name="ROW 5">
+      <Fixture IDREF="{051B2773-C723-4A8E-AA78-52F8BCB71496}" active="-1" />
+      <Fixture IDREF="{13CA65E5-E8B7-45BA-9254-9D74F1631423}" active="-1" />
+      <Fixture IDREF="{0A16640A-714E-408C-A388-31529B46B65C}" active="-1" />
+      <Fixture IDREF="{BC8A567E-CCA7-4304-BBBB-6E81236E1A2E}" active="-1" />
+      <Fixture IDREF="{F18C28D0-A0FE-4C96-B989-108D3CB5DEDA}" active="-1" />
+      <Fixture IDREF="{E701EC4B-2DD0-4AFA-8A6F-BBD9F7393B52}" active="-1" />
+      <Fixture IDREF="{A960E9F0-CADC-4B44-9EC4-F4E76FD8D87E}" active="-1" />
+      <Fixture IDREF="{65D8FC89-CD60-4CCD-A694-CE1528563176}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="81" name="ROW 6">
+      <Fixture IDREF="{AF20EB9A-88DE-4F9B-92D9-1F56D8C965E2}" active="-1" />
+      <Fixture IDREF="{F89ADC91-0003-408A-BE73-22CF7B869861}" active="-1" />
+      <Fixture IDREF="{1B985D13-196B-471C-BC94-88D49E530AAF}" active="-1" />
+      <Fixture IDREF="{54F886D5-8724-4DA6-8918-C0BA8F8D7E39}" active="-1" />
+      <Fixture IDREF="{225882FC-AF2F-4697-9D21-DB0B83F48470}" active="-1" />
+      <Fixture IDREF="{EE821D54-EE63-4A2D-A97A-2BDF7F77641A}" active="-1" />
+      <Fixture IDREF="{EFC8A1EC-20FA-4705-A8DA-059DA833F6F1}" active="-1" />
+      <Fixture IDREF="{B6358FCB-E33C-44DA-BCAB-13FD8B55DDF8}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="82" name="ROW 7">
+      <Fixture IDREF="{1D754A5F-8CD1-44C8-9A1B-883348CD9110}" active="-1" />
+      <Fixture IDREF="{65CB1EF0-4992-4FC5-8D91-F092B1AC9B5B}" active="-1" />
+      <Fixture IDREF="{AD82192C-8966-4E63-9256-8A41D54D8755}" active="-1" />
+      <Fixture IDREF="{708C190F-0C7B-428B-8C72-312679CC4251}" active="-1" />
+      <Fixture IDREF="{374BD3C1-1702-483D-8A47-DEF2B84E89D3}" active="-1" />
+      <Fixture IDREF="{DA4504F9-CA0D-4091-AF9F-0360311EE8F2}" active="-1" />
+      <Fixture IDREF="{10EED29E-A549-41D4-89ED-52FC8FF4D24F}" active="-1" />
+      <Fixture IDREF="{69B40E1C-CB19-44D7-8150-B6B1973B407B}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="83" name="ROW 8">
+      <Fixture IDREF="{A31E6707-DEC1-4B44-A9D8-82E62097690D}" active="-1" />
+      <Fixture IDREF="{4CC0B516-E134-450A-BEB4-905BF5C78968}" active="-1" />
+      <Fixture IDREF="{A8590629-0614-4617-86F1-5DC4CDA2430D}" active="-1" />
+      <Fixture IDREF="{6C73EF7C-8CED-4D65-A59C-96F80547721D}" active="-1" />
+      <Fixture IDREF="{B954A11D-D8E5-4E8F-AF67-AB5886E5C6A0}" active="-1" />
+      <Fixture IDREF="{CE5DFCDD-A756-4960-B2A9-B21126FBBBAA}" active="-1" />
+      <Fixture IDREF="{572954C4-1FB9-4094-8718-B8A64A9FCB2C}" active="-1" />
+      <Fixture IDREF="{1B4560E3-A409-4609-9634-F984641C5D15}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="84" name="ROW 9">
+      <Fixture IDREF="{377124EA-C5D6-4A15-B9C6-5EEDC7E46DE6}" active="-1" />
+      <Fixture IDREF="{75D48E70-FED7-4227-B24D-6DFC0A32A0CA}" active="-1" />
+      <Fixture IDREF="{C5756E0B-F6E0-417B-AF84-304E81157FD7}" active="-1" />
+      <Fixture IDREF="{095DCAE0-E22F-4B70-8273-780A2EABC904}" active="-1" />
+      <Fixture IDREF="{8C301E55-82A8-49B2-A0CC-2A407D32AB6D}" active="-1" />
+      <Fixture IDREF="{D17ED7A0-82B4-4A9D-A247-FD2CDA7D788A}" active="-1" />
+      <Fixture IDREF="{A6F6EA79-F96B-42F4-BD7F-FC732AA281F3}" active="-1" />
+      <Fixture IDREF="{BAB8AA9D-AACA-457D-B77F-C2C47BF53135}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="85" name="ROW 10">
+      <Fixture IDREF="{BD737170-0B70-414B-8B14-B0069FAEDE5C}" active="-1" />
+      <Fixture IDREF="{3F2351BD-E96F-462C-8B4C-D4D95B471BBC}" active="-1" />
+      <Fixture IDREF="{6FBFBC37-7ADB-482C-BBF4-E135732FABC2}" active="-1" />
+      <Fixture IDREF="{53D5692C-9AB3-4932-A2E0-CBF5426BDB50}" active="-1" />
+      <Fixture IDREF="{7409F988-2382-40EB-A895-948B07540077}" active="-1" />
+      <Fixture IDREF="{2E9BECB4-BC20-465C-A7DD-6C2B00A7C6CE}" active="-1" />
+      <Fixture IDREF="{E3C31C6A-0EB2-4047-AB9A-E7F25F73F5D0}" active="-1" />
+      <Fixture IDREF="{47AC235D-F007-4B6D-8AD1-DF23816B4644}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="86" name="ROW 11">
+      <Fixture IDREF="{17C0AB0B-3BE9-4797-8942-6160AD993FEE}" active="-1" />
+      <Fixture IDREF="{218217D1-0A36-4DE6-9A18-9D561D3665C6}" active="-1" />
+      <Fixture IDREF="{E1D13DB0-4C99-49BF-B280-8186432AB2A4}" active="-1" />
+      <Fixture IDREF="{B4DEE64E-73F4-4011-ACE8-7BD985EB5562}" active="-1" />
+      <Fixture IDREF="{4E03C157-C3B5-4BA8-A687-57B97FBDEBAD}" active="-1" />
+      <Fixture IDREF="{C6C9708D-82BB-469E-A3E6-19EB09087011}" active="-1" />
+      <Fixture IDREF="{110EE330-01AE-4968-BF04-B7299B208658}" active="-1" />
+      <Fixture IDREF="{E6F2A5A9-9624-4EA4-B65C-92CB26999E69}" active="-1" />
+   </FixtureGroup>
+   <FixtureGroup nr="87" name="ROW 12">
+      <Fixture IDREF="{C7EC4C9A-BF96-4EC4-8A7A-C8907E5BC7A0}" active="-1" />
+      <Fixture IDREF="{DCC030D9-96E5-49CC-AB55-1CF13F914619}" active="-1" />
+      <Fixture IDREF="{BD778654-E788-4AB2-A57D-C92D38C957F5}" active="-1" />
+      <Fixture IDREF="{A684FEE2-A647-4FFB-96EC-1F98A67082A1}" active="-1" />
+      <Fixture IDREF="{DB23F9BD-0BA7-4ED6-AE8C-1CB33FE1C80C}" active="-1" />
+      <Fixture IDREF="{A9890A91-3B0B-41C2-A7C1-EB52FCCAC50D}" active="-1" />
+      <Fixture IDREF="{D5D377ED-4E9E-4DAA-BD9D-0D098DC5B631}" active="-1" />
+      <Fixture IDREF="{5A137478-E923-480C-8E29-6A30130E39FF}" active="-1" />
+   </FixtureGroup>
+   <Fixtures>
+      <Fixture moniker="FixtureType4:Elation/WW Profile/WW Profile.xml?1 Ch.xslt" manufacturer="Elation" model="WW Profile" displayName="WW Profile 1 Ch" cntChannels="1" ID="{177ABAF7-5763-E811-A585-0013952355A0}" nr="1" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="474" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/WW Profile/WW Profile.xml?1 Ch.xslt" manufacturer="Elation" model="WW Profile" displayName="WW Profile 1 Ch" cntChannels="1" ID="{187ABAF7-5763-E811-A585-0013952355A0}" nr="2" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="475" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/WW Profile/WW Profile.xml?1 Ch.xslt" manufacturer="Elation" model="WW Profile" displayName="WW Profile 1 Ch" cntChannels="1" ID="{197ABAF7-5763-E811-A585-0013952355A0}" nr="3" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="476" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/WW Profile/WW Profile.xml?1 Ch.xslt" manufacturer="Elation" model="WW Profile" displayName="WW Profile 1 Ch" cntChannels="1" ID="{1A7ABAF7-5763-E811-A585-0013952355A0}" nr="4" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="477" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/WW Profile/WW Profile.xml?1 Ch.xslt" manufacturer="Elation" model="WW Profile" displayName="WW Profile 1 Ch" cntChannels="1" ID="{1B7ABAF7-5763-E811-A585-0013952355A0}" nr="5" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="478" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Artiste DaVinci/Artiste DaVinci.xml?Standard.xslt" manufacturer="Elation" model="Artiste DaVinci" displayName="Artiste DaVinci Standard" cntChannels="28" ID="{A8F831E5-5763-E811-A585-0013952355A0}" nr="101" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="1" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Artiste DaVinci/Artiste DaVinci.xml?Standard.xslt" manufacturer="Elation" model="Artiste DaVinci" displayName="Artiste DaVinci Standard" cntChannels="28" ID="{A9F831E5-5763-E811-A585-0013952355A0}" nr="102" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="29" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Artiste DaVinci/Artiste DaVinci.xml?Standard.xslt" manufacturer="Elation" model="Artiste DaVinci" displayName="Artiste DaVinci Standard" cntChannels="28" ID="{AAF831E5-5763-E811-A585-0013952355A0}" nr="103" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="57" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Artiste DaVinci/Artiste DaVinci.xml?Standard.xslt" manufacturer="Elation" model="Artiste DaVinci" displayName="Artiste DaVinci Standard" cntChannels="28" ID="{ABF831E5-5763-E811-A585-0013952355A0}" nr="104" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="85" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Artiste DaVinci/Artiste DaVinci.xml?Standard.xslt" manufacturer="Elation" model="Artiste DaVinci" displayName="Artiste DaVinci Standard" cntChannels="28" ID="{ACF831E5-5763-E811-A585-0013952355A0}" nr="105" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="113" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Artiste DaVinci/Artiste DaVinci.xml?Standard.xslt" manufacturer="Elation" model="Artiste DaVinci" displayName="Artiste DaVinci Standard" cntChannels="28" ID="{ADF831E5-5763-E811-A585-0013952355A0}" nr="106" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="141" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Artiste DaVinci/Artiste DaVinci.xml?Standard.xslt" manufacturer="Elation" model="Artiste DaVinci" displayName="Artiste DaVinci Standard" cntChannels="28" ID="{AEF831E5-5763-E811-A585-0013952355A0}" nr="107" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="169" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Artiste DaVinci/Artiste DaVinci.xml?Standard.xslt" manufacturer="Elation" model="Artiste DaVinci" displayName="Artiste DaVinci Standard" cntChannels="28" ID="{AFF831E5-5763-E811-A585-0013952355A0}" nr="108" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="197" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Artiste DaVinci/Artiste DaVinci.xml?Standard.xslt" manufacturer="Elation" model="Artiste DaVinci" displayName="Artiste DaVinci Standard" cntChannels="28" ID="{B0F831E5-5763-E811-A585-0013952355A0}" nr="109" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="225" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Artiste DaVinci/Artiste DaVinci.xml?Standard.xslt" manufacturer="Elation" model="Artiste DaVinci" displayName="Artiste DaVinci Standard" cntChannels="28" ID="{B1F831E5-5763-E811-A585-0013952355A0}" nr="110" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="253" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Artiste DaVinci/Artiste DaVinci.xml?Standard.xslt" manufacturer="Elation" model="Artiste DaVinci" displayName="Artiste DaVinci Standard" cntChannels="28" ID="{B2F831E5-5763-E811-A585-0013952355A0}" nr="111" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="281" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/FUZE WASH Z350/FUZE WASH Z350.xml?15 Ch.xslt" manufacturer="Elation" model="FUZE WASH Z350" displayName="FUZE WASH Z350 15 Ch" cntChannels="15" ID="{4CC0A3F1-5763-E811-A585-0013952355A0}" nr="201" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="309" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/FUZE WASH Z350/FUZE WASH Z350.xml?15 Ch.xslt" manufacturer="Elation" model="FUZE WASH Z350" displayName="FUZE WASH Z350 15 Ch" cntChannels="15" ID="{4DC0A3F1-5763-E811-A585-0013952355A0}" nr="202" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="324" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/FUZE WASH Z350/FUZE WASH Z350.xml?15 Ch.xslt" manufacturer="Elation" model="FUZE WASH Z350" displayName="FUZE WASH Z350 15 Ch" cntChannels="15" ID="{4EC0A3F1-5763-E811-A585-0013952355A0}" nr="203" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="339" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/FUZE WASH Z350/FUZE WASH Z350.xml?15 Ch.xslt" manufacturer="Elation" model="FUZE WASH Z350" displayName="FUZE WASH Z350 15 Ch" cntChannels="15" ID="{4FC0A3F1-5763-E811-A585-0013952355A0}" nr="204" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="354" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/FUZE WASH Z350/FUZE WASH Z350.xml?15 Ch.xslt" manufacturer="Elation" model="FUZE WASH Z350" displayName="FUZE WASH Z350 15 Ch" cntChannels="15" ID="{50C0A3F1-5763-E811-A585-0013952355A0}" nr="205" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="369" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/FUZE WASH Z350/FUZE WASH Z350.xml?15 Ch.xslt" manufacturer="Elation" model="FUZE WASH Z350" displayName="FUZE WASH Z350 15 Ch" cntChannels="15" ID="{51C0A3F1-5763-E811-A585-0013952355A0}" nr="206" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="384" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/FUZE WASH Z350/FUZE WASH Z350.xml?15 Ch.xslt" manufacturer="Elation" model="FUZE WASH Z350" displayName="FUZE WASH Z350 15 Ch" cntChannels="15" ID="{52C0A3F1-5763-E811-A585-0013952355A0}" nr="207" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="399" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/FUZE WASH Z350/FUZE WASH Z350.xml?15 Ch.xslt" manufacturer="Elation" model="FUZE WASH Z350" displayName="FUZE WASH Z350 15 Ch" cntChannels="15" ID="{53C0A3F1-5763-E811-A585-0013952355A0}" nr="208" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="414" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/FUZE WASH Z350/FUZE WASH Z350.xml?15 Ch.xslt" manufacturer="Elation" model="FUZE WASH Z350" displayName="FUZE WASH Z350 15 Ch" cntChannels="15" ID="{54C0A3F1-5763-E811-A585-0013952355A0}" nr="209" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="429" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/FUZE WASH Z350/FUZE WASH Z350.xml?15 Ch.xslt" manufacturer="Elation" model="FUZE WASH Z350" displayName="FUZE WASH Z350 15 Ch" cntChannels="15" ID="{55C0A3F1-5763-E811-A585-0013952355A0}" nr="210" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="444" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/FUZE WASH Z350/FUZE WASH Z350.xml?15 Ch.xslt" manufacturer="Elation" model="FUZE WASH Z350" displayName="FUZE WASH Z350 15 Ch" cntChannels="15" ID="{56C0A3F1-5763-E811-A585-0013952355A0}" nr="211" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="1" startAddress="459" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Colour Chorus 72/Colour Chorus 72.xml?48 Ch.xslt&amp;VirtualIntensity" manufacturer="Elation" model="Colour Chorus 72" displayName="Colour Chorus 72 48 Ch (d)" cntChannels="48" ID="{9CD57F0B-5863-E811-A585-0013952355A0}" nr="301" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="3" startAddress="1" />
+         <Part cntChannels="4" ID="{9E271F42-D925-4845-9A8B-81E1147E89EF}" nr="1" name="Pixel 1" />
+         <Part cntChannels="4" ID="{09BE8BFF-8E36-462D-9088-2E16BC180F7F}" nr="2" name="Pixel 2" />
+         <Part cntChannels="4" ID="{8A97BF40-5509-41A3-8C4B-6B46E7FFD620}" nr="3" name="Pixel 3" />
+         <Part cntChannels="4" ID="{3C0E1839-A810-401B-81CF-602EC1C11129}" nr="4" name="Pixel 4" />
+         <Part cntChannels="4" ID="{051B2773-C723-4A8E-AA78-52F8BCB71496}" nr="5" name="Pixel 5" />
+         <Part cntChannels="4" ID="{AF20EB9A-88DE-4F9B-92D9-1F56D8C965E2}" nr="6" name="Pixel 6" />
+         <Part cntChannels="4" ID="{1D754A5F-8CD1-44C8-9A1B-883348CD9110}" nr="7" name="Pixel 7" />
+         <Part cntChannels="4" ID="{A31E6707-DEC1-4B44-A9D8-82E62097690D}" nr="8" name="Pixel 8" />
+         <Part cntChannels="4" ID="{377124EA-C5D6-4A15-B9C6-5EEDC7E46DE6}" nr="9" name="Pixel 9" />
+         <Part cntChannels="4" ID="{BD737170-0B70-414B-8B14-B0069FAEDE5C}" nr="10" name="Pixel 10" />
+         <Part cntChannels="4" ID="{17C0AB0B-3BE9-4797-8942-6160AD993FEE}" nr="11" name="Pixel 11" />
+         <Part cntChannels="4" ID="{C7EC4C9A-BF96-4EC4-8A7A-C8907E5BC7A0}" nr="12" name="Pixel 12" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Colour Chorus 72/Colour Chorus 72.xml?48 Ch.xslt&amp;VirtualIntensity" manufacturer="Elation" model="Colour Chorus 72" displayName="Colour Chorus 72 48 Ch (d)" cntChannels="48" ID="{9DD57F0B-5863-E811-A585-0013952355A0}" nr="302" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="3" startAddress="49" />
+         <Part cntChannels="4" ID="{2D7EC1E1-19BB-40F5-AA22-E9EB94F0F7A3}" nr="1" name="Pixel 1" />
+         <Part cntChannels="4" ID="{A43FBCDE-2936-4614-B3E5-C2862FC9EECD}" nr="2" name="Pixel 2" />
+         <Part cntChannels="4" ID="{1BA41129-89D8-44E5-AAA1-B55F5AC6D326}" nr="3" name="Pixel 3" />
+         <Part cntChannels="4" ID="{95B6DE0E-350A-4E32-A50E-378DC52631B1}" nr="4" name="Pixel 4" />
+         <Part cntChannels="4" ID="{13CA65E5-E8B7-45BA-9254-9D74F1631423}" nr="5" name="Pixel 5" />
+         <Part cntChannels="4" ID="{F89ADC91-0003-408A-BE73-22CF7B869861}" nr="6" name="Pixel 6" />
+         <Part cntChannels="4" ID="{65CB1EF0-4992-4FC5-8D91-F092B1AC9B5B}" nr="7" name="Pixel 7" />
+         <Part cntChannels="4" ID="{4CC0B516-E134-450A-BEB4-905BF5C78968}" nr="8" name="Pixel 8" />
+         <Part cntChannels="4" ID="{75D48E70-FED7-4227-B24D-6DFC0A32A0CA}" nr="9" name="Pixel 9" />
+         <Part cntChannels="4" ID="{3F2351BD-E96F-462C-8B4C-D4D95B471BBC}" nr="10" name="Pixel 10" />
+         <Part cntChannels="4" ID="{218217D1-0A36-4DE6-9A18-9D561D3665C6}" nr="11" name="Pixel 11" />
+         <Part cntChannels="4" ID="{DCC030D9-96E5-49CC-AB55-1CF13F914619}" nr="12" name="Pixel 12" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Colour Chorus 72/Colour Chorus 72.xml?48 Ch.xslt&amp;VirtualIntensity" manufacturer="Elation" model="Colour Chorus 72" displayName="Colour Chorus 72 48 Ch (d)" cntChannels="48" ID="{9ED57F0B-5863-E811-A585-0013952355A0}" nr="303" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="3" startAddress="97" />
+         <Part cntChannels="4" ID="{894E036B-CE5C-49EC-80B5-CF1E0E76CFEB}" nr="1" name="Pixel 1" />
+         <Part cntChannels="4" ID="{4E6DDB16-8F43-44DB-B503-BE7B2A5D198A}" nr="2" name="Pixel 2" />
+         <Part cntChannels="4" ID="{A6522325-1E1C-4AE1-B212-E281C20C4A08}" nr="3" name="Pixel 3" />
+         <Part cntChannels="4" ID="{BC8E4694-88A7-4C67-807B-80D0E5172FF3}" nr="4" name="Pixel 4" />
+         <Part cntChannels="4" ID="{0A16640A-714E-408C-A388-31529B46B65C}" nr="5" name="Pixel 5" />
+         <Part cntChannels="4" ID="{1B985D13-196B-471C-BC94-88D49E530AAF}" nr="6" name="Pixel 6" />
+         <Part cntChannels="4" ID="{AD82192C-8966-4E63-9256-8A41D54D8755}" nr="7" name="Pixel 7" />
+         <Part cntChannels="4" ID="{A8590629-0614-4617-86F1-5DC4CDA2430D}" nr="8" name="Pixel 8" />
+         <Part cntChannels="4" ID="{C5756E0B-F6E0-417B-AF84-304E81157FD7}" nr="9" name="Pixel 9" />
+         <Part cntChannels="4" ID="{6FBFBC37-7ADB-482C-BBF4-E135732FABC2}" nr="10" name="Pixel 10" />
+         <Part cntChannels="4" ID="{E1D13DB0-4C99-49BF-B280-8186432AB2A4}" nr="11" name="Pixel 11" />
+         <Part cntChannels="4" ID="{BD778654-E788-4AB2-A57D-C92D38C957F5}" nr="12" name="Pixel 12" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Colour Chorus 72/Colour Chorus 72.xml?48 Ch.xslt&amp;VirtualIntensity" manufacturer="Elation" model="Colour Chorus 72" displayName="Colour Chorus 72 48 Ch (d)" cntChannels="48" ID="{9FD57F0B-5863-E811-A585-0013952355A0}" nr="304" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="3" startAddress="145" />
+         <Part cntChannels="4" ID="{61F95CF0-04AD-4664-A770-6BE9D27729B1}" nr="1" name="Pixel 1" />
+         <Part cntChannels="4" ID="{7745F79F-8686-4ECB-A940-FC0FD5797D48}" nr="2" name="Pixel 2" />
+         <Part cntChannels="4" ID="{C7B94844-4257-4942-AE73-A749D7E07627}" nr="3" name="Pixel 3" />
+         <Part cntChannels="4" ID="{9D8208D3-2942-4C0B-88D4-37C68F817F20}" nr="4" name="Pixel 4" />
+         <Part cntChannels="4" ID="{BC8A567E-CCA7-4304-BBBB-6E81236E1A2E}" nr="5" name="Pixel 5" />
+         <Part cntChannels="4" ID="{54F886D5-8724-4DA6-8918-C0BA8F8D7E39}" nr="6" name="Pixel 6" />
+         <Part cntChannels="4" ID="{708C190F-0C7B-428B-8C72-312679CC4251}" nr="7" name="Pixel 7" />
+         <Part cntChannels="4" ID="{6C73EF7C-8CED-4D65-A59C-96F80547721D}" nr="8" name="Pixel 8" />
+         <Part cntChannels="4" ID="{095DCAE0-E22F-4B70-8273-780A2EABC904}" nr="9" name="Pixel 9" />
+         <Part cntChannels="4" ID="{53D5692C-9AB3-4932-A2E0-CBF5426BDB50}" nr="10" name="Pixel 10" />
+         <Part cntChannels="4" ID="{B4DEE64E-73F4-4011-ACE8-7BD985EB5562}" nr="11" name="Pixel 11" />
+         <Part cntChannels="4" ID="{A684FEE2-A647-4FFB-96EC-1F98A67082A1}" nr="12" name="Pixel 12" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Colour Chorus 72/Colour Chorus 72.xml?48 Ch.xslt&amp;VirtualIntensity" manufacturer="Elation" model="Colour Chorus 72" displayName="Colour Chorus 72 48 Ch (d)" cntChannels="48" ID="{A0D57F0B-5863-E811-A585-0013952355A0}" nr="305" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="3" startAddress="193" />
+         <Part cntChannels="4" ID="{3897BBAE-7DE6-42B3-A83F-356A920FD1F5}" nr="1" name="Pixel 1" />
+         <Part cntChannels="4" ID="{2AC7F15D-9E92-416A-A0E5-4F2165243811}" nr="2" name="Pixel 2" />
+         <Part cntChannels="4" ID="{C1BC3A0D-2046-48D3-8D47-63024C6052C0}" nr="3" name="Pixel 3" />
+         <Part cntChannels="4" ID="{D717CF06-AD0B-46B3-AC96-1483926E7BEC}" nr="4" name="Pixel 4" />
+         <Part cntChannels="4" ID="{F18C28D0-A0FE-4C96-B989-108D3CB5DEDA}" nr="5" name="Pixel 5" />
+         <Part cntChannels="4" ID="{225882FC-AF2F-4697-9D21-DB0B83F48470}" nr="6" name="Pixel 6" />
+         <Part cntChannels="4" ID="{374BD3C1-1702-483D-8A47-DEF2B84E89D3}" nr="7" name="Pixel 7" />
+         <Part cntChannels="4" ID="{B954A11D-D8E5-4E8F-AF67-AB5886E5C6A0}" nr="8" name="Pixel 8" />
+         <Part cntChannels="4" ID="{8C301E55-82A8-49B2-A0CC-2A407D32AB6D}" nr="9" name="Pixel 9" />
+         <Part cntChannels="4" ID="{7409F988-2382-40EB-A895-948B07540077}" nr="10" name="Pixel 10" />
+         <Part cntChannels="4" ID="{4E03C157-C3B5-4BA8-A687-57B97FBDEBAD}" nr="11" name="Pixel 11" />
+         <Part cntChannels="4" ID="{DB23F9BD-0BA7-4ED6-AE8C-1CB33FE1C80C}" nr="12" name="Pixel 12" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Colour Chorus 72/Colour Chorus 72.xml?48 Ch.xslt&amp;VirtualIntensity" manufacturer="Elation" model="Colour Chorus 72" displayName="Colour Chorus 72 48 Ch (d)" cntChannels="48" ID="{A1D57F0B-5863-E811-A585-0013952355A0}" nr="306" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="3" startAddress="241" />
+         <Part cntChannels="4" ID="{958FADB4-B51C-48CC-929D-220608FAD846}" nr="1" name="Pixel 1" />
+         <Part cntChannels="4" ID="{EFCC65CD-86D4-40A0-B43B-45B64F4FF9AE}" nr="2" name="Pixel 2" />
+         <Part cntChannels="4" ID="{DC746F49-E556-4D3B-8A80-769ADC606486}" nr="3" name="Pixel 3" />
+         <Part cntChannels="4" ID="{C8D78A73-D094-4C37-B8A2-3B3B762E9CE1}" nr="4" name="Pixel 4" />
+         <Part cntChannels="4" ID="{E701EC4B-2DD0-4AFA-8A6F-BBD9F7393B52}" nr="5" name="Pixel 5" />
+         <Part cntChannels="4" ID="{EE821D54-EE63-4A2D-A97A-2BDF7F77641A}" nr="6" name="Pixel 6" />
+         <Part cntChannels="4" ID="{DA4504F9-CA0D-4091-AF9F-0360311EE8F2}" nr="7" name="Pixel 7" />
+         <Part cntChannels="4" ID="{CE5DFCDD-A756-4960-B2A9-B21126FBBBAA}" nr="8" name="Pixel 8" />
+         <Part cntChannels="4" ID="{D17ED7A0-82B4-4A9D-A247-FD2CDA7D788A}" nr="9" name="Pixel 9" />
+         <Part cntChannels="4" ID="{2E9BECB4-BC20-465C-A7DD-6C2B00A7C6CE}" nr="10" name="Pixel 10" />
+         <Part cntChannels="4" ID="{C6C9708D-82BB-469E-A3E6-19EB09087011}" nr="11" name="Pixel 11" />
+         <Part cntChannels="4" ID="{A9890A91-3B0B-41C2-A7C1-EB52FCCAC50D}" nr="12" name="Pixel 12" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Colour Chorus 72/Colour Chorus 72.xml?48 Ch.xslt&amp;VirtualIntensity" manufacturer="Elation" model="Colour Chorus 72" displayName="Colour Chorus 72 48 Ch (d)" cntChannels="48" ID="{A2D57F0B-5863-E811-A585-0013952355A0}" nr="307" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="3" startAddress="289" />
+         <Part cntChannels="4" ID="{D92A5801-0A51-484C-850A-4A9D188B58FE}" nr="1" name="Pixel 1" />
+         <Part cntChannels="4" ID="{F547D82C-1FCE-4E96-BECB-422C6AAFC23D}" nr="2" name="Pixel 2" />
+         <Part cntChannels="4" ID="{2978439B-6EA7-45DC-ADE3-AF163BDDC8C8}" nr="3" name="Pixel 3" />
+         <Part cntChannels="4" ID="{1031F9C6-D518-4CDE-8424-1E4410FB168A}" nr="4" name="Pixel 4" />
+         <Part cntChannels="4" ID="{A960E9F0-CADC-4B44-9EC4-F4E76FD8D87E}" nr="5" name="Pixel 5" />
+         <Part cntChannels="4" ID="{EFC8A1EC-20FA-4705-A8DA-059DA833F6F1}" nr="6" name="Pixel 6" />
+         <Part cntChannels="4" ID="{10EED29E-A549-41D4-89ED-52FC8FF4D24F}" nr="7" name="Pixel 7" />
+         <Part cntChannels="4" ID="{572954C4-1FB9-4094-8718-B8A64A9FCB2C}" nr="8" name="Pixel 8" />
+         <Part cntChannels="4" ID="{A6F6EA79-F96B-42F4-BD7F-FC732AA281F3}" nr="9" name="Pixel 9" />
+         <Part cntChannels="4" ID="{E3C31C6A-0EB2-4047-AB9A-E7F25F73F5D0}" nr="10" name="Pixel 10" />
+         <Part cntChannels="4" ID="{110EE330-01AE-4968-BF04-B7299B208658}" nr="11" name="Pixel 11" />
+         <Part cntChannels="4" ID="{D5D377ED-4E9E-4DAA-BD9D-0D098DC5B631}" nr="12" name="Pixel 12" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Colour Chorus 72/Colour Chorus 72.xml?48 Ch.xslt&amp;VirtualIntensity" manufacturer="Elation" model="Colour Chorus 72" displayName="Colour Chorus 72 48 Ch (d)" cntChannels="48" ID="{A3D57F0B-5863-E811-A585-0013952355A0}" nr="308" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="3" startAddress="337" />
+         <Part cntChannels="4" ID="{30D842A7-DA92-4779-8E16-39DA4BA465D2}" nr="1" name="Pixel 1" />
+         <Part cntChannels="4" ID="{CE0B6518-5394-46A4-B763-1C588D28B14C}" nr="2" name="Pixel 2" />
+         <Part cntChannels="4" ID="{6176764B-B4F9-4F8E-A19E-FD2BA111006F}" nr="3" name="Pixel 3" />
+         <Part cntChannels="4" ID="{5BD2F810-C42A-4521-B2C1-4C5CD73AD2F4}" nr="4" name="Pixel 4" />
+         <Part cntChannels="4" ID="{65D8FC89-CD60-4CCD-A694-CE1528563176}" nr="5" name="Pixel 5" />
+         <Part cntChannels="4" ID="{B6358FCB-E33C-44DA-BCAB-13FD8B55DDF8}" nr="6" name="Pixel 6" />
+         <Part cntChannels="4" ID="{69B40E1C-CB19-44D7-8150-B6B1973B407B}" nr="7" name="Pixel 7" />
+         <Part cntChannels="4" ID="{1B4560E3-A409-4609-9634-F984641C5D15}" nr="8" name="Pixel 8" />
+         <Part cntChannels="4" ID="{BAB8AA9D-AACA-457D-B77F-C2C47BF53135}" nr="9" name="Pixel 9" />
+         <Part cntChannels="4" ID="{47AC235D-F007-4B6D-8AD1-DF23816B4644}" nr="10" name="Pixel 10" />
+         <Part cntChannels="4" ID="{E6F2A5A9-9624-4EA4-B65C-92CB26999E69}" nr="11" name="Pixel 11" />
+         <Part cntChannels="4" ID="{5A137478-E923-480C-8E29-6A30130E39FF}" nr="12" name="Pixel 12" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Dartz 360/Dartz 360.xml" manufacturer="Elation" model="Dartz 360" displayName="Dartz 360 Extended" cntChannels="25" ID="{003AE2FE-5763-E811-A585-0013952355A0}" nr="401" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="2" startAddress="1" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Dartz 360/Dartz 360.xml" manufacturer="Elation" model="Dartz 360" displayName="Dartz 360 Extended" cntChannels="25" ID="{013AE2FE-5763-E811-A585-0013952355A0}" nr="402" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="2" startAddress="26" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Dartz 360/Dartz 360.xml" manufacturer="Elation" model="Dartz 360" displayName="Dartz 360 Extended" cntChannels="25" ID="{023AE2FE-5763-E811-A585-0013952355A0}" nr="403" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="2" startAddress="51" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Dartz 360/Dartz 360.xml" manufacturer="Elation" model="Dartz 360" displayName="Dartz 360 Extended" cntChannels="25" ID="{033AE2FE-5763-E811-A585-0013952355A0}" nr="404" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="2" startAddress="76" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Dartz 360/Dartz 360.xml" manufacturer="Elation" model="Dartz 360" displayName="Dartz 360 Extended" cntChannels="25" ID="{043AE2FE-5763-E811-A585-0013952355A0}" nr="405" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="2" startAddress="101" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Dartz 360/Dartz 360.xml" manufacturer="Elation" model="Dartz 360" displayName="Dartz 360 Extended" cntChannels="25" ID="{053AE2FE-5763-E811-A585-0013952355A0}" nr="406" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="2" startAddress="126" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Dartz 360/Dartz 360.xml" manufacturer="Elation" model="Dartz 360" displayName="Dartz 360 Extended" cntChannels="25" ID="{063AE2FE-5763-E811-A585-0013952355A0}" nr="407" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="2" startAddress="151" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Dartz 360/Dartz 360.xml" manufacturer="Elation" model="Dartz 360" displayName="Dartz 360 Extended" cntChannels="25" ID="{073AE2FE-5763-E811-A585-0013952355A0}" nr="408" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="2" startAddress="176" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Dartz 360/Dartz 360.xml" manufacturer="Elation" model="Dartz 360" displayName="Dartz 360 Extended" cntChannels="25" ID="{083AE2FE-5763-E811-A585-0013952355A0}" nr="409" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="2" startAddress="201" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Dartz 360/Dartz 360.xml" manufacturer="Elation" model="Dartz 360" displayName="Dartz 360 Extended" cntChannels="25" ID="{093AE2FE-5763-E811-A585-0013952355A0}" nr="410" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="2" startAddress="226" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Dartz 360/Dartz 360.xml" manufacturer="Elation" model="Dartz 360" displayName="Dartz 360 Extended" cntChannels="25" ID="{0A3AE2FE-5763-E811-A585-0013952355A0}" nr="411" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="2" startAddress="251" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+      <Fixture moniker="FixtureType4:Elation/Dartz 360/Dartz 360.xml" manufacturer="Elation" model="Dartz 360" displayName="Dartz 360 Extended" cntChannels="25" ID="{0B3AE2FE-5763-E811-A585-0013952355A0}" nr="412" patchState="1" cntAllocations="1" totalAllocations="1" totalMultiPatches="0">
+         <DMXChannel universe="2" startAddress="276" panInverted="0" tiltInverted="0" panTiltSwapped="0" />
+      </Fixture>
+   </Fixtures>
+</FixtureGroups>

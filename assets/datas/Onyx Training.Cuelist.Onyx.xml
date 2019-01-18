@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type='text/xsl' href='CuelistReport.xslt'?>
-<CueLists showName="Onyx Training" showBuild="67109874">
+<?xml-stylesheet type='text/xsl' href='CuelistReport.Onyx.xslt'?>
+<CueLists showName="Onyx Training" showBuild="67175434">
   <Submaster internalId="1" visualId="1" cuelistName="Singer KEY" overRidableByProgrammer="True" swop="False" ignoreBankChangeRelease="False" defaultFaderValue="False">
     <Cue internalRowId="1" cueId="1" cueName="Cue 1" comment="" usesBase="False" usesFx="False" usesTiming="False" trigger="Go" delay="0s" fade="2.50s"></Cue>
       <AnalogFader playbackPage="1" buttonPosition="1"></AnalogFader>

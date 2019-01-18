@@ -9,14 +9,23 @@
 	<xsl:template match="/">
 		<xsl:element name="html">
 			<xsl:element name="head">
-				<xsl:element name="link"><xsl:attribute name="rel">stylesheet</xsl:attribute><xsl:attribute name="type">text/css</xsl:attribute><xsl:attribute name="href">CuelistReportStyles.css</xsl:attribute></xsl:element>
-				<xsl:element name="title">&quot;<xsl:value-of select="CueLists/@showName"/>&quot; - Maxxyz Cuelists Report</xsl:element>
+				<xsl:element name="link"><xsl:attribute name="rel">stylesheet</xsl:attribute><xsl:attribute name="type">text/css</xsl:attribute><xsl:attribute name="href">CuelistReport.Onyx.css</xsl:attribute></xsl:element>
+				<xsl:element name="title">&quot;<xsl:value-of select="CueLists/@showName"/>&quot; - Onyx Cuelists Report</xsl:element>
 			</xsl:element>
 			<xsl:element name="body">
-				<xsl:element name="h1">&quot;<xsl:value-of select="CueLists/@showName"/>&quot; - Maxxyz Cuelists Report</xsl:element>
+				<xsl:element name="h1">&quot;<xsl:value-of select="CueLists/@showName"/>&quot; - Onyx Cuelists Report</xsl:element>
 				<xsl:element name="p">
 					<xsl:attribute name="class">body</xsl:attribute>
-					This report lists cuelists for show &quot;<xsl:value-of select="CueLists/@showName"/>&quot; <xsl:element name="b">(requires software build <xsl:value-of select="CueLists/@showBuild"/>)</xsl:element>.
+					This report lists cuelists for show &quot;<xsl:value-of select="CueLists/@showName"/>&quot;
+				  <xsl:element name="b">
+				    (requires software build
+				    <xsl:if test="CueLists/@showBuild &gt; 65535">
+				      <xsl:value-of select="(CueLists/@showBuild - (CueLists/@showBuild mod 16777216)) div 16777216"/><xsl:text>.</xsl:text>
+				      <xsl:value-of select="((CueLists/@showBuild - (CueLists/@showBuild mod 65536)) div 65536) mod 256"/><xsl:text>.</xsl:text>
+				    </xsl:if>
+				    <xsl:value-of select="CueLists/@showBuild mod 65536"/><xsl:text>)</xsl:text>
+				  </xsl:element>
+				  <xsl:text>.</xsl:text>
 				</xsl:element>
 				<xsl:apply-templates select="@* | node()"/>
 			</xsl:element>
