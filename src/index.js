@@ -5,21 +5,30 @@ import GroupRender from './render/group'
 
 // Change the form label by their associated picture
 Input()
-
-// Load Patch if this last exists
-DB.Get({ Object: 'File', ItemID: 'Patch' })
-  .then(item => {
-    if (typeof item !== 'undefined') {
-      PatchRender()
+  // Get Patch data
+  .then(() => DB.Get({ Object: 'File', ItemID: 'Patch' }))
+  // Display Patch
+  .then(Item => {
+    if (typeof Item !== 'undefined') {
+      return PatchRender()
+    } else {
+      throw new Error('No Patch')
     }
-    // Load Fixture Group if Patch has been already done
-    DB.Get({ Object: 'File', ItemID: 'FixtureGroup' })
-      .then(item => {
-        if (typeof item !== 'undefined') {
-          GroupRender()
-        }
-      })
   })
+  // Get Group data
+  .then(() => DB.Get({ Object: 'File', ItemID: 'FixtureGroup' }))
+  // Display Group
+  .then(Item => {
+    if (typeof Item !== 'undefined') {
+      return GroupRender()
+    } else {
+      throw new Error('No Group')
+    }
+  })
+  // End of reload data
+  .then(() => console.log('Render ended'))
+  // Catch error
+  .catch(reject => console.info(reject))
 
 // Reset Link
 document.querySelector('a[href="#Reset"]').addEventListener('click', e => {
