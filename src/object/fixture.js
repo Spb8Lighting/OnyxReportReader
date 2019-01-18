@@ -1,4 +1,5 @@
 'use scrict'
+const DB = require('./../database')
 const Option = require('./../config/option')
 
 class SubFixtureObject {
@@ -8,7 +9,7 @@ class SubFixtureObject {
    */
   constructor (PartXML) {
     this.ID = Number(PartXML.getAttribute('nr'))
-    this.Ref = PartXML.getAttribute('id')
+    this.Ref = PartXML.getAttribute('ID')
     this.Name = ((PartXML.getAttribute('name') != null) ? PartXML.getAttribute('name') : '')
   }
 }
@@ -36,7 +37,10 @@ class FixtureObject {
     if (Parts.length > 0) {
       this.Multipart = {}
       for (let i = 0; i < Parts.length; i++) {
-        this.Multipart[i] = JSON.parse(JSON.stringify(new SubFixtureObject(Parts[i])))
+        let NewMultiPart = JSON.parse(JSON.stringify(new SubFixtureObject(Parts[i])))
+        this.Multipart[i] = NewMultiPart
+        NewMultiPart.ID = Number(`${this.ID}.${NewMultiPart.ID}`)
+        DB.Add({ Object: 'Fixture', Item: NewMultiPart })
       }
     } else {
       this.Multipart = false

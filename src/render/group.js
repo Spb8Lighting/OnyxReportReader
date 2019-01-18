@@ -12,6 +12,7 @@ let Render = () => {
       '\t' + '<th>ID</th>' + '\n' +
       '\t' + '<th>Name</th>' + '\n' +
       '\t' + '<th>Mask</th>' + '\n' +
+      '\t' + '<th>Fixtures</th>' + '\n' +
       '</tr>',
     tbody: []
   }
@@ -19,10 +20,29 @@ let Render = () => {
     DB.Get({ Object: 'Show', ItemID: 'Show' }).then(Show => {
       for (let i = 0; i < Object.keys(Groups).length; ++i) {
         let Group = Groups[i]
+        let Fixtures = 0
+        let FixtureList = []
+        if (Group.Fixtures) {
+          Fixtures = Object.keys(Group.Fixtures).length
+        }
+        if (Fixtures > 0) {
+          for (let i = 0; i < Fixtures; ++i) {
+            let Fixture = Group.Fixtures[i]
+            DB.Get({ Object: 'Fixture', Index: 'Ref', ItemID: Fixture }).then(Fixture => {
+              if (Fixture) {
+                console.log(Group.Fixtures[i], Fixture.ID)
+                FixtureList.push(Fixture.ID)
+              } else {
+                console.log(Group.Fixtures[i])
+              }
+            })
+          }
+        }
         Content.tbody.push('<tr>' + '\n' +
           '\t' + '<td class="number">' + Group.ID + '</td>' + '\n' +
           '\t' + '<td>' + NotFalse(Group.Name) + '</td>' + '\n' +
           '\t' + '<td>' + ((Group.Mask) ? 'True' : '') + '</a></td>' + '\n' +
+          '\t' + '<td>' + FixtureList.join(', ') + '</td>' + '\n' +
           '</tr>')
       }
       Content.Description = 'Fixture groups summary: ' + Show.Name

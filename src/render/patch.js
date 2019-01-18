@@ -2,6 +2,8 @@
 const DB = require('./../database')
 const Display = require('./../display')
 
+const NoMultiInPatch = /^[0-9]+$/
+
 const NotFalse = val => {
   return val === false ? '' : val
 }
@@ -24,28 +26,30 @@ let Render = () => {
     DB.Get({ Object: 'Show', ItemID: 'Show' }).then(Show => {
       for (let i = 0; i < Object.keys(Fixtures).length; ++i) {
         let Fixture = Fixtures[i]
-        let Multipart = 0
-        if (Fixture.Multipart) {
-          Multipart = Object.keys(Fixture.Multipart).length
-        }
-        Content.tbody.push('<tr' + ((Multipart > 0) ? ' class="masterpart" data-id="' + Fixture.ID + '"' : '') + '>' + '\n' +
-          '\t' + '<td class="number">' + Fixture.ID + '</td>' + '\n' +
-          '\t' + '<td>' + NotFalse(Fixture.Name) + '</td>' + '\n' +
-          '\t' + '<td' + ((Multipart > 0) ? ' rowspan="' + (Multipart + 1) + '"' : '') + '><a target="_blank" href="https://onyxfixturefinder.com/#SearchMode=live&amp;DisplayMode=1&amp;Manufacturer=' + encodeURIComponent(Fixture.Manufacturer) + '" />' + Fixture.Manufacturer + '</a></td>' + '\n' +
-          '\t' + '<td' + ((Multipart > 0) ? ' rowspan="' + (Multipart + 1) + '"' : '') + '><a target="_blank" href="https://onyxfixturefinder.com/fixture/' + encodeURIComponent(Fixture.Manufacturer) + '/' + encodeURIComponent(Fixture.Model) + '" />' + Fixture.Model + '</a></td>' + '\n' +
-          '\t' + '<td' + ((Multipart > 0) ? ' rowspan="' + (Multipart + 1) + '"' : '') + '>' + Fixture.Mode + '</td>' + '\n' +
-          '\t' + '<td' + ((Multipart > 0) ? ' rowspan="' + (Multipart + 1) + '"' : '') + ' class="number">' + NotFalse(Fixture.Universe) + '</td>' + '\n' +
-          '\t' + '<td' + ((Multipart > 0) ? ' rowspan="' + (Multipart + 1) + '"' : '') + ' class="number">' + NotFalse(Fixture.Address) + '</td>' + '\n' +
-          '\t' + '<td>' + NotFalse(Fixture.Invert) + '</td>' + '\n' +
-          '</tr>')
-        if (Fixture.Multipart) {
-          for (let i = 0; i < Multipart; ++i) {
-            let FixturePart = Fixture.Multipart[i]
-            Content.tbody.push('<tr class="multipart" data-id="' + Fixture.ID + '">' + '\n' +
-              '\t' + '<td class="number txtright">.' + FixturePart.ID + '</td>' + '\n' +
-              '\t' + '<td>' + NotFalse(FixturePart.Name) + '</td>' + '\n' +
-              '\t' + '<td>' + NotFalse(Fixture.Invert) + '</td>' + '\n' +
-              '</tr>')
+        if (NoMultiInPatch.test(Fixture.ID)) {
+          let Multipart = 0
+          if (Fixture.Multipart) {
+            Multipart = Object.keys(Fixture.Multipart).length
+          }
+          Content.tbody.push('<tr' + ((Multipart > 0) ? ' class="masterpart" data-id="' + Fixture.ID + '"' : '') + '>' + '\n' +
+            '\t' + '<td class="number">' + Fixture.ID + '</td>' + '\n' +
+            '\t' + '<td>' + NotFalse(Fixture.Name) + '</td>' + '\n' +
+            '\t' + '<td' + ((Multipart > 0) ? ' rowspan="' + (Multipart + 1) + '"' : '') + '><a target="_blank" href="https://onyxfixturefinder.com/#SearchMode=live&amp;DisplayMode=1&amp;Manufacturer=' + encodeURIComponent(Fixture.Manufacturer) + '" />' + Fixture.Manufacturer + '</a></td>' + '\n' +
+            '\t' + '<td' + ((Multipart > 0) ? ' rowspan="' + (Multipart + 1) + '"' : '') + '><a target="_blank" href="https://onyxfixturefinder.com/fixture/' + encodeURIComponent(Fixture.Manufacturer) + '/' + encodeURIComponent(Fixture.Model) + '" />' + Fixture.Model + '</a></td>' + '\n' +
+            '\t' + '<td' + ((Multipart > 0) ? ' rowspan="' + (Multipart + 1) + '"' : '') + '>' + Fixture.Mode + '</td>' + '\n' +
+            '\t' + '<td' + ((Multipart > 0) ? ' rowspan="' + (Multipart + 1) + '"' : '') + ' class="number">' + NotFalse(Fixture.Universe) + '</td>' + '\n' +
+            '\t' + '<td' + ((Multipart > 0) ? ' rowspan="' + (Multipart + 1) + '"' : '') + ' class="number">' + NotFalse(Fixture.Address) + '</td>' + '\n' +
+            '\t' + '<td>' + NotFalse(Fixture.Invert) + '</td>' + '\n' +
+            '</tr>')
+          if (Fixture.Multipart) {
+            for (let i = 0; i < Multipart; ++i) {
+              let FixturePart = Fixture.Multipart[i]
+              Content.tbody.push('<tr class="multipart" data-id="' + Fixture.ID + '">' + '\n' +
+                '\t' + '<td class="number txtright">' + FixturePart.ID + '</td>' + '\n' +
+                '\t' + '<td>' + NotFalse(FixturePart.Name) + '</td>' + '\n' +
+                '\t' + '<td>' + NotFalse(Fixture.Invert) + '</td>' + '\n' +
+                '</tr>')
+            }
           }
         }
       }
