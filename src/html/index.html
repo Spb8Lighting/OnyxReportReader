@@ -46,11 +46,15 @@
     <footer></footer>
     <script type="text/javascript">
         if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
-            document.write('<script defer src="app.legacy.js"><\/script>')
+            alert('Your navigator is not supported, please use a modern navigator')
+            // document.write('<script defer src="app.legacy.js"><\/script>')
+        } else if (/Edge/.test(navigator.userAgent)) {
+            alert('Your navigator is not supported, please use a modern navigator')
         } else {
-            document.write('<script defer src="app.js"><\/script>')
+            //document.write('<script defer src="app.js"><\/script>')
         }
     </script>
+    <script defer src="app.js"></script>
 </body>
 
 </html>
