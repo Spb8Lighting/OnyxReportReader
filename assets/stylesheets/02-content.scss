@@ -48,7 +48,9 @@ article {
         }
         td {
             padding: 0 .5em;
-            vertical-align: top;
+            &[rowspan] {
+                vertical-align: top;
+            }
         }
     }
     &#Patch {

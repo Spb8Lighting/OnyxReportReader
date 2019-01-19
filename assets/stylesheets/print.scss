@@ -1,0 +1,81 @@
+@page {
+  size: A4 portrait;
+}
+aside,
+#default {
+  display: none;
+}
+header {
+  height: $header-height;
+  line-height: $header-height;
+  text-align: right;
+  &>a>img {
+    filter: invert(1);
+  }
+}
+table {
+  font-size: 10pt;
+  thead th {
+    position: sticky;
+    top: 0;
+    background-color: $header-color;
+  }
+  thead td {
+    font-weight: bold
+  }
+  tr {
+    border-bottom: 1px solid $gray-600;
+    &.masterpart {
+      page-break-after: avoid;
+    }
+    &.multipart {
+      page-break-before: avoid;
+    }
+  }
+  tr td.number {
+    width: 1em;
+    font-family: "Digital 7"
+  }
+  tr td.number {
+    width: auto;
+  }
+  tbody tr:last-child {
+    border-bottom: none
+  }
+  td {
+    padding: 0 .5em;
+    &[rowspan] {
+      vertical-align: top;
+    }
+  }
+}
+
+abbr[title] {
+  text-decoration: none;
+}
+
+a,
+a:active,
+a:focus,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.flex-container,
+.flex-container--row,
+.flex-row,
+.flex-container--column,
+.flex-column,
+.flex-container--row-reverse,
+.flex-row-reverse,
+.flex-container--column-reverse,
+.flex-column-reverse,
+.d-flex {
+  display: unset;
+}
+
+article#FixtureGroup {
+  page-break-before: always;
+}

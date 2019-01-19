@@ -9,5 +9,11 @@ $Onyx-Color2: #D4AA08;
 $Onyx-Color3: #3A791D;
 $Onyx-Color4: #FF2D55;
 
-@import '01-structure';
-@import '02-content';
+@media screen {
+  @import '01-structure';
+  @import '02-content';
+}
+
+@media print {
+  @import 'print';
+}
