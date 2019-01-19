@@ -29,17 +29,21 @@ class FixtureObject {
     this.Invert = ''
     this.Universe = false
     this.Address = false
-    this.CheckMultipart(FixtureXML)
     this.CheckDMXInfos(FixtureXML)
+    this.CheckMultipart(FixtureXML)
   }
   CheckMultipart (FixtureXML) {
     let Parts = FixtureXML.getElementsByTagName('Part')
     if (Parts.length > 0) {
-      this.Multipart = {}
+      this.Multipart = []
       for (let i = 0; i < Parts.length; i++) {
         let NewMultiPart = JSON.parse(JSON.stringify(new SubFixtureObject(Parts[i])))
-        this.Multipart[i] = NewMultiPart
         NewMultiPart.ID = Number(`${this.ID}.${NewMultiPart.ID}`)
+        this.Multipart.push({ ID: NewMultiPart.ID })
+        NewMultiPart.Manufacturer = this.Manufacturer
+        NewMultiPart.Model = this.Model
+        NewMultiPart.Universe = this.Universe
+        NewMultiPart.Address = this.Address
         DB.Add({ Object: 'Fixture', Item: NewMultiPart })
       }
     } else {

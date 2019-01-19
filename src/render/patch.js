@@ -26,7 +26,7 @@ let Render = () => {
     DB.GetAll({ Object: 'Fixture' })
       .then(Fixtures => {
         DB.Get({ Object: 'Show', ItemID: 'Show' })
-          .then(Show => {
+          .then(async Show => {
             for (let i = 0; i < Object.keys(Fixtures).length; ++i) {
               let Fixture = Fixtures[i]
               if (NoMultiInPatch.test(Fixture.ID)) {
@@ -46,7 +46,7 @@ let Render = () => {
                   '</tr>')
                 if (Fixture.Multipart) {
                   for (let i = 0; i < Multipart; ++i) {
-                    let FixturePart = Fixture.Multipart[i]
+                    let FixturePart = await DB.Get({ Object: 'Fixture', Index: 'ID', ItemID: Fixture.Multipart[i].ID })
                     Content.tbody.push('<tr class="multipart" data-id="' + Fixture.ID + '">' + '\n' +
                       '\t' + '<td class="number txtright">' + FixturePart.ID + '</td>' + '\n' +
                       '\t' + '<td>' + NotFalse(FixturePart.Name) + '</td>' + '\n' +
