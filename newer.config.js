@@ -5,6 +5,7 @@ const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 const OptimizeCSSAssets = require('optimize-css-assets-webpack-plugin')
 const DashboardPlugin = require('webpack-dashboard/plugin')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 const IsDev = (process.env.NODE_ENV === 'development')
 
 let config = {
@@ -77,7 +78,8 @@ if (!IsDev) {
     new CleanWebpackPlugin(['./public'], {
       verbose: true,
       dry: false
-    })
+    }),
+    new CopyWebpackPlugin([{ from: './assets/favicons', to: './img/favicons' }])
   )
 } else {
   config.plugins.push(

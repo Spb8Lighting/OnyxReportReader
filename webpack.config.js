@@ -2,6 +2,7 @@ const webpack = require('webpack')
 const path = require('path')
 const ExtractTextWebpackPlugin = require('extract-text-webpack-plugin')
 const DashboardPlugin = require('webpack-dashboard/plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 let config = {
   mode: process.env.NODE_ENV,
@@ -55,6 +56,7 @@ let config = {
     ]
   },
   plugins: [
+    new CopyWebpackPlugin([{ from: './assets/favicons', to: './public/img/favicons' }]),
     new ExtractTextWebpackPlugin('app.css'),
     new DashboardPlugin(),
     new webpack.HotModuleReplacementPlugin()
