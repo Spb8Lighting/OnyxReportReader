@@ -28,10 +28,13 @@ module.exports = {
     for (let i = 0; i < $Group.length; i++) {
       if ($Group.hasOwnProperty(i)) {
         let NewFixtureGroup = await new $FixtureGroup.Init(i, $Group[i])
-        DB.Add({
-          Object: 'FixtureGroup',
-          Item: JSON.parse(JSON.stringify(NewFixtureGroup))
-        })
+        // Remove auto group based on mask attribut
+        if (!NewFixtureGroup.Mask) {
+          DB.Add({
+            Object: 'FixtureGroup',
+            Item: JSON.parse(JSON.stringify(NewFixtureGroup))
+          })
+        }
       }
     }
   }
