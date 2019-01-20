@@ -10,6 +10,8 @@ module.exports = {
   },
   Group: {
     // In the group page, permit to simplified the Fixture abbreviation title to the minimum
-    DisplaySimplifiedFixture: true
+    DisplaySimplifiedFixture: true,
+    // Hide the AutoGroup
+    HideAutoGroup: true
   }
 }

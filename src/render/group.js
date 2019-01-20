@@ -30,7 +30,7 @@ let Render = () => {
       thead: '<tr>' + '\n' +
         '\t' + '<th>ID</th>' + '\n' +
         '\t' + '<th>Name</th>' + '\n' +
-        '\t' + '<th>Mask</th>' + '\n' +
+        ((Option.Group.HideAutoGroup) ? '' : '\t' + '<th>Mask</th>' + '\n') +
         '\t' + '<th>Fixtures</th>' + '\n' +
         '</tr>',
       tbody: []
@@ -58,7 +58,7 @@ let Render = () => {
               Content.tbody.push('<tr>' + '\n' +
                 '\t' + '<td class="number">' + Group.ID + '</td>' + '\n' +
                 '\t' + '<td>' + NotFalse(Group.Name) + '</td>' + '\n' +
-                '\t' + '<td>' + ((Group.Mask) ? 'True' : '') + '</a></td>' + '\n' +
+                ((Option.Group.HideAutoGroup) ? '' : '\t' + '<td>' + ((Group.Mask) ? 'True' : '') + '</a></td>' + '\n') +
                 '\t' + '<td class="number">' + FixtureList.join(', ') + '</td>' + '\n' +
                 '</tr>')
             }

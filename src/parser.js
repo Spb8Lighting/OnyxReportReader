@@ -2,6 +2,7 @@ const $Show = require('./object/show')
 const $Fixture = require('./object/fixture')
 const $FixtureGroup = require('./object/group')
 const DB = require('./database')
+const Option = require('./config/option')
 
 module.exports = {
   Patch: $Xml => {
@@ -28,8 +29,15 @@ module.exports = {
     for (let i = 0; i < $Group.length; i++) {
       if ($Group.hasOwnProperty(i)) {
         let NewFixtureGroup = await new $FixtureGroup.Init(i, $Group[i])
-        // Remove auto group based on mask attribut
-        if (!NewFixtureGroup.Mask) {
+        if (Option.Group.HideAutoGroup) {
+          // Remove auto group based on mask attribut
+          if (!NewFixtureGroup.Mask) {
+            DB.Add({
+              Object: 'FixtureGroup',
+              Item: JSON.parse(JSON.stringify(NewFixtureGroup))
+            })
+          }
+        } else {
           DB.Add({
             Object: 'FixtureGroup',
             Item: JSON.parse(JSON.stringify(NewFixtureGroup))
