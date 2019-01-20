@@ -33,7 +33,21 @@ let Loaded = ArticleID => {
   // Remove the input once document loaded
   let Input = document.getElementById(`${ArticleID}XML`)
   if (Input) {
-    Input.parentNode.removeChild(Input)
+    let Label = Input.parentNode
+    // Lock the next drag and drop on the label once input removed
+    Label.addEventListener('dragover', e => {
+      e.preventDefault()
+      e.dataTransfer.effectAllowed = 'none'
+      e.dataTransfer.dropEffect = 'none'
+      return false
+    })
+    Label.addEventListener('drop', e => {
+      e.preventDefault()
+      e.dataTransfer.effectAllowed = 'none'
+      e.dataTransfer.dropEffect = 'none'
+      return false
+    })
+    Label.removeChild(Input)
   }
 
   // Force to display the new content
