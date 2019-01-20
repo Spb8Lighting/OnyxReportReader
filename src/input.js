@@ -27,20 +27,14 @@ export default () => {
 
       let Input = document.getElementById(LabelFor)
 
-      Input.addEventListener('dragover', e => {
-        Input.parentNode.classList.add('dragover')
-      })
-      Input.addEventListener('dragleave', e => {
-        Input.parentNode.classList.remove('dragover')
-      })
-      Input.addEventListener('drop', e => {
-        Input.parentNode.classList.remove('dragover')
-      })
+      Input.addEventListener('dragover', e => e.target.parentNode.classList.add('dragover'))
+      Input.addEventListener('dragleave', e => e.target.parentNode.classList.remove('dragover'))
+      Input.addEventListener('drop', e => e.target.parentNode.classList.remove('dragover'))
 
       // Input listeners for XML upload
-      Input.addEventListener('change', () => {
+      Input.addEventListener('change', e => {
         Loader.Show()
-        let UploadedFile = Input.files[0]
+        let UploadedFile = e.target.files[0]
         if (typeof UploadedFile.name !== 'undefined') {
           if (UploadedFile.name.search(InputMatchRegex) === -1) {
             Message({ error: `<em>File selected: ${UploadedFile.name}</em><br />${Wording.Error.File.Extension} <strong>${LabelExt}</strong>` })
