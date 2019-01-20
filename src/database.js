@@ -8,10 +8,10 @@ const DbPromise = idb.openDb('ReportReader', 3, upgradeDb => {
       Fixture.createIndex('ID', 'ID', { unique: true })
       Fixture.createIndex('Ref', 'Ref', { unique: true })
       upgradeDb.createObjectStore('File', { keyPath: 'Key' })
-    // eslint-disable-next-line no-fallthrough
+      // eslint-disable-next-line no-fallthrough
     case 1:
-      upgradeDb.createObjectStore('FixtureGroup', { keyPath: 'Key', autoIncrement: true })
-    // eslint-disable-next-line no-fallthrough
+      upgradeDb.createObjectStore('FixtureGroup', { keyPath: 'Key' })
+      // eslint-disable-next-line no-fallthrough
     case 2:
       const Preset = upgradeDb.createObjectStore('Preset', { keyPath: 'ID' })
       Preset.createIndex('ID', 'ID', { unique: true })

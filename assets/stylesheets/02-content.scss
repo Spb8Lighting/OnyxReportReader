@@ -29,6 +29,7 @@ article {
             position: sticky;
             top: 0;
             background-color: $header-color;
+            z-index: 1;
         }
         thead td {
             font-weight: bold
@@ -53,19 +54,20 @@ article {
             }
         }
     }
-    &#Patch {
+    &#Patch,
+    &#FixtureGroup {
         h2 {
             color: $Onyx-Color1;
         }
         table {
             th:nth-child(1),
+            th:nth-child(5),
             th:nth-child(6),
             th:nth-child(7),
-            th:nth-child(8),
             td:nth-child(1),
+            td:nth-child(5),
             td:nth-child(6),
-            td:nth-child(7),
-            td:nth-child(8) {
+            td:nth-child(7) {
                 width: 70px;
             }
         }
@@ -85,4 +87,30 @@ article {
             color: $Onyx-Color4;
         }
     }
+}
+span[data-title] {
+    position: relative;
+    border-bottom: 0.5px dotted $gray-600;
+    z-index: 0;
+    cursor: help;
+}
+span[data-title]:hover,
+span[data-title]:focus {
+    color: $link-color-hover;
+    border-color: transparent;
+    z-index: 2;
+}
+span[data-title]:hover::after,
+span[data-title]:focus::after {
+    content: attr(data-title);
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    background-color: $header-color;
+    top: -2.4em;
+    padding: 1%;
+    left: 50%;
+    transform: translateX(-85%);
+    white-space: nowrap;
+    border: 1px;
+    border-radius: 1em;
 }

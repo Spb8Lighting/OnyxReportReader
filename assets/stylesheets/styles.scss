@@ -1,7 +1,7 @@
 @import 'knacss';
 @import 'font';
 
-$header-height: 60px;
+$header-height: 81px;
 $aside-width: 100px;
 $advertisement-svg-height: 400px;
 $Onyx-Color1: #5AC8FA;
@@ -12,6 +12,7 @@ $Onyx-Color4: #FF2D55;
 @media screen {
   @import '01-structure';
   @import '02-content';
+  @import 'loader';
 }
 
 @media print {

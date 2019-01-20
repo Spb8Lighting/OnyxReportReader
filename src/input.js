@@ -4,6 +4,7 @@ import Wording from './config/wording'
 import DB from './database'
 import Parser from './parser'
 import $File from './object/file'
+import Loader from './loader'
 
 export default () => {
   // ########################
@@ -38,15 +39,17 @@ export default () => {
 
       // Input listeners for XML upload
       Input.addEventListener('change', () => {
+        Loader.Show()
         let UploadedFile = Input.files[0]
         if (typeof UploadedFile.name !== 'undefined') {
           if (UploadedFile.name.search(InputMatchRegex) === -1) {
             Message({ error: `<em>File selected: ${UploadedFile.name}</em><br />${Wording.Error.File.Extension} <strong>${LabelExt}</strong>` })
+            Loader.Hide()
           } else {
             let reader = new FileReader()
             let parser = new DOMParser()
             let xmlDoc
-            reader.addEventListener('load', e => {
+            reader.addEventListener('load', async e => {
               xmlDoc = parser.parseFromString(e.target.result, 'text/xml')
               switch (ActicleID) {
                 case 'Patch':
@@ -54,7 +57,7 @@ export default () => {
                   require('./render/patch')()
                   break
                 case 'FixtureGroup':
-                  Parser.FixtureGroup(xmlDoc)
+                  await Parser.FixtureGroup(xmlDoc)
                   require('./render/group')()
                   break
                 default:

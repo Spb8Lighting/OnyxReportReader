@@ -32,7 +32,9 @@ let Loaded = ArticleID => {
   })
   // Remove the input once document loaded
   let Input = document.getElementById(`${ArticleID}XML`)
-  Input.parentNode.removeChild(Input)
+  if (Input) {
+    Input.parentNode.removeChild(Input)
+  }
 
   // Force to display the new content
   Display(ArticleID)

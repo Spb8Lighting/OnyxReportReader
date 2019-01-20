@@ -2,6 +2,7 @@
 const DB = require('./../database')
 const Display = require('./../display')
 const Option = require('./../config/option')
+const PatchRender = require('./patch')
 
 const NotFalse = val => {
   return val === false ? '' : val
@@ -10,15 +11,15 @@ const NotFalse = val => {
 let FixtureInfo = FixtureDB => {
   if (Option.Group.DisplaySimplifiedFixture) {
     if (FixtureDB.Name) {
-      return `${FixtureDB.Manufacturer} - ${FixtureDB.Model}(${FixtureDB.Name}) @ ${FixtureDB.Universe}.${FixtureDB.Address}`
+      return `#${FixtureDB.ID} ${FixtureDB.Manufacturer} - ${FixtureDB.Model}(${FixtureDB.Name}) @ ${FixtureDB.Universe}.${FixtureDB.Address}`
     } else {
-      return `${FixtureDB.Manufacturer} - ${FixtureDB.Model} @ ${FixtureDB.Universe}.${FixtureDB.Address}`
+      return `#${FixtureDB.ID} ${FixtureDB.Manufacturer} - ${FixtureDB.Model} @ ${FixtureDB.Universe}.${FixtureDB.Address}`
     }
   } else {
     if (FixtureDB.Name) {
-      return `Name: ${FixtureDB.Name},Manufacturer: ${FixtureDB.Manufacturer}, Model: ${FixtureDB.Model}, Address: ${FixtureDB.Universe}.${FixtureDB.Address}`
+      return `ID: ${FixtureDB.ID}, Name: ${FixtureDB.Name}, Manufacturer: ${FixtureDB.Manufacturer}, Model: ${FixtureDB.Model}, Address: ${FixtureDB.Universe}.${FixtureDB.Address}`
     } else {
-      return `Manufacturer: ${FixtureDB.Manufacturer}, Model: ${FixtureDB.Model}, Address: ${FixtureDB.Universe}.${FixtureDB.Address}`
+      return `ID: ${FixtureDB.ID}, Manufacturer: ${FixtureDB.Manufacturer}, Model: ${FixtureDB.Model}, Address: ${FixtureDB.Universe}.${FixtureDB.Address}`
     }
   }
 }
@@ -50,7 +51,7 @@ let Render = () => {
                   let Fixture = Group.Fixtures[i]
                   let FixtureDB = await DB.Get({ Object: 'Fixture', Index: 'Ref', ItemID: Fixture })
                   if (FixtureDB) {
-                    FixtureList.push(`<abbr title="${FixtureInfo(FixtureDB)}">${FixtureDB.ID}</abbr>`)
+                    FixtureList.push(`<span data-title="${FixtureInfo(FixtureDB)}">${FixtureDB.ID}</span>`)
                   }
                 }
               }
@@ -75,7 +76,7 @@ let Render = () => {
 
             FixtureGroupArticle.innerHTML = `<h2>Fixture Groups</h2><p>${Content.Description}</p>${Content.Table}`
             Display.SetLoaded('FixtureGroup')
-            resolve(true)
+            PatchRender(false)
           })
       })
   })

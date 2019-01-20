@@ -11,6 +11,7 @@ class SubFixtureObject {
     this.ID = Number(PartXML.getAttribute('nr'))
     this.Ref = PartXML.getAttribute('ID')
     this.Name = ((PartXML.getAttribute('name') != null) ? PartXML.getAttribute('name') : '')
+    this.Groups = []
   }
 }
 
@@ -29,6 +30,7 @@ class FixtureObject {
     this.Invert = ''
     this.Universe = false
     this.Address = false
+    this.Groups = []
     this.CheckDMXInfos(FixtureXML)
     this.CheckMultipart(FixtureXML)
   }
@@ -54,13 +56,13 @@ class FixtureObject {
     let DMXInfos = FixtureXML.getElementsByTagName('DMXChannel')[0]
     if (typeof DMXInfos !== 'undefined') {
       if (DMXInfos.getAttribute('panTiltSwapped') > 0) {
-        this.Invert += (Option.Patch.DisplayInvertAxesIcon) ? '<span data-option="swap"><span>Swap</span></span>' : '<abbr title="Pan/Tilt swapped">S</abbr>'
+        this.Invert += (Option.Patch.DisplayInvertAxesIcon) ? '<span data-option="swap"><span>Swap</span></span>' : '<span data-title="Pan/Tilt swapped">S</span>'
       }
       if (DMXInfos.getAttribute('panInverted') < 0) {
-        this.Invert += (Option.Patch.DisplayInvertAxesIcon) ? '<span data-option="pan"><span>Pan</span></span>' : '<abbr title="Pan inverted">P</abbr>'
+        this.Invert += (Option.Patch.DisplayInvertAxesIcon) ? '<span data-option="pan"><span>Pan</span></span>' : '<span data-title="Pan inverted">P</span>'
       }
       if (DMXInfos.getAttribute('tiltInverted') < 0) {
-        this.Invert += (Option.Patch.DisplayInvertAxesIcon) ? '<span data-option="tilt"><span>Tilt</span></span>' : '<abbr title="Tilt inverted">T</abbr>'
+        this.Invert += (Option.Patch.DisplayInvertAxesIcon) ? '<span data-option="tilt"><span>Tilt</span></span>' : '<span data-title="Tilt inverted">T</span>'
       }
       this.Universe = Number(DMXInfos.getAttribute('universe'))
       this.Address = Number(DMXInfos.getAttribute('startAddress'))

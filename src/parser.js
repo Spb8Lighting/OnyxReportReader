@@ -1,6 +1,6 @@
 const $Show = require('./object/show')
 const $Fixture = require('./object/fixture')
-const $FixtureGroup = require('./object/fixturegroup')
+const $FixtureGroup = require('./object/group')
 const DB = require('./database')
 
 module.exports = {
@@ -21,15 +21,16 @@ module.exports = {
       }
     }
   },
-  FixtureGroup: $Xml => {
+  FixtureGroup: async $Xml => {
     // Set XML Getter
     let $General = $Xml.getElementsByTagName('FixtureGroups')[0]
     let $Group = $General.getElementsByTagName('FixtureGroup')
     for (let i = 0; i < $Group.length; i++) {
       if ($Group.hasOwnProperty(i)) {
+        let NewFixtureGroup = await new $FixtureGroup.Init(i, $Group[i])
         DB.Add({
           Object: 'FixtureGroup',
-          Item: JSON.parse(JSON.stringify(new $FixtureGroup($Group[i])))
+          Item: JSON.parse(JSON.stringify(NewFixtureGroup))
         })
       }
     }
