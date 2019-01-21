@@ -7,7 +7,7 @@
         "useBuiltIns": "entry",
         "targets": {
           "browsers": [
-            "last 2 versions",
+            "last 5 versions",
             "safari >=7",
             "ie >=9"
           ]

@@ -65,6 +65,8 @@
     "webpack-dev-server": "^3.1.14"
   },
   "browserslist": [
-    "last 2 versions"
+    "last 3 version",
+    "> 1%",
+    "IE 10"
   ]
 }
