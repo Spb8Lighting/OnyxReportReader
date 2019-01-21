@@ -11,7 +11,7 @@ export default () => {
   //   Form Configuration
   // ########################
   return new Promise((resolve, reject) => {
-    let Labels = document.querySelectorAll('label')
+    let Labels = document.querySelectorAll('aside label')
 
     for (let i = 0; i < Labels.length; ++i) {
       let Label = Labels[i]
