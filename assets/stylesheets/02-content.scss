@@ -141,3 +141,7 @@ span[data-title]:focus::after {
 .hide {
     display: none;
 }
+.switch, .checkbox, .radio {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
