@@ -35,12 +35,12 @@ let Render = (PageActivation = true) => {
   return new Promise((resolve, reject) => {
     let Content = {
       thead: '<tr>' + '\n' +
-        '\t' + '<th>ID</th>' + '\n' +
-        '\t' + '<th>Name</th>' + '\n' +
-        '\t' + '<th>Group</th>' + '\n' +
-        ((Option.Patch.DisplaySimplifyFixture) ? '\t' + '<th>Fixture</th>' + '\n' : '\t' + '<th>Manufacturer</th>' + '\n' + '\t' + '<th>Model</th>' + '\n' + '\t' + '<th>Personality</th>' + '\n') +
-        ((Option.Patch.DisplaySimplifyAdress) ? '\t' + '<th>Address</th>' + '\n' : '\t' + '<th>Universe</th>' + '\n' + '\t' + '<th>Address</th>' + '\n') +
-        '\t' + '<th>Invert</th>' + '\n' +
+        '\t' + '<th class="Patch_ID">ID</th>' + '\n' +
+        '\t' + '<th class="Patch_Name">Name</th>' + '\n' +
+        '\t' + '<th class="Patch_Group hide">Group</th>' + '\n' +
+        ((Option.Patch.DisplaySimplifyFixture) ? '\t' + '<th class="Patch_Fixture">Fixture</th>' + '\n' : '\t' + '<th class="Patch_Manufacturer">Manufacturer</th>' + '\n' + '\t' + '<th class="Patch_Model">Model</th>' + '\n' + '\t' + '<th class="Patch_Mode">Personality</th>' + '\n') +
+        ((Option.Patch.DisplaySimplifyAdress) ? '\t' + '<th class="Patch_FullAddress">Address</th>' + '\n' : '\t' + '<th class="Patch_Universe">Universe</th>' + '\n' + '\t' + '<th class="Patch_Address">Address</th>' + '\n') +
+        '\t' + '<th class="Patch_Invert">Invert</th>' + '\n' +
         '</tr>',
       tbody: []
     }
@@ -55,23 +55,23 @@ let Render = (PageActivation = true) => {
                 if (Fixture.Multipart) {
                   Multipart = Object.keys(Fixture.Multipart).length
                 }
-                Content.tbody.push('<tr' + ((Multipart > 0) ? ' class="masterpart" data-id="' + Fixture.ID + '"' : '') + '>' + '\n' +
-                  '\t' + '<td class="number">' + Fixture.ID + '</td>' + '\n' +
-                  '\t' + '<td>' + NotFalse(Fixture.Name) + '</td>' + '\n' +
-                  '\t' + '<td>' + await GetAllGroups(Fixture) + '</td>' + '\n' +
-                  ((Option.Patch.DisplaySimplifyFixture) ? '\t' + '<td' + ((Multipart > 0) ? ' rowspan="' + (Multipart + 1) + '"' : '') + '><a target="_blank" href="https://onyxfixturefinder.com/#SearchMode=live&amp;DisplayMode=1&amp;Manufacturer=' + encodeURIComponent(Fixture.Manufacturer) + '" />' + Fixture.Manufacturer + ' - <a target="_blank" href="https://onyxfixturefinder.com/fixture/' + encodeURIComponent(Fixture.Manufacturer) + '/' + encodeURIComponent(Fixture.Model) + '" />' + Fixture.Model + '</a> <em>(' + Fixture.Mode + ')</em></td>' + '\n' : '\t' + '<td' + ((Multipart > 0) ? ' rowspan="' + (Multipart + 1) + '"' : '') + '><a target="_blank" href="https://onyxfixturefinder.com/#SearchMode=live&amp;DisplayMode=1&amp;Manufacturer=' + encodeURIComponent(Fixture.Manufacturer) + '" />' + Fixture.Manufacturer + '</a></td>' + '\n' +
-                  '\t' + '<td' + ((Multipart > 0) ? ' rowspan="' + (Multipart + 1) + '"' : '') + '><a target="_blank" href="https://onyxfixturefinder.com/fixture/' + encodeURIComponent(Fixture.Manufacturer) + '/' + encodeURIComponent(Fixture.Model) + '" />' + Fixture.Model + '</a></td>' + '\n' + '\t' + '<td' + ((Multipart > 0) ? ' rowspan="' + (Multipart + 1) + '"' : '') + '>' + Fixture.Mode + '</td>' + '\n') +
-                  ((Option.Patch.DisplaySimplifyAdress) ? '\t' + '<td' + ((Multipart > 0) ? ' rowspan="' + (Multipart + 1) + '"' : '') + ' class="number">' + NotFalse(Fixture.Universe) + '.' + NotFalse(Fixture.Address) + '</td>' + '\n' : '\t' + '<td' + ((Multipart > 0) ? ' rowspan="' + (Multipart + 1) + '"' : '') + ' class="number">' + NotFalse(Fixture.Universe) + '</td>' + '\n' + '\t' + '<td' + ((Multipart > 0) ? ' rowspan="' + (Multipart + 1) + '"' : '') + ' class="number">' + NotFalse(Fixture.Address) + '</td>' + '\n') +
-                  '\t' + '<td>' + NotFalse(Fixture.Invert) + '</td>' + '\n' +
+                Content.tbody.push('<tr' + ((Multipart > 0) ? ' class="MultiPart" data-id="' + Fixture.ID + '"' : '') + '>' + '\n' +
+                  '\t' + '<td class="Patch_ID number">' + Fixture.ID + '</td>' + '\n' +
+                  '\t' + '<td class="Patch_Name">' + NotFalse(Fixture.Name) + '</td>' + '\n' +
+                  '\t' + '<td class="Patch_Group hide">' + await GetAllGroups(Fixture) + '</td>' + '\n' +
+                  ((Option.Patch.DisplaySimplifyFixture) ? '\t' + '<td class="Patch_Fixture"' + ((Multipart > 0) ? ' data-rowspan="' + (Multipart + 1) + '" rowspan="' + (Multipart + 1) + '"' : '') + '><a target="_blank" href="https://onyxfixturefinder.com/fixture/' + encodeURIComponent(Fixture.Manufacturer) + '/' + encodeURIComponent(Fixture.Model) + '" />' + Fixture.Manufacturer + ' - ' + Fixture.Model + '</a> <em>(' + Fixture.Mode + ')</em></td>' + '\n' : '\t' + '<td class="Patch_Manufacturer"' + ((Multipart > 0) ? ' data-rowspan="' + (Multipart + 1) + '" rowspan="' + (Multipart + 1) + '"' : '') + '><a target="_blank" href="https://onyxfixturefinder.com/#SearchMode=live&amp;DisplayMode=1&amp;Manufacturer=' + encodeURIComponent(Fixture.Manufacturer) + '" />' + Fixture.Manufacturer + '</a></td>' + '\n' +
+                  '\t' + '<td class="Patch_Model"' + ((Multipart > 0) ? ' data-rowspan="' + (Multipart + 1) + '" rowspan="' + (Multipart + 1) + '"' : '') + '><a target="_blank" href="https://onyxfixturefinder.com/fixture/' + encodeURIComponent(Fixture.Manufacturer) + '/' + encodeURIComponent(Fixture.Model) + '" />' + Fixture.Model + '</a></td>' + '\n' + '\t' + '<td class="Patch_Mode"' + ((Multipart > 0) ? ' data-rowspan="' + (Multipart + 1) + '" rowspan="' + (Multipart + 1) + '"' : '') + '>' + Fixture.Mode + '</td>' + '\n') +
+                  ((Option.Patch.DisplaySimplifyAdress) ? '\t' + '<td' + ((Multipart > 0) ? ' data-rowspan="' + (Multipart + 1) + '" rowspan="' + (Multipart + 1) + '"' : '') + ' class="number Patch_FullAddress">' + NotFalse(Fixture.Universe) + '.' + NotFalse(Fixture.Address) + '</td>' + '\n' : '\t' + '<td' + ((Multipart > 0) ? ' data-rowspan="' + (Multipart + 1) + '" rowspan="' + (Multipart + 1) + '"' : '') + ' class="number Patch_Universe">' + NotFalse(Fixture.Universe) + '</td>' + '\n' + '\t' + '<td' + ((Multipart > 0) ? ' data-rowspan="' + (Multipart + 1) + '" rowspan="' + (Multipart + 1) + '"' : '') + ' class="number Patch_Address">' + NotFalse(Fixture.Address) + '</td>' + '\n') +
+                  '\t' + '<td class="Patch_Invert">' + NotFalse(Fixture.Invert) + '</td>' + '\n' +
                   '</tr>')
                 if (Fixture.Multipart) {
                   for (let i = 0; i < Multipart; ++i) {
                     let FixturePart = await DB.Get({ Object: 'Fixture', Index: 'ID', ItemID: Fixture.Multipart[i].ID })
-                    Content.tbody.push('<tr class="multipart" data-id="' + Fixture.ID + '">' + '\n' +
-                      '\t' + '<td class="number txtright">' + FixturePart.ID + '</td>' + '\n' +
-                      '\t' + '<td>' + NotFalse(FixturePart.Name) + '</td>' + '\n' +
-                      '\t' + '<td>' + await GetAllGroups(FixturePart) + '</td>' + '\n' +
-                      '\t' + '<td>' + NotFalse(Fixture.Invert) + '</td>' + '\n' +
+                    Content.tbody.push('<tr class="Patch_MultiPart" data-id="' + Fixture.ID + '">' + '\n' +
+                      '\t' + '<td class="number txtright Patch_ID">' + FixturePart.ID + '</td>' + '\n' +
+                      '\t' + '<td class="Patch_Name">' + NotFalse(FixturePart.Name) + '</td>' + '\n' +
+                      '\t' + '<td class="Patch_Group hide">' + await GetAllGroups(FixturePart) + '</td>' + '\n' +
+                      '\t' + '<td class="Patch_Invert">' + NotFalse(Fixture.Invert) + '</td>' + '\n' +
                       '</tr>')
                   }
                 }

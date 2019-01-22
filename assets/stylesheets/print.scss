@@ -2,7 +2,8 @@
   size: A4 portrait;
 }
 aside,
-#default {
+#default,
+.hide {
   display: none;
 }
 header {
@@ -50,7 +51,8 @@ table {
   }
 }
 
-#Patch {
+#Patch,
+#FixtureGroup {
   table {
       th:nth-child(1),
       th:nth-child(5),

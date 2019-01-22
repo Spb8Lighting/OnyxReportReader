@@ -28,10 +28,10 @@ let Render = () => {
   return new Promise((resolve, reject) => {
     let Content = {
       thead: '<tr>' + '\n' +
-        '\t' + '<th>ID</th>' + '\n' +
-        '\t' + '<th>Name</th>' + '\n' +
-        ((Option.Group.HideAutoGroup) ? '' : '\t' + '<th>Mask</th>' + '\n') +
-        '\t' + '<th>Fixtures</th>' + '\n' +
+        '\t' + '<th class="Group_ID">ID</th>' + '\n' +
+        '\t' + '<th class="Group_Name">Name</th>' + '\n' +
+        ((Option.Group.HideAutoGroup) ? '' : '\t' + '<th class="Group_Mask">Mask</th>' + '\n') +
+        '\t' + '<th class="Group_Fixtures">Fixtures</th>' + '\n' +
         '</tr>',
       tbody: []
     }
@@ -56,10 +56,10 @@ let Render = () => {
                 }
               }
               Content.tbody.push('<tr>' + '\n' +
-                '\t' + '<td class="number">' + Group.ID + '</td>' + '\n' +
-                '\t' + '<td>' + NotFalse(Group.Name) + '</td>' + '\n' +
-                ((Option.Group.HideAutoGroup) ? '' : '\t' + '<td>' + ((Group.Mask) ? 'True' : '') + '</a></td>' + '\n') +
-                '\t' + '<td class="number">' + FixtureList.join(', ') + '</td>' + '\n' +
+                '\t' + '<td class="number Group_ID">' + Group.ID + '</td>' + '\n' +
+                '\t' + '<td class="Group_Name">' + NotFalse(Group.Name) + '</td>' + '\n' +
+                ((Option.Group.HideAutoGroup) ? '' : '\t' + '<td class="Group_Mask">' + ((Group.Mask) ? 'True' : '') + '</a></td>' + '\n') +
+                '\t' + '<td class="number Group_Fixtures">' + FixtureList.join(', ') + '</td>' + '\n' +
                 '</tr>')
             }
             Content.Description = 'Fixture groups summary: ' + Show.Name
