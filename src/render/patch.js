@@ -60,7 +60,7 @@ let Render = (PageActivation = true) => {
                   '\t' + '<td class="Patch_Name">' + NotFalse(Fixture.Name) + '</td>' + '\n' +
                   '\t' + '<td class="Patch_Group hide">' + await GetAllGroups(Fixture) + '</td>' + '\n' +
                   ((Option.Patch.DisplaySimplifyFixture) ? '\t' + '<td class="Patch_Fixture"' + ((Multipart > 0) ? ' data-rowspan="' + (Multipart + 1) + '" rowspan="' + (Multipart + 1) + '"' : '') + '><a target="_blank" href="https://onyxfixturefinder.com/fixture/' + encodeURIComponent(Fixture.Manufacturer) + '/' + encodeURIComponent(Fixture.Model) + '" />' + Fixture.Manufacturer + ' - ' + Fixture.Model + '</a> <em>(' + Fixture.Mode + ')</em></td>' + '\n' : '\t' + '<td class="Patch_Manufacturer"' + ((Multipart > 0) ? ' data-rowspan="' + (Multipart + 1) + '" rowspan="' + (Multipart + 1) + '"' : '') + '><a target="_blank" href="https://onyxfixturefinder.com/#SearchMode=live&amp;DisplayMode=1&amp;Manufacturer=' + encodeURIComponent(Fixture.Manufacturer) + '" />' + Fixture.Manufacturer + '</a></td>' + '\n' +
-                  '\t' + '<td class="Patch_Model"' + ((Multipart > 0) ? ' data-rowspan="' + (Multipart + 1) + '" rowspan="' + (Multipart + 1) + '"' : '') + '><a target="_blank" href="https://onyxfixturefinder.com/fixture/' + encodeURIComponent(Fixture.Manufacturer) + '/' + encodeURIComponent(Fixture.Model) + '" />' + Fixture.Model + '</a></td>' + '\n' + '\t' + '<td class="Patch_Mode"' + ((Multipart > 0) ? ' data-rowspan="' + (Multipart + 1) + '" rowspan="' + (Multipart + 1) + '"' : '') + '>' + Fixture.Mode + '</td>' + '\n') +
+                    '\t' + '<td class="Patch_Model"' + ((Multipart > 0) ? ' data-rowspan="' + (Multipart + 1) + '" rowspan="' + (Multipart + 1) + '"' : '') + '><a target="_blank" href="https://onyxfixturefinder.com/fixture/' + encodeURIComponent(Fixture.Manufacturer) + '/' + encodeURIComponent(Fixture.Model) + '" />' + Fixture.Model + '</a></td>' + '\n' + '\t' + '<td class="Patch_Mode"' + ((Multipart > 0) ? ' data-rowspan="' + (Multipart + 1) + '" rowspan="' + (Multipart + 1) + '"' : '') + '>' + Fixture.Mode + '</td>' + '\n') +
                   ((Option.Patch.DisplaySimplifyAdress) ? '\t' + '<td' + ((Multipart > 0) ? ' data-rowspan="' + (Multipart + 1) + '" rowspan="' + (Multipart + 1) + '"' : '') + ' class="number Patch_FullAddress">' + NotFalse(Fixture.Universe) + '.' + NotFalse(Fixture.Address) + '</td>' + '\n' : '\t' + '<td' + ((Multipart > 0) ? ' data-rowspan="' + (Multipart + 1) + '" rowspan="' + (Multipart + 1) + '"' : '') + ' class="number Patch_Universe">' + NotFalse(Fixture.Universe) + '</td>' + '\n' + '\t' + '<td' + ((Multipart > 0) ? ' data-rowspan="' + (Multipart + 1) + '" rowspan="' + (Multipart + 1) + '"' : '') + ' class="number Patch_Address">' + NotFalse(Fixture.Address) + '</td>' + '\n') +
                   '\t' + '<td class="Patch_Invert">' + NotFalse(Fixture.Invert) + '</td>' + '\n' +
                   '</tr>')
@@ -94,6 +94,11 @@ let Render = (PageActivation = true) => {
             document.querySelector('header>span').innerHTML = Content.Header
             if (PageActivation) {
               Display.SetLoaded('Patch')
+            } else {
+              // Show the Patch Group Column
+              let ShowPatchGroup = document.getElementById('HideShow-Patch_Group')
+              ShowPatchGroup.checked = 'checked'
+              ShowPatchGroup.dispatchEvent(new Event('change'))
             }
             Loader.Hide()
             resolve(true)
