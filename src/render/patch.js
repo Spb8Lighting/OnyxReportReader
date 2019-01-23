@@ -1,11 +1,86 @@
 'use strict'
 const DB = require('./../database')
 const Option = require('./../config/option')
+const PatchConfig = require('./../config/table').Patch
 const Display = require('./../display')
 const Loader = require('./../loader')
 
 const NoMultiInPatch = /^[0-9]+$/
 
+const ComputeTHead = () => {
+  let Thead = '<tr>' + '\n'
+  let TheadLength = PatchConfig.length
+  for (let i = 0; i < TheadLength; ++i) {
+    let ClassAttribut = PatchConfig[i].Hide ? `${PatchConfig[i].ID} hide` : PatchConfig[i].ID
+    Thead += '\t' + `<th class="${ClassAttribut}">${PatchConfig[i].Name}</th>` + '\n'
+  }
+  Thead += '</tr>'
+  return Thead
+}
+const ComputeTBodyLine = async (Multipart, Fixture, Restricted = false) => {
+  let MultiPartClass = Restricted ? 'Patch_MultiPart' : 'MultiPart'
+  let MultiPartID = Multipart > 0 || Restricted ? ` class="${MultiPartClass}" data-id="${Fixture.ID}"` : ''
+  let RowSpanCount = Multipart + 1
+  let RowSpan = Multipart > 0 ? ` data-rowspan="${RowSpanCount}" rowspan="${RowSpanCount}"` : ''
+  let Tbody = `<tr${MultiPartID}>` + '\n'
+  let TablePatch = PatchConfig
+  let TbodyLength = TablePatch.length
+  if (Restricted) {
+    TablePatch = []
+    for (let i = 0; i < TbodyLength; ++i) {
+      if (PatchConfig[i].MultiPart) {
+        TablePatch.push(PatchConfig[i])
+      }
+    }
+    TbodyLength = TablePatch.length
+  }
+  for (let i = 0; i < TbodyLength; ++i) {
+    let ClassAttribut = TablePatch[i].Hide ? `${TablePatch[i].ID} hide` : TablePatch[i].ID
+    let RowContent = ''
+    let LocalRowSpan = ''
+    switch (TablePatch[i].ID) {
+      case 'Patch_ID':
+        RowContent = Fixture.ID
+        break
+      case 'Patch_Name':
+        RowContent = NotFalse(Fixture.Name)
+        break
+      case 'Patch_Group':
+        RowContent = await GetAllGroups(Fixture)
+        break
+      case 'Patch_Fixture':
+        RowContent = `<a target="_blank" href="https://onyxfixturefinder.com/fixture/${encodeURIComponent(Fixture.Manufacturer)}/${encodeURIComponent(Fixture.Model)}" />${Fixture.Manufacturer} - ${Fixture.Model}</a> <em>(${Fixture.Mode})</em>`
+        break
+      case 'Patch_Manufacturer':
+        RowContent = `<a target="_blank" href="https://onyxfixturefinder.com/#SearchMode=live&amp;DisplayMode=1&amp;Manufacturer=${encodeURIComponent(Fixture.Manufacturer)}" />${Fixture.Manufacturer}</a>`
+        break
+      case 'Patch_Model':
+        RowContent = `<a target="_blank" href="https://onyxfixturefinder.com/fixture/${encodeURIComponent(Fixture.Manufacturer)}/${encodeURIComponent(Fixture.Model)}" />${Fixture.Model}</a>`
+        break
+      case 'Patch_Mode':
+        RowContent = Fixture.Mode
+        break
+      case 'Patch_FullAddress':
+        RowContent = `${NotFalse(Fixture.Universe)}.${NotFalse(Fixture.Address)}`
+        break
+      case 'Patch_Universe':
+        RowContent = NotFalse(Fixture.Universe)
+        break
+      case 'Patch_Address':
+        RowContent = NotFalse(Fixture.Address)
+        break
+      case 'Patch_Invert':
+        RowContent = NotFalse(Fixture.Invert)
+        break
+    }
+    if (TablePatch[i].RowSpan) {
+      LocalRowSpan = RowSpan
+    }
+    Tbody += '\t' + `<td class="${ClassAttribut}"${LocalRowSpan}>${RowContent}</td>` + '\n'
+  }
+  Tbody += '</tr>'
+  return Tbody
+}
 const NotFalse = val => {
   return val === false ? '' : val
 }
@@ -34,14 +109,7 @@ let GetAllGroups = async Fixture => {
 let Render = (PageActivation = true) => {
   return new Promise((resolve, reject) => {
     let Content = {
-      thead: '<tr>' + '\n' +
-        '\t' + '<th class="Patch_ID">ID</th>' + '\n' +
-        '\t' + '<th class="Patch_Name">Name</th>' + '\n' +
-        '\t' + '<th class="Patch_Group hide">Group</th>' + '\n' +
-        ((Option.Patch.DisplaySimplifyFixture) ? '\t' + '<th class="Patch_Fixture">Fixture</th>' + '\n' : '\t' + '<th class="Patch_Manufacturer">Manufacturer</th>' + '\n' + '\t' + '<th class="Patch_Model">Model</th>' + '\n' + '\t' + '<th class="Patch_Mode">Personality</th>' + '\n') +
-        ((Option.Patch.DisplaySimplifyAdress) ? '\t' + '<th class="Patch_FullAddress">Address</th>' + '\n' : '\t' + '<th class="Patch_Universe">Universe</th>' + '\n' + '\t' + '<th class="Patch_Address">Address</th>' + '\n') +
-        '\t' + '<th class="Patch_Invert">Invert</th>' + '\n' +
-        '</tr>',
+      thead: ComputeTHead(),
       tbody: []
     }
     DB.GetAll({ Object: 'Fixture' })
@@ -55,24 +123,12 @@ let Render = (PageActivation = true) => {
                 if (Fixture.Multipart) {
                   Multipart = Object.keys(Fixture.Multipart).length
                 }
-                Content.tbody.push('<tr' + ((Multipart > 0) ? ' class="MultiPart" data-id="' + Fixture.ID + '"' : '') + '>' + '\n' +
-                  '\t' + '<td class="Patch_ID number">' + Fixture.ID + '</td>' + '\n' +
-                  '\t' + '<td class="Patch_Name">' + NotFalse(Fixture.Name) + '</td>' + '\n' +
-                  '\t' + '<td class="Patch_Group hide">' + await GetAllGroups(Fixture) + '</td>' + '\n' +
-                  ((Option.Patch.DisplaySimplifyFixture) ? '\t' + '<td class="Patch_Fixture"' + ((Multipart > 0) ? ' data-rowspan="' + (Multipart + 1) + '" rowspan="' + (Multipart + 1) + '"' : '') + '><a target="_blank" href="https://onyxfixturefinder.com/fixture/' + encodeURIComponent(Fixture.Manufacturer) + '/' + encodeURIComponent(Fixture.Model) + '" />' + Fixture.Manufacturer + ' - ' + Fixture.Model + '</a> <em>(' + Fixture.Mode + ')</em></td>' + '\n' : '\t' + '<td class="Patch_Manufacturer"' + ((Multipart > 0) ? ' data-rowspan="' + (Multipart + 1) + '" rowspan="' + (Multipart + 1) + '"' : '') + '><a target="_blank" href="https://onyxfixturefinder.com/#SearchMode=live&amp;DisplayMode=1&amp;Manufacturer=' + encodeURIComponent(Fixture.Manufacturer) + '" />' + Fixture.Manufacturer + '</a></td>' + '\n' +
-                    '\t' + '<td class="Patch_Model"' + ((Multipart > 0) ? ' data-rowspan="' + (Multipart + 1) + '" rowspan="' + (Multipart + 1) + '"' : '') + '><a target="_blank" href="https://onyxfixturefinder.com/fixture/' + encodeURIComponent(Fixture.Manufacturer) + '/' + encodeURIComponent(Fixture.Model) + '" />' + Fixture.Model + '</a></td>' + '\n' + '\t' + '<td class="Patch_Mode"' + ((Multipart > 0) ? ' data-rowspan="' + (Multipart + 1) + '" rowspan="' + (Multipart + 1) + '"' : '') + '>' + Fixture.Mode + '</td>' + '\n') +
-                  ((Option.Patch.DisplaySimplifyAdress) ? '\t' + '<td' + ((Multipart > 0) ? ' data-rowspan="' + (Multipart + 1) + '" rowspan="' + (Multipart + 1) + '"' : '') + ' class="number Patch_FullAddress">' + NotFalse(Fixture.Universe) + '.' + NotFalse(Fixture.Address) + '</td>' + '\n' : '\t' + '<td' + ((Multipart > 0) ? ' data-rowspan="' + (Multipart + 1) + '" rowspan="' + (Multipart + 1) + '"' : '') + ' class="number Patch_Universe">' + NotFalse(Fixture.Universe) + '</td>' + '\n' + '\t' + '<td' + ((Multipart > 0) ? ' data-rowspan="' + (Multipart + 1) + '" rowspan="' + (Multipart + 1) + '"' : '') + ' class="number Patch_Address">' + NotFalse(Fixture.Address) + '</td>' + '\n') +
-                  '\t' + '<td class="Patch_Invert">' + NotFalse(Fixture.Invert) + '</td>' + '\n' +
-                  '</tr>')
+                Content.tbody.push(await ComputeTBodyLine(Multipart, Fixture))
                 if (Fixture.Multipart) {
                   for (let i = 0; i < Multipart; ++i) {
                     let FixturePart = await DB.Get({ Object: 'Fixture', Index: 'ID', ItemID: Fixture.Multipart[i].ID })
-                    Content.tbody.push('<tr class="Patch_MultiPart" data-id="' + Fixture.ID + '">' + '\n' +
-                      '\t' + '<td class="number txtright Patch_ID">' + FixturePart.ID + '</td>' + '\n' +
-                      '\t' + '<td class="Patch_Name">' + NotFalse(FixturePart.Name) + '</td>' + '\n' +
-                      '\t' + '<td class="Patch_Group hide">' + await GetAllGroups(FixturePart) + '</td>' + '\n' +
-                      '\t' + '<td class="Patch_Invert">' + NotFalse(Fixture.Invert) + '</td>' + '\n' +
-                      '</tr>')
+                    FixturePart.Invert = Fixture.Invert
+                    Content.tbody.push(await ComputeTBodyLine(0, FixturePart, true))
                   }
                 }
               }
@@ -98,6 +154,7 @@ let Render = (PageActivation = true) => {
               // Show the Patch Group Column
               let ShowPatchGroup = document.getElementById('HideShow-Patch_Group')
               ShowPatchGroup.checked = 'checked'
+              // eslint-disable-next-line no-undef
               ShowPatchGroup.dispatchEvent(new Event('change'))
             }
             Loader.Hide()

@@ -24,6 +24,9 @@ article {
         left: $aside-width;
         opacity: 1;
     }
+    .Patch_MultiPart .Patch_ID {
+        text-align: right;
+    }
     table {
         thead th {
             position: sticky;
