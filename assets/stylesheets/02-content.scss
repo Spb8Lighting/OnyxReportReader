@@ -11,6 +11,16 @@ article {
     left: -100%;
     font-size: 90%;
     z-index: 8;
+    h2 {
+        margin-right: 1rem;
+        float: left;
+    }
+    p {
+        clear: both;
+    }
+    label {
+        margin-bottom: 0;
+    }
     &#default {
         >svg {
             height: $advertisement-svg-height;
@@ -97,10 +107,24 @@ article {
         color: $Onyx-Color1;
     }
 }
+#Patch button i {
+    background-image: linear-gradient($Onyx-Color1, $Onyx-Color1)!important;
+    &:after,
+    &:before {
+        background-color: $Onyx-Color1!important;
+    }
+}
 .FixtureGroup {
     & h1,
     & h2 {
         color: $Onyx-Color2;
+    }
+}
+#FixtureGroup button i {
+    background-image: linear-gradient($Onyx-Color2, $Onyx-Color2)!important;
+    &:after,
+    &:before {
+        background-color: $Onyx-Color2!important;
     }
 }
 .Preset {
@@ -109,11 +133,31 @@ article {
         color: $Onyx-Color3;
     }
 }
+#Preset button i {
+    background-image: linear-gradient($Onyx-Color3, $Onyx-Color3)!important;
+    &:after,
+    &:before {
+        background-color: $Onyx-Color3!important;
+    }
+}
 .Cuelist {
     & h1,
     & h2 {
         color: $Onyx-Color4;
     }
+}
+#Cuelist button i {
+    background-image: linear-gradient($Onyx-Color4, $Onyx-Color4)!important;
+    &:after,
+    &:before {
+        background-color: $Onyx-Color4!important;
+    }
+}
+#Patch button.is-active i,
+#FixtureGroup button.is-active i,
+#Preset button.is-active i,
+#Cuelist button.is-active i {
+    background-image: none!important;
 }
 span[data-title] {
     position: relative;

@@ -1,76 +1,76 @@
 const Option = require('./../config/option')
 
-const ID = {
+const PatchID = {
   ID: 'Patch_ID',
   Name: 'ID',
   Hide: false,
   RowSpan: false,
   MultiPart: true
 }
-const Name = {
+const PatchName = {
   ID: 'Patch_Name',
   Name: 'Name',
   Hide: false,
   RowSpan: false,
   MultiPart: true
 }
-const Group = {
+const PatchGroup = {
   ID: 'Patch_Group',
   Name: 'Group',
   Hide: true,
   RowSpan: false,
   MultiPart: true
 }
-const Fixture = {
+const PatchFixture = {
   ID: 'Patch_Fixture',
   Name: 'Fixture',
   Hide: false,
   RowSpan: true,
   MultiPart: false
 }
-const Manufacturer = {
+const PatchManufacturer = {
   ID: 'Patch_Manufacturer',
   Name: 'Manufacturer',
   Hide: false,
   RowSpan: true,
   MultiPart: false
 }
-const Model = {
+const PatchModel = {
   ID: 'Patch_Model',
   Name: 'Model',
   Hide: false,
   RowSpan: true,
   MultiPart: false
 }
-const Mode = {
+const PatchMode = {
   ID: 'Patch_Mode',
   Name: 'Mode',
   Hide: false,
   RowSpan: true,
   MultiPart: false
 }
-const FullAddress = {
+const PatchFullAddress = {
   ID: 'Patch_FullAddress',
   Name: 'Address',
   Hide: false,
   RowSpan: true,
   MultiPart: false
 }
-const Universe = {
+const PatchUniverse = {
   ID: 'Patch_Universe',
   Name: 'Universe',
   Hide: false,
   RowSpan: true,
   MultiPart: false
 }
-const Address = {
+const PatchAddress = {
   ID: 'Patch_Address',
   Name: 'Address',
   Hide: false,
   RowSpan: true,
   MultiPart: false
 }
-const Invert = {
+const PatchInvert = {
   ID: 'Patch_Invert',
   Name: 'Invert',
   Hide: false,
@@ -78,24 +78,61 @@ const Invert = {
   MultiPart: true
 }
 let Patch = []
-Patch.push(ID)
-Patch.push(Name)
-Patch.push(Group)
+Patch.push(PatchID)
+Patch.push(PatchName)
+Patch.push(PatchGroup)
 if (Option.Patch.DisplaySimplifyFixture) {
-  Patch.push(Fixture)
+  Patch.push(PatchFixture)
 } else {
-  Patch.push(Manufacturer)
-  Patch.push(Model)
-  Patch.push(Mode)
+  Patch.push(PatchManufacturer)
+  Patch.push(PatchModel)
+  Patch.push(PatchMode)
 }
 if (Option.Patch.DisplaySimplifyAdress) {
-  Patch.push(FullAddress)
+  Patch.push(PatchFullAddress)
 } else {
-  Patch.push(Universe)
-  Patch.push(Address)
+  Patch.push(PatchUniverse)
+  Patch.push(PatchAddress)
 }
-Patch.push(Invert)
+Patch.push(PatchInvert)
+
+const GroupID = {
+  ID: 'Group_ID',
+  Name: 'ID',
+  Hide: false,
+  RowSpan: false,
+  MultiPart: false
+}
+const GroupName = {
+  ID: 'Group_Name',
+  Name: 'Name',
+  Hide: false,
+  RowSpan: false,
+  MultiPart: false
+}
+const GroupMask = {
+  ID: 'Group_Mask',
+  Name: 'Group',
+  Hide: false,
+  RowSpan: false,
+  MultiPart: false
+}
+const GroupFixture = {
+  ID: 'Group_Fixtures',
+  Name: 'Fixture',
+  Hide: false,
+  RowSpan: false,
+  MultiPart: false
+}
+let Group = []
+Group.push(GroupID)
+Group.push(GroupName)
+if (!Option.Group.HideAutoGroup) {
+  Group.push(GroupMask)
+}
+Group.push(GroupFixture)
 
 module.exports = {
-  Patch
+  Patch,
+  Group
 }

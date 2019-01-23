@@ -56,41 +56,6 @@ document.querySelector('a[href="#NewGroup"]').addEventListener('click', e => {
 document.querySelector('a[href="#Menu"]').addEventListener('click', e => {
   e.preventDefault()
   let Nav = document.querySelector('nav')
-  if (window.getComputedStyle(Nav).display === 'none') {
-    Nav.classList.remove('hide')
-  } else {
-    Nav.classList.add('hide')
-  }
+  Nav.classList.toggle('hide')
 })
 document.querySelector('.flex-container').addEventListener('click', () => document.querySelector('nav').classList.add('hide'))
-
-// Parse all options
-let Switchs = document.querySelectorAll('input.switch')
-for (let i = 0; i < Switchs.length; ++i) {
-  Switchs[i].addEventListener('change', e => {
-    let Parameter = e.target.id.split('-')
-    if (Parameter[0] === 'HideShow') {
-      let ToShow = document.querySelectorAll(`.${Parameter[1]}`)
-      if (Parameter[1] === 'Patch_MultiPart') {
-        if (e.target.checked) {
-          let Rowspans = document.querySelectorAll(`[data-rowspan]`)
-          for (let y = 0; y < Rowspans.length; ++y) {
-            Rowspans[y].setAttribute('rowspan', Rowspans[y].getAttribute('data-rowspan'))
-          }
-        } else {
-          let Rowspans = document.querySelectorAll(`[rowspan]`)
-          for (let y = 0; y < Rowspans.length; ++y) {
-            Rowspans[y].removeAttribute('rowspan')
-          }
-        }
-      }
-      for (let z = 0; z < ToShow.length; ++z) {
-        if (e.target.checked) {
-          ToShow[z].classList.remove('hide')
-        } else {
-          ToShow[z].classList.add('hide')
-        }
-      }
-    }
-  })
-}

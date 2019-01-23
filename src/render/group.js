@@ -2,11 +2,10 @@
 const DB = require('./../database')
 const Display = require('./../display')
 const Option = require('./../config/option')
+const GroupConfig = require('./../config/table').Group
+const TableHTML = require('./../function/table')
+const Menu = require('./../function/menu')
 const PatchRender = require('./patch')
-
-const NotFalse = val => {
-  return val === false ? '' : val
-}
 
 let FixtureInfo = FixtureDB => {
   if (Option.Group.DisplaySimplifiedFixture) {
@@ -27,12 +26,7 @@ let FixtureInfo = FixtureDB => {
 let Render = () => {
   return new Promise((resolve, reject) => {
     let Content = {
-      thead: '<tr>' + '\n' +
-        '\t' + '<th class="Group_ID">ID</th>' + '\n' +
-        '\t' + '<th class="Group_Name">Name</th>' + '\n' +
-        ((Option.Group.HideAutoGroup) ? '' : '\t' + '<th class="Group_Mask">Mask</th>' + '\n') +
-        '\t' + '<th class="Group_Fixtures">Fixtures</th>' + '\n' +
-        '</tr>',
+      thead: TableHTML.THead(GroupConfig),
       tbody: []
     }
     DB.GetAll({ Object: 'FixtureGroup' })
@@ -55,12 +49,8 @@ let Render = () => {
                   }
                 }
               }
-              Content.tbody.push('<tr>' + '\n' +
-                '\t' + '<td class="number Group_ID">' + Group.ID + '</td>' + '\n' +
-                '\t' + '<td class="Group_Name">' + NotFalse(Group.Name) + '</td>' + '\n' +
-                ((Option.Group.HideAutoGroup) ? '' : '\t' + '<td class="Group_Mask">' + ((Group.Mask) ? 'True' : '') + '</a></td>' + '\n') +
-                '\t' + '<td class="number Group_Fixtures">' + FixtureList.join(', ') + '</td>' + '\n' +
-                '</tr>')
+              Group.Fixtures = FixtureList
+              Content.tbody.push(await TableHTML.TBodyLine(GroupConfig, 0, Group))
             }
             Content.Description = 'Fixture groups summary: ' + Show.Name
             Content.Table = '<table class="fixturegroup">' + '\n' +
@@ -74,7 +64,8 @@ let Render = () => {
 
             let FixtureGroupArticle = document.getElementById('FixtureGroup')
 
-            FixtureGroupArticle.innerHTML = `<h2>Fixture Groups</h2><p>${Content.Description}</p>${Content.Table}`
+            FixtureGroupArticle.innerHTML = `<h2><button class="nav-button print_hide" type="button" role="button"><i></i></button> Fixture Groups</h2><p>${Content.Description}</p>${Content.Table}`
+            Menu.Create(GroupConfig, FixtureGroupArticle)
             Display.SetLoaded('FixtureGroup')
             PatchRender(false)
           })
