@@ -1,4 +1,13 @@
-let SetActive = ActicleID => {
+const CollapseMenus = () => {
+  let Menus = document.querySelectorAll('.nav-button')
+  for (let i = 0; i < Menus.length; ++i) {
+    if (Menus[i].classList.contains('is-active')) {
+      Menus[i].classList.remove('is-active')
+      Menus[i].parentNode.parentNode.querySelector('form').classList.add('hide')
+    }
+  }
+}
+const SetActive = ActicleID => {
   let Labels = document.querySelectorAll('label')
   for (let i = 0; i < Labels.length; ++i) {
     let Label = Labels[i]
@@ -8,8 +17,9 @@ let SetActive = ActicleID => {
       Label.classList.remove('active')
     }
   }
+  CollapseMenus()
 }
-let Display = ActicleID => {
+const Display = ActicleID => {
   let Articles = document.querySelectorAll('article')
   for (let i = 0; i < Articles.length; ++i) {
     let Article = Articles[i]
@@ -21,7 +31,7 @@ let Display = ActicleID => {
     }
   }
 }
-let Loaded = ArticleID => {
+const Loaded = ArticleID => {
   let Label = document.querySelector(`label[for="${ArticleID}XML"]`)
   // Set Loaded class on the Label
   Label.classList.add('loaded')
