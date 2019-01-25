@@ -4,12 +4,15 @@ const Create = (Config, Article) => {
   let MenuLength = Config.length
   for (let i = 0; i < MenuLength; ++i) {
     let CheckedAttribut = Config[i].Hide ? '' : ' checked="checked"'
+    Menu += '\t' + `<label class="label" for="HideShow-${Config[i].ID}">` + '\n'
     Menu += '\t' + `<input class="switch" name="HideShow-${Config[i].ID}" id="HideShow-${Config[i].ID}" type="checkbox"${CheckedAttribut} />` + '\n'
-    Menu += '\t' + `<label class="label" for="HideShow-${Config[i].ID}">${Config[i].Name}</label>` + '\n'
+    Menu += '\t' + `${Config[i].Name}</label>` + '\n'
   }
   if (Config[0].ID === 'Patch_ID') {
-    Menu += '\t' + `<br /><input class="switch" name="HideShow-Patch_MultiPart" id="HideShow-Patch_MultiPart" type="checkbox" checked="checked" />` + '\n'
-    Menu += '\t' + `<label class="label" for="HideShow-Patch_MultiPart">Show Multi-part fixture</label>` + '\n'
+    Menu += '\t' + `<br />` + '\n'
+    Menu += '\t' + `<label class="label" for="HideShow-Patch_MultiPart">` + '\n'
+    Menu += '\t' + `<input class="switch" name="HideShow-Patch_MultiPart" id="HideShow-Patch_MultiPart" type="checkbox" checked="checked" />` + '\n'
+    Menu += '\t' + `Show Multi-part fixture</label>` + '\n'
   }
   Menu += '</form>'
   // Insert the menu

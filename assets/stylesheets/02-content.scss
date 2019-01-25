@@ -11,13 +11,6 @@ article {
     left: -100%;
     font-size: 90%;
     z-index: 8;
-    h2 {
-        margin-right: 1rem;
-        float: left;
-    }
-    p {
-        clear: both;
-    }
     label {
         margin-bottom: 0;
     }
@@ -38,9 +31,10 @@ article {
         text-align: right;
     }
     table {
+        width:  $table-width;
         thead th {
             position: sticky;
-            top: 0;
+            top: -1.5rem;
             background-color: $header-color;
             z-index: 1;
         }
@@ -66,23 +60,15 @@ article {
                 vertical-align: top;
             }
         }
+        th,
+        td {
+            min-width: 1rem;
+        }
     }
     &#Patch,
     &#FixtureGroup {
         h2 {
             color: $Onyx-Color1;
-        }
-        table {
-            th:nth-child(1),
-            th:nth-child(5),
-            th:nth-child(6),
-            th:nth-child(7),
-            td:nth-child(1),
-            td:nth-child(5),
-            td:nth-child(6),
-            td:nth-child(7) {
-                width: 70px;
-            }
         }
     }
     &#FixtureGroup {
@@ -191,4 +177,15 @@ span[data-title]:focus::after {
 .switch, .checkbox, .radio {
     -moz-appearance: none;
     -webkit-appearance: none;
+}
+.Patch_ID,
+.Group_ID,
+.Patch_FullAddress {
+    width: 6rem;
+}
+.Patch_Invert {
+    width: 3.8rem;
+}
+.Patch_Fixture {
+    width: 30rem;
 }

@@ -23,7 +23,7 @@ export default () => {
       let ActicleID = LabelFor.slice(0, -3)
 
       // Label display
-      Label.innerHTML = `<span class="w100p txtcenter">${LabelName}</span>${LabelPicture}<input type="file" name="${LabelFor}" id="${LabelFor}" accept="${LabelExt}" />`
+      Label.innerHTML = `<span>${LabelName}</span>${LabelPicture}<input type="file" name="${LabelFor}" id="${LabelFor}" accept="${LabelExt}" />`
 
       let Input = document.getElementById(LabelFor)
 

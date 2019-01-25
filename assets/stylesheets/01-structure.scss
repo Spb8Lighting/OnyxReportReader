@@ -7,21 +7,26 @@ body {
 }
 
 header {
+    text-align: center;
     background-color: $header-color;
-    height: $header-height;
-    line-height: $header-height;
+    height: #{ $header-height + 4};
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
     color: $white;
-    font-size: 150%;
+    font-size: $header-font-size;
     font-weight: bold;
     img {
         object-fit: contain;
+        max-height: $header-height;
         margin: 2px;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
     span {
-        margin-right: 1em;
+        margin-right: $header-height;
         em {
             font-size: 50%;
+            display: block;
         }
     }
 }
@@ -46,8 +51,8 @@ aside {
         >label,
         >.label {
             >input {
-                width: 100px;
-                height: 100px;
+                width: $aside-width;
+                height: $aside-width;
                 opacity: 0;
                 left: 0;
                 overflow: hidden;
@@ -62,7 +67,7 @@ aside {
                     transform: scale(0.95);
                 }
                 >span {
-                    margin-top: 95px;
+                    margin-top: $aside-width;
                     transform: rotate(0deg);
                     left: 0;
                 }
@@ -90,13 +95,13 @@ aside {
             color: $gray-600;
             fill: $gray-600;
             cursor: pointer;
-            margin-bottom: 0;
+            margin-bottom: 2rem;
             vertical-align: middle;
             >span {
-                transform: rotate(-90deg);
+                transform: rotate(-90deg) translateY($aside-span-transY) translateX(-35%);
                 position: absolute;
-                left: -40px;
-                margin-top: 35px;
+                width: $aside-width;
+                text-align: center;
                 transition: 0.25s ease-in-out;
             }
             >svg {
