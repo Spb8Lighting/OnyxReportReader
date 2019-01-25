@@ -2,7 +2,7 @@ article {
     color: $white;
     opacity: 0;
     width: calc(100% - #{$aside-width});
-    height: calc(100% - #{$header-height});
+    height: calc(100% - #{$header-height + 4});
     overflow-y: scroll;
     transition: 0.5s ease-in-out !important;
     position: absolute;

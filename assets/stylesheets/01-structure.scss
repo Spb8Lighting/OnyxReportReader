@@ -2,7 +2,7 @@ body {
     font-family: 'Lato', sans-serif;
     background-color: $gray-800;
     >div>* {
-        min-height: calc(100vh - #{$header-height});
+        min-height: calc(100vh - #{$header-height + 4});
     }
 }
 
