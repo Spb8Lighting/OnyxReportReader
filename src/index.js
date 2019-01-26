@@ -5,6 +5,11 @@ import DB from './database'
 import PatchRender from './render/patch'
 import GroupRender from './render/group'
 
+// Check that service workers are registered
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js')
+}
+
 // Change the form label by their associated picture
 Input()
   // Get Patch data
