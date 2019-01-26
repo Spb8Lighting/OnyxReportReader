@@ -10,7 +10,7 @@ const IsDev = (process.env.NODE_ENV === 'development')
 
 let config = {
   mode: process.env.NODE_ENV,
-  entry: ['./src/index.js', './assets/stylesheets/styles.scss', './assets/images/logo-obsidian.png', './src/html/index.html'],
+  entry: ['./src/index.js', './assets/stylesheets/styles.scss', './assets/images/logo-obsidian.png', './src/html/index.html', './src/manifest.json'],
   output: {
     path: path.resolve(__dirname, './public'),
     filename: './app.js'
@@ -26,6 +26,16 @@ let config = {
           }
         },
         'img-loader']
+      },
+      {
+        test: /\.json$/,
+        type: 'javascript/auto',
+        loaders: [{
+          loader: 'file-loader',
+          options: {
+            name: './[name].[ext]'
+          }
+        }]
       },
       {
         test: /\.(html?)$/,
