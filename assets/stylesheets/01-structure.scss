@@ -38,6 +38,13 @@ nav {
     color: $white;
     z-index: 20;
     min-height: calc(100vh - #{$header-height + 4});
+    a {
+        svg {
+            fill: $white;
+            width: $nav-svg-width-height;
+            height: $nav-svg-width-height;
+        }
+    }
 }
 
 aside {
