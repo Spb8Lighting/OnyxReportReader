@@ -13,6 +13,9 @@ header {
   text-align: right;
   &>a>img {
     filter: invert(1);
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 }
 table {
@@ -34,13 +37,6 @@ table {
       page-break-before: avoid;
     }
   }
-  /*tr td.number {
-    width: 1em;
-    font-family: "Digital 7"
-  }
-  tr td.number {
-    width: auto;
-  }*/
   tbody tr:last-child {
     border-bottom: none
   }
@@ -52,20 +48,21 @@ table {
   }
 }
 
-#Patch,
-#FixtureGroup {
-  table {
-      th:nth-child(1),
-      th:nth-child(5),
-      th:nth-child(6),
-      th:nth-child(7),
-      td:nth-child(1),
-      td:nth-child(5),
-      td:nth-child(6),
-      td:nth-child(7) {
-          width: 70px;
-      }
-  }
+.Patch_ID,
+.Group_ID,
+.Patch_FullAddress,
+.Preset_Position,
+.Preset_Type,
+.Preset_Usage {
+    width: 6rem;
+}
+.Patch_Invert {
+    width: 3.8rem;
+}
+.Patch_Fixture,
+.Preset_UsedBy,
+.Preset_UnUsedBy {
+    width: 30rem;
 }
 
 abbr[title] {
@@ -93,7 +90,14 @@ a:visited {
 .d-flex {
   display: unset;
 }
-
-article#FixtureGroup {
+header::after {
+  content: 'Report printed from https://Report.OnyxFixtureFinder.com \a Page left intentionally blank';
+  margin-top: 10rem;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  white-space: pre;
+}
+article {
   page-break-before: always;
 }

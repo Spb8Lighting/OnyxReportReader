@@ -1,5 +1,6 @@
 'use strict'
 const Create = (Config, Article) => {
+  let ArticleID = Article.getAttribute('id')
   let Menu = '<form class="hide print_hide" method="POST">' + '\n'
   let MenuLength = Config.length
   for (let i = 0; i < MenuLength; ++i) {
@@ -8,8 +9,11 @@ const Create = (Config, Article) => {
     Menu += '\t' + `<input class="switch" name="HideShow-${Config[i].ID}" id="HideShow-${Config[i].ID}" type="checkbox"${CheckedAttribut} />` + '\n'
     Menu += '\t' + `${Config[i].Name}</label>` + '\n'
   }
-  if (Config[0].ID === 'Patch_ID') {
-    Menu += '\t' + `<br />` + '\n'
+  Menu += '\t' + `<br />` + '\n'
+  Menu += '\t' + `<label class="label" for="HidePrint-${ArticleID}">` + '\n'
+  Menu += '\t' + `<input class="switch" name="HidePrint-${ArticleID}" id="HidePrint-${ArticleID}" type="checkbox" checked="checked" />` + '\n'
+  Menu += '\t' + `Printable</label>` + '\n'
+  if (ArticleID === 'Patch') {
     Menu += '\t' + `<label class="label" for="HideShow-Patch_MultiPart">` + '\n'
     Menu += '\t' + `<input class="switch" name="HideShow-Patch_MultiPart" id="HideShow-Patch_MultiPart" type="checkbox" checked="checked" />` + '\n'
     Menu += '\t' + `Show Multi-part fixture</label>` + '\n'
@@ -48,6 +52,8 @@ const Create = (Config, Article) => {
         for (let z = 0; z < ToShow.length; ++z) {
           ToShow[z].classList.toggle('hide')
         }
+      } else if (Parameter[0] === 'HidePrint') {
+        document.getElementById(Parameter[1]).classList.toggle('print_hide')
       }
     })
   }
