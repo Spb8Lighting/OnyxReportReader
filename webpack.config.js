@@ -35,7 +35,7 @@ let config = {
         }]
       },
       {
-        test: /\.(json|html?)$/,
+        test: /\.(html?)$/,
         loaders: [{
           loader: 'file-loader',
           options: {
