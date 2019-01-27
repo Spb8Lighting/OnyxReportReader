@@ -27,7 +27,7 @@ Input()
     if (typeof Item !== 'undefined') {
       return PatchRender()
     } else {
-      throw new Error('No Patch')
+      return Promise.resolve('No Patch')
     }
   })
   // Get Group data
@@ -40,7 +40,7 @@ Input()
     if (typeof Item !== 'undefined') {
       return GroupRender(false)
     } else {
-      throw new Error('No Group')
+      return Promise.resolve('No Group')
     }
   })
   // Get Preset data
@@ -53,7 +53,7 @@ Input()
     if (typeof Item !== 'undefined') {
       return PresetRender()
     } else {
-      throw new Error('No Preset')
+      return Promise.resolve('No Preset')
     }
   })
   // End of reload data
