@@ -180,12 +180,17 @@ span[data-title]:focus::after {
 }
 .Patch_ID,
 .Group_ID,
-.Patch_FullAddress {
+.Patch_FullAddress,
+.Preset_Position,
+.Preset_Type,
+.Preset_Usage {
     width: 6rem;
 }
 .Patch_Invert {
     width: 3.8rem;
 }
-.Patch_Fixture {
+.Patch_Fixture,
+.Preset_UsedBy,
+.Preset_UnUsedBy {
     width: 30rem;
 }

@@ -189,8 +189,8 @@ const PresetEmbedded = {
   MultiPart: false
 }
 let Preset = []
-Preset.push(PresetType)
 Preset.push(PresetPosition)
+Preset.push(PresetType)
 Preset.push(PresetName)
 Preset.push(PresetUsage)
 Preset.push(PresetUsedBy)
