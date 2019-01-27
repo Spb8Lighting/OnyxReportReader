@@ -4,8 +4,6 @@
 [![optionalDependencies Status](https://david-dm.org/Spb8Lighting/ReportReaderOnyx/optional-status.svg)](https://david-dm.org/Spb8Lighting/ReportReaderOnyx?type=optional)
 [![Standard JS](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-This online tool http://report.onyxfixturefinder.com/ (which is designed to be available later on Offline) allow you to display easily your Onyx Patch and Fixture Group.
+This PWA http://report.onyxfixturefinder.com/ allow you to display easily your Onyx Patch, Fixture Group & Preset Report.
 
-More report to be integrated.
-
-Today, the devellopment is only focused on Chrome navigator.
+Today, the development is only focused on Chrome navigator.
