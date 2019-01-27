@@ -33,7 +33,7 @@ export default () => {
 
       // Input listeners for XML upload
       Input.addEventListener('change', e => {
-        Loader.Show()
+        Loader[e.target.id.slice(0, -3)].Show()
         let UploadedFile = e.target.files[0]
         if (typeof UploadedFile.name !== 'undefined') {
           if (UploadedFile.name.search(InputMatchRegex) === -1) {

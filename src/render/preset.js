@@ -4,9 +4,9 @@ const Display = require('./../display')
 const PresetConfig = require('./../config/table').Preset
 const TableHTML = require('./../function/table')
 const Menu = require('./../function/menu')
-const PatchRender = require('./patch')
+const Loader = require('./../loader')
 
-let Render = () => {
+let Render = (SetActive = true) => {
   return new Promise((resolve, reject) => {
     let Content = {
       thead: TableHTML.THead(PresetConfig),
@@ -33,8 +33,8 @@ let Render = () => {
 
             PresetArticle.innerHTML = `<h2><button class="nav-button print_hide" type="button" role="button"><i></i></button> Presets</h2><p>${Content.Description}</p>${Content.Table}`
             Menu.Create(PresetConfig, PresetArticle)
-            Display.SetLoaded('Preset')
-            PatchRender(false)
+            Display.SetLoaded('Preset', SetActive)
+            Loader.Preset.Hide()
           })
       })
   })

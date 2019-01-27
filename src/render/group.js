@@ -7,7 +7,7 @@ const Menu = require('./../function/menu')
 const PatchRender = require('./patch')
 const Loader = require('./../loader')
 
-let Render = (RenderPatch = true) => {
+let Render = (RenderPatch = true, SetActive = true) => {
   return new Promise((resolve, reject) => {
     let Content = {
       thead: TableHTML.THead(GroupConfig),
@@ -34,11 +34,11 @@ let Render = (RenderPatch = true) => {
 
             FixtureGroupArticle.innerHTML = `<h2><button class="nav-button print_hide" type="button" role="button"><i></i></button> Fixture Groups</h2><p>${Content.Description}</p>${Content.Table}`
             Menu.Create(GroupConfig, FixtureGroupArticle)
-            Display.SetLoaded('FixtureGroup')
+            Display.SetLoaded('FixtureGroup', SetActive)
             if (RenderPatch) {
               PatchRender(false)
             } else {
-              Loader.Hide()
+              Loader.FixtureGroup.Hide()
               resolve(true)
             }
           })

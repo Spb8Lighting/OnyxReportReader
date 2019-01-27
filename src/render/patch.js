@@ -8,7 +8,7 @@ const Loader = require('./../loader')
 
 const NoMultiInPatch = /^[0-9]+$/
 
-let Render = (PageActivation = true) => {
+let Render = (SetActive = true) => {
   return new Promise((resolve, reject) => {
     let Content = {
       thead: TableHTML.THead(PatchConfig),
@@ -52,16 +52,17 @@ let Render = (PageActivation = true) => {
             // Add the Table menu to filter column
             Menu.Create(PatchConfig, PatchArticle)
             document.querySelector('header>span').innerHTML = Content.Header
-            if (PageActivation) {
-              Display.SetLoaded('Patch')
+            if (SetActive) {
+              Display.SetLoaded('Patch', SetActive)
             } else {
               // Show the Patch Group Column
               let ShowPatchGroup = document.getElementById('HideShow-Patch_Group')
               ShowPatchGroup.checked = 'checked'
               // eslint-disable-next-line no-undef
               ShowPatchGroup.dispatchEvent(new Event('change'))
+              Loader.FixtureGroup.Hide()
             }
-            Loader.Hide()
+            Loader.Patch.Hide()
             resolve(true)
           })
       })

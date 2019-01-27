@@ -1,10 +1,10 @@
 import '@babel/polyfill'
-import Loader from './loader'
 import Input from './input'
 import DB from './database'
 import PatchRender from './render/patch'
 import GroupRender from './render/group'
 import PresetRender from './render/preset'
+import Loader from './loader'
 
 // FORCE HTTPS
 if (window.location.hostname !== 'localhost' && window.location.protocol !== 'https:') {
@@ -19,51 +19,61 @@ if (window.location.hostname !== 'localhost' && window.location.protocol !== 'ht
 Input()
   // Get Patch data
   .then(() => {
-    Loader.Show()
+    Loader.Patch.Show()
     return DB.Get({ Object: 'File', ItemID: 'Patch' })
   })
   // Display Patch
   .then(Item => {
     if (typeof Item !== 'undefined') {
-      return PatchRender()
+      PatchRender(true).then(() => {
+        Loader.Patch.Hide()
+        return Promise.resolve('Patch Loaded')
+      })
     } else {
+      Loader.Patch.Hide()
       return Promise.resolve('No Patch')
     }
   })
   // Get Group data
   .then(() => {
-    Loader.Show()
+    Loader.FixtureGroup.Show()
     return DB.Get({ Object: 'File', ItemID: 'FixtureGroup' })
   })
   // Display Group
   .then(Item => {
     if (typeof Item !== 'undefined') {
-      return GroupRender(false)
+      GroupRender(false, false).then(() => {
+        Loader.FixtureGroup.Hide()
+        return Promise.resolve('Patch Loaded')
+      })
     } else {
+      Loader.FixtureGroup.Hide()
       return Promise.resolve('No Group')
     }
   })
   // Get Preset data
   .then(() => {
-    Loader.Show()
+    Loader.Preset.Show()
     return DB.Get({ Object: 'File', ItemID: 'Preset' })
   })
   // Display Group
   .then(Item => {
     if (typeof Item !== 'undefined') {
-      return PresetRender()
+      PresetRender(false).then(() => {
+        Loader.Preset.Hide()
+        return Promise.resolve('Preset Loaded')
+      })
     } else {
+      Loader.Preset.Hide()
       return Promise.resolve('No Preset')
     }
   })
   // End of reload data
   .then(() => {
-    Loader.Hide()
     console.log('Render ended')
   })
   // Catch error
   .catch(reject => {
-    Loader.Hide()
     console.info(reject)
   })
 

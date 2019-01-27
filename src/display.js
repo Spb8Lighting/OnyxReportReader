@@ -31,7 +31,7 @@ const Display = ActicleID => {
     }
   }
 }
-const Loaded = ArticleID => {
+const Loaded = (ArticleID, ToDisplay) => {
   let Label = document.querySelector(`label[for="${ArticleID}XML"]`)
   // Set Loaded class on the Label
   Label.classList.add('loaded')
@@ -61,14 +61,16 @@ const Loaded = ArticleID => {
   }
 
   // Force to display the new content
-  Display(ArticleID)
+  if (ToDisplay) {
+    Display(ArticleID)
+  }
 }
 
 module.exports = {
   Show: ID => {
     Display(ID)
   },
-  SetLoaded: ID => {
-    Loaded(ID)
+  SetLoaded: (ID, ToDisplay = false) => {
+    Loaded(ID, ToDisplay)
   }
 }
