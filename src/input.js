@@ -54,6 +54,10 @@ export default () => {
                   await Parser.FixtureGroup(xmlDoc)
                   require('./render/group')()
                   break
+                case 'Preset':
+                  await Parser.Preset(xmlDoc)
+                  require('./render/preset')()
+                  break
                 default:
                   break
               }

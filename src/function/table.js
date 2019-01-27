@@ -2,11 +2,75 @@
 const DB = require('./../database')
 const Option = require('./../config/option')
 
+let FixtureInfo = FixtureDB => {
+  if (Option.Group.DisplaySimplifiedFixture) {
+    if (FixtureDB.Name) {
+      return `#${FixtureDB.ID} ${FixtureDB.Manufacturer} - ${FixtureDB.Model}(${FixtureDB.Name}) @ ${FixtureDB.Universe}.${FixtureDB.Address}`
+    } else {
+      return `#${FixtureDB.ID} ${FixtureDB.Manufacturer} - ${FixtureDB.Model} @ ${FixtureDB.Universe}.${FixtureDB.Address}`
+    }
+  } else {
+    if (FixtureDB.Name) {
+      return `ID: ${FixtureDB.ID}, Name: ${FixtureDB.Name}, Manufacturer: ${FixtureDB.Manufacturer}, Model: ${FixtureDB.Model}, Address: ${FixtureDB.Universe}.${FixtureDB.Address}`
+    } else {
+      return `ID: ${FixtureDB.ID}, Manufacturer: ${FixtureDB.Manufacturer}, Model: ${FixtureDB.Model}, Address: ${FixtureDB.Universe}.${FixtureDB.Address}`
+    }
+  }
+}
+
 let GroupInfo = Group => {
   if (Option.Patch.DisplaySimplifiedGroup) {
     return `#${Group.ID} ${Group.Name}`
   } else {
     return `ID: ${Group.ID}, Name: ${Group.Name}`
+  }
+}
+
+let PresetInfo = Preset => {
+  if (Option.Preset.DisplaySimplifiedPreset) {
+    return `#${Preset.ID} ${Preset.Name}`
+  } else {
+    return `Type: ${Preset.Type}, ID: ${Preset.Position}, Name: ${Preset.Name}`
+  }
+}
+
+const GetAllFixtures = async (ListOfFixtures, index = false) => {
+  let Fixtures = 0
+  let FixtureList = []
+  if (ListOfFixtures) {
+    Fixtures = Object.keys(ListOfFixtures).length
+  }
+  if (Fixtures > 0) {
+    for (let i = 0; i < Fixtures; ++i) {
+      let Fixture = ListOfFixtures[i]
+      let FixtureDB = await DB.Get({ Object: 'Fixture', Index: (index) ? 'ID' : 'Ref', ItemID: Fixture })
+      if (FixtureDB) {
+        FixtureList.push(`<span data-title="${FixtureInfo(FixtureDB)}">${FixtureDB.ID}</span>`)
+      }
+    }
+    return FixtureList.join(', ')
+  } else {
+    return false
+  }
+}
+
+const GetAllPresets = async (ListOfPresets) => {
+  let Presets = 0
+  let PresetList = []
+  if (ListOfPresets) {
+    Presets = Object.keys(ListOfPresets).length
+  }
+  if (Presets > 0) {
+    for (let i = 0; i < Presets; ++i) {
+      let Preset = ListOfPresets[i]
+      let PresetDB = await DB.Get({ Object: 'Preset', ItemID: Preset })
+      if (PresetDB) {
+        PresetList.push(`<span data-title="${PresetInfo(PresetDB)}">${PresetDB.Name}</span>`)
+      }
+    }
+    return PresetList.join(', ')
+  } else {
+    return false
   }
 }
 
@@ -19,12 +83,14 @@ const GetAllGroups = async Fixture => {
         Groups.push(`<span data-title="${GroupInfo(Group)}">${Group.Name}</span>`)
       }
     }
+    return Groups.join(', ')
+  } else {
+    return false
   }
-  return Groups.join(', ')
 }
 
-const NotFalse = val => {
-  return val === false ? '' : val
+const NotFalse = (val, join = false) => {
+  return val === false ? '' : (join) ? val.join(join) : val
 }
 
 const THead = Config => {
@@ -66,16 +132,17 @@ const TBodyLine = async (Config, Multipart, Data, Restricted = false) => {
         break
       case 'Group_Name':
       case 'Patch_Name':
+      case 'Preset_Name':
         RowContent = NotFalse(Data.Name)
         break
       case 'Group_Fixtures':
-        RowContent = Data.Fixtures.join(', ')
+        RowContent = NotFalse(await GetAllFixtures(Data.Fixtures))
         break
       case 'Group_Mask':
         RowContent = Data.Mask ? 'True' : ''
         break
       case 'Patch_Group':
-        RowContent = await GetAllGroups(Data)
+        RowContent = NotFalse(await GetAllGroups(Data))
         break
       case 'Patch_Fixture':
         RowContent = `<a target="_blank" href="https://onyxfixturefinder.com/fixture/${encodeURIComponent(Data.Manufacturer)}/${encodeURIComponent(Data.Model)}" />${Data.Manufacturer} - ${Data.Model}</a> <em>(${Data.Mode})</em>`
@@ -101,6 +168,27 @@ const TBodyLine = async (Config, Multipart, Data, Restricted = false) => {
       case 'Patch_Invert':
         RowContent = NotFalse(Data.Invert)
         break
+      case 'Preset_Type':
+        RowContent = Data.Type
+        break
+      case 'Preset_Position':
+        RowContent = Data.Position
+        break
+      case 'Preset_Usage':
+        RowContent = NotFalse(Data.Usage, ', ')
+        break
+      case 'Preset_UsedBy':
+        RowContent = NotFalse(await GetAllFixtures(Data.UsedFor, true))
+        break
+      case 'Preset_UnUsedBy':
+        RowContent = NotFalse(await GetAllFixtures(Data.UnusedFor, true))
+        break
+      case 'Preset_Referal':
+        RowContent = NotFalse(await GetAllPresets(Data.UsePreset))
+        break
+      case 'Preset_Embedded':
+        RowContent = NotFalse(await GetAllPresets(Data.UsedByPreset))
+        break
     }
     if (Table[i].RowSpan) {
       LocalRowSpan = RowSpan
@@ -112,6 +200,5 @@ const TBodyLine = async (Config, Multipart, Data, Restricted = false) => {
 }
 
 module.exports = {
-  THead,
-  TBodyLine
+  THead, TBodyLine, FixtureInfo
 }

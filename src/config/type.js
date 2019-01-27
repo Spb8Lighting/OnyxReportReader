@@ -14,7 +14,7 @@ module.exports = {
   PresetXML: {
     Name: 'Presets',
     Picture: '<svg viewBox="0 0 24 24"><title>Choose Preset file or drag it here</title><path d="M4 2v2H3a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H6V2H4zm7 0v12h-1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1a1 1 0 0 0-1-1h-1V2h-2zm7 0v7h-1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1a1 1 0 0 0-1-1h-1V2h-2zM4 9v13h2V9H4zm14 5v8h2v-8h-2zm-7 5v3h2v-3h-2z"/></svg>',
-    FileExt: '.MaxxyzPresetsUsageReport.xml.OnyxPresetsUsageReport.xml,.Preset.Onyx.xml',
+    FileExt: '.MaxxyzPresetsUsageReport.xml,.OnyxPresetsUsageReport.xml,.Preset.Onyx.xml',
     Regex: /\.((onyx|maxxyz)presetsusagereport|preset\.onyx)\.xml$/i
   },
   CuelistXML: {

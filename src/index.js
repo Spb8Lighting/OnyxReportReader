@@ -4,15 +4,15 @@ import Input from './input'
 import DB from './database'
 import PatchRender from './render/patch'
 import GroupRender from './render/group'
+import PresetRender from './render/preset'
 
 // FORCE HTTPS
 if (window.location.hostname !== 'localhost' && window.location.protocol !== 'https:') {
   window.location.href = window.location.href.replace('http://', 'https://')
-}
-
-// Check that service workers are registered
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('service-worker.js')
+  // Check that service workers are registered
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js')
+  }
 }
 
 // Change the form label by their associated picture
@@ -38,9 +38,22 @@ Input()
   // Display Group
   .then(Item => {
     if (typeof Item !== 'undefined') {
-      return GroupRender()
+      return GroupRender(false)
     } else {
       throw new Error('No Group')
+    }
+  })
+  // Get Preset data
+  .then(() => {
+    Loader.Show()
+    return DB.Get({ Object: 'File', ItemID: 'Preset' })
+  })
+  // Display Group
+  .then(Item => {
+    if (typeof Item !== 'undefined') {
+      return PresetRender()
+    } else {
+      throw new Error('No Preset')
     }
   })
   // End of reload data
@@ -55,13 +68,17 @@ Input()
   })
 
 // Reset Link
-document.querySelector('a[href="#Reset"]').addEventListener('click', e => {
+document.querySelector('a[href="#ResetAll"]').addEventListener('click', e => {
   e.preventDefault()
   DB.DeleteDB()
 })
-document.querySelector('a[href="#NewGroup"]').addEventListener('click', e => {
+document.querySelector('a[href="#ResetGroup"]').addEventListener('click', e => {
   e.preventDefault()
   DB.DeleteTable({ Object: 'FixtureGroup' })
+})
+document.querySelector('a[href="#ResetPreset"]').addEventListener('click', e => {
+  e.preventDefault()
+  DB.DeleteTable({ Object: 'Preset' })
 })
 document.querySelector('a[href="#Menu"]').addEventListener('click', e => {
   e.preventDefault()

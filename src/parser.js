@@ -1,6 +1,7 @@
 const $Show = require('./object/show')
 const $Fixture = require('./object/fixture')
 const $FixtureGroup = require('./object/group')
+const $Preset = require('./object/preset')
 const DB = require('./database')
 const Option = require('./config/option')
 
@@ -43,6 +44,19 @@ module.exports = {
             Item: JSON.parse(JSON.stringify(NewFixtureGroup))
           })
         }
+      }
+    }
+  },
+  Preset: async $Xml => {
+    // Set XML Getter
+    let $General = $Xml.getElementsByTagName('Presets')[0]
+    let $Presets = $General.getElementsByTagName('Preset')
+    for (let i = 0; i < $Presets.length; i++) {
+      if ($Presets.hasOwnProperty(i)) {
+        DB.Add({
+          Object: 'Preset',
+          Item: JSON.parse(JSON.stringify(new $Preset($Presets[i])))
+        })
       }
     }
   }

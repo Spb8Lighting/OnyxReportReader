@@ -13,5 +13,9 @@ module.exports = {
     DisplaySimplifiedFixture: true,
     // Hide the AutoGroup
     HideAutoGroup: true
+  },
+  Preset: {
+    // In the group page, permit to simplified the Fixture abbreviation title to the minimum
+    DisplaySimplifiedPreset: true
   }
 }

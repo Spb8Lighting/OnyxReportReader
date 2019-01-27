@@ -132,7 +132,72 @@ if (!Option.Group.HideAutoGroup) {
 }
 Group.push(GroupFixture)
 
+const PresetType = {
+  ID: 'Preset_Type',
+  Name: 'Type',
+  Hide: false,
+  RowSpan: false,
+  MultiPart: false
+}
+const PresetPosition = {
+  ID: 'Preset_Position',
+  Name: 'N°',
+  Hide: false,
+  RowSpan: false,
+  MultiPart: false
+}
+const PresetName = {
+  ID: 'Preset_Name',
+  Name: 'Name',
+  Hide: false,
+  RowSpan: false,
+  MultiPart: false
+}
+const PresetUsage = {
+  ID: 'Preset_Usage',
+  Name: 'Usage',
+  Hide: false,
+  RowSpan: false,
+  MultiPart: false
+}
+const PresetUsedBy = {
+  ID: 'Preset_UsedBy',
+  Name: 'Used By',
+  Hide: false,
+  RowSpan: false,
+  MultiPart: false
+}
+const PresetUnUsedBy = {
+  ID: 'Preset_UnUsedBy',
+  Name: 'Never used by',
+  Hide: false,
+  RowSpan: false,
+  MultiPart: false
+}
+const PresetReferal = {
+  ID: 'Preset_Referal',
+  Name: 'Refers to',
+  Hide: false,
+  RowSpan: false,
+  MultiPart: false
+}
+const PresetEmbedded = {
+  ID: 'Preset_Embedded',
+  Name: 'Embedded in',
+  Hide: false,
+  RowSpan: false,
+  MultiPart: false
+}
+let Preset = []
+Preset.push(PresetType)
+Preset.push(PresetPosition)
+Preset.push(PresetName)
+Preset.push(PresetUsage)
+Preset.push(PresetUsedBy)
+Preset.push(PresetUnUsedBy)
+Preset.push(PresetReferal)
+Preset.push(PresetEmbedded)
+
 module.exports = {
-  Patch,
-  Group
+  Patch, Group, Preset
 }
