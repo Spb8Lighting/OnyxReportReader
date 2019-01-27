@@ -5,6 +5,11 @@ import DB from './database'
 import PatchRender from './render/patch'
 import GroupRender from './render/group'
 
+// FORCE HTTPS
+if (window.location.hostname !== 'localhost' && window.location.protocol !== 'https:') {
+  window.location.href = window.location.href.replace('http://', 'https://')
+}
+
 // Check that service workers are registered
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('service-worker.js')
