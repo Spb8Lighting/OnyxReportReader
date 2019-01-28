@@ -97,7 +97,7 @@ const THead = Config => {
   let Thead = '<tr>' + '\n'
   let TheadLength = Config.length
   for (let i = 0; i < TheadLength; ++i) {
-    let ClassAttribut = Config[i].Hide ? `${Config[i].ID} hide` : Config[i].ID
+    let ClassAttribut = Config[i].Show ? Config[i].ID : `${Config[i].ID} hide`
     Thead += '\t' + `<th class="${ClassAttribut}">${Config[i].Name}</th>` + '\n'
   }
   Thead += '</tr>'
@@ -122,7 +122,7 @@ const TBodyLine = async (Config, Multipart, Data, Restricted = false) => {
     TbodyLength = Table.length
   }
   for (let i = 0; i < TbodyLength; ++i) {
-    let ClassAttribut = Table[i].Hide ? `${Table[i].ID} hide` : Table[i].ID
+    let ClassAttribut = Table[i].Show ? Table[i].ID : `${Table[i].ID} hide`
     let RowContent = ''
     let LocalRowSpan = ''
     switch (Table[i].ID) {

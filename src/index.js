@@ -5,6 +5,7 @@ import PatchRender from './render/patch'
 import GroupRender from './render/group'
 import PresetRender from './render/preset'
 import Loader from './loader'
+import LocalStorage from './localstorage'
 
 // FORCE HTTPS
 if (window.location.hostname !== 'localhost' && window.location.protocol !== 'https:') {
@@ -89,6 +90,11 @@ document.querySelector('a[href="#ResetGroup"]').addEventListener('click', e => {
 document.querySelector('a[href="#ResetPreset"]').addEventListener('click', e => {
   e.preventDefault()
   DB.DeleteTable({ Object: 'Preset' })
+})
+document.querySelector('a[href="#ResetLayout"]').addEventListener('click', e => {
+  e.preventDefault()
+  LocalStorage.Clear()
+  window.location.reload()
 })
 document.querySelector('a[href="#Menu"]').addEventListener('click', e => {
   e.preventDefault()

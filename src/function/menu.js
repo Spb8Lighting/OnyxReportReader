@@ -1,21 +1,24 @@
 'use strict'
+const LocalStorage = require('../localstorage')
+
+const IsChecked = Default => Default ? ' checked="checked"' : ''
+
 const Create = (Config, Article) => {
   let ArticleID = Article.getAttribute('id')
   let Menu = '<form class="hide print_hide" method="POST">' + '\n'
   let MenuLength = Config.length
   for (let i = 0; i < MenuLength; ++i) {
-    let CheckedAttribut = Config[i].Hide ? '' : ' checked="checked"'
     Menu += '\t' + `<label class="label" for="HideShow-${Config[i].ID}">` + '\n'
-    Menu += '\t' + `<input class="switch" name="HideShow-${Config[i].ID}" id="HideShow-${Config[i].ID}" type="checkbox"${CheckedAttribut} />` + '\n'
+    Menu += '\t' + `<input class="switch" name="HideShow-${Config[i].ID}" id="HideShow-${Config[i].ID}" type="checkbox"${IsChecked(Config[i].Show)} />` + '\n'
     Menu += '\t' + `${Config[i].Name}</label>` + '\n'
   }
   Menu += '\t' + `<br />` + '\n'
   Menu += '\t' + `<label class="label" for="HidePrint-${ArticleID}">` + '\n'
-  Menu += '\t' + `<input class="switch" name="HidePrint-${ArticleID}" id="HidePrint-${ArticleID}" type="checkbox" checked="checked" />` + '\n'
+  Menu += '\t' + `<input class="switch" name="HidePrint-${ArticleID}" id="HidePrint-${ArticleID}" type="checkbox"${IsChecked(true)} />` + '\n'
   Menu += '\t' + `Printable</label>` + '\n'
   if (ArticleID === 'Patch') {
     Menu += '\t' + `<label class="label" for="HideShow-Patch_MultiPart">` + '\n'
-    Menu += '\t' + `<input class="switch" name="HideShow-Patch_MultiPart" id="HideShow-Patch_MultiPart" type="checkbox" checked="checked" />` + '\n'
+    Menu += '\t' + `<input class="switch" name="HideShow-Patch_MultiPart" id="HideShow-Patch_MultiPart" type="checkbox"${IsChecked(true)} />` + '\n'
     Menu += '\t' + `Show Multi-part fixture</label>` + '\n'
   }
   Menu += '</form>'
@@ -55,7 +58,16 @@ const Create = (Config, Article) => {
       } else if (Parameter[0] === 'HidePrint') {
         document.getElementById(Parameter[1]).classList.toggle('print_hide')
       }
+      // Store value of the switch
+      LocalStorage.Set({ key: e.target.id, value: e.target.checked })
     })
+    // Restore the switch value from localstorage
+    let SwitchSaved = LocalStorage.Get({ key: Switchs[i].id })
+    if (SwitchSaved != null && SwitchSaved !== Switchs[i].checked) {
+      Switchs[i].checked = !Switchs[i].checked
+      // eslint-disable-next-line no-undef
+      Switchs[i].dispatchEvent(new Event('change'))
+    }
   }
 }
 module.exports = {

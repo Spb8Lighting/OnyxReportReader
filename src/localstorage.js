@@ -1,24 +1,34 @@
-// let StorageMethod = localStorage
 // eslint-disable-next-line no-undef
-let StorageMethod = sessionStorage
+let StorageMethod = localStorage
+// eslint-disable-next-line no-undef
+// let StorageMethod = sessionStorage
 
 module.exports = {
+  Clear: () => {
+    return StorageMethod.clear()
+  },
+  Remove: content => {
+    if (typeof content.key !== 'undefined') {
+      return StorageMethod.removeItem(content.key)
+    } else {
+      return false
+    }
+  },
   Get: content => {
     if (typeof content.key !== 'undefined') {
       let LocalKeyContent = StorageMethod.getItem(content.key)
       if (LocalKeyContent != null) {
         return JSON.parse(LocalKeyContent)
       } else {
-        return false
+        return null
       }
     } else {
-      return false
+      return null
     }
   },
   Set: content => {
     if (typeof content.key !== 'undefined') {
-      StorageMethod.setItem(content.key, JSON.stringify(content.value))
-      return true
+      return StorageMethod.setItem(content.key, JSON.stringify(content.value))
     } else {
       return false
     }
