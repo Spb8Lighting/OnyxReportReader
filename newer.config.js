@@ -91,13 +91,13 @@ if (!IsDev) {
       dry: false
     }),
     new CopyWebpackPlugin([{ from: './assets/favicons', to: './img/favicons' }]),
-    new WorkboxPlugin.GenerateSW()
+    new WorkboxPlugin.GenerateSW({ skipWaiting: true })
   )
 } else {
   config.plugins.push(
     new ExtractTextWebpackPlugin('app.css'),
     new DashboardPlugin(),
-    new WorkboxPlugin.GenerateSW(),
+    new WorkboxPlugin.GenerateSW({ skipWaiting: true }),
     new webpack.HotModuleReplacementPlugin()
   )
 }
