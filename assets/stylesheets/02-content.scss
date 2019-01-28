@@ -1,3 +1,7 @@
+nav,
+article form {
+    animation: fadeIn 0.5s;
+}
 article {
     color: $white;
     opacity: 0;
@@ -10,9 +14,6 @@ article {
     left: -100%;
     font-size: 90%;
     z-index: 8;
-    form {
-        animation: fadeIn 1s;
-    }
     label {
         margin-bottom: 0;
     }
@@ -94,6 +95,9 @@ article {
     & h2 {
         color: $Onyx-Color1;
     }
+    & svg {
+        fill: $Onyx-Color1;
+    }
 }
 #Patch {
     ::-webkit-scrollbar-thumb {
@@ -111,6 +115,9 @@ article {
     & h1,
     & h2 {
         color: $Onyx-Color2;
+    }
+    & svg {
+        fill: $Onyx-Color2;
     }
 }
 #FixtureGroup {
@@ -130,6 +137,9 @@ article {
     & h2 {
         color: $Onyx-Color3;
     }
+    & svg {
+        fill: $Onyx-Color3;
+    }
 }
 #Preset {
     ::-webkit-scrollbar-thumb {
@@ -147,6 +157,9 @@ article {
     & h1,
     & h2 {
         color: $Onyx-Color4;
+    }
+    & svg {
+        fill: $Onyx-Color4;
     }
 }
 #Cuelist {
