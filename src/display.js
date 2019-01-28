@@ -58,6 +58,7 @@ const Loaded = (ArticleID, ToDisplay) => {
       return false
     })
     Label.removeChild(Input)
+    Label.querySelector('svg title').innerHTML = `Display ${Label.querySelector('span').innerText}`
   }
 
   // Force to display the new content
