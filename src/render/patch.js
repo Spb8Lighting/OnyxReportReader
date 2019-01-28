@@ -48,7 +48,7 @@ let Render = (SetActive = true) => {
 
             let PatchArticle = document.getElementById('Patch')
 
-            PatchArticle.innerHTML = `<h2><button class="nav-button print_hide" type="button" role="button"><i></i></button> Patch</h2><p>${Content.Description}</p>${Content.Table}`
+            PatchArticle.innerHTML = `<h2><button class="nav-button print_hide" type="button" role="button"><i></i></button> Patch</h2><p>${Content.Description}</p><div class="overflow">${Content.Table}</div>`
             // Add the Table menu to filter column
             Menu.Create(PatchConfig, PatchArticle)
             document.querySelector('header>span').innerHTML = Content.Header

@@ -3,7 +3,6 @@ article {
     opacity: 0;
     width: calc(100% - #{$aside-width});
     height: calc(100% - #{$header-height + 4});
-    overflow-y: scroll;
     transition: 0.5s ease-in-out !important;
     position: absolute;
     padding: 10px;
@@ -11,6 +10,9 @@ article {
     left: -100%;
     font-size: 90%;
     z-index: 8;
+    form {
+        animation: fadeIn 1s;
+    }
     label {
         margin-bottom: 0;
     }
@@ -30,11 +32,18 @@ article {
     .Patch_MultiPart .Patch_ID {
         text-align: right;
     }
+    .overflow {
+        height: calc(100% - #{$header-height + 4});
+        display: block;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        padding-right: 3px;
+    }
     table {
         width:  $table-width;
         thead th {
             position: sticky;
-            top: -1.5rem;
+            top: 0;
             background-color: $header-color;
             z-index: 1;
         }
@@ -44,13 +53,6 @@ article {
         tr {
             border-bottom: 1px solid $gray-600;
         }
-        /*tr td.number {
-            width: 1em;
-            font-family: "Digital 7"
-        }
-        tr td.number {
-            width: auto;
-        }*/
         tbody tr:last-child {
             border-bottom: none
         }
@@ -93,11 +95,16 @@ article {
         color: $Onyx-Color1;
     }
 }
-#Patch button i {
-    background-image: linear-gradient($Onyx-Color1, $Onyx-Color1)!important;
-    &:after,
-    &:before {
-        background-color: $Onyx-Color1!important;
+#Patch {
+    ::-webkit-scrollbar-thumb {
+        background-color: $Onyx-Color1;
+    }
+    button i {
+        background-image: linear-gradient($Onyx-Color1, $Onyx-Color1)!important;
+        &:after,
+        &:before {
+            background-color: $Onyx-Color1!important;
+        }
     }
 }
 .FixtureGroup {
@@ -106,11 +113,16 @@ article {
         color: $Onyx-Color2;
     }
 }
-#FixtureGroup button i {
-    background-image: linear-gradient($Onyx-Color2, $Onyx-Color2)!important;
-    &:after,
-    &:before {
-        background-color: $Onyx-Color2!important;
+#FixtureGroup {
+    ::-webkit-scrollbar-thumb {
+        background-color: $Onyx-Color2;
+    }
+    button i {
+        background-image: linear-gradient($Onyx-Color2, $Onyx-Color2)!important;
+        &:after,
+        &:before {
+            background-color: $Onyx-Color2!important;
+        }
     }
 }
 .Preset {
@@ -119,11 +131,16 @@ article {
         color: $Onyx-Color3;
     }
 }
-#Preset button i {
-    background-image: linear-gradient($Onyx-Color3, $Onyx-Color3)!important;
-    &:after,
-    &:before {
-        background-color: $Onyx-Color3!important;
+#Preset {
+    ::-webkit-scrollbar-thumb {
+        background-color: $Onyx-Color3;
+    }
+    button i {
+        background-image: linear-gradient($Onyx-Color3, $Onyx-Color3)!important;
+        &:after,
+        &:before {
+            background-color: $Onyx-Color3!important;
+        }
     }
 }
 .Cuelist {
@@ -132,11 +149,16 @@ article {
         color: $Onyx-Color4;
     }
 }
-#Cuelist button i {
-    background-image: linear-gradient($Onyx-Color4, $Onyx-Color4)!important;
-    &:after,
-    &:before {
-        background-color: $Onyx-Color4!important;
+#Cuelist {
+    ::-webkit-scrollbar-thumb {
+        background-color: $Onyx-Color4;
+    }
+    button i {
+        background-image: linear-gradient($Onyx-Color4, $Onyx-Color4)!important;
+        &:after,
+        &:before {
+            background-color: $Onyx-Color4!important;
+        }
     }
 }
 #Patch button.is-active i,
@@ -161,9 +183,8 @@ span[data-title]:hover::after,
 span[data-title]:focus::after {
     content: attr(data-title);
     position: absolute;
-    font-family: 'Lato', sans-serif;
     background-color: $header-color;
-    top: -2.4em;
+    top: -2em;
     padding: 1%;
     left: 50%;
     transform: translateX(-85%);
@@ -192,5 +213,9 @@ span[data-title]:focus::after {
 .Patch_Fixture,
 .Preset_UsedBy,
 .Preset_UnUsedBy {
-    width: 30rem;
+    min-width: 10rem;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }

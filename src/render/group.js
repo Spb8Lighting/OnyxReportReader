@@ -32,7 +32,7 @@ let Render = (RenderPatch = true, SetActive = true) => {
 
             let FixtureGroupArticle = document.getElementById('FixtureGroup')
 
-            FixtureGroupArticle.innerHTML = `<h2><button class="nav-button print_hide" type="button" role="button"><i></i></button> Fixture Groups</h2><p>${Content.Description}</p>${Content.Table}`
+            FixtureGroupArticle.innerHTML = `<h2><button class="nav-button print_hide" type="button" role="button"><i></i></button> Fixture Groups</h2><p>${Content.Description}</p><div class="overflow">${Content.Table}</div>`
             Menu.Create(GroupConfig, FixtureGroupArticle)
             Display.SetLoaded('FixtureGroup', SetActive)
             if (RenderPatch) {

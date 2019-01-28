@@ -31,7 +31,7 @@ let Render = (SetActive = true) => {
 
             let PresetArticle = document.getElementById('Preset')
 
-            PresetArticle.innerHTML = `<h2><button class="nav-button print_hide" type="button" role="button"><i></i></button> Presets</h2><p>${Content.Description}</p>${Content.Table}`
+            PresetArticle.innerHTML = `<h2><button class="nav-button print_hide" type="button" role="button"><i></i></button> Presets</h2><p>${Content.Description}</p><div class="overflow">${Content.Table}</div>`
             Menu.Create(PresetConfig, PresetArticle)
             Display.SetLoaded('Preset', SetActive)
             Loader.Preset.Hide()
