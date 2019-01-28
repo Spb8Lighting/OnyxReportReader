@@ -9,9 +9,9 @@
   "scripts": {
     "dev": "NODE_ENV=development webpack",
     "start": "NODE_ENV=development webpack-dashboard webpack-dev-server -d --hot --config webpack.config.js --watch",
-    "Build": "NODE_ENV=production webpack --progress  --config ./legacy.config.js",
-    "BuildLegacy": "NODE_ENV=production webpack --progress --config ./newer.config.js",
-    "prod": "npm run BuildLegacy && npm run Build"
+    "BuildLegacy": "NODE_ENV=production webpack --progress  --config ./legacy.config.js",
+    "Build": "NODE_ENV=production webpack --progress --config ./newer.config.js",
+    "prod": "npm run Build && npm run BuildLegacy"
   },
   "repository": {
     "type": "git",
@@ -66,8 +66,8 @@
     "workbox-webpack-plugin": "^3.6.3"
   },
   "browserslist": [
-    "last 3 version",
-    "> 1%",
+    "last 1 version",
+    "> 2%",
     "IE 10"
   ]
 }
