@@ -11,6 +11,8 @@ class SubFixtureObject {
     this.ID = Number(PartXML.getAttribute('nr'))
     this.Ref = PartXML.getAttribute('ID')
     this.Name = ((PartXML.getAttribute('name') != null) ? PartXML.getAttribute('name') : '')
+    this.UsedFor = []
+    this.NeverUsedFor = []
     this.Groups = []
   }
 }
@@ -30,6 +32,8 @@ class FixtureObject {
     this.Invert = ''
     this.Universe = false
     this.Address = false
+    this.UsedFor = []
+    this.NeverUsedFor = []
     this.Groups = []
     this.CheckDMXInfos(FixtureXML)
     this.CheckMultipart(FixtureXML)
