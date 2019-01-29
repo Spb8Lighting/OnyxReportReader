@@ -71,7 +71,7 @@ Input()
   })
   // End of reload data
   .then(() => {
-    console.log('Render ended')
+    // console.log('Render ended')
   })
   // Catch error
   .catch(reject => {
