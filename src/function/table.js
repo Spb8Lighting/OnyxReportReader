@@ -1,6 +1,7 @@
 'use strict'
 const DB = require('./../database')
 const Option = require('./../config/option')
+const Common = require('./common')
 
 let FixtureInfo = FixtureDB => {
   if (Option.Group.DisplaySimplifiedFixture) {
@@ -176,6 +177,14 @@ const TBodyLine = async (Config, Multipart, Data, Restricted = false) => {
         break
       case 'Preset_Usage':
         RowContent = NotFalse(Data.Usage, ', ')
+        break
+      case 'Preset_Fixtures':
+        let Fixtures = Common.AssignObject(Data.UsedFor, Data.UnusedFor)
+        if (Fixtures) {
+          RowContent = NotFalse(await GetAllFixtures(Fixtures, true))
+        } else {
+          RowContent = ''
+        }
         break
       case 'Preset_UsedBy':
         RowContent = NotFalse(await GetAllFixtures(Data.UsedFor, true))
