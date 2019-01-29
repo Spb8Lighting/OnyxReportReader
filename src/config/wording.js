@@ -8,5 +8,13 @@ module.exports = {
     File: {
       Loaded: 'The file has been correctly loaded'
     }
+  },
+  Preset: {
+    Status: {
+      NoFixture: 'Preset is empty',
+      AllUse: 'All fixtures are in use',
+      NoUse: 'No fixtures are in use',
+      PartialUse: 'Some fixtures are in use'
+    }
   }
 }

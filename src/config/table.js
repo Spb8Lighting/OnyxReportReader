@@ -153,6 +153,13 @@ const PresetName = {
   RowSpan: false,
   MultiPart: false
 }
+const PresetState = {
+  ID: 'Preset_State',
+  Name: 'State',
+  Show: true,
+  RowSpan: false,
+  MultiPart: false
+}
 const PresetUsage = {
   ID: 'Preset_Usage',
   Name: 'Usage',
@@ -199,6 +206,7 @@ let Preset = []
 Preset.push(PresetPosition)
 Preset.push(PresetType)
 Preset.push(PresetName)
+Preset.push(PresetState)
 if (Option.Preset.DisplayMergedFixturePerPreset) {
   Preset.push(PresetFixtures)
 }

@@ -169,6 +169,9 @@ const TBodyLine = async (Config, Multipart, Data, Restricted = false) => {
       case 'Patch_Invert':
         RowContent = NotFalse(Data.Invert)
         break
+      case 'Preset_State':
+        RowContent = Data.State
+        break
       case 'Preset_Type':
         RowContent = Data.Type
         break
