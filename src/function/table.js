@@ -170,7 +170,8 @@ const TBodyLine = async (Config, Multipart, Data, Restricted = false) => {
         RowContent = NotFalse(Data.Invert)
         break
       case 'Preset_State':
-        RowContent = Data.State
+        // NotFalse function added for compatibility reason (until preset report are uploaded again)
+        RowContent = NotFalse(Data.State)
         break
       case 'Preset_Type':
         RowContent = Data.Type
