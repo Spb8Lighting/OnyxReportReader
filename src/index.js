@@ -1,9 +1,7 @@
 import '@babel/polyfill'
 import Input from './input'
 import DB from './database'
-import PatchRender from './render/patch'
-import GroupRender from './render/group'
-import PresetRender from './render/preset'
+import Render from './function/render'
 import Loader from './loader'
 import LocalStorage from './localstorage'
 
@@ -19,55 +17,28 @@ if (window.location.hostname !== 'localhost' && window.location.protocol !== 'ht
 // Change the form label by their associated picture
 Input()
   // Get Patch data
-  .then(() => {
+  .then(async () => {
     Loader.Patch.Show()
-    return DB.Get({ Object: 'File', ItemID: 'Patch' })
-  })
-  // Display Patch
-  .then(Item => {
-    if (typeof Item !== 'undefined') {
-      PatchRender(true).then(() => {
-        Loader.Patch.Hide()
-        return Promise.resolve('Patch Loaded')
-      })
-    } else {
-      Loader.Patch.Hide()
-      return Promise.resolve('No Patch')
+    if (typeof await DB.Get({ Object: 'File', ItemID: 'Patch' }) !== 'undefined') {
+      await Render('Patch', true)
     }
+    Loader.Patch.Hide()
   })
   // Get Group data
-  .then(() => {
+  .then(async () => {
     Loader.FixtureGroup.Show()
-    return DB.Get({ Object: 'File', ItemID: 'FixtureGroup' })
-  })
-  // Display Group
-  .then(Item => {
-    if (typeof Item !== 'undefined') {
-      GroupRender(false, false).then(() => {
-        Loader.FixtureGroup.Hide()
-        return Promise.resolve('Patch Loaded')
-      })
-    } else {
-      Loader.FixtureGroup.Hide()
-      return Promise.resolve('No Group')
+    if (typeof await DB.Get({ Object: 'File', ItemID: 'FixtureGroup' }) !== 'undefined') {
+      await Render('Group', false, false)
     }
+    Loader.FixtureGroup.Hide()
   })
   // Get Preset data
-  .then(() => {
+  .then(async () => {
     Loader.Preset.Show()
-    return DB.Get({ Object: 'File', ItemID: 'Preset' })
-  })
-  // Display Group
-  .then(Item => {
-    if (typeof Item !== 'undefined') {
-      PresetRender(false).then(() => {
-        Loader.Preset.Hide()
-        return Promise.resolve('Preset Loaded')
-      })
-    } else {
-      Loader.Preset.Hide()
-      return Promise.resolve('No Preset')
+    if (typeof await DB.Get({ Object: 'File', ItemID: 'Preset' }) !== 'undefined') {
+      await Render('Preset', false)
     }
+    Loader.Preset.Hide()
   })
   // End of reload data
   .then(() => {
