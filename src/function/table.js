@@ -108,24 +108,12 @@ const THead = Config => {
 const TBodyLine = async (Config, Multipart, Data, Restricted = false) => {
   let MultiPartClass = Restricted ? 'Patch_MultiPart' : 'MultiPart'
   let MultiPartID = Multipart > 0 || Restricted ? ` class="${MultiPartClass}" data-id="${Data.ID}"` : ''
-  let RowSpanCount = Multipart + 1
-  let RowSpan = Multipart > 0 ? ` data-rowspan="${RowSpanCount}" rowspan="${RowSpanCount}"` : ''
   let Tbody = `<tr${MultiPartID}>` + '\n'
   let Table = Config
   let TbodyLength = Table.length
-  if (Restricted) {
-    Table = []
-    for (let i = 0; i < TbodyLength; ++i) {
-      if (Config[i].MultiPart) {
-        Table.push(Config[i])
-      }
-    }
-    TbodyLength = Table.length
-  }
   for (let i = 0; i < TbodyLength; ++i) {
     let ClassAttribut = Table[i].Show ? Table[i].ID : `${Table[i].ID} hide`
     let RowContent = ''
-    let LocalRowSpan = ''
     switch (Table[i].ID) {
       case 'Patch_ID':
       case 'Group_ID':
@@ -203,10 +191,12 @@ const TBodyLine = async (Config, Multipart, Data, Restricted = false) => {
         RowContent = NotFalse(await GetAllPresets(Data.UsedByPreset))
         break
     }
-    if (Table[i].RowSpan) {
-      LocalRowSpan = RowSpan
+    // Empty cell content for multipart Fixture
+    if (Restricted) {
+      RowContent = (!Table[i].MultiPart) ? '' : RowContent
+      ClassAttribut += (!Table[i].MultiPart) ? ' rowspan' : ''
     }
-    Tbody += '\t' + `<td class="${ClassAttribut}"${LocalRowSpan}>${RowContent}</td>` + '\n'
+    Tbody += '\t' + `<td class="${ClassAttribut}">${RowContent}</td>` + '\n'
   }
   Tbody += '</tr>'
   return Tbody
