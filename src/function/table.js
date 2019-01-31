@@ -1,6 +1,7 @@
 'use strict'
 const DB = require('./../database')
 const Option = require('./../config/option')
+const Wording = require('./../config/wording')
 const Common = require('./common')
 
 let FixtureInfo = FixtureDB => {
@@ -104,6 +105,20 @@ const THead = Config => {
   Thead += '</tr>'
   return Thead
 }
+const PresetState = val => {
+  switch (val) {
+    case Wording.Preset.Status.AllUse:
+      return `<span class="success">${val}</span>`
+    case Wording.Preset.Status.PartialUse:
+      return `<span class="primary">${val}</span>`
+    case Wording.Preset.Status.NoUse:
+      return `<span class="warning">${val}</span>`
+    case Wording.Preset.Status.NoFixture:
+      return `<span class="danger">${val}</span>`
+    default:
+      return val
+  }
+}
 
 const TBodyLine = async (Config, Multipart, Data, Restricted = false) => {
   let MultiPartClass = Restricted ? 'Patch_MultiPart' : 'MultiPart'
@@ -159,7 +174,7 @@ const TBodyLine = async (Config, Multipart, Data, Restricted = false) => {
         break
       case 'Preset_State':
         // NotFalse function added for compatibility reason (until preset report are uploaded again)
-        RowContent = NotFalse(Data.State)
+        RowContent = NotFalse(PresetState(Data.State))
         break
       case 'Preset_Type':
         RowContent = Data.Type
