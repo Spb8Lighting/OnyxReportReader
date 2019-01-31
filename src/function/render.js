@@ -5,6 +5,7 @@ const TableHTML = require('./table')
 const Menu = require('./menu')
 const Display = require('./../display')
 const Loader = require('./../loader')
+const TableSorter = require('./tablesorter')
 
 let Render = async (Type, SetActive = true, RenderPatch = false) => {
   // Set Parameter following the type to be displayed
@@ -102,6 +103,8 @@ let Render = async (Type, SetActive = true, RenderPatch = false) => {
     `</h2>` + '\n' +
     `<p>${Content.Description}</p>` + '\n' +
     `<div class="overflow">${Content.Table}</div>`
+  // Add Sort function on table
+  TableSorter.Sortable(LocalConfig.Article.querySelector('table'))
   // Add the Table menu to filter column
   Menu.Create(LocalConfig.Table, LocalConfig.Article)
   // Set the new page content as active page
