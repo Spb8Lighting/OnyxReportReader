@@ -1,6 +1,8 @@
 'use strict'
 const DB = require('./../database')
 const Option = require('./../config/option')
+const Wording = require('./../config/wording')
+const Common = require('./common')
 
 let FixtureInfo = FixtureDB => {
   if (Option.Group.DisplaySimplifiedFixture) {
@@ -103,28 +105,30 @@ const THead = Config => {
   Thead += '</tr>'
   return Thead
 }
+const PresetState = val => {
+  switch (val) {
+    case Wording.Preset.Status.AllUse:
+      return `<span class="success">${val}</span>`
+    case Wording.Preset.Status.PartialUse:
+      return `<span class="primary">${val}</span>`
+    case Wording.Preset.Status.NoUse:
+      return `<span class="warning">${val}</span>`
+    case Wording.Preset.Status.NoFixture:
+      return `<span class="danger">${val}</span>`
+    default:
+      return val
+  }
+}
 
 const TBodyLine = async (Config, Multipart, Data, Restricted = false) => {
   let MultiPartClass = Restricted ? 'Patch_MultiPart' : 'MultiPart'
   let MultiPartID = Multipart > 0 || Restricted ? ` class="${MultiPartClass}" data-id="${Data.ID}"` : ''
-  let RowSpanCount = Multipart + 1
-  let RowSpan = Multipart > 0 ? ` data-rowspan="${RowSpanCount}" rowspan="${RowSpanCount}"` : ''
   let Tbody = `<tr${MultiPartID}>` + '\n'
   let Table = Config
   let TbodyLength = Table.length
-  if (Restricted) {
-    Table = []
-    for (let i = 0; i < TbodyLength; ++i) {
-      if (Config[i].MultiPart) {
-        Table.push(Config[i])
-      }
-    }
-    TbodyLength = Table.length
-  }
   for (let i = 0; i < TbodyLength; ++i) {
     let ClassAttribut = Table[i].Show ? Table[i].ID : `${Table[i].ID} hide`
     let RowContent = ''
-    let LocalRowSpan = ''
     switch (Table[i].ID) {
       case 'Patch_ID':
       case 'Group_ID':
@@ -168,6 +172,10 @@ const TBodyLine = async (Config, Multipart, Data, Restricted = false) => {
       case 'Patch_Invert':
         RowContent = NotFalse(Data.Invert)
         break
+      case 'Preset_State':
+        // NotFalse function added for compatibility reason (until preset report are uploaded again)
+        RowContent = NotFalse(PresetState(Data.State))
+        break
       case 'Preset_Type':
         RowContent = Data.Type
         break
@@ -176,6 +184,14 @@ const TBodyLine = async (Config, Multipart, Data, Restricted = false) => {
         break
       case 'Preset_Usage':
         RowContent = NotFalse(Data.Usage, ', ')
+        break
+      case 'Preset_Fixtures':
+        let Fixtures = Common.AssignObject(Data.UsedFor, Data.UnusedFor)
+        if (Fixtures) {
+          RowContent = NotFalse(await GetAllFixtures(Fixtures, true))
+        } else {
+          RowContent = ''
+        }
         break
       case 'Preset_UsedBy':
         RowContent = NotFalse(await GetAllFixtures(Data.UsedFor, true))
@@ -190,10 +206,12 @@ const TBodyLine = async (Config, Multipart, Data, Restricted = false) => {
         RowContent = NotFalse(await GetAllPresets(Data.UsedByPreset))
         break
     }
-    if (Table[i].RowSpan) {
-      LocalRowSpan = RowSpan
+    // Empty cell content for multipart Fixture
+    if (Restricted) {
+      RowContent = (!Table[i].MultiPart) ? '' : RowContent
+      ClassAttribut += (!Table[i].MultiPart) ? ' rowspan' : ''
     }
-    Tbody += '\t' + `<td class="${ClassAttribut}"${LocalRowSpan}>${RowContent}</td>` + '\n'
+    Tbody += '\t' + `<td class="${ClassAttribut}">${RowContent}</td>` + '\n'
   }
   Tbody += '</tr>'
   return Tbody

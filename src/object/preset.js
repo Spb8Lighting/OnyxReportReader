@@ -1,4 +1,5 @@
 'use strict'
+const Wording = require('./../config/wording')
 
 class PresetObject {
   /**
@@ -16,6 +17,18 @@ class PresetObject {
     this.UnusedFor = this.CheckTag('UnusedValuesFor', 'Fixture', PresetXML)
     this.UsePreset = this.CheckTag('PresetUsesPreset', 'Source', PresetXML, true)
     this.UsedByPreset = this.CheckTag('PresetUsedByPreset', 'Source', PresetXML, true)
+    this.State = this.CheckState()
+  }
+  CheckState () {
+    if (Object.keys(this.UsedFor).length === 0 && Object.keys(this.UnusedFor).length === 0) {
+      return Wording.Preset.Status.NoFixture
+    } else if (Object.keys(this.UsedFor).length > 0 && Object.keys(this.UnusedFor).length === 0) {
+      return Wording.Preset.Status.AllUse
+    } else if (Object.keys(this.UsedFor).length === 0 && Object.keys(this.UnusedFor).length > 0) {
+      return Wording.Preset.Status.NoUse
+    } else if (Object.keys(this.UsedFor).length > 0 && Object.keys(this.UnusedFor).length > 0) {
+      return Wording.Preset.Status.PartialUse
+    }
   }
   CheckTag (MainTag, SubTag, PresetXML, Attribute = false) {
     let TableReturn = (MainTag === 'PresetUsage') ? [] : {}

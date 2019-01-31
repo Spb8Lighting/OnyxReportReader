@@ -66,8 +66,8 @@
     "workbox-webpack-plugin": "^3.6.3"
   },
   "browserslist": [
-    "last 1 version",
-    "> 2%",
-    "IE 10"
+    "last 2 versions",
+    "safari >=7",
+    "ie >=11"
   ]
 }

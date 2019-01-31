@@ -5,6 +5,7 @@ import DB from './database'
 import Parser from './parser'
 import $File from './object/file'
 import Loader from './loader'
+import Render from './function/render'
 
 export default () => {
   // ########################
@@ -48,15 +49,15 @@ export default () => {
               switch (ActicleID) {
                 case 'Patch':
                   Parser.Patch(xmlDoc)
-                  require('./render/patch')()
+                  Render('Patch', true)
                   break
                 case 'FixtureGroup':
                   await Parser.FixtureGroup(xmlDoc)
-                  require('./render/group')()
+                  Render('Group', true, true)
                   break
                 case 'Preset':
                   await Parser.Preset(xmlDoc)
-                  require('./render/preset')()
+                  Render('Preset', true)
                   break
                 default:
                   break

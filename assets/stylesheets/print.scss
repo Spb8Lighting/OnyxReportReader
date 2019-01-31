@@ -19,7 +19,7 @@ header {
   }
 }
 table {
-  font-size: 10pt;
+  font-size: 9pt;
   thead th {
     position: sticky;
     top: 0;
@@ -42,9 +42,11 @@ table {
   }
   td {
     padding: 0 .5em;
-    &[rowspan] {
+  }
+  th,
+  td {
       vertical-align: top;
-    }
+      min-width: 1rem;
   }
 }
 
@@ -62,7 +64,7 @@ table {
 .Patch_Fixture,
 .Preset_UsedBy,
 .Preset_UnUsedBy {
-    width: 30rem;
+    min-width: 10rem;
 }
 
 abbr[title] {
@@ -100,4 +102,37 @@ header::after {
 }
 article {
   page-break-before: always;
+}
+.success {
+  color: $color-success
+}
+.primary {
+  color: $color-primary
+}
+.warning {
+  color: $color-warning
+}
+.danger {
+  color: $color-danger
+}
+#Patch,
+#FixtureGroup {
+    h2 {
+        color: $Onyx-Color1;
+    }
+}
+#FixtureGroup {
+    h2 {
+        color: $Onyx-Color2;
+    }
+}
+#Preset {
+    h2 {
+        color: $Onyx-Color3;
+    }
+}
+#Cuelist {
+    h2 {
+        color: $Onyx-Color4;
+    }
 }
