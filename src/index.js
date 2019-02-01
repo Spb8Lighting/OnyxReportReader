@@ -43,10 +43,13 @@ Input()
   // End of reload data
   .then(() => {
     // console.log('Render ended')
+    Loader.Patch.Hide()
+    Loader.FixtureGroup.Hide()
+    Loader.Preset.Hide()
   })
   // Catch error
   .catch(reject => {
-    console.info(reject)
+    console.log(reject)
   })
 
 // Reset Link
