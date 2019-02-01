@@ -58,6 +58,10 @@ export default async () => {
                 await Parser.Preset(xmlDoc)
                 Render('Preset', true)
                 break
+              case 'Cuelist':
+                await Parser.Cuelist(xmlDoc)
+                Render('Cuelist', true)
+                break
               default:
                 break
             }

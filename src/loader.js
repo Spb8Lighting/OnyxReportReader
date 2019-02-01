@@ -2,7 +2,7 @@
 const $Patch = document.querySelector('label[for="PatchXML"]')
 const $FixtureGroup = document.querySelector('label[for="FixtureGroupXML"]')
 const $Preset = document.querySelector('label[for="PresetXML"]')
-// const $Cuelist = document.querySelector('label[for="CuelistXML"]')
+const $Cuelist = document.querySelector('label[for="CuelistXML"]')
 
 let AddLoader = Sel => Sel.classList.add('working')
 
@@ -20,11 +20,11 @@ let Preset = {
   Show: () => AddLoader($Preset),
   Hide: () => RemoveLoader($Preset)
 }
-/*let Cuelist = {
-  Show: AddLoader($Cuelist),
-  Hide: RemoveLoader($Cuelist)
-}*/
+let Cuelist = {
+  Show: () => AddLoader($Cuelist),
+  Hide: () => RemoveLoader($Cuelist)
+}
 
 module.exports = {
-  Patch, FixtureGroup, Preset /*, Cuelist*/
+  Patch, FixtureGroup, Preset, Cuelist
 }

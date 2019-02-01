@@ -40,12 +40,21 @@ Input()
     }
     Loader.Preset.Hide()
   })
+  // Get Cuelist data
+  .then(async () => {
+    Loader.Cuelist.Show()
+    if (typeof await DB.Get({ Object: 'File', ItemID: 'Cuelist' }) !== 'undefined') {
+      await Render('Cuelist', false)
+    }
+    Loader.Cuelist.Hide()
+  })
   // End of reload data
   .then(() => {
     // console.log('Render ended')
     Loader.Patch.Hide()
     Loader.FixtureGroup.Hide()
     Loader.Preset.Hide()
+    Loader.Cuelist.Hide()
   })
   // Catch error
   .catch(reject => {
@@ -64,6 +73,10 @@ document.querySelector('a[href="#ResetGroup"]').addEventListener('click', e => {
 document.querySelector('a[href="#ResetPreset"]').addEventListener('click', e => {
   e.preventDefault()
   DB.DeleteTable({ Object: 'Preset' })
+})
+document.querySelector('a[href="#ResetCuelist"]').addEventListener('click', e => {
+  e.preventDefault()
+  DB.DeleteTable({ Object: 'Cuelist' })
 })
 document.querySelector('a[href="#ResetLayout"]').addEventListener('click', e => {
   e.preventDefault()

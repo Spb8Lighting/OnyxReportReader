@@ -35,6 +35,14 @@ let Render = async (Type, SetActive = true, RenderPatch = false) => {
       LocalConfig.Table = Config.Preset
       LocalConfig.Loader = Loader.Preset
       break
+    case 'Cuelist':
+      LocalConfig.Objects = 'Cuelist'
+      LocalConfig.Name = 'Cuelist'
+      LocalConfig.ID = 'Cuelist'
+      LocalConfig.Class = 'cuelist'
+      LocalConfig.Table = Config.Cuelist
+      LocalConfig.Loader = Loader.Cuelist
+      break
   }
   // Define table content
   let Content = {

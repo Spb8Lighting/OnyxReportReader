@@ -216,6 +216,33 @@ Preset.push(PresetUnUsedBy)
 Preset.push(PresetReferal)
 Preset.push(PresetEmbedded)
 
+const CuelistID = {
+  ID: 'Cuelist_ID',
+  Name: 'ID',
+  Show: true,
+  RowSpan: false,
+  MultiPart: false
+}
+const CuelistType = {
+  ID: 'Cuelist_Type',
+  Name: 'Type',
+  Show: true,
+  RowSpan: false,
+  MultiPart: false
+}
+const CuelistName = {
+  ID: 'Cuelist_Name',
+  Name: 'Name',
+  Show: true,
+  RowSpan: false,
+  MultiPart: false
+}
+
+let Cuelist = []
+Cuelist.push(CuelistID)
+Cuelist.push(CuelistType)
+Cuelist.push(CuelistName)
+
 module.exports = {
-  Patch, Group, Preset
+  Patch, Group, Preset, Cuelist
 }

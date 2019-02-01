@@ -2,6 +2,7 @@ const $Show = require('./object/show')
 const $Fixture = require('./object/fixture')
 const $FixtureGroup = require('./object/group')
 const $Preset = require('./object/preset')
+const $Cuelist = require('./object/cuelist')
 const DB = require('./database')
 const Option = require('./config/option')
 
@@ -56,6 +57,19 @@ module.exports = {
         DB.Add({
           Object: 'Preset',
           Item: JSON.parse(JSON.stringify(new $Preset($Presets[i])))
+        })
+      }
+    }
+  },
+  Cuelist: async $Xml => {
+    // Set XML Getter
+    let $General = $Xml.getElementsByTagName('CueLists')[0]
+    let $Cuelists = $General.children
+    for (let i = 0; i < $Cuelists.length; i++) {
+      if ($Cuelists.hasOwnProperty(i)) {
+        DB.Add({
+          Object: 'Cuelist',
+          Item: JSON.parse(JSON.stringify(new $Cuelist($Cuelists[i])))
         })
       }
     }

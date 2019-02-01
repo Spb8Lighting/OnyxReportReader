@@ -132,11 +132,13 @@ const TBodyLine = async (Config, Multipart, Data, Restricted = false) => {
     switch (Table[i].ID) {
       case 'Patch_ID':
       case 'Group_ID':
+      case 'Cuelist_ID':
         RowContent = Data.ID
         break
       case 'Group_Name':
       case 'Patch_Name':
       case 'Preset_Name':
+      case 'Cuelist_Name':
         RowContent = NotFalse(Data.Name)
         break
       case 'Group_Fixtures':
@@ -177,6 +179,7 @@ const TBodyLine = async (Config, Multipart, Data, Restricted = false) => {
         RowContent = NotFalse(PresetState(Data.State))
         break
       case 'Preset_Type':
+      case 'Cuelist_Type':
         RowContent = Data.Type
         break
       case 'Preset_Position':

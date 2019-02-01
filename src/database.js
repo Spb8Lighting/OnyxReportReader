@@ -1,6 +1,6 @@
 const idb = require('idb')
 
-const DbPromise = idb.openDb('ReportReader', 4, upgradeDb => {
+const DbPromise = idb.openDb('ReportReader', 5, upgradeDb => {
   switch (upgradeDb.oldVersion) {
     case 0:
       upgradeDb.createObjectStore('Show', { keyPath: 'Key' })
@@ -19,6 +19,13 @@ const DbPromise = idb.openDb('ReportReader', 4, upgradeDb => {
     // eslint-disable-next-line no-fallthrough
     case 3:
       upgradeDb.transaction.objectStore('Preset').createIndex('Position', 'Position', { unique: false })
+    // eslint-disable-next-line no-fallthrough
+    case 4:
+      const Cuelist = upgradeDb.createObjectStore('Cuelist', { keyPath: 'ID' })
+      Cuelist.createIndex('ID', 'ID', { unique: true })
+      Cuelist.createIndex('Type', 'Type', { unique: false })
+      Cuelist.createIndex('Physical', 'Physical', { unique: false })
+      Cuelist.createIndex('Bank', 'Bank', { unique: false })
   }
 })
 
