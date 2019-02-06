@@ -8,6 +8,9 @@ class ShowObject {
     this.Key = 'Show'
     this.Name = ShowXML.getAttribute('showName')
     this.Build = ShowXML.getAttribute('showBuild')
+    if (this.Build > 65535) {
+      this.Build = `${(this.Build - (this.Build % 16777216)) / 16777216}.${((this.Build - (this.Build % 65536)) / 65536) % 256}.${this.Build % 65536}`
+    }
     this.FixturesCount = ShowXML.childElementCount
   }
 }
