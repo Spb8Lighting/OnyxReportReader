@@ -70,10 +70,10 @@
         </div>
         <footer></footer>
         <script type="text/javascript">
-            if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent) || /Edge/.test(navigator.userAgent)) {
+            if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
                 //alert('Your navigator is not supported, please use a modern navigator')
-                //document.write('<script defer src="app.legacy.js"><\/script>')
-                    document.querySelector('body').innerHTML = `<header>Internet Explorer and Edge navigators are not supported yet</header>`
+                //  document.write('<script defer src="app.legacy.js"><\/script>')
+                document.querySelector('body').innerHTML = '<header>Internet Explorer is not supported</header>'
             } else {
                 var AppJS = document.createElement('script')
                 AppJS.setAttribute('defer', '')

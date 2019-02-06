@@ -65,7 +65,7 @@ const GetAllPresets = async (ListOfPresets) => {
   if (Presets > 0) {
     for (let i = 0; i < Presets; ++i) {
       let Preset = ListOfPresets[i]
-      let PresetDB = await DB.Get({ Object: 'Preset', ItemID: Preset })
+      let PresetDB = await DB.Get({ Object: 'Preset', Index: 'ID', ItemID: Preset })
       if (PresetDB) {
         PresetList.push(`<span data-title="${PresetInfo(PresetDB)}">${PresetDB.Name}</span>`)
       }

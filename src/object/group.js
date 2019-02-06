@@ -22,11 +22,7 @@ class FixtureGroupObject {
       Fixtures = {}
       for (let i = 0; i < Fixture.length; i++) {
         Fixtures[i] = Fixture[i].getAttribute('IDREF')
-        let FixtureDB = await DB.Get({ Object: 'Fixture', Index: 'Ref', ItemID: Fixtures[i] })
-        if (FixtureDB) {
-          FixtureDB.Groups.push(CustomID)
-          DB.Update({ Object: 'Fixture', Item: FixtureDB })
-        }
+        await DB.AddGroup({ Object: 'Fixture', Index: 'Ref', ItemID: Fixtures[i], GroupID: CustomID })
       }
     }
     return new FixtureGroupObject(CustomID, GroupXML, Fixtures)
