@@ -28,7 +28,7 @@ class FixtureObject {
     this.Name = ((FixtureXML.getAttribute('name') != null) ? FixtureXML.getAttribute('name') : '')
     this.Manufacturer = FixtureXML.getAttribute('manufacturer')
     this.Model = FixtureXML.getAttribute('model')
-    this.Mode = FixtureXML.getAttribute('displayName').replace(this.Model, '')
+    this.Mode = FixtureXML.getAttribute('displayName').replace(`${this.Model} `, '')
     this.Invert = ''
     this.Universe = false
     this.Address = false
@@ -44,7 +44,7 @@ class FixtureObject {
       this.Multipart = []
       for (let i = 0; i < Parts.length; i++) {
         let NewMultiPart = JSON.parse(JSON.stringify(new SubFixtureObject(Parts[i])))
-        NewMultiPart.ID = Number(`${this.ID}.${NewMultiPart.ID}`)
+        NewMultiPart.ID = String(`${this.ID}.${NewMultiPart.ID}`)
         this.Multipart.push({ ID: NewMultiPart.ID })
         NewMultiPart.Manufacturer = this.Manufacturer
         NewMultiPart.Model = this.Model
