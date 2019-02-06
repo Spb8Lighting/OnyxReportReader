@@ -50,7 +50,6 @@ Input()
   })
   // End of reload data
   .then(() => {
-    // console.log('Render ended')
     Loader.Patch.Hide()
     Loader.FixtureGroup.Hide()
     Loader.Preset.Hide()
