@@ -4,7 +4,7 @@ import { THead, TBodyLine } from './table'
 import Menu from './menu'
 import { SetLoaded as DisplaySetLoaded } from './../display'
 import * as Loader from './../loader'
-import TableSorter from './tablesorter'
+import { Sortable } from './tablesorter'
 
 const Render = async (Type, SetActive = true, RenderPatch = false) => {
   // Set Parameter following the type to be displayed
@@ -111,7 +111,7 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
     `<p>${Content.Description}</p>` + '\n' +
     `<div class="overflow">${Content.Table}</div>`
   // Add Sort function on table
-  TableSorter(LocalConfig.Article.querySelector('table'))
+  Sortable(LocalConfig.Article.querySelector('table'))
   // Add the Table menu to filter column
   Menu(LocalConfig.Table, LocalConfig.Article)
   // Set the new page content as active page
