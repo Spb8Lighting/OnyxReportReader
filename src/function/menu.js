@@ -1,9 +1,8 @@
-'use strict'
-const LocalStorage = require('../localstorage')
+import { Set as LocalStorageSet, Get as LocalStorageGet } from '../localstorage'
 
 const IsChecked = Default => Default ? ' checked="checked"' : ''
 
-const Create = (Config, Article) => {
+export default (Config, Article) => {
   let ArticleID = Article.getAttribute('id')
   let Menu = '<form class="hide print_hide" method="POST">' + '\n'
   let MenuLength = Config.length
@@ -59,17 +58,14 @@ const Create = (Config, Article) => {
         document.getElementById(Parameter[1]).classList.toggle('print_hide')
       }
       // Store value of the switch
-      LocalStorage.Set({ key: e.target.id, value: e.target.checked })
+      LocalStorageSet({ key: e.target.id, value: e.target.checked })
     })
     // Restore the switch value from localstorage
-    let SwitchSaved = LocalStorage.Get({ key: Switchs[i].id })
+    let SwitchSaved = LocalStorageGet({ key: Switchs[i].id })
     if (SwitchSaved != null && SwitchSaved !== Switchs[i].checked) {
       Switchs[i].checked = !Switchs[i].checked
       // eslint-disable-next-line no-undef
       Switchs[i].dispatchEvent(new Event('change'))
     }
   }
-}
-module.exports = {
-  Create
 }

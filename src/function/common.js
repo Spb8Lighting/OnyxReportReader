@@ -1,4 +1,3 @@
-'use strict'
 let AssignObject = (Obj1, Obj2) => {
   let MergeObject = {}
   let Id = 0
@@ -21,6 +20,5 @@ let AssignObject = (Obj1, Obj2) => {
   }
   return MergeObject
 }
-module.exports = {
-  AssignObject
-}
+
+export default AssignObject

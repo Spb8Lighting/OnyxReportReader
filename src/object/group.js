@@ -1,7 +1,6 @@
-'use strict'
-const DB = require('../database')
+import { AddGroup as DbAddGroup } from '../database'
 
-class FixtureGroupObject {
+export default class FixtureGroupObject {
   /**
    * Uploaded Fixture Group Attributs
    * @param {Integer} CustomID Unique ID
@@ -22,11 +21,7 @@ class FixtureGroupObject {
       Fixtures = {}
       for (let i = 0; i < Fixture.length; i++) {
         Fixtures[i] = Fixture[i].getAttribute('IDREF')
-        let FixtureDB = await DB.Get({ Object: 'Fixture', Index: 'Ref', ItemID: Fixtures[i] })
-        if (FixtureDB) {
-          FixtureDB.Groups.push(CustomID)
-          DB.Update({ Object: 'Fixture', Item: FixtureDB })
-        }
+        await DbAddGroup({ Object: 'Fixture', Index: 'Ref', ItemID: Fixtures[i], GroupID: CustomID })
       }
     }
     return new FixtureGroupObject(CustomID, GroupXML, Fixtures)
@@ -38,5 +33,3 @@ class FixtureGroupObject {
     }
   }
 }
-
-module.exports = FixtureGroupObject

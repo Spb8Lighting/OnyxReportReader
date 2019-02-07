@@ -1,7 +1,6 @@
-'use strict'
-const Wording = require('./../config/wording')
+import { Preset as WordingPreset } from './../config/wording'
 
-class PresetObject {
+export default class PresetObject {
   /**
    * Uploaded Preset Group Attributs
    * @param {XMLDocument} PresetXML Complete XML file (preset one)
@@ -21,13 +20,13 @@ class PresetObject {
   }
   CheckState () {
     if (Object.keys(this.UsedFor).length === 0 && Object.keys(this.UnusedFor).length === 0) {
-      return Wording.Preset.Status.NoFixture
+      return WordingPreset.Status.NoFixture
     } else if (Object.keys(this.UsedFor).length > 0 && Object.keys(this.UnusedFor).length === 0) {
-      return Wording.Preset.Status.AllUse
+      return WordingPreset.Status.AllUse
     } else if (Object.keys(this.UsedFor).length === 0 && Object.keys(this.UnusedFor).length > 0) {
-      return Wording.Preset.Status.NoUse
+      return WordingPreset.Status.NoUse
     } else if (Object.keys(this.UsedFor).length > 0 && Object.keys(this.UnusedFor).length > 0) {
-      return Wording.Preset.Status.PartialUse
+      return WordingPreset.Status.PartialUse
     }
   }
   CheckTag (MainTag, SubTag, PresetXML, Attribute = false) {
@@ -51,5 +50,3 @@ class PresetObject {
     }
   }
 }
-
-module.exports = PresetObject

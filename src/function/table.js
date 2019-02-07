@@ -1,10 +1,9 @@
-'use strict'
-const DB = require('./../database')
-const Option = require('./../config/option')
-const Wording = require('./../config/wording')
-const Common = require('./common')
+import { Get as DbGet } from './../database'
+import * as Option from './../config/option'
+import { Preset as WordingPreset } from './../config/wording'
+import Common from './common'
 
-let FixtureInfo = FixtureDB => {
+export const FixtureInfo = FixtureDB => {
   if (Option.Group.DisplaySimplifiedFixture) {
     if (FixtureDB.Name) {
       return `#${FixtureDB.ID} ${FixtureDB.Manufacturer} - ${FixtureDB.Model}(${FixtureDB.Name}) @ ${FixtureDB.Universe}.${FixtureDB.Address}`
@@ -20,7 +19,7 @@ let FixtureInfo = FixtureDB => {
   }
 }
 
-let GroupInfo = Group => {
+const GroupInfo = Group => {
   if (Option.Patch.DisplaySimplifiedGroup) {
     return `#${Group.ID} ${Group.Name}`
   } else {
@@ -28,7 +27,7 @@ let GroupInfo = Group => {
   }
 }
 
-let PresetInfo = Preset => {
+const PresetInfo = Preset => {
   if (Option.Preset.DisplaySimplifiedPreset) {
     return `#${Preset.ID} ${Preset.Name}`
   } else {
@@ -45,7 +44,7 @@ const GetAllFixtures = async (ListOfFixtures, index = false) => {
   if (Fixtures > 0) {
     for (let i = 0; i < Fixtures; ++i) {
       let Fixture = ListOfFixtures[i]
-      let FixtureDB = await DB.Get({ Object: 'Fixture', Index: (index) ? 'ID' : 'Ref', ItemID: Fixture })
+      let FixtureDB = await DbGet({ Object: 'Fixture', Index: (index) ? 'ID' : 'Ref', ItemID: Fixture })
       if (FixtureDB) {
         FixtureList.push(`<span data-title="${FixtureInfo(FixtureDB)}">${FixtureDB.ID}</span>`)
       }
@@ -65,7 +64,7 @@ const GetAllPresets = async (ListOfPresets) => {
   if (Presets > 0) {
     for (let i = 0; i < Presets; ++i) {
       let Preset = ListOfPresets[i]
-      let PresetDB = await DB.Get({ Object: 'Preset', ItemID: Preset })
+      let PresetDB = await DbGet({ Object: 'Preset', Index: 'ID', ItemID: Preset })
       if (PresetDB) {
         PresetList.push(`<span data-title="${PresetInfo(PresetDB)}">${PresetDB.Name}</span>`)
       }
@@ -80,7 +79,7 @@ const GetAllGroups = async Fixture => {
   let Groups = []
   if (Fixture.Groups) {
     for (let i = 0; i < Object.keys(Fixture.Groups).length; i++) {
-      let Group = await DB.Get({ Object: 'FixtureGroup', ItemID: Fixture.Groups[i] })
+      let Group = await DbGet({ Object: 'FixtureGroup', ItemID: Fixture.Groups[i] })
       if (Group) {
         Groups.push(`<span data-title="${GroupInfo(Group)}">${Group.Name}</span>`)
       }
@@ -95,7 +94,7 @@ const NotFalse = (val, join = false) => {
   return val === false ? '' : (join) ? val.join(join) : val
 }
 
-const THead = Config => {
+export const THead = Config => {
   let Thead = '<tr>' + '\n'
   let TheadLength = Config.length
   for (let i = 0; i < TheadLength; ++i) {
@@ -107,20 +106,20 @@ const THead = Config => {
 }
 const PresetState = val => {
   switch (val) {
-    case Wording.Preset.Status.AllUse:
+    case WordingPreset.Status.AllUse:
       return `<span class="success">${val}</span>`
-    case Wording.Preset.Status.PartialUse:
+    case WordingPreset.Status.PartialUse:
       return `<span class="primary">${val}</span>`
-    case Wording.Preset.Status.NoUse:
+    case WordingPreset.Status.NoUse:
       return `<span class="warning">${val}</span>`
-    case Wording.Preset.Status.NoFixture:
+    case WordingPreset.Status.NoFixture:
       return `<span class="danger">${val}</span>`
     default:
       return val
   }
 }
 
-const TBodyLine = async (Config, Multipart, Data, Restricted = false) => {
+export const TBodyLine = async (Config, Multipart, Data, Restricted = false) => {
   let MultiPartClass = Restricted ? 'Patch_MultiPart' : 'MultiPart'
   let MultiPartID = Multipart > 0 || Restricted ? ` class="${MultiPartClass}" data-id="${Data.ID}"` : ''
   let Tbody = `<tr${MultiPartID}>` + '\n'
@@ -132,11 +131,13 @@ const TBodyLine = async (Config, Multipart, Data, Restricted = false) => {
     switch (Table[i].ID) {
       case 'Patch_ID':
       case 'Group_ID':
+      case 'Cuelist_ID':
         RowContent = Data.ID
         break
       case 'Group_Name':
       case 'Patch_Name':
       case 'Preset_Name':
+      case 'Cuelist_Name':
         RowContent = NotFalse(Data.Name)
         break
       case 'Group_Fixtures':
@@ -177,6 +178,7 @@ const TBodyLine = async (Config, Multipart, Data, Restricted = false) => {
         RowContent = NotFalse(PresetState(Data.State))
         break
       case 'Preset_Type':
+      case 'Cuelist_Type':
         RowContent = Data.Type
         break
       case 'Preset_Position':
@@ -215,8 +217,4 @@ const TBodyLine = async (Config, Multipart, Data, Restricted = false) => {
   }
   Tbody += '</tr>'
   return Tbody
-}
-
-module.exports = {
-  THead, TBodyLine, FixtureInfo
 }

@@ -1,9 +1,10 @@
-module.exports = message => {
+export default message => {
   /**
    * Display a temporary message which can be close by clicking on it before timemout
    * @param {JSON} message
    */
   if (typeof AutoHideFooter !== 'undefined') {
+    // eslint-disable-next-line no-undef
     clearTimeout(AutoHideFooter)
   }
 
