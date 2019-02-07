@@ -1,6 +1,4 @@
-'use scrict'
-
-class CuelistObject {
+export default class CuelistObject {
   /**
    * Create a Cuelist Object
    * @param {XMLDocument} CuelistXML Complete XML file (patch one)
@@ -82,5 +80,3 @@ class CuelistObject {
     return { Cues: Cues, PlaybackFaders: PlaybackFaders, PlaybackButtons: PlaybackButtons, AnalogFaders: AnalogFaders }
   }
 }
-
-module.exports = CuelistObject

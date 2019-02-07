@@ -1,10 +1,10 @@
 import Message from './message'
-import Config from './config/type'
-import Wording from './config/wording'
-import DB from './database'
-import Parser from './parser'
+import * as Config from './config/type'
+import { Error as WordingError, Ok as WordingOk } from './config/wording'
+import { Add as DbAdd } from './database'
+import * as Parser from './parser'
 import $File from './object/file'
-import Loader from './loader'
+import * as Loader from './loader'
 import Render from './function/render'
 
 export default async () => {
@@ -33,12 +33,13 @@ export default async () => {
 
     // Input listeners for XML upload
     Input.addEventListener('change', e => {
-      Loader[e.target.id.slice(0, -3)].Show()
+      let LoaderName = e.target.id.slice(0, -3)
+      Loader[LoaderName].Show()
       let UploadedFile = e.target.files[0]
       if (typeof UploadedFile.name !== 'undefined') {
         if (UploadedFile.name.search(InputMatchRegex) === -1) {
-          Message({ error: `<em>File selected: ${UploadedFile.name}</em><br />${Wording.Error.File.Extension} <strong>${LabelExt}</strong>` })
-          Loader.Hide()
+          Message({ error: `<em>File selected: ${UploadedFile.name}</em><br />${WordingError.File.Extension} <strong>${LabelExt}</strong>` })
+          Loader[LoaderName].Hide()
         } else {
           let reader = new FileReader()
           let parser = new DOMParser()
@@ -66,16 +67,18 @@ export default async () => {
                 break
             }
             UploadedFile.Key = ActicleID
-            DB.Add({
+            DbAdd({
               Object: 'File',
               Item: new $File(UploadedFile)
             })
-            Message({ ok: `<em>File selected: ${UploadedFile.name}</em><br />${Wording.Ok.File.Loaded}` })
+            Message({ ok: `<em>File selected: ${UploadedFile.name}</em><br />${WordingOk.File.Loaded}` })
             reader = false
             xmlDoc = false
           })
           reader.readAsText(UploadedFile)
         }
+      } else {
+        Loader[LoaderName].Hide()
       }
     })
   }

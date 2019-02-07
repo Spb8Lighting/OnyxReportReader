@@ -1,4 +1,3 @@
-'use strict'
 const $Patch = document.querySelector('label[for="PatchXML"]')
 const $FixtureGroup = document.querySelector('label[for="FixtureGroupXML"]')
 const $Preset = document.querySelector('label[for="PresetXML"]')
@@ -8,23 +7,19 @@ let AddLoader = Sel => Sel.classList.add('working')
 
 let RemoveLoader = Sel => Sel.classList.remove('working')
 
-let Patch = {
+export const Patch = {
   Show: () => AddLoader($Patch),
   Hide: () => RemoveLoader($Patch)
 }
-let FixtureGroup = {
+export const FixtureGroup = {
   Show: () => AddLoader($FixtureGroup),
   Hide: () => RemoveLoader($FixtureGroup)
 }
-let Preset = {
+export const Preset = {
   Show: () => AddLoader($Preset),
   Hide: () => RemoveLoader($Preset)
 }
-let Cuelist = {
+export const Cuelist = {
   Show: () => AddLoader($Cuelist),
   Hide: () => RemoveLoader($Cuelist)
-}
-
-module.exports = {
-  Patch, FixtureGroup, Preset, Cuelist
 }

@@ -1,6 +1,4 @@
-'use strict'
-
-class FileObject {
+export default class FileObject {
   /**
    * Uploaded File Attributs
    * @param {object} Attributs Uploaded File object
@@ -13,5 +11,3 @@ class FileObject {
     this.Size = Attributs.size
   }
 }
-
-module.exports = FileObject

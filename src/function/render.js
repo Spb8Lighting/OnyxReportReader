@@ -1,13 +1,12 @@
-'use strict'
-const DB = require('./../database')
-const Config = require('./../config/table')
-const TableHTML = require('./table')
-const Menu = require('./menu')
-const Display = require('./../display')
-const Loader = require('./../loader')
-const TableSorter = require('./tablesorter')
+import { Get as DbGet, GetAll as DbGetAll } from './../database'
+import Config from './../config/table'
+import { THead, TBodyLine } from './table'
+import Menu from './menu'
+import { SetLoaded as DisplaySetLoaded } from './../display'
+import * as Loader from './../loader'
+import TableSorter from './tablesorter'
 
-let Render = async (Type, SetActive = true, RenderPatch = false) => {
+const Render = async (Type, SetActive = true, RenderPatch = false) => {
   // Set Parameter following the type to be displayed
   let LocalConfig = {}
   switch (Type) {
@@ -46,13 +45,11 @@ let Render = async (Type, SetActive = true, RenderPatch = false) => {
   }
   // Define table content
   let Content = {
-    thead: TableHTML.THead(LocalConfig.Table),
+    thead: THead(LocalConfig.Table),
     tbody: []
   }
-  // Get Show Information
-  let Show = await DB.Get({ Object: 'Show', ItemID: 'Show' })
   // Get objects to be displayed
-  let TypeObjects = await DB.GetAll({ Object: LocalConfig.Objects })
+  let TypeObjects = await DbGetAll({ Object: LocalConfig.Objects })
   // Loop through all objects find
   for (let i = 0; i < Object.keys(TypeObjects).length; ++i) {
     // Specific Treatment for Patch
@@ -64,26 +61,28 @@ let Render = async (Type, SetActive = true, RenderPatch = false) => {
         if (Fixture.Multipart) {
           Multipart = Object.keys(Fixture.Multipart).length
         }
-        Content.tbody.push(await TableHTML.TBodyLine(LocalConfig.Table, Multipart, Fixture))
+        Content.tbody.push(await TBodyLine(LocalConfig.Table, Multipart, Fixture))
         // Multi Part Threatment
         if (Fixture.Multipart) {
           for (let i = 0; i < Multipart; ++i) {
-            let FixturePart = await DB.Get({ Object: LocalConfig.Objects, Index: 'ID', ItemID: Fixture.Multipart[i].ID })
+            let FixturePart = await DbGet({ Object: LocalConfig.Objects, Index: 'ID', ItemID: Fixture.Multipart[i].ID })
             FixturePart.Invert = Fixture.Invert
-            Content.tbody.push(await TableHTML.TBodyLine(LocalConfig.Table, 0, FixturePart, true))
+            Content.tbody.push(await TBodyLine(LocalConfig.Table, 0, FixturePart, true))
           }
         }
       }
     } else {
-      Content.tbody.push(await TableHTML.TBodyLine(LocalConfig.Table, 0, TypeObjects[i]))
+      Content.tbody.push(await TBodyLine(LocalConfig.Table, 0, TypeObjects[i]))
     }
   }
   // Restrict the change of Header to the Patch only (first render)
   if (Type === 'Patch') {
+    // Get Show Information
+    var Show = await DbGet({ Object: 'Show', ItemID: 'Show' })
     document.querySelector('header>span').innerHTML = `Onyx Reports for "${Show.Name}" <em>(software build ${Show.Build})</em>`
   }
   // Define sub Header description
-  Content.Description = `${LocalConfig.Name} summary: ${Show.Name}`
+  Content.Description = `${LocalConfig.Name} summary:`
   // Manage additionnal information per type on the description
   switch (Type) {
     case 'Patch':
@@ -112,12 +111,12 @@ let Render = async (Type, SetActive = true, RenderPatch = false) => {
     `<p>${Content.Description}</p>` + '\n' +
     `<div class="overflow">${Content.Table}</div>`
   // Add Sort function on table
-  TableSorter.Sortable(LocalConfig.Article.querySelector('table'))
+  TableSorter(LocalConfig.Article.querySelector('table'))
   // Add the Table menu to filter column
-  Menu.Create(LocalConfig.Table, LocalConfig.Article)
+  Menu(LocalConfig.Table, LocalConfig.Article)
   // Set the new page content as active page
   if (SetActive || (!SetActive && !RenderPatch)) {
-    Display.SetLoaded(LocalConfig.ID, SetActive)
+    DisplaySetLoaded(LocalConfig.ID, SetActive)
     if (RenderPatch) {
       await Render('Patch', false)
     }
@@ -132,4 +131,4 @@ let Render = async (Type, SetActive = true, RenderPatch = false) => {
   LocalConfig.Loader.Hide()
 }
 
-module.exports = Render
+export default Render

@@ -1,4 +1,4 @@
-const Option = require('./../config/option')
+import * as Option from './../config/option'
 
 const PatchID = {
   ID: 'Patch_ID',
@@ -243,6 +243,6 @@ Cuelist.push(CuelistID)
 Cuelist.push(CuelistType)
 Cuelist.push(CuelistName)
 
-module.exports = {
+export default {
   Patch, Group, Preset, Cuelist
 }

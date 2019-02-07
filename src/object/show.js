@@ -1,5 +1,4 @@
-'use strict'
-class ShowObject {
+export default class ShowObject {
   /**
    * Return the ShowObject hydrated based on the xml file
    * @param {XMLDocument} ShowXML Original XML File (patch)
@@ -14,5 +13,3 @@ class ShowObject {
     this.FixturesCount = ShowXML.childElementCount
   }
 }
-
-module.exports = ShowObject

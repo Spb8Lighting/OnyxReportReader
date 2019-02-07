@@ -1,9 +1,9 @@
 import '@babel/polyfill'
 import Input from './input'
-import DB from './database'
+import { Get as DbGet, DeleteTable as DbDeleteTable, DeleteDB as DbDeleteDB } from './database'
 import Render from './function/render'
-import Loader from './loader'
-import LocalStorage from './localstorage'
+import * as Loader from './loader'
+import { Clear as LocalStorageClear } from './localstorage'
 
 // FORCE HTTPS
 if (window.location.hostname !== 'localhost' && window.location.protocol !== 'https:') {
@@ -19,7 +19,7 @@ Input()
   // Get Patch data
   .then(async () => {
     Loader.Patch.Show()
-    if (typeof await DB.Get({ Object: 'File', ItemID: 'Patch' }) !== 'undefined') {
+    if (typeof await DbGet({ Object: 'File', ItemID: 'Patch' }) !== 'undefined') {
       await Render('Patch', true)
     }
     Loader.Patch.Hide()
@@ -27,7 +27,7 @@ Input()
   // Get Group data
   .then(async () => {
     Loader.FixtureGroup.Show()
-    if (typeof await DB.Get({ Object: 'File', ItemID: 'FixtureGroup' }) !== 'undefined') {
+    if (typeof await DbGet({ Object: 'File', ItemID: 'FixtureGroup' }) !== 'undefined') {
       await Render('Group', false, false)
     }
     Loader.FixtureGroup.Hide()
@@ -35,7 +35,7 @@ Input()
   // Get Preset data
   .then(async () => {
     Loader.Preset.Show()
-    if (typeof await DB.Get({ Object: 'File', ItemID: 'Preset' }) !== 'undefined') {
+    if (typeof await DbGet({ Object: 'File', ItemID: 'Preset' }) !== 'undefined') {
       await Render('Preset', false)
     }
     Loader.Preset.Hide()
@@ -43,7 +43,7 @@ Input()
   // Get Cuelist data
   .then(async () => {
     Loader.Cuelist.Show()
-    if (typeof await DB.Get({ Object: 'File', ItemID: 'Cuelist' }) !== 'undefined') {
+    if (typeof await DbGet({ Object: 'File', ItemID: 'Cuelist' }) !== 'undefined') {
       await Render('Cuelist', false)
     }
     Loader.Cuelist.Hide()
@@ -63,23 +63,23 @@ Input()
 // Reset Link
 document.querySelector('a[href="#ResetAll"]').addEventListener('click', e => {
   e.preventDefault()
-  DB.DeleteDB()
+  DbDeleteDB()
 })
 document.querySelector('a[href="#ResetGroup"]').addEventListener('click', e => {
   e.preventDefault()
-  DB.DeleteTable({ Object: 'FixtureGroup' })
+  DbDeleteTable({ Object: 'FixtureGroup' })
 })
 document.querySelector('a[href="#ResetPreset"]').addEventListener('click', e => {
   e.preventDefault()
-  DB.DeleteTable({ Object: 'Preset' })
+  DbDeleteTable({ Object: 'Preset' })
 })
 document.querySelector('a[href="#ResetCuelist"]').addEventListener('click', e => {
   e.preventDefault()
-  DB.DeleteTable({ Object: 'Cuelist' })
+  DbDeleteTable({ Object: 'Cuelist' })
 })
 document.querySelector('a[href="#ResetLayout"]').addEventListener('click', e => {
   e.preventDefault()
-  LocalStorage.Clear()
+  LocalStorageClear()
   window.location.reload()
 })
 document.querySelector('a[href="#Menu"]').addEventListener('click', e => {

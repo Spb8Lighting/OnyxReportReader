@@ -1,4 +1,4 @@
-const Dexie = require('dexie').default
+import Dexie from 'dexie'
 
 const db = new Dexie('ReportReader')
 
@@ -11,11 +11,11 @@ db.version(1).stores({
   Cuelist: '++,ID, Type, &TypePagePosition, Page'
 })
 
-let Add = async Data => {
+export const Add = async Data => {
   return db[Data.Object]
     .add(Data.Item)
 }
-let Get = async Data => {
+export const Get = async Data => {
   if (Data.Index) {
     return db[Data.Object]
       .where(Data.Index)
@@ -26,25 +26,25 @@ let Get = async Data => {
       .get(Data.ItemID)
   }
 }
-let GetAll = async Data => {
+export const GetAll = async Data => {
   return db[Data.Object]
     .toArray()
 }
-let AddGroup = async Data => {
+export const AddGroup = async Data => {
   return db[Data.Object]
     .where(Data.Index)
     .equals(Data.ItemID)
     .modify(Fixture => Fixture.Groups.push(Data.GroupID))
 }
-let Update = async Data => {
+export const Update = async Data => {
   return db[Data.Object]
     .put(Data.Item)
 }
-let Delete = async Data => {
+export const Delete = async Data => {
   return db[Data.Object]
     .delete(Data.ItemID)
 }
-let Fixture = {
+export const Fixture = {
   RemoveGroup: async () => {
     let Fixtures = await GetAll({ Object: 'Fixture' })
     let FixturesCount = Object.keys(Fixtures).length
@@ -59,7 +59,7 @@ let Fixture = {
     }
   }
 }
-let DeleteTable = async Data => {
+export const DeleteTable = async Data => {
   if (Data.Object === 'Fixture') {
     await DeleteDB()
     return false
@@ -73,11 +73,7 @@ let DeleteTable = async Data => {
     .clear()
   window.location.reload()
 }
-let DeleteDB = async () => {
+export const DeleteDB = async () => {
   await Dexie.delete('ReportReader')
   window.location.reload()
-}
-
-module.exports = {
-  db, Add, AddGroup, Get, GetAll, Update, Delete, Fixture, DeleteTable, DeleteDB
 }

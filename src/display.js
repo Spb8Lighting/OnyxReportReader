@@ -67,11 +67,9 @@ const Loaded = (ArticleID, ToDisplay) => {
   }
 }
 
-module.exports = {
-  Show: ID => {
-    Display(ID)
-  },
-  SetLoaded: (ID, ToDisplay = false) => {
-    Loaded(ID, ToDisplay)
-  }
+export const Show = ID => {
+  Display(ID)
+}
+export const SetLoaded = (ID, ToDisplay = false) => {
+  Loaded(ID, ToDisplay)
 }
