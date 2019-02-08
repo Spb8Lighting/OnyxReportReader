@@ -2,6 +2,7 @@
 @import 'font';
 
 $header-height: 80px;
+$icon-size: 30px;
 $header-font-size: 150%;
 $aside-span-transY: -150%;
 $aside-width: 100px;
@@ -12,6 +13,8 @@ $Onyx-Color1: #5AC8FA;
 $Onyx-Color2: #D4AA08;
 $Onyx-Color3: #3A791D;
 $Onyx-Color4: #FF2D55;
+
+@import 'icons';
 
 @media screen {
   @import '01-structure';

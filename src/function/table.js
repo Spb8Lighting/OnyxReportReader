@@ -119,6 +119,50 @@ const PresetState = val => {
   }
 }
 
+const PresetType = val => {
+  if (typeof val === 'string') {
+    if (Option.Preset.DisplayIconForPresetTypeAndUsage) {
+      let CssClass = ''
+      switch (val) {
+        case 'Intensity':
+          CssClass = 'Intensity'
+          break
+        case 'Pan Tilt':
+          CssClass = 'Pan'
+          break
+        case 'Color':
+          CssClass = 'Color'
+          break
+        case 'Gobo':
+          CssClass = 'Wheel'
+          break
+        case 'Beam':
+          CssClass = 'Prism'
+          break
+        case 'Beam Effects':
+          CssClass = 'Iris'
+          break
+        case 'Special':
+          CssClass = 'Fx'
+          break
+        default:
+          break
+      }
+      return `<span data-title="${val}" class="Icon ${CssClass}"></span>`
+    } else {
+      return val
+    }
+  } else if (typeof val === 'object') {
+    let Temp = []
+    for (let i = 0; i < val.length; i++) {
+      Temp.push(PresetType(val[i]))
+    }
+    return Temp.join((Option.Preset.DisplayIconForPresetTypeAndUsage) ? '' : ', ')
+  } else {
+    return ''
+  }
+}
+
 export const TBodyLine = async (Config, Multipart, Data, Restricted = false) => {
   let MultiPartClass = Restricted ? 'Patch_MultiPart' : 'MultiPart'
   let MultiPartID = Multipart > 0 || Restricted ? ` class="${MultiPartClass}" data-id="${Data.ID}"` : ''
@@ -178,6 +222,8 @@ export const TBodyLine = async (Config, Multipart, Data, Restricted = false) => 
         RowContent = NotFalse(PresetState(Data.State))
         break
       case 'Preset_Type':
+        RowContent = PresetType(Data.Type)
+        break
       case 'Cuelist_Type':
         RowContent = Data.Type
         break
@@ -185,7 +231,7 @@ export const TBodyLine = async (Config, Multipart, Data, Restricted = false) => 
         RowContent = Data.Position
         break
       case 'Preset_Usage':
-        RowContent = NotFalse(Data.Usage, ', ')
+        RowContent = PresetType(Data.Usage)
         break
       case 'Preset_Fixtures':
         let Fixtures = Common.AssignObject(Data.UsedFor, Data.UnusedFor)

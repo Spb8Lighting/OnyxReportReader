@@ -1,0 +1,29 @@
+.Icon {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: $icon-size $icon-size;
+    height: $icon-size;
+    width: $icon-size;
+    display: inline-block;
+}
+.Intensity {
+    background-image: url('../images/intensity.svg');
+}
+.Color {
+    background-image: url('../images/color.svg');
+}
+.Fx {
+    background-image: url('../images/fx.svg');
+}
+.Iris {
+    background-image: url('../images/iris.svg');
+}
+.Pan {
+    background-image: url('../images/pan.svg');
+}
+.Prism {
+    background-image: url('../images/prism.svg');
+}
+.Wheel {
+    background-image: url('../images/wheel.svg');
+}
