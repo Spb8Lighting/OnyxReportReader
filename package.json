@@ -1,7 +1,7 @@
 {
-  "name": "reportreaderonyx",
+  "name": "onyxreportreader",
   "version": "1.0.0",
-  "description": "Report Reader for Onyx",
+  "description": "Onyx Report Reader",
   "main": "index.js",
   "dependencies": {
     "dexie": "^2.0.4"
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Spb8Lighting/ReportReaderOnyx.git"
+    "url": "git+https://github.com/Spb8Lighting/OnyxReportReader.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Spb8Lighting/ReportReaderOnyx/issues"
+    "url": "https://github.com/Spb8Lighting/OnyxReportReader/issues"
   },
-  "homepage": "https://github.com/Spb8Lighting/ReportReaderOnyx#readme",
+  "homepage": "https://github.com/Spb8Lighting/OnyxReportReader#readme",
   "optionalDependencies": {
     "win-node-env": "^0.4.0"
   },
