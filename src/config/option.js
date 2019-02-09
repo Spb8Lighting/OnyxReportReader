@@ -16,8 +16,8 @@ export const Group = {
 export const Preset = {
   // In the preset page, permit to simplified the Fixture abbreviation title to the minimum
   DisplaySimplifiedPreset: true,
-  // In the Preset page, permit to display additionnal column with all fixture per preset (time consuming, and performance are poor)
+  // In the Preset page, permit to display additionnal column with all fixture per preset ==> time consuming, and performance are poor
   DisplayMergedFixturePerPreset: false,
-  // Use Icon at Preset Type and Usage
-  DisplayIconForPresetTypeAndUsage: true
+  // Use Icon at Preset Type and Usage => Poor Render
+  DisplayIconForPresetTypeAndUsage: false
 }

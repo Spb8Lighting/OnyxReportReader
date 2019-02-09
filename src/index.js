@@ -82,7 +82,7 @@ document.querySelector('a[href="#ResetLayout"]').addEventListener('click', e => 
   LocalStorageClear()
   window.location.reload()
 })
-document.querySelector('a[href="#Menu"]').addEventListener('click', e => {
+document.querySelector('a[href="#Preferences"]').addEventListener('click', e => {
   e.preventDefault()
   let Nav = document.querySelector('nav')
   Nav.classList.toggle('hide')

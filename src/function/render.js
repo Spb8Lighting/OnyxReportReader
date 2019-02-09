@@ -79,7 +79,7 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
   if (Type === 'Patch') {
     // Get Show Information
     var Show = await DbGet({ Object: 'Show', ItemID: 'Show' })
-    document.querySelector('header>span').innerHTML = `Onyx Reports for "${Show.Name}" <em>(software build ${Show.Build})</em>`
+    document.querySelector('header>span').innerHTML = `Onyx Reports for "${Show.Name}" <br /><em>(software build ${Show.Build})</em>`
   }
   // Define sub Header description
   Content.Description = `${LocalConfig.Name} summary:`

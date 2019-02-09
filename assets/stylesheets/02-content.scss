@@ -6,7 +6,7 @@ article {
     color: $white;
     opacity: 0;
     width: calc(100% - #{$aside-width});
-    height: calc(100% - #{$header-height + 4});
+    height: calc(100% - #{$header-height + $margin-logo * 2 });
     transition: 0.5s ease-in-out !important;
     position: absolute;
     padding: 10px;
@@ -34,7 +34,7 @@ article {
         text-align: right;
     }
     .overflow {
-        height: calc(100% - #{$header-height + 4});
+        height: calc(100% - #{$header-height + $margin-logo * 2 });
         display: block;
         overflow-y: scroll;
         overflow-x: hidden;
