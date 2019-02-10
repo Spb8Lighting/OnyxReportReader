@@ -82,9 +82,18 @@ document.querySelector('a[href="#ResetLayout"]').addEventListener('click', e => 
   LocalStorageClear()
   window.location.reload()
 })
-document.querySelector('a[href="#Preferences"]').addEventListener('click', e => {
-  e.preventDefault()
-  let Nav = document.querySelector('nav')
-  Nav.classList.toggle('hide')
+// Hide Show of right menu
+document.querySelectorAll('#iconbox a').forEach(element => {
+  element.addEventListener('click', e => {
+    e.preventDefault()
+    let ActualSelector = document.querySelector((e.target.nodeName === 'IMG') ? e.target.parentNode.hash : e.target.hash)
+    document.querySelectorAll('nav').forEach(element => {
+      if (element === ActualSelector) {
+        element.classList.toggle('hide')
+      } else {
+        element.classList.add('hide')
+      }
+    })
+  })
 })
 document.querySelector('.flex-container').addEventListener('click', () => document.querySelector('nav').classList.add('hide'))

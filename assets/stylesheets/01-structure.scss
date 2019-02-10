@@ -30,13 +30,13 @@ header {
         left: calc(#{ $header-height + $margin-logo * 2 } * 1.3);
     }
     #iconbox {
-      position: absolute;
-      right: $margin-logo;
-      top: 0;
-      a {
-        width: $icon-menu-size;
-        display: inline-block;
-      }
+        position: absolute;
+        right: $margin-logo;
+        top: 0;
+        a {
+            width: $icon-menu-size;
+            display: inline-block;
+        }
     }
 }
 nav {
@@ -54,10 +54,32 @@ nav {
             width: $nav-svg-width-height;
             height: $nav-svg-width-height;
             padding: 0.5rem;
+            fill: $white;
+            transition: 0.5s fill, 0.5s stroke;
         }
         &:hover svg {
             fill: $link-color
         }
+    }
+    &#Infos a {
+        svg {
+            stroke: $white;
+            fill: transparent;
+        }
+        &:hover svg {
+            stroke: $link-color !important;
+            fill: $link-color !important;
+        }
+    }
+    .heading {
+        color: $Onyx-Color5;
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+        margin-top: 0.2em;
+    }
+    p {
+        font-size: 0.8em;
+        margin: 0.2em;
     }
 }
 

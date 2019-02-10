@@ -96,7 +96,8 @@ article {
     & h2 {
         color: $Onyx-Color1;
     }
-    & svg {
+    &:hover svg,
+    &:focus svg {
         fill: $Onyx-Color1;
     }
 }
@@ -117,7 +118,8 @@ article {
     & h2 {
         color: $Onyx-Color2;
     }
-    & svg {
+    &:hover svg,
+    &:focus svg {
         fill: $Onyx-Color2;
     }
 }
@@ -138,7 +140,8 @@ article {
     & h2 {
         color: $Onyx-Color3;
     }
-    & svg {
+    &:hover svg,
+    &:focus svg {
         fill: $Onyx-Color3;
     }
 }
@@ -159,7 +162,8 @@ article {
     & h2 {
         color: $Onyx-Color4;
     }
-    & svg {
+    &:hover svg,
+    &:focus svg {
         fill: $Onyx-Color4;
     }
 }

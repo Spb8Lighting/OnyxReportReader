@@ -1,0 +1,18 @@
+<svg viewBox="0 0 60 60">
+   <defs>
+      <filter id="b" x="-.084" width="1.168" y="-2.179" height="5.357" color-interpolation-filters="sRGB">
+         <feGaussianBlur stdDeviation="1.383"/>
+      </filter>
+      <filter id="a" x="-.107" width="1.214" y="-.137" height="1.274" color-interpolation-filters="sRGB">
+         <feGaussianBlur stdDeviation="2.169"/>
+      </filter>
+   </defs>
+   <g fill="none" stroke="#000">
+      <rect width="48.74" height="38.007" x="69.069" y="995.116" ry="7.829" rx="7.955" transform="matrix(.88858 0 0 .88978 -53.028 -879.041)" stroke-width="2.828" filter="url(#a)"/>
+      <rect width="39.404" height="1.524" x="73.737" y="1048.65" rx="0" ry="0" transform="matrix(.90165 0 0 1.13133 -54.186 -1133.066)" opacity=".5" stroke-width="2.861" filter="url(#b)"/>
+   </g>
+   <g fill="none">
+      <rect width="42.595" height="33.215" x="8.702" y="6.432" ry="6.842" rx="6.952" stroke-width="4.807" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect width="34.436" height="1.332" x="12.782" y="53.217" rx="0" ry="0" stroke-width="2.845"/>
+   </g>
+</svg>
