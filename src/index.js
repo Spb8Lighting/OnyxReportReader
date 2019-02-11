@@ -1,6 +1,6 @@
 import '@babel/polyfill'
 import Input from './input'
-import { Get as DbGet, DeleteTable as DbDeleteTable, DeleteDB as DbDeleteDB } from './database'
+import { Db, Get as DbGet, DeleteTable as DbDeleteTable, DeleteDB as DbDeleteDB } from './database'
 import Render from './function/render'
 import * as Loader from './loader'
 import { Clear as LocalStorageClear } from './localstorage'
@@ -22,31 +22,33 @@ if (window.location.hostname !== 'localhost') {
 Input()
   .then(async () => {
     // Get File data
-    let ReloadPatch = await DbGet({ Object: 'File', ItemID: 'Patch' })
-    let ReloadGroup = await DbGet({ Object: 'File', ItemID: 'FixtureGroup' })
-    let ReloadPreset = await DbGet({ Object: 'File', ItemID: 'Preset' })
-    let ReloadCuelist = await DbGet({ Object: 'File', ItemID: 'Cuelist' })
+    await Db.transaction('r', Db.File, Db.Show, Db.Fixture, Db.FixtureGroup, Db.Preset, Db.Cuelist, Db.Physical, async () => {
+      let ReloadPatch = await DbGet({ Object: 'File', ItemID: 'Patch' })
+      let ReloadGroup = await DbGet({ Object: 'File', ItemID: 'FixtureGroup' })
+      let ReloadPreset = await DbGet({ Object: 'File', ItemID: 'Preset' })
+      let ReloadCuelist = await DbGet({ Object: 'File', ItemID: 'Cuelist' })
 
-    // Get Patch data
-    if (typeof ReloadPatch !== 'undefined') {
-      Loader.Patch.Show()
-      Render('Patch', true).then(() => Loader.Patch.Hide())
-    }
-    // Get Group data
-    if (typeof ReloadGroup !== 'undefined') {
-      Loader.FixtureGroup.Show()
-      Render('Group', false, false).then(() => Loader.FixtureGroup.Hide())
-    }
-    // Get Preset data
-    if (typeof ReloadPreset !== 'undefined') {
-      Loader.Preset.Show()
-      Render('Preset', false).then(() => Loader.Preset.Hide())
-    }
-    // Get Cuelist data
-    if (typeof ReloadCuelist !== 'undefined') {
-      Loader.Cuelist.Show()
-      Render('Cuelist', false).then(() => Loader.Cuelist.Hide())
-    }
+      // Get Patch data
+      if (typeof ReloadPatch !== 'undefined') {
+        Loader.Patch.Show()
+        Render('Patch', true).then(() => Loader.Patch.Hide())
+      }
+      // Get Group data
+      if (typeof ReloadGroup !== 'undefined') {
+        Loader.FixtureGroup.Show()
+        Render('Group', false, false).then(() => Loader.FixtureGroup.Hide())
+      }
+      // Get Preset data
+      if (typeof ReloadPreset !== 'undefined') {
+        Loader.Preset.Show()
+        Render('Preset', false).then(() => Loader.Preset.Hide())
+      }
+      // Get Cuelist data
+      if (typeof ReloadCuelist !== 'undefined') {
+        Loader.Cuelist.Show()
+        Render('Cuelist', false).then(() => Loader.Cuelist.Hide())
+      }
+    })
   })
   // Catch error
   .catch(reject => {
@@ -89,4 +91,10 @@ document.querySelectorAll('#iconbox a').forEach(element => {
     })
   })
 })
-document.querySelector('.flex-container').addEventListener('click', () => document.querySelector('nav').classList.add('hide'))
+const HideMenu = e => {
+  if (e.target.nodeName !== 'IMG') {
+    document.querySelectorAll('nav').forEach(element => element.classList.add('hide'))
+  }
+}
+document.querySelector('div.flex-container').addEventListener('click', e => HideMenu(e))
+document.querySelector('header').addEventListener('click', e => HideMenu(e))
