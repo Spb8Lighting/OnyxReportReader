@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "6513e7b3dfea7b0e0ca3af2c6bf928ec",
-    "url": "img/favicons/android-icon-36x36.png"
+    "revision": "b37c8c6214731162a1ff219e4a8a38ea",
+    "url": "img/favicons/android-icon-72x72.png"
   },
   {
     "revision": "002cfe7e42749ff7df74cb0ced1ec4e6",
@@ -68,6 +68,10 @@ self.__precacheManifest = [
     "url": "./manifest.json"
   },
   {
+    "revision": "fbc1d13a8e0ede2c01283c61fdbb94ac",
+    "url": "img/favicons/android-icon-144x144.png"
+  },
+  {
     "revision": "2b0946f3e565b56dc8014064a45df53e",
     "url": "img/favicons/android-icon-192x192.png"
   },
@@ -76,15 +80,11 @@ self.__precacheManifest = [
     "url": "img/favicons/android-icon-48x48.png"
   },
   {
-    "revision": "fbc1d13a8e0ede2c01283c61fdbb94ac",
-    "url": "img/favicons/android-icon-144x144.png"
+    "revision": "6513e7b3dfea7b0e0ca3af2c6bf928ec",
+    "url": "img/favicons/android-icon-36x36.png"
   },
   {
-    "revision": "83bd5b1ff599c5e3d85287d4cf6764bb",
-    "url": "img/favicons/apple-icon-114x114.png"
-  },
-  {
-    "revision": "8288c9496006c971f067",
+    "revision": "e7d4e3e97fcb3f390973",
     "url": "app.css"
   },
   {
@@ -92,20 +92,12 @@ self.__precacheManifest = [
     "url": "./fonts/digital-7.ttf"
   },
   {
-    "revision": "b37c8c6214731162a1ff219e4a8a38ea",
-    "url": "img/favicons/android-icon-72x72.png"
+    "revision": "83bd5b1ff599c5e3d85287d4cf6764bb",
+    "url": "img/favicons/apple-icon-114x114.png"
   },
   {
     "revision": "3d262cb4786d3cdedd98975e66371186",
     "url": "img/favicons/apple-icon-120x120.png"
-  },
-  {
-    "revision": "fbc1d13a8e0ede2c01283c61fdbb94ac",
-    "url": "img/favicons/apple-icon-144x144.png"
-  },
-  {
-    "revision": "5629111ff3cf2e114360df81efc7106f",
-    "url": "img/favicons/apple-icon-180x180.png"
   },
   {
     "revision": "120fa2456ba47f52f59aa6d8e10521cf",
@@ -116,8 +108,8 @@ self.__precacheManifest = [
     "url": "img/favicons/apple-icon-57x57.png"
   },
   {
-    "revision": "6c7a87c108f91079595b5f69e863e10d",
-    "url": "img/favicons/apple-icon-precomposed.png"
+    "revision": "b37c8c6214731162a1ff219e4a8a38ea",
+    "url": "img/favicons/apple-icon-72x72.png"
   },
   {
     "revision": "44b569dd99977509ceca5b684724a391",
@@ -125,35 +117,31 @@ self.__precacheManifest = [
   },
   {
     "revision": "6c7a87c108f91079595b5f69e863e10d",
-    "url": "img/favicons/apple-icon.png"
-  },
-  {
-    "revision": "e393e4a50e445dc93cf5dea46c4bd8ca",
-    "url": "img/favicons/apple-icon-76x76.png"
-  },
-  {
-    "revision": "0f9627ba099fac785eb074181dc5e9c9",
-    "url": "img/favicons/favicon-96x96.png"
-  },
-  {
-    "revision": "b37c8c6214731162a1ff219e4a8a38ea",
-    "url": "img/favicons/apple-icon-72x72.png"
-  },
-  {
-    "revision": "c5c0037b6f7ce08a9c2846822c95ce33",
-    "url": "img/favicons/favicon.ico"
+    "url": "img/favicons/apple-icon-precomposed.png"
   },
   {
     "revision": "521cfa2cf5a6f2699a609020583fb8ce",
     "url": "img/favicons/favicon-16x16.png"
   },
   {
-    "revision": "5513ef0a3bb20f5d96879a9388e4f21d",
-    "url": "img/favicons/ms-icon-150x150.png"
-  },
-  {
     "revision": "a96095d7a18d54fbcdc682e826d9fc69",
     "url": "img/favicons/favicon-32x32.png"
+  },
+  {
+    "revision": "6c7a87c108f91079595b5f69e863e10d",
+    "url": "img/favicons/apple-icon.png"
+  },
+  {
+    "revision": "0f9627ba099fac785eb074181dc5e9c9",
+    "url": "img/favicons/favicon-96x96.png"
+  },
+  {
+    "revision": "e393e4a50e445dc93cf5dea46c4bd8ca",
+    "url": "img/favicons/apple-icon-76x76.png"
+  },
+  {
+    "revision": "fbc1d13a8e0ede2c01283c61fdbb94ac",
+    "url": "img/favicons/ms-icon-144x144.png"
   },
   {
     "revision": "d8b35add0762fc31024737afca806230",
@@ -161,10 +149,22 @@ self.__precacheManifest = [
   },
   {
     "revision": "fbc1d13a8e0ede2c01283c61fdbb94ac",
-    "url": "img/favicons/ms-icon-144x144.png"
+    "url": "img/favicons/apple-icon-144x144.png"
   },
   {
-    "revision": "8288c9496006c971f067",
+    "revision": "5629111ff3cf2e114360df81efc7106f",
+    "url": "img/favicons/apple-icon-180x180.png"
+  },
+  {
+    "revision": "c5c0037b6f7ce08a9c2846822c95ce33",
+    "url": "img/favicons/favicon.ico"
+  },
+  {
+    "revision": "5513ef0a3bb20f5d96879a9388e4f21d",
+    "url": "img/favicons/ms-icon-150x150.png"
+  },
+  {
+    "revision": "e7d4e3e97fcb3f390973",
     "url": "./app.js"
   }
 ];
