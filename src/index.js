@@ -20,44 +20,33 @@ if (window.location.hostname !== 'localhost') {
 
 // Change the form label by their associated picture
 Input()
-  // Get Patch data
   .then(async () => {
-    Loader.Patch.Show()
-    if (typeof await DbGet({ Object: 'File', ItemID: 'Patch' }) !== 'undefined') {
-      await Render('Patch', true)
+    // Get File data
+    let ReloadPatch = await DbGet({ Object: 'File', ItemID: 'Patch' })
+    let ReloadGroup = await DbGet({ Object: 'File', ItemID: 'FixtureGroup' })
+    let ReloadPreset = await DbGet({ Object: 'File', ItemID: 'Preset' })
+    let ReloadCuelist = await DbGet({ Object: 'File', ItemID: 'Cuelist' })
+
+    // Get Patch data
+    if (typeof ReloadPatch !== 'undefined') {
+      Loader.Patch.Show()
+      Render('Patch', true).then(() => Loader.Patch.Hide())
     }
-    Loader.Patch.Hide()
-  })
-  // Get Group data
-  .then(async () => {
-    Loader.FixtureGroup.Show()
-    if (typeof await DbGet({ Object: 'File', ItemID: 'FixtureGroup' }) !== 'undefined') {
-      await Render('Group', false, false)
+    // Get Group data
+    if (typeof ReloadGroup !== 'undefined') {
+      Loader.FixtureGroup.Show()
+      Render('Group', false, false).then(() => Loader.FixtureGroup.Hide())
     }
-    Loader.FixtureGroup.Hide()
-  })
-  // Get Preset data
-  .then(async () => {
-    Loader.Preset.Show()
-    if (typeof await DbGet({ Object: 'File', ItemID: 'Preset' }) !== 'undefined') {
-      await Render('Preset', false)
+    // Get Preset data
+    if (typeof ReloadPreset !== 'undefined') {
+      Loader.Preset.Show()
+      Render('Preset', false).then(() => Loader.Preset.Hide())
     }
-    Loader.Preset.Hide()
-  })
-  // Get Cuelist data
-  .then(async () => {
-    Loader.Cuelist.Show()
-    if (typeof await DbGet({ Object: 'File', ItemID: 'Cuelist' }) !== 'undefined') {
-      await Render('Cuelist', false)
+    // Get Cuelist data
+    if (typeof ReloadCuelist !== 'undefined') {
+      Loader.Cuelist.Show()
+      Render('Cuelist', false).then(() => Loader.Cuelist.Hide())
     }
-    Loader.Cuelist.Hide()
-  })
-  // End of reload data
-  .then(() => {
-    Loader.Patch.Hide()
-    Loader.FixtureGroup.Hide()
-    Loader.Preset.Hide()
-    Loader.Cuelist.Hide()
   })
   // Catch error
   .catch(reject => {
