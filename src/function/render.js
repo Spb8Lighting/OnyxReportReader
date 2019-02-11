@@ -50,8 +50,9 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
   }
   // Get objects to be displayed
   let TypeObjects = await DbGetAll({ Object: LocalConfig.Objects })
+  let NumberOfObjects = Object.keys(TypeObjects).length
   // Loop through all objects find
-  for (let i = 0; i < Object.keys(TypeObjects).length; ++i) {
+  for (let i = 0; i < NumberOfObjects; ++i) {
     // Specific Treatment for Patch
     if (Type === 'Patch') {
       let Fixture = TypeObjects[i]
@@ -89,8 +90,13 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
       Content.Description += ` <em>(${Show.FixturesCount} fixture${(Show.FixturesCount > 1) ? 's' : ''})</em>`
       break
     case 'Group':
+      Content.Description += ` <em>(${NumberOfObjects} group${(NumberOfObjects > 1) ? 's' : ''})</em>`
       break
     case 'Preset':
+      Content.Description += ` <em>(${NumberOfObjects} preset${(NumberOfObjects > 1) ? 's' : ''})</em>`
+      break
+    case 'Cuelist':
+      Content.Description += ` <em>(${NumberOfObjects} cuelist${(NumberOfObjects > 1) ? 's' : ''})</em>`
       break
   }
   Content.Table = `<table class="${LocalConfig.Class}">` + '\n' +
