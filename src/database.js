@@ -1,8 +1,8 @@
 import Dexie from 'dexie'
 
-const db = new Dexie('ReportReader')
+export const Db = new Dexie('ReportReader')
 
-db.version(1).stores({
+Db.version(1).stores({
   File: 'Key',
   Show: 'Key',
   Fixture: '++,&ID,&Ref,Manufacturer,Model,Mode',
@@ -10,38 +10,47 @@ db.version(1).stores({
   Preset: '++,ID, Type, Position',
   Cuelist: '++,ID, Type, &TypePagePosition, Page'
 })
+Db.version(2).stores({
+  Cuelist: '++,ID, Type',
+  Physical: '++,PageBank, Type, Position, CuelistID'
+}).upgrade(tx => {
+  return tx.Cuelist.toCollection().modify(cuelist => {
+    delete cuelist.Page
+    delete cuelist.TypePagePosition
+  })
+})
 
 export const Add = async Data => {
-  return db[Data.Object]
+  return Db[Data.Object]
     .add(Data.Item)
 }
 export const Get = async Data => {
   if (Data.Index) {
-    return db[Data.Object]
+    return Db[Data.Object]
       .where(Data.Index)
       .equals(Data.ItemID)
       .first()
   } else {
-    return db[Data.Object]
+    return Db[Data.Object]
       .get(Data.ItemID)
   }
 }
 export const GetAll = async Data => {
-  return db[Data.Object]
+  return Db[Data.Object]
     .toArray()
 }
 export const AddGroup = async Data => {
-  return db[Data.Object]
+  return Db[Data.Object]
     .where(Data.Index)
     .equals(Data.ItemID)
     .modify(Fixture => Fixture.Groups.push(Data.GroupID))
 }
 export const Update = async Data => {
-  return db[Data.Object]
+  return Db[Data.Object]
     .put(Data.Item)
 }
 export const Delete = async Data => {
-  return db[Data.Object]
+  return Db[Data.Object]
     .delete(Data.ItemID)
 }
 export const Fixture = {
@@ -67,9 +76,9 @@ export const DeleteTable = async Data => {
   if (Data.Object === 'FixtureGroup') {
     await Fixture.RemoveGroup()
   }
-  await db.File
+  await Db.File
     .delete(Data.Object)
-  await db[Data.Object]
+  await Db[Data.Object]
     .clear()
   window.location.reload()
 }

@@ -1,3 +1,12 @@
+class PhysicalObject {
+  constructor (Obj) {
+    this.PageBank = Number(Obj.PageBank) || false
+    this.PageBankName = typeof Obj.PageBankName === 'undefined' ? false : String(Obj.PageBankName)
+    this.Type = String(Obj.Type) || false
+    this.Position = Number(Obj.Position) || false
+  }
+}
+
 export default class CuelistObject {
   /**
    * Create a Cuelist Object
@@ -25,15 +34,11 @@ export default class CuelistObject {
     this.MarkMode = CuelistXML.getAttribute('markMode') || false
     let OtherAttributes = this.CheckChild(CuelistXML)
     this.Cues = OtherAttributes.Cues
-    this.PlaybackFader = OtherAttributes.PlaybackFaders
-    this.PlaybackButtons = OtherAttributes.PlaybackButtons
-    this.AnalogFaders = OtherAttributes.AnalogFaders
+    this.Physicals = OtherAttributes.Physicals.length > 0 ? OtherAttributes.Physicals : false
   }
   CheckChild (CuelistXML) {
     let Cues = []
-    let PlaybackFaders = []
-    let PlaybackButtons = []
-    let AnalogFaders = []
+    let Physicals = []
     let Children = CuelistXML.children
     for (let i = 0; i < Children.length; i++) {
       if (Children.hasOwnProperty(i)) {
@@ -56,27 +61,31 @@ export default class CuelistObject {
             Cues.push(Cue)
             break
           case 'PlayBackFader':
-            let PlaybackFader = {}
-            PlaybackFader.Page = Number(Children[i].getAttribute('playbackPage'))
-            PlaybackFader.Number = Number(Children[i].getAttribute('playbackNumber'))
-            PlaybackFader.BankName = Children[i].getAttribute('playbackBankName') || false
-            PlaybackFaders.push(PlaybackFader)
+            // Main Playback Fader
+            let MainPlaybackFader = {}
+            MainPlaybackFader.PageBank = Children[i].getAttribute('playbackPage')
+            MainPlaybackFader.Position = Children[i].getAttribute('playbackNumber')
+            MainPlaybackFader.PageBankName = Children[i].getAttribute('playbackBankName')
+            MainPlaybackFader.Type = 'MainPlaybackFader'
+            Physicals.push(new PhysicalObject(MainPlaybackFader))
             break
           case 'PlaybackButton':
             let PlaybackButton = {}
-            PlaybackButton.Page = Number(Children[i].getAttribute('playbackPage'))
-            PlaybackButton.Number = Number(Children[i].getAttribute('buttonPosition'))
-            PlaybackButtons.push(PlaybackButton)
+            PlaybackButton.PageBank = Children[i].getAttribute('playbackPage')
+            PlaybackButton.Position = Children[i].getAttribute('buttonPosition')
+            PlaybackButton.Type = 'PlaybackButton'
+            Physicals.push(new PhysicalObject(PlaybackButton))
             break
           case 'AnalogFader':
-            let AnalogFader = {}
-            AnalogFader.Page = Number(Children[i].getAttribute('playbackPage'))
-            AnalogFader.Number = Number(Children[i].getAttribute('buttonPosition'))
-            AnalogFaders.push(AnalogFader)
+            let SubmasterPlayback = {}
+            SubmasterPlayback.PageBank = Children[i].getAttribute('playbackPage')
+            SubmasterPlayback.Position = Children[i].getAttribute('buttonPosition')
+            SubmasterPlayback.Type = 'SubmasterPlayback'
+            Physicals.push(new PhysicalObject(SubmasterPlayback))
             break
         }
       }
     }
-    return { Cues: Cues, PlaybackFaders: PlaybackFaders, PlaybackButtons: PlaybackButtons, AnalogFaders: AnalogFaders }
+    return { Cues: Cues, Physicals: Physicals }
   }
 }

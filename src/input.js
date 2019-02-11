@@ -48,7 +48,7 @@ export default async () => {
             xmlDoc = parser.parseFromString(e.target.result, 'text/xml')
             switch (ActicleID) {
               case 'Patch':
-                Parser.Patch(xmlDoc)
+                await Parser.Patch(xmlDoc)
                 Render('Patch', true)
                 break
               case 'FixtureGroup':

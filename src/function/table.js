@@ -253,6 +253,9 @@ export const TBodyLine = async (Config, Multipart, Data, Restricted = false) => 
       case 'Preset_Embedded':
         RowContent = NotFalse(await GetAllPresets(Data.UsedByPreset))
         break
+      case 'Cuelist_CueNumber':
+        RowContent = Data.Cues.length
+        break
     }
     // Empty cell content for multipart Fixture
     if (Restricted) {

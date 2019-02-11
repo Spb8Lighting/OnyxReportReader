@@ -237,11 +237,19 @@ const CuelistName = {
   RowSpan: false,
   MultiPart: false
 }
+const CuelistCueNumber = {
+  ID: 'Cuelist_CueNumber',
+  Name: 'Cue(s)',
+  Show: true,
+  RowSpan: false,
+  MultiPart: false
+}
 
 let Cuelist = []
 Cuelist.push(CuelistID)
 Cuelist.push(CuelistType)
 Cuelist.push(CuelistName)
+Cuelist.push(CuelistCueNumber)
 
 export default {
   Patch, Group, Preset, Cuelist
