@@ -181,7 +181,6 @@ export const TBodyLine = async (Config, Multipart, Data, Restricted = false) => 
       case 'Group_Name':
       case 'Patch_Name':
       case 'Preset_Name':
-      case 'Cuelist_Name':
         RowContent = NotFalse(Data.Name)
         break
       case 'Group_Fixtures':
@@ -253,9 +252,53 @@ export const TBodyLine = async (Config, Multipart, Data, Restricted = false) => 
       case 'Preset_Embedded':
         RowContent = NotFalse(await GetAllPresets(Data.UsedByPreset))
         break
+      case 'Cuelist_Name':
+        RowContent = `<a href="#Cuelist-${Data.ID}">${NotFalse(Data.Name)}</a>`
+        break
       case 'Cuelist_CueNumber':
         RowContent = Data.Cues.length
         break
+      case 'Cuelist_DetailID':
+        RowContent = Data.ID
+        break
+      case 'Cuelist_DetailCue':
+        RowContent = NotFalse(Data.Name)
+        break
+      case 'Cuelist_DetailTrigger':
+        RowContent = NotFalse(Data.Trigger)
+        break
+      case 'Cuelist_DetailDelay':
+        RowContent = NotFalse(Data.Delay)
+        break
+      case 'Cuelist_DetailFade':
+        RowContent = NotFalse(Data.Fade)
+        break
+      case 'Cuelist_DetailFadeMode':
+        RowContent = NotFalse(Data.FadeMode)
+        break
+      case 'Cuelist_DetailUses':
+        let RowC = []
+        if (Data.MarkCue) {
+          RowC.push('M')
+        }
+        if (Option.Cuelist.DisplayUsage) {
+          if (Data.UsesBase) {
+            RowC.push('B')
+          }
+          if (Data.UsesFx) {
+            RowC.push('FX')
+          }
+          if (Data.UsesTiming) {
+            RowC.push('T')
+          }
+        }
+        RowContent = (RowC.length > 0) ? RowC.join(', ') : ''
+        break
+      case 'CuelistDetailComment':
+        RowContent = NotFalse(Data.Comment)
+        break
+      case 'Cuelist_DetailTime':
+        RowContent = NotFalse(Data.TimeCode)
     }
     // Empty cell content for multipart Fixture
     if (Restricted) {

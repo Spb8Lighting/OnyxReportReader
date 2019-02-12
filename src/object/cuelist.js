@@ -1,3 +1,23 @@
+const StingToBool = Val => {
+  if (typeof Val === 'string') {
+    switch (Val.toLowerCase().trim()) {
+      case 'true':
+      case 'yes':
+      case 1:
+        return true
+      case 'false':
+      case 'no':
+      case 0:
+      case null:
+        return false
+      default:
+        return Boolean(Val)
+    }
+  } else {
+    return false
+  }
+}
+
 class PhysicalObject {
   constructor (Obj) {
     this.PageBank = Number(Obj.PageBank) || false
@@ -18,19 +38,19 @@ export default class CuelistObject {
     this.Name = CuelistXML.getAttribute('cuelistName') || false
     this.Type = CuelistXML.nodeName
     this.PriorityLevel = Number(CuelistXML.getAttribute('priorityLevel'))
-    this.BackTrack = Boolean(CuelistXML.getAttribute('backTrack'))
-    this.AutoRelease = Boolean(CuelistXML.getAttribute('autoRelease'))
-    this.ReleaseOnNextGo = Boolean(CuelistXML.getAttribute('releaseOnNextGo'))
-    this.ReleaseWhenRestart = Boolean(CuelistXML.getAttribute('releasewhenRestart'))
-    this.ResetWhenReleased = Boolean(CuelistXML.getAttribute('ResetWhenReleased'))
+    this.BackTrack = StingToBool(CuelistXML.getAttribute('backTrack'))
+    this.AutoRelease = StingToBool(CuelistXML.getAttribute('autoRelease'))
+    this.ReleaseOnNextGo = StingToBool(CuelistXML.getAttribute('releaseOnNextGo'))
+    this.ReleaseWhenRestart = StingToBool(CuelistXML.getAttribute('releasewhenRestart'))
+    this.ResetWhenReleased = StingToBool(CuelistXML.getAttribute('ResetWhenReleased'))
     this.DefaultReleaseTime = Number(CuelistXML.getAttribute('defaultReleaseTime'))
-    this.ReleaseDimmersFirst = Boolean(CuelistXML.getAttribute('releaseDimmersFirst'))
-    this.IgnoreGlobalRelease = Boolean(CuelistXML.getAttribute('ignoreGlobalRelease'))
-    this.DefaultFaderValue = Boolean(CuelistXML.getAttribute('defaultFaderValue'))
+    this.ReleaseDimmersFirst = StingToBool(CuelistXML.getAttribute('releaseDimmersFirst'))
+    this.IgnoreGlobalRelease = StingToBool(CuelistXML.getAttribute('ignoreGlobalRelease'))
+    this.DefaultFaderValue = StingToBool(CuelistXML.getAttribute('defaultFaderValue'))
     this.EndOfCuelist = Number(CuelistXML.getAttribute('endOfCuelist'))
-    this.FaderTriggerLevel = Boolean(CuelistXML.getAttribute('faderTriggerLevel'))
-    this.GoExitLink = Boolean(CuelistXML.getAttribute('GoExitLink'))
-    this.Tracking = Boolean(CuelistXML.getAttribute('tracking'))
+    this.FaderTriggerLevel = StingToBool(CuelistXML.getAttribute('faderTriggerLevel'))
+    this.GoExitLink = StingToBool(CuelistXML.getAttribute('GoExitLink'))
+    this.Tracking = StingToBool(CuelistXML.getAttribute('tracking'))
     this.MarkMode = CuelistXML.getAttribute('markMode') || false
     let OtherAttributes = this.CheckChild(CuelistXML)
     this.Cues = OtherAttributes.Cues
@@ -49,14 +69,14 @@ export default class CuelistObject {
             Cue.ID = Number(Children[i].getAttribute('cueId'))
             Cue.Name = Children[i].getAttribute('cueName') || false
             Cue.Comment = Children[i].getAttribute('comment') || false
-            Cue.UsesBase = Boolean(Children[i].getAttribute('usesBase'))
-            Cue.UsesFx = Boolean(Children[i].getAttribute('usesFx'))
-            Cue.UsesTiming = Boolean(Children[i].getAttribute('usesTiming'))
+            Cue.UsesBase = StingToBool(Children[i].getAttribute('usesBase'))
+            Cue.UsesFx = StingToBool(Children[i].getAttribute('usesFx'))
+            Cue.UsesTiming = StingToBool(Children[i].getAttribute('usesTiming'))
             Cue.FadeMode = Children[i].getAttribute('fadeMode') || false
             Cue.Trigger = Children[i].getAttribute('trigger') || false
             Cue.Delay = Children[i].getAttribute('delay') || false
             Cue.Fade = Children[i].getAttribute('fade') || false
-            Cue.MarkCue = Boolean(Children[i].getAttribute('markCue'))
+            Cue.MarkCue = StingToBool(Children[i].getAttribute('markCue'))
             Cue.TimeCode = Children[i].getAttribute('timeCode') || false
             Cues.push(Cue)
             break

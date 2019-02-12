@@ -21,3 +21,8 @@ export const Preset = {
   // Use Icon at Preset Type and Usage => Poor Render
   DisplayIconForPresetTypeAndUsage: false
 }
+
+export const Cuelist = {
+  // Activate the Uses
+  DisplayUsage: true
+}

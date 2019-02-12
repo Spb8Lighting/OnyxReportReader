@@ -48,6 +48,11 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
     thead: THead(LocalConfig.Table),
     tbody: []
   }
+  if (Type === 'Cuelist') {
+    Content.Subthead = []
+    Content.Subtbody = []
+    Content.SubCuelist = []
+  }
   // Get objects to be displayed
   let TypeObjects = await DbGetAll({ Object: LocalConfig.Objects })
   let NumberOfObjects = Object.keys(TypeObjects).length
@@ -72,6 +77,38 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
           }
         }
       }
+    } else if (Type === 'Cuelist') {
+      Content.tbody.push(await TBodyLine(LocalConfig.Table, 0, TypeObjects[i]))
+      // Cuelist Content
+      let LocalSubConfig = ''
+      switch (TypeObjects[i].Type) {
+        case 'Cuelist':
+          LocalSubConfig = Config.CuelistStandard
+          break
+        case 'Chase':
+          LocalSubConfig = Config.CuelistChase
+          break
+        case 'Override':
+          LocalSubConfig = Config.CuelistOverride
+          break
+        case 'Submaster':
+        case 'Groupmaster':
+          LocalSubConfig = Config.CuelistGroupMaster
+          break
+        case 'Timecode':
+          LocalSubConfig = Config.CuelistTimecode
+          break
+        default:
+          LocalSubConfig = Config.CuelistStandard
+          break
+      }
+      Content.Subthead.push(THead(LocalSubConfig))
+      let SubTbody = []
+      for (let z = 0; z < TypeObjects[i].Cues.length; z++) {
+        SubTbody.push(await TBodyLine(LocalSubConfig, 0, TypeObjects[i].Cues[z]))
+      }
+      Content.Subtbody.push(SubTbody)
+      Content.SubCuelist.push(TypeObjects[i])
     } else {
       Content.tbody.push(await TBodyLine(LocalConfig.Table, 0, TypeObjects[i]))
     }
@@ -109,13 +146,28 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
     '</table>'
 
   LocalConfig.Article = document.getElementById(LocalConfig.ID)
+  let CuelistAdd = ''
+  if (Type === 'Cuelist') {
+    for (let y = 0; y < Content.Subtbody.length; y++) {
+      CuelistAdd += '\n' + `<h3 id="Cuelist-${Content.SubCuelist[y].ID}">${Content.SubCuelist[y].Name}</h3>` + '\n' +
+      `<table>` + '\n' +
+      '<thead>' + '\n' +
+      Content.Subthead[y] + '\n' +
+      '</thead>' + '\n' +
+      '<tbody>' + '\n' +
+      Content.Subtbody[y].join('\n') + '\n' +
+      '</tbody>' + '\n' +
+      '</table>'
+    }
+  }
   // Inject Content into the dedicated Article
   LocalConfig.Article.innerHTML = `<h2>` + '\n' +
     `<button class="nav-button print_hide" type="button" role="button"><i></i></button>` + '\n' +
     ` ${LocalConfig.Name}` + '\n' +
     `</h2>` + '\n' +
     `<p>${Content.Description}</p>` + '\n' +
-    `<div class="overflow">${Content.Table}</div>`
+    `<div class="overflow">${Content.Table}${CuelistAdd}</div>`
+
   // Add Sort function on table
   Sortable(LocalConfig.Article.querySelector('table'))
   // Add the Table menu to filter column

@@ -251,6 +251,110 @@ Cuelist.push(CuelistType)
 Cuelist.push(CuelistName)
 Cuelist.push(CuelistCueNumber)
 
+const CuelistDetailID = {
+  ID: 'Cuelist_DetailID',
+  Name: '#',
+  Show: true,
+  RowSpan: false,
+  MultiPart: false
+}
+const CuelistDetailCue = {
+  ID: 'Cuelist_DetailCue',
+  Name: 'Cue',
+  Show: true,
+  RowSpan: false,
+  MultiPart: false
+}
+const CuelistDetailTrigger = {
+  ID: 'Cuelist_DetailTrigger',
+  Name: 'Trigger',
+  Show: true,
+  RowSpan: false,
+  MultiPart: false
+}
+const CuelistDetailTime = {
+  ID: 'Cuelist_DetailTime',
+  Name: 'Time',
+  Show: true,
+  RowSpan: false,
+  MultiPart: false
+}
+const CuelistDetailDelay = {
+  ID: 'Cuelist_DetailDelay',
+  Name: 'Delay',
+  Show: true,
+  RowSpan: false,
+  MultiPart: false
+}
+const CuelistDetailFade = {
+  ID: 'Cuelist_DetailFade',
+  Name: 'Fade',
+  Show: true,
+  RowSpan: false,
+  MultiPart: false
+}
+const CuelistDetailFadeMode = {
+  ID: 'Cuelist_DetailFadeMode',
+  Name: 'Fade Mode',
+  Show: true,
+  RowSpan: false,
+  MultiPart: false
+}
+const CuelistDetailUses = {
+  ID: 'Cuelist_DetailUses',
+  Name: 'Uses',
+  Show: true,
+  RowSpan: false,
+  MultiPart: false
+}
+const CuelistDetailComment = {
+  ID: 'Cuelist_DetailComment',
+  Name: 'Comment',
+  Show: true,
+  RowSpan: false,
+  MultiPart: false
+}
+let CuelistStandard = []
+CuelistStandard.push(CuelistDetailID)
+CuelistStandard.push(CuelistDetailCue)
+CuelistStandard.push(CuelistDetailTrigger)
+CuelistStandard.push(CuelistDetailDelay)
+CuelistStandard.push(CuelistDetailFade)
+CuelistStandard.push(CuelistDetailFadeMode)
+CuelistStandard.push(CuelistDetailUses)
+CuelistStandard.push(CuelistDetailComment)
+
+let CuelistTimecode = []
+CuelistTimecode.push(CuelistDetailID)
+CuelistTimecode.push(CuelistDetailCue)
+CuelistTimecode.push(CuelistDetailTrigger)
+CuelistTimecode.push(CuelistDetailTime)
+CuelistTimecode.push(CuelistDetailDelay)
+CuelistTimecode.push(CuelistDetailFade)
+CuelistTimecode.push(CuelistDetailFadeMode)
+CuelistTimecode.push(CuelistDetailUses)
+CuelistTimecode.push(CuelistDetailComment)
+
+let CuelistChase = []
+CuelistChase.push(CuelistDetailID)
+CuelistChase.push(CuelistDetailCue)
+CuelistChase.push(CuelistDetailFadeMode)
+CuelistChase.push(CuelistDetailUses)
+CuelistChase.push(CuelistDetailComment)
+
+let CuelistOverride = []
+CuelistOverride.push(CuelistDetailID)
+CuelistOverride.push(CuelistDetailCue)
+CuelistOverride.push(CuelistDetailFadeMode)
+CuelistOverride.push(CuelistDetailUses)
+CuelistOverride.push(CuelistDetailComment)
+
+let CuelistGroupMaster = []
+CuelistGroupMaster.push(CuelistDetailID)
+CuelistGroupMaster.push(CuelistDetailCue)
+CuelistGroupMaster.push(CuelistDetailUses)
+CuelistGroupMaster.push(CuelistDetailComment)
+
 export default {
-  Patch, Group, Preset, Cuelist
+  Patch, Group, Preset, Cuelist, CuelistStandard, CuelistChase, CuelistOverride, CuelistGroupMaster, CuelistTimecode
 }
