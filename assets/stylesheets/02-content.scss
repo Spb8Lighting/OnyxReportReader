@@ -115,7 +115,6 @@ article {
     background-color: $gray-800;
     overflow-y: scroll;
     overflow-x: hidden;
-    padding-right: 3px;
     & img {
         width: #{$header-height * 2};
         height: $header-height;
