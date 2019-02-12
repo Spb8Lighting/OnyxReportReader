@@ -1,5 +1,6 @@
 nav,
-article form {
+article form,
+.pop-in {
     animation: fadeIn 0.5s;
 }
 article {
@@ -93,6 +94,7 @@ article {
             color: $Onyx-Color4;
         }
         h3 {
+            margin: 0;
             font-size: 1.2em;
             position: sticky;
             top: 0;
@@ -101,6 +103,27 @@ article {
                 display: none;                
             }
         }
+    }
+}
+.pop-in {
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: $gray-800;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 3px;
+    & img {
+        width: #{$header-height * 2};
+        height: $header-height;
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 1001;
+        background-color: $header-color;
     }
 }
 .square {
@@ -254,6 +277,7 @@ span[data-title]:focus::after {
     border: 1px;
     border-radius: 1em;
 }
+.hideButPrint,
 .hide {
     display: none;
 }

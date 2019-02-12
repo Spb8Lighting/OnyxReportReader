@@ -149,15 +149,15 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
   let CuelistAdd = ''
   if (Type === 'Cuelist') {
     for (let y = 0; y < Content.Subtbody.length; y++) {
-      CuelistAdd += '\n' + `<div data-type="${Content.SubCuelist[y].Type}" id="Cuelist-${Content.SubCuelist[y].ID}"><h3><span>${Content.SubCuelist[y].Type}</span> ${Content.SubCuelist[y].Name}</h3>` + '\n' +
-      `<table>` + '\n' +
-      '<thead>' + '\n' +
-      Content.Subthead[y] + '\n' +
-      '</thead>' + '\n' +
-      '<tbody>' + '\n' +
-      Content.Subtbody[y].join('\n') + '\n' +
-      '</tbody>' + '\n' +
-      '</table></div>'
+      CuelistAdd += '\n' + `<div class="pop-in hideButPrint" data-type="${Content.SubCuelist[y].Type}" id="Cuelist-${Content.SubCuelist[y].ID}"><h3><span>${Content.SubCuelist[y].Type}</span> ${Content.SubCuelist[y].Name}</h3><a class="print_hide" href="#close"><img src="img/close.svg" alt="Close" title="Close"></a>` + '\n' +
+        `<table>` + '\n' +
+        '<thead>' + '\n' +
+        Content.Subthead[y] + '\n' +
+        '</thead>' + '\n' +
+        '<tbody>' + '\n' +
+        Content.Subtbody[y].join('\n') + '\n' +
+        '</tbody>' + '\n' +
+        '</table></div>'
     }
   }
   // Inject Content into the dedicated Article
@@ -168,8 +168,24 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
     `<p>${Content.Description}</p>` + '\n' +
     `<div class="overflow">${Content.Table}${CuelistAdd}</div>`
 
+  let CurrentTable = LocalConfig.Article.querySelector('table')
+  if (Type === 'Cuelist') {
+    CurrentTable.querySelectorAll('a').forEach(element => {
+      let Target = document.querySelector(element.hash)
+      // Open Pop-in
+      element.addEventListener('click', (e) => {
+        e.preventDefault()
+        Target.classList.remove('hideButPrint')
+      })
+      // Close button
+      Target.querySelector('a').addEventListener('click', (e) => {
+        e.preventDefault()
+        e.target.parentNode.offsetParent.classList.add('hideButPrint')
+      })
+    })
+  }
   // Add Sort function on table
-  Sortable(LocalConfig.Article.querySelector('table'))
+  Sortable(CurrentTable)
   // Add the Table menu to filter column
   Menu(LocalConfig.Table, LocalConfig.Article)
   // Set the new page content as active page
