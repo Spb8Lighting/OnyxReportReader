@@ -149,7 +149,7 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
   let CuelistAdd = ''
   if (Type === 'Cuelist') {
     for (let y = 0; y < Content.Subtbody.length; y++) {
-      CuelistAdd += '\n' + `<h3 id="Cuelist-${Content.SubCuelist[y].ID}">${Content.SubCuelist[y].Name}</h3>` + '\n' +
+      CuelistAdd += '\n' + `<div data-type="${Content.SubCuelist[y].Type}" id="Cuelist-${Content.SubCuelist[y].ID}"><h3><span>${Content.SubCuelist[y].Type}</span> ${Content.SubCuelist[y].Name}</h3>` + '\n' +
       `<table>` + '\n' +
       '<thead>' + '\n' +
       Content.Subthead[y] + '\n' +
@@ -157,7 +157,7 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
       '<tbody>' + '\n' +
       Content.Subtbody[y].join('\n') + '\n' +
       '</tbody>' + '\n' +
-      '</table>'
+      '</table></div>'
     }
   }
   // Inject Content into the dedicated Article

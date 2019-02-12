@@ -18,6 +18,26 @@ $Onyx-Color4: #FF2D55;
 
 $Onyx-Color5: #4df7ff;
 
+$CuelistType-Cuelist-From: #781B18;
+$CuelistType-Cuelist-To: #320B0A;
+$CuelistType-Inhibitive-From: #926D01;
+$CuelistType-Inhibitive-To: #3E2F00;
+$CuelistType-Override-From: #3E2C41;
+$CuelistType-Override-To: #1B131C;
+$CuelistType-Groupmaster-From: #1F4603;
+$CuelistType-Groupmaster-To: #0D1E01;
+$CuelistType-Timecode-From: #640935;
+$CuelistType-Timecode-To: #2B0316;
+$CuelistType-Chase-From: #28486F;
+$CuelistType-Chase-To: #111F30;
+
+$CuelistType-Cuelist: linear-gradient($CuelistType-Cuelist-From, $CuelistType-Cuelist-To);
+$CuelistType-Inhibitive: linear-gradient($CuelistType-Inhibitive-From, $CuelistType-Inhibitive-To);
+$CuelistType-Override: linear-gradient($CuelistType-Override-From, $CuelistType-Override-To);
+$CuelistType-Groupmaster: linear-gradient($CuelistType-Groupmaster-From, $CuelistType-Groupmaster-To);
+$CuelistType-Timecode: linear-gradient($CuelistType-Timecode-From, $CuelistType-Timecode-To);
+$CuelistType-Chase: linear-gradient($CuelistType-Chase-From, $CuelistType-Chase-To);
+
 @import 'icons';
 
 @media screen {
@@ -26,13 +46,13 @@ $Onyx-Color5: #4df7ff;
   @import 'loader';
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   $header-height: 40px;
   $header-font-size: 110%;
   $aside-span-transY: -90%;
   $table-width: auto;
   $aside-width: 50px;
-  $advertisement-svg-height: 400px; 
+  $advertisement-svg-height: 400px;
   @import '01-structure';
   @import '02-content';
   @import 'loader';

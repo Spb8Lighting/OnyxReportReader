@@ -136,4 +136,11 @@ article {
     h2 {
         color: $Onyx-Color4;
     }
+    h3 {
+        font-size: 12pt;
+        & span {
+          font-size: 9pt;
+          font-style: italic;
+        }
+    }
 }

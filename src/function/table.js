@@ -224,7 +224,7 @@ export const TBodyLine = async (Config, Multipart, Data, Restricted = false) => 
         RowContent = PresetType(Data.Type)
         break
       case 'Cuelist_Type':
-        RowContent = Data.Type
+        RowContent = `<span class="square Type-${Data.Type}"> </span> ${Data.Type}`
         break
       case 'Preset_Position':
         RowContent = Data.Position

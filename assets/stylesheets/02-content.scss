@@ -40,6 +40,9 @@ article {
         overflow-x: hidden;
         padding-right: 3px;
     }
+    [data-type] table thead th {
+        top: 1.7em;
+    }
     table {
         width: $table-width;
         thead th {
@@ -89,7 +92,48 @@ article {
         h2 {
             color: $Onyx-Color4;
         }
+        h3 {
+            font-size: 1.2em;
+            position: sticky;
+            top: 0;
+            z-index: 2;
+            & span {
+                display: none;                
+            }
+        }
     }
+}
+.square {
+    width: 1em;
+    height: 1em;
+    display: inline-flex;
+    margin-right: 0.2em;
+}
+.Type-Cuelist,
+[data-type="Cuelist"] h3 {
+    background-image: $CuelistType-Cuelist;
+}
+.Type-Groupmaster,
+.Type-Submaster,
+[data-type="Groupmaster"] h3,
+[data-type="Submaster"] h3 {
+    background-image: $CuelistType-Groupmaster;
+}
+.Type-Chase,
+[data-type="Chase"] h3 {
+    background-image: $CuelistType-Chase;
+}
+.Type-Inhibitive,
+[data-type="Inhibitive"] h3 {
+    background-image: $CuelistType-Inhibitive;
+}
+.Type-Override,
+[data-type="Override"] h3 {
+    background-image: $CuelistType-Override;
+}
+.Type-Timecode,
+[data-type="Timecode"] h3 {
+    background-image: $CuelistType-Timecode;
 }
 .Patch {
     & h1,
