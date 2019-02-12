@@ -52,6 +52,23 @@ export default class CuelistObject {
     this.GoExitLink = StingToBool(CuelistXML.getAttribute('GoExitLink'))
     this.Tracking = StingToBool(CuelistXML.getAttribute('tracking'))
     this.MarkMode = CuelistXML.getAttribute('markMode') || false
+    this.DefaultButtonBehaviour = CuelistXML.getAttribute('defaultButtonBehaviour') || false
+    this.FlashGo = StingToBool(CuelistXML.getAttribute('flashGo'))
+    this.FlashRelease = StingToBool(CuelistXML.getAttribute('flashRelease'))
+    this.TriggerLevel = StingToBool(CuelistXML.getAttribute('triggerLevel'))
+    this.FaderGo = StingToBool(CuelistXML.getAttribute('faderGo'))
+    this.FaderRelease = StingToBool(CuelistXML.getAttribute('faderRelease'))
+    // Chase
+    this.UseCueTiming = StingToBool(CuelistXML.getAttribute('useCueTiming'))
+    this.ChaseRate = CuelistXML.getAttribute('chaseRate') || false
+    this.ChaseFade = CuelistXML.getAttribute('chaseFade') || false
+    this.ChaseDirection = CuelistXML.getAttribute('chaseDirection') || false
+    // GroupMaster
+    this.OverRidableByProgrammer = StingToBool(CuelistXML.getAttribute('overRidableByProgrammer'))
+    this.Swop = StingToBool(CuelistXML.getAttribute('swop'))
+    this.IgnoreBankChangeRelease = StingToBool(CuelistXML.getAttribute('ignoreBankChangeRelease'))
+    // Timecode
+    this.TimeCodeSource = CuelistXML.getAttribute('timeCodeSource') || false
     let OtherAttributes = this.CheckChild(CuelistXML)
     this.Cues = OtherAttributes.Cues
     this.Physicals = OtherAttributes.Physicals.length > 0 ? OtherAttributes.Physicals : false

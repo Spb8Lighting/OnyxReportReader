@@ -46,7 +46,7 @@ $CuelistType-Chase: linear-gradient($CuelistType-Chase-From, $CuelistType-Chase-
   @import 'loader';
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 880px) {
   $header-height: 40px;
   $header-font-size: 110%;
   $aside-span-transY: -90%;

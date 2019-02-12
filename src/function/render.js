@@ -6,6 +6,90 @@ import { SetLoaded as DisplaySetLoaded } from './../display'
 import * as Loader from './../loader'
 import { Sortable } from './tablesorter'
 
+const GetCuelistProperties = Cuelist => {
+  let Content = []
+  if (Cuelist.PriorityLevel) {
+    Content.push(`Priority: ${Cuelist.PriorityLevel}`)
+  }
+  if (Cuelist.Tracking) {
+    Content.push(`Tracking: ${Cuelist.Tracking}`)
+  }
+  if (Cuelist.BackTrack) {
+    Content.push(`Backtrack: ${Cuelist.BackTrack}`)
+  }
+  if (Cuelist.MarkMode) {
+    Content.push(`${Cuelist.MarkMode}`)
+  }
+  if (Cuelist.AutoRelease) {
+    Content.push(`Autorelease`)
+  }
+  if (Cuelist.ReleaseOnNextGo) {
+    Content.push(`Release on next GO`)
+  }
+  if (Cuelist.ReleaseWhenRestart) {
+    Content.push(`Release when Restart`)
+  }
+  if (Cuelist.DefaultReleaseTime) {
+    Content.push(`Default Release Time: ${Cuelist.DefaultReleaseTime / 1000}s`)
+  }
+  if (Cuelist.ReleaseDimmersFirst) {
+    Content.push(`Release Dimmers first`)
+  }
+  if (Cuelist.IgnoreGlobalRelease) {
+    Content.push(`Ignore Global Release`)
+  }
+  if (Cuelist.DefaultButtonBehaviour) {
+    let LocalContent = []
+    LocalContent.push(`Default Button Behavior:`)
+    if (Cuelist.DefaultButtonBehaviour === 'Flash') {
+      if (Cuelist.flashGo) {
+        LocalContent.push('[DOWN -> +GO]')
+      }
+      if (Cuelist.flashGo) {
+        LocalContent.push('[UP -> +RELEASE]')
+      }
+    }
+    Content.push(LocalContent.join('<br />'))
+  }
+  if (Cuelist.TriggerLevel) {
+    Content.push(`Trigger level: ${Cuelist.TriggerLevel}`)
+  }
+  if (Cuelist.FaderGo) {
+    Content.push(`Fader: UP -> +GO`)
+  }
+  if (Cuelist.FaderRelease) {
+    Content.push(`Fader: DOWN -> +RELEASE`)
+  }
+  if (Cuelist.TriggerLevel) {
+    Content.push(`Trigger level: ${Cuelist.TriggerLevel}`)
+  }
+  if (Cuelist.UseCueTiming) {
+    Content.push(`Chase: Use Timing`)
+  }
+  if (Cuelist.ChaseRate) {
+    Content.push(`Chase Rate: ${Cuelist.ChaseRate}`)
+  }
+  if (Cuelist.ChaseFade) {
+    Content.push(`Chase Fade: ${Cuelist.ChaseFade}`)
+  }
+  if (Cuelist.ChaseDirection) {
+    Content.push(`Chase Direction: ${Cuelist.ChaseDirection}`)
+  }
+  if (Cuelist.OverRidableByProgrammer) {
+    Content.push(`Overridable By Programmer `)
+  }
+  if (Cuelist.Swop) {
+    Content.push(`Go Button -> SWOP`)
+  }
+  if (Cuelist.IgnoreBankChangeRelease) {
+    Content.push(`Ignore Bank Change Release`)
+  }
+  if (Cuelist.TimeCodeSource) {
+    Content.push(`TimeCode source: ${Cuelist.TimeCodeSource}`)
+  }
+  return Content.length > 0 ? `<p>${Content.join('<br />')}</p>` : ''
+}
+
 const Render = async (Type, SetActive = true, RenderPatch = false) => {
   // Set Parameter following the type to be displayed
   let LocalConfig = {}
@@ -149,7 +233,9 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
   let CuelistAdd = ''
   if (Type === 'Cuelist') {
     for (let y = 0; y < Content.Subtbody.length; y++) {
-      CuelistAdd += '\n' + `<div class="pop-in hideButPrint" data-type="${Content.SubCuelist[y].Type}" id="Cuelist-${Content.SubCuelist[y].ID}"><h3><span>${Content.SubCuelist[y].Type}</span> ${Content.SubCuelist[y].Name}</h3><a class="print_hide" href="#close"><img src="img/close.svg" alt="Close" title="Close"></a>` + '\n' +
+      CuelistAdd += '\n' + `<div class="pop-in hideButPrint" data-type="${Content.SubCuelist[y].Type}" id="Cuelist-${Content.SubCuelist[y].ID}">` + '\n' +
+        `<h3><span>${Content.SubCuelist[y].Type} </span>#${Content.SubCuelist[y].ID} ${Content.SubCuelist[y].Name}</h3><a class="print_hide" href="#close"><img src="img/close.svg" alt="Close" title="Close"></a>` + '\n' +
+        `${GetCuelistProperties(Content.SubCuelist[y])}` + '\n' +
         `<table>` + '\n' +
         '<thead>' + '\n' +
         Content.Subthead[y] + '\n' +
