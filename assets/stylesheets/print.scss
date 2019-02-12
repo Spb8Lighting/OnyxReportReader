@@ -6,7 +6,7 @@ aside,
 footer,
 .hide,
 .print_hide {
-  display: none;
+  display: none !important;
 }
 header {
   height: $header-height;
