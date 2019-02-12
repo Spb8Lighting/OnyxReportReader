@@ -98,3 +98,10 @@ const HideMenu = e => {
 }
 document.querySelector('div.flex-container').addEventListener('click', e => HideMenu(e))
 document.querySelector('header').addEventListener('click', e => HideMenu(e))
+// Manage back history
+window.onpopstate = e => {
+  let PopInActive = document.querySelector('div.pop-in:not(.hideButPrint)')
+  if (PopInActive) {
+    PopInActive.classList.add('hideButPrint')
+  }
+}

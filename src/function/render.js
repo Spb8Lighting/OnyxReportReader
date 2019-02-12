@@ -176,11 +176,15 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
       element.addEventListener('click', (e) => {
         e.preventDefault()
         Target.classList.remove('hideButPrint')
+        // Manage history
+        window.history.pushState(null, document.title, e.target.hash)
       })
       // Close button
       Target.querySelector('a').addEventListener('click', (e) => {
         e.preventDefault()
         e.target.parentNode.offsetParent.classList.add('hideButPrint')
+        // Manage history
+        window.history.back()
       })
     })
   }
