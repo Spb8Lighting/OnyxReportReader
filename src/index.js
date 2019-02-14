@@ -91,6 +91,7 @@ document.querySelectorAll('#iconbox a').forEach(element => {
     })
   })
 })
+// Hide menu
 const HideMenu = e => {
   if (e.target.nodeName !== 'IMG') {
     document.querySelectorAll('nav').forEach(element => element.classList.add('hide'))
@@ -100,6 +101,7 @@ document.querySelector('div.flex-container').addEventListener('click', e => Hide
 document.querySelector('header').addEventListener('click', e => HideMenu(e))
 // Manage back history
 window.onpopstate = e => {
+  console.log(e)
   let PopInActive = document.querySelector('div.pop-in:not(.hideButPrint)')
   if (PopInActive) {
     PopInActive.classList.add('hideButPrint')

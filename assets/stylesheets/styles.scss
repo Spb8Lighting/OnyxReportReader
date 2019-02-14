@@ -1,3 +1,5 @@
+$cols: 30;
+
 @import 'knacss';
 @import 'font';
 
@@ -44,6 +46,7 @@ $CuelistType-Chase: linear-gradient($CuelistType-Chase-From, $CuelistType-Chase-
   @import '01-structure';
   @import '02-content';
   @import 'loader';
+  @import 'physical';
 }
 
 @media only screen and (max-width: 880px) {
@@ -55,7 +58,6 @@ $CuelistType-Chase: linear-gradient($CuelistType-Chase-From, $CuelistType-Chase-
   $advertisement-svg-height: 400px;
   @import '01-structure';
   @import '02-content';
-  @import 'loader';
 }
 
 @media print {

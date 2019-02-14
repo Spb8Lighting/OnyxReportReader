@@ -11,7 +11,7 @@ export default async () => {
   // ########################
   //   Form Configuration
   // ########################
-  let Labels = document.querySelectorAll('aside label')
+  let Labels = document.querySelectorAll('aside fieldset:not(.hide) label')
 
   for (let i = 0; i < Labels.length; ++i) {
     let Label = Labels[i]

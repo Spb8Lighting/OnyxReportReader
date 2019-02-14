@@ -5,6 +5,7 @@ import Menu from './menu'
 import { SetLoaded as DisplaySetLoaded } from './../display'
 import * as Loader from './../loader'
 import { Sortable } from './tablesorter'
+import { Console } from './physical'
 
 const GetCuelistProperties = Cuelist => {
   let Content = []
@@ -256,23 +257,41 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
 
   let CurrentTable = LocalConfig.Article.querySelector('table')
   if (Type === 'Cuelist') {
-    CurrentTable.querySelectorAll('a').forEach(element => {
+    const CuelistClick = (element, DisplayCuelist = false) => {
       let Target = document.querySelector(element.hash)
+      let CuelistArticle = document.getElementById('Cuelist')
+      let PlaybackArticle = document.getElementById('Playback')
       // Open Pop-in
       element.addEventListener('click', (e) => {
         e.preventDefault()
         Target.classList.remove('hideButPrint')
+        if (DisplayCuelist) {
+          CuelistArticle.classList.add('fade')
+          PlaybackArticle.classList.remove('fade')
+        }
         // Manage history
         window.history.pushState(null, document.title, e.target.hash)
       })
       // Close button
       Target.querySelector('a').addEventListener('click', (e) => {
         e.preventDefault()
-        e.target.parentNode.offsetParent.classList.add('hideButPrint')
+        e.target.parentNode.parentNode.classList.add('hideButPrint')
+        if (DisplayCuelist) {
+          CuelistArticle.classList.remove('fade')
+          PlaybackArticle.classList.add('fade')
+        }
         // Manage history
-        window.history.back()
+        window.history.pushState(null, document.title, window.location.origin)
       })
-    })
+    }
+    // Show Playback
+    document.querySelector('label[for="PlaybackXML"]').parentNode.classList.remove('hide')
+    let PlaybackContent = document.getElementById('Playback')
+    PlaybackContent.innerHTML = `<div class="overflow">${await Console.MTouch()}${await Console.MPlay()}</div>`
+    DisplaySetLoaded('Playback', false)
+
+    PlaybackContent.querySelectorAll('a').forEach(element => CuelistClick(element, true))
+    CurrentTable.querySelectorAll('a').forEach(element => CuelistClick(element))
   }
   // Add Sort function on table
   Sortable(CurrentTable)

@@ -20,7 +20,7 @@ header {
   }
 }
 table {
-  font-size: 9pt;
+  font-size: 8.5pt;
   thead th {
     position: sticky;
     top: 0;
@@ -137,10 +137,16 @@ article {
         color: $Onyx-Color4;
     }
     h3 {
-        font-size: 12pt;
+        font-size: 11pt;
         & span {
-          font-size: 9pt;
+          font-size: 8pt;
           font-style: italic;
         }
     }
+}
+.pop-in {
+  & p {
+    font-size: 8pt;
+    column-count: 3;
+  }
 }

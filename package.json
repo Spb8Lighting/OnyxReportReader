@@ -1,6 +1,6 @@
 {
   "name": "onyxreportreader",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Onyx Report Reader",
   "main": "index.js",
   "dependencies": {
@@ -66,8 +66,15 @@
     "workbox-webpack-plugin": "^3.6.3"
   },
   "browserslist": [
+    "> 1%",
     "last 2 versions",
-    "safari >=7",
-    "ie >=11"
+    "IE >= 10",
+    "Edge >= 16",
+    "Chrome >= 60",
+    "Firefox >= 50",
+    "Firefox ESR",
+    "Safari >= 10",
+    "ios_saf >= 10",
+    "Android >= 5"
   ]
 }

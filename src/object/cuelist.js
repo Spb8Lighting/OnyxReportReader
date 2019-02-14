@@ -24,6 +24,8 @@ class PhysicalObject {
     this.PageBankName = typeof Obj.PageBankName === 'undefined' ? false : String(Obj.PageBankName)
     this.Type = String(Obj.Type) || false
     this.Position = Number(Obj.Position) || false
+    this.TypePageBank = this.Type + '-' + this.PageBank
+    this.TypePageBankPosition = this.TypePageBank + '-' + this.Position
   }
 }
 
