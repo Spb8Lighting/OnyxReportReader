@@ -1,7 +1,8 @@
 import { Db, Get as DbGet } from './../database'
+import { Cuelist as OptionCuelist } from './../config/option'
 const CreateButton = (Class, Cuelist) => {
   let NewClass = Class
-  if (typeof Cuelist === 'object') {
+  if (OptionCuelist.AlternativePlaybackBack && typeof Cuelist === 'object') {
     NewClass = `${Class} Type-${Cuelist.Type}`
   }
   let Base = `<div class="SButton ${NewClass}"><span class="content">`
@@ -81,14 +82,16 @@ export const Console = {
       let Prefix = 'MainPlaybackFader'
       let ListOfBanks = await Db.Physical.where('TypePageBank').startsWith(Prefix).uniqueKeys()
       let MTouch = []
-      MTouch.push('<h2>M-Touch</h2><div class="grid-2-small-1 has-gutter">')
+      MTouch.push('<h2>M-Touch</h2><div class="grid-1 has-gutter">')
 
       for (let z = 0; z < ListOfBanks.length; z++) {
         let Faders = await DbGet({ Object: 'Physical', Index: 'TypePageBank', ItemID: ListOfBanks[z] })
         let ActualBankName = Faders.PageBankName ? Faders.PageBankName : `Bank ${z + 1}`
-        MTouch.push(`<div><h3>${ActualBankName}</h3>`)
+        MTouch.push(`<div>`)
+        MTouch.push(`<h3>${ActualBankName}</h3>`)
         // Generate Faders
-        MTouch.push('<div class="Mtouch grid-12 has-gutter"><div class="grid-10 col-10">')
+        MTouch.push('<div class="MTouch grid-12 has-gutter">')
+        MTouch.push(`<div class="grid-10 col-10">`)
         for (let i = 1; i <= 10; i++) {
           let CurrentFader = await DbGet({ Object: 'Physical', Index: 'TypePageBankPosition', ItemID: `${ListOfBanks[z]}-${i}` })
           if (CurrentFader) {
@@ -99,7 +102,8 @@ export const Console = {
             MTouch.push(`<div class="Fader">${Fader.Touch.Fader(i)}</div>`)
           }
         }
-        MTouch.push('</div><div class="grid-2 col-2">')
+        MTouch.push('</div>')
+        MTouch.push(`<div class="grid-2 col-2">`)
         // Generate buttons
         for (let i = 11; i <= 20; i++) {
           let CurrentFader = await DbGet({ Object: 'Physical', Index: 'TypePageBankPosition', ItemID: `${ListOfBanks[z]}-${i}` })
@@ -111,7 +115,9 @@ export const Console = {
             MTouch.push(`<div class="Button">${Fader.Touch.Button(i)}</div>`)
           }
         }
-        MTouch.push('</div></div></div>')
+        MTouch.push('</div>')
+        MTouch.push('</div>')
+        MTouch.push('</div>')
       }
       MTouch.push('</div>')
       return MTouch.join('')
@@ -147,7 +153,7 @@ export const Console = {
         // Empty Grid buttons
         MTouch.push('<div class="grid-12">')
         for (let i = 1; i <= 12; i++) {
-          MTouch.push(`<div class="Button">${Fader.Play.Button(i)}</div>`)
+          MTouch.push(`<div class="Button Empty">${Fader.Play.Button(i)}</div>`)
         }
         MTouch.push('</div>')
         MTouch.push('<div class="grid-12">')

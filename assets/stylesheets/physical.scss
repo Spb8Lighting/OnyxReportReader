@@ -1,9 +1,26 @@
+$TouchBackColor: rgb(178, 180, 179);
+
+.Button.Empty {
+  & .SButton {
+    background-image: none;
+    border: 2px solid transparent;
+    background-color: inherit;
+  }
+}
+.MPlay .Fader .SButton.ButtonBottom {
+  background-image: none;
+  border: 2px solid transparent;
+  background-color: inherit;
+}
+
 .SButton,
 .SFader {
   position: relative;
   width: 100%;
   text-align: center;
-  border: 1px solid rgb(255, 255, 255);
+  border: 2px outset $TouchBackColor;
+  border-radius: 5px;
+  background-color: $black;
   >.content {
     position:  absolute;
     top: 0;
@@ -16,31 +33,49 @@
     display: block;
     padding-top: 100%;
   }
+  & a {
+    color: inherit;
+  }
+  &.ButtonTop,
+  &.ButtonTopTop {
+    background-image: initial !important;
+  }
+  &.ButtonBottom,
+  &.ButtonBottomBottom {
+    background-color: darken($white, 5%);
+  }
 }
 .SFader {
   background-image: linear-gradient(180deg, transparent, lighten($header-color, 10%), $header-color);
   background-position: 5%;
   background-repeat: repeat-y;
-  background-size: 12% auto;
+  background-size: 20% auto;
   &:before {
     padding-top: 184%;
   }
   &.Type-Cuelist {
-    background-image: linear-gradient(180deg, transparent, lighten($CuelistType-Cuelist-From, 10%), $CuelistType-Cuelist-To);
+    background-image: linear-gradient(180deg, transparent, lighten($CuelistType-Cuelist-From, 30%), $CuelistType-Cuelist-To);
   }
   &.Type-Inhibitive {
-    background-image: linear-gradient(180deg, transparent, lighten($CuelistType-Inhibitive-From, 10%), $CuelistType-Inhibitive-To);
+    background-image: linear-gradient(180deg, transparent, lighten($CuelistType-Inhibitive-From, 30%), $CuelistType-Inhibitive-To);
   }
   &.Type-Override {
-    background-image: linear-gradient(180deg, transparent, lighten($CuelistType-Override-From, 10%), $CuelistType-Override-To);
+    background-image: linear-gradient(180deg, transparent, lighten($CuelistType-Override-From, 30%), $CuelistType-Override-To);
   }
-  &.Type-Groupmaster {
-    background-image: linear-gradient(180deg, transparent, lighten($CuelistType-Groupmaster-From, 10%), $CuelistType-Groupmaster-To);
+  &.Type-Groupmaster,
+  &.Type-Submaster {
+    background-image: linear-gradient(180deg, transparent, lighten($CuelistType-Groupmaster-From, 30%), $CuelistType-Groupmaster-To);
   }
   &.Type-Timecode {
-    background-image: linear-gradient(180deg, transparent, lighten($CuelistType-Timecode-From, 10%), $CuelistType-Timecode-To);
+    background-image: linear-gradient(180deg, transparent, lighten($CuelistType-Timecode-From, 30%), $CuelistType-Timecode-To);
   }
   &.Type-Chase {
-    background-image: linear-gradient(180deg, transparent, lighten($CuelistType-Chase-From, 10%), $CuelistType-Chase-To);
+    background-image: linear-gradient(180deg, transparent, lighten($CuelistType-Chase-From, 30%), $CuelistType-Chase-To);
   }
+}
+.MTouch,
+.MPlay {
+  border: 2px solid $header-color;
+  border-radius: 2px;
+  background-color: $TouchBackColor;
 }
