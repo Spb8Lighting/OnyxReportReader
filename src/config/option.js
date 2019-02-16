@@ -24,5 +24,7 @@ export const Preset = {
 
 export const Cuelist = {
   // Activate the Uses
-  DisplayUsage: true
+  DisplayUsage: true,
+  // Other Playback Background Display
+  AlternativePlaybackBack: true
 }

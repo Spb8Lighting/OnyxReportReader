@@ -1,3 +1,5 @@
+$cols: 30;
+
 @import 'knacss';
 @import 'font';
 
@@ -11,6 +13,8 @@ $aside-width: 100px;
 $advertisement-svg-height: 400px;
 $table-width: 100%;
 $nav-svg-width-height: 5rem;
+$header-color: #262626!default;
+
 $Onyx-Color1: #5AC8FA;
 $Onyx-Color2: #D4AA08;
 $Onyx-Color3: #3A791D;
@@ -44,20 +48,21 @@ $CuelistType-Chase: linear-gradient($CuelistType-Chase-From, $CuelistType-Chase-
   @import '01-structure';
   @import '02-content';
   @import 'loader';
+  @import 'physical';
 }
 
 @media only screen and (max-width: 880px) {
   $header-height: 40px;
   $header-font-size: 110%;
-  $aside-span-transY: -90%;
+  $aside-span-transY: -85%;
   $table-width: auto;
   $aside-width: 50px;
   $advertisement-svg-height: 400px;
   @import '01-structure';
   @import '02-content';
-  @import 'loader';
 }
 
 @media print {
   @import 'print';
+  @import 'physical';
 }

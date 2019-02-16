@@ -130,6 +130,10 @@ aside {
                     color: $Onyx-Color4;
                     fill: $Onyx-Color4
                 }
+                &[for=PlaybackXML] {
+                    color: $Onyx-Color4;
+                    fill: $Onyx-Color4
+                }
             }
             &.loaded {
                 color: $white;

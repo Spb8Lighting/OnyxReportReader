@@ -31,6 +31,9 @@ article {
         left: $aside-width;
         opacity: 1;
     }
+    &.noanim {
+        transition: none !important;
+    }
     .Patch_MultiPart .Patch_ID {
         text-align: right;
     }
@@ -46,6 +49,9 @@ article {
     }
     table {
         width: $table-width;
+        &.cuelist {
+            width: 100%;
+        }
         thead th {
             position: sticky;
             top: 0;
@@ -89,7 +95,8 @@ article {
             color: $Onyx-Color3;
         }
     }
-    &#Cuelist {
+    &#Cuelist,
+    &#Playback {
         h2 {
             color: $Onyx-Color4;
         }
@@ -232,7 +239,8 @@ article {
         }
     }
 }
-.Cuelist {
+.Cuelist,
+.Playback {
     & h1,
     & h2 {
         color: $Onyx-Color4;
@@ -242,7 +250,8 @@ article {
         fill: $Onyx-Color4;
     }
 }
-#Cuelist {
+#Cuelist,
+#Playback  {
     ::-webkit-scrollbar-thumb {
         background-color: $Onyx-Color4;
     }
@@ -257,7 +266,8 @@ article {
 #Patch button.is-active i,
 #FixtureGroup button.is-active i,
 #Preset button.is-active i,
-#Cuelist button.is-active i {
+#Cuelist button.is-active i,
+#Playback button.is-active i  {
     background-image: none!important;
 }
 span[data-title] {

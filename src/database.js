@@ -12,11 +12,19 @@ Db.version(1).stores({
 })
 Db.version(2).stores({
   Cuelist: '++,ID, Type',
-  Physical: '++,PageBank, Type, Position, CuelistID'
+  Physical: '++, PageBank, Type, Position, CuelistID'
 }).upgrade(tx => {
   return tx.Cuelist.toCollection().modify(cuelist => {
     delete cuelist.Page
     delete cuelist.TypePagePosition
+  })
+})
+Db.version(3).stores({
+  Physical: '++, PageBank, Type, TypePageBank, Position, TypePageBankPosition, CuelistID'
+}).upgrade(tx => {
+  return tx.Physical.toCollection().modify(Physical => {
+    Physical.TypePageBank = Physical.Type + '-' + Physical.PageBank
+    Physical.TypePageBankPosition = Physical.TypePageBank + '-' + Physical.Position
   })
 })
 
@@ -38,6 +46,11 @@ export const Get = async Data => {
 export const GetAll = async Data => {
   return Db[Data.Object]
     .toArray()
+}
+export const GetAllDistinct = async Data => {
+  return Db[Data.Object]
+    .where(Data.Index)
+    .distinct()
 }
 export const AddGroup = async Data => {
   return Db[Data.Object]
@@ -75,6 +88,9 @@ export const DeleteTable = async Data => {
   }
   if (Data.Object === 'FixtureGroup') {
     await Fixture.RemoveGroup()
+  }
+  if (Data.Object === 'Cuelist') {
+    await DeleteTable({ Object: 'Physical' })
   }
   await Db.File
     .delete(Data.Object)
