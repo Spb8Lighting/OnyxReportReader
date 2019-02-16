@@ -67,16 +67,51 @@ const Fader = {
       return `${Button.BottomBottom(Cuelist)}`
     }
   },
-  Physical: (Cuelist) => {
-    return `${Button.TopTop(Cuelist)}` + '\n' +
-      `${Button.Top(Cuelist)}` + '\n' +
-      CreateFader('Fader', Cuelist) + '\n' +
-      `${Button.Bottom(Cuelist)}` + '\n' +
-      `${Button.BottomBottom(Cuelist)}`
+  Physical: {
+    Fader: (Cuelist) => {
+      return `${Button.TopTop(Cuelist)}` + '\n' +
+        `${Button.Top(Cuelist)}` + '\n' +
+        CreateFader('Fader', Cuelist) + '\n' +
+        `${Button.Bottom(Cuelist)}` + '\n' +
+        `${Button.BottomBottom(Cuelist)}`
+    }
   }
 }
 
 export const Console = {
+  Nx2: async () => {
+    return Db.transaction('r', Db.Cuelist, Db.Physical, async () => {
+      let Prefix = 'MainPlaybackFader'
+      let ListOfBanks = await Db.Physical.where('TypePageBank').startsWith(Prefix).uniqueKeys()
+      let MTouch = []
+      MTouch.push('<h2>M2PC/M2GO/Nx2</h2><div class="grid-1 has-gutter">')
+
+      for (let z = 0; z < ListOfBanks.length; z++) {
+        let Faders = await DbGet({ Object: 'Physical', Index: 'TypePageBank', ItemID: ListOfBanks[z] })
+        let ActualBankName = Faders.PageBankName ? Faders.PageBankName : `Bank ${z + 1}`
+        MTouch.push(`<div>`)
+        MTouch.push(`<h3>${ActualBankName}</h3>`)
+        // Generate Faders
+        MTouch.push('<div class="Nx2 grid-10 has-gutter">')
+        MTouch.push(`<div class="grid-10 col-10">`)
+        for (let i = 1; i <= 10; i++) {
+          let CurrentFader = await DbGet({ Object: 'Physical', Index: 'TypePageBankPosition', ItemID: `${ListOfBanks[z]}-${i}` })
+          if (CurrentFader) {
+            let Cuelist = await DbGet({ Object: 'Cuelist', Index: 'ID', ItemID: CurrentFader.CuelistID })
+            Cuelist.FaderID = i
+            MTouch.push(`<div class="Fader">${Fader.Physical.Fader(Cuelist)}</div>`)
+          } else {
+            MTouch.push(`<div class="Fader">${Fader.Physical.Fader(i)}</div>`)
+          }
+        }
+        MTouch.push('</div>')
+        MTouch.push('</div>')
+        MTouch.push('</div>')
+      }
+      MTouch.push('</div>')
+      return MTouch.join('')
+    })
+  },
   MTouch: async () => {
     return Db.transaction('r', Db.Cuelist, Db.Physical, async () => {
       let Prefix = 'MainPlaybackFader'

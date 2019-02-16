@@ -287,7 +287,7 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
     // Show Playback
     document.querySelector('label[for="PlaybackXML"]').parentNode.classList.remove('hide')
     let PlaybackContent = document.getElementById('Playback')
-    PlaybackContent.innerHTML = `<div class="overflow">${await Console.MTouch()}${await Console.MPlay()}</div>`
+    PlaybackContent.innerHTML = `<div class="overflow">${await Console.Nx2()}${await Console.MTouch()}${await Console.MPlay()}</div>`
     DisplaySetLoaded('Playback', false)
 
     PlaybackContent.querySelectorAll('a').forEach(element => CuelistClick(element, true))

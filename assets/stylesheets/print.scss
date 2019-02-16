@@ -1,5 +1,12 @@
-@page {
+@page portrait {
   size: A4 portrait;
+}
+@page landscape {
+  size: A4 landscape;
+  }
+body {
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
 }
 aside,
 #default,
@@ -102,7 +109,11 @@ header::after {
   white-space: pre;
 }
 article {
+  page: portrait;
   page-break-before: always;
+  &#Playback {
+    page: landscape;
+  }
 }
 .success {
   color: $color-success

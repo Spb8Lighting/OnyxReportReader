@@ -64,4 +64,5 @@ $CuelistType-Chase: linear-gradient($CuelistType-Chase-From, $CuelistType-Chase-
 
 @media print {
   @import 'print';
+  @import 'physical';
 }
