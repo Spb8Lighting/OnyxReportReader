@@ -1,4 +1,5 @@
-.M-Touch {
+.M-Touch,
+.M-Play {
   & h2 em {
     font-size: 0.6em;
   }
@@ -85,6 +86,7 @@
 .Type-Chase {
   color: lighten($CuelistType-Chase-From, 20%)
 }
-.Bank {
+.Bank,
+.BankSub {
   font-family: 'Digital 7';
 }

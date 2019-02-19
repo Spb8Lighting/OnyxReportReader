@@ -150,7 +150,7 @@
     <text x="116.3" y="256.2" fill="currentColor" class="Cuelist2 Cuelist-Box" font-size="8.4" style="line-height:125%" transform="scale(1.07249 .93241)">
       <tspan x="116.3" y="256.2" class="Cuelist2-1">Line 1</tspan>
       <tspan x="116.3" y="266.6" class="Cuelist2-2">Line 2</tspan>
-      <tspan x="116.3" y="277.1" class="Cuelist3-1">Line 3</tspan>
+      <tspan x="116.3" y="277.1" class="Cuelist2-3">Line 3</tspan>
     </text>
   </g>
   <g class="Fader3">

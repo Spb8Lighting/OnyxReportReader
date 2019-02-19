@@ -8,6 +8,43 @@ import { Sortable } from './tablesorter'
 import { Console } from './physical'
 import Message from './../message'
 
+const ConsolePaging = (PlaybackContent, ConsoleClass) => {
+  let ConsoleDiv = PlaybackContent.querySelector(ConsoleClass)
+  let ConsoleSVG = ConsoleDiv.querySelectorAll('svg')
+  let NumberofConsole = ConsoleSVG.length
+  if (NumberofConsole > 1) {
+    for(let i=0; i < NumberofConsole; i++) {
+      let CurrentConsole = ConsoleSVG[i]
+      if (i > 0) {
+        CurrentConsole.classList.add('hideButPrint')
+      }
+      let ButtonMinus = CurrentConsole.querySelector('.BankSelector .minus')
+      let ButtonPlus = CurrentConsole.querySelector('.BankSelector .plus')
+
+      ButtonMinus.addEventListener('click', e => {
+        e.preventDefault()
+        let Father = e.target.closest('svg')
+        if (Father.previousSibling !== null && Father.previousSibling.nodeName !== 'svg') {
+          Message({ ok: `<em>First Bank!</em>` })
+        } else {
+          Father.classList.add('hideButPrint')
+          Father.previousSibling.classList.remove('hideButPrint')
+        }
+      })
+      ButtonPlus.addEventListener('click', e => {
+        e.preventDefault()
+        let Father = e.target.closest('svg')
+        if (Father.nextSibling == null || Father.nextSibling.nodeName !== 'svg') {
+          Message({ ok: `<em>Last Bank!</em>` })
+        } else {
+          Father.classList.add('hideButPrint')
+          Father.nextSibling.classList.remove('hideButPrint')
+        }
+      })
+    }
+  }
+}
+
 const GetCuelistProperties = Cuelist => {
   let Content = []
   if (Cuelist.PriorityLevel) {
@@ -298,45 +335,13 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
     let divOverflow = document.createElement('div')
     divOverflow.className = 'overflow'
     divOverflow.appendChild(await Console.MTouch())
+    divOverflow.appendChild(await Console.MPlay())
     PlaybackContent.appendChild(divOverflow)
     DisplaySetLoaded('Playback', false)
     CurrentTable.querySelectorAll('a').forEach(element => CuelistClick(element))
     PlaybackContent.querySelectorAll('a').forEach(element => CuelistClick(element, true))
-
-    let MTouchDiv = PlaybackContent.querySelector('.M-Touch')
-    let MTouchSVG = MTouchDiv.querySelectorAll('svg')
-    let NumberofMTouch = MTouchSVG.length
-    if (NumberofMTouch > 1) {
-      for(let i=0; i < NumberofMTouch; i++) {
-        let CurrentConsole = MTouchSVG[i]
-        if (i > 0) {
-          CurrentConsole.classList.add('hideButPrint')
-        }
-        let ButtonMinus = CurrentConsole.querySelector('.BankSelector .minus')
-        let ButtonPlus = CurrentConsole.querySelector('.BankSelector .plus')
-
-        ButtonMinus.addEventListener('click', e => {
-          e.preventDefault()
-          let Father = e.target.closest('svg')
-          if (Father.previousSibling !== null && Father.previousSibling.nodeName !== 'svg') {
-            Message({ ok: `<em>First Bank!</em>` })
-          } else {
-            Father.classList.add('hideButPrint')
-            Father.previousSibling.classList.remove('hideButPrint')
-          }
-        })
-        ButtonPlus.addEventListener('click', e => {
-          e.preventDefault()
-          let Father = e.target.closest('svg')
-          if (Father.nextSibling == null || Father.nextSibling.nodeName !== 'svg') {
-            Message({ ok: `<em>Last Bank!</em>` })
-          } else {
-            Father.classList.add('hideButPrint')
-            Father.nextSibling.classList.remove('hideButPrint')
-          }
-        })
-      }
-    }
+    ConsolePaging(PlaybackContent, '.M-Touch')
+    ConsolePaging(PlaybackContent, '.M-Play')
   }
   // Add Sort function on table
   Sortable(CurrentTable)
