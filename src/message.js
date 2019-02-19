@@ -11,6 +11,15 @@ export default message => {
   let Footer = document.querySelector('footer')
   let FooterDisplay = false
 
+  const ShowFooter = () => {
+    Footer.classList.add('fade')
+    Footer.style.width = 'inherit'
+  }
+  const HideFooter = () => {
+    Footer.classList.remove('fade')
+    Footer.style.width = 0
+  }
+
   if (message.error) {
     Footer.setAttribute('class', 'btn--danger')
     Footer.innerHTML = message.error
@@ -25,13 +34,13 @@ export default message => {
     FooterDisplay = true
   }
   if (FooterDisplay) {
-    Footer.classList.add('fade')
-    let AutoHideFooter = setTimeout(() => { Footer.classList.remove('fade') }, 5000)
+    ShowFooter()
+    let AutoHideFooter = setTimeout(() => { HideFooter() }, 5000)
     Footer.addEventListener('click', () => {
       if (typeof AutoHideFooter !== 'undefined') {
         clearTimeout(AutoHideFooter)
       }
-      Footer.classList.remove('fade')
+      HideFooter()
     })
     Footer.addEventListener('mouseover', () => {
       if (typeof AutoHideFooter !== 'undefined') {

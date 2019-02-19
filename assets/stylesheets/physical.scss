@@ -1,82 +1,93 @@
-$TouchBackColor: rgb(178, 180, 179);
+.M-Touch,
+.M-Play {
+  & h2 em {
+    font-size: 0.6em;
+  }
+  & svg {
+    display: $console-svg-display;
+    width: $console-svg-width;
+    max-width: 1000px;
+    margin: 0.5em auto;
+    color: transparent;
+    text-shadow: 1px 1px 10px rgba($header-color, 0.5);
+    .BankSelector {
+      .minus,
+      .plus {
+        cursor: pointer;
+      }
+    }
+    & h2 em {
+      font-size: 0.8em;
+    }
+    & a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .FaderLed {
+      fill:currentColor
+    }
+    .Cuelist-Box {
+      font-size:8.36090279px;
+      fill:currentColor;
+      line-height:125%;
+      fill-opacity:1;
+      & tspan {
+        text-align: center;
+        text-anchor: middle;
+      }
+    }
+    .Cuelist-Line {
+      text-align:center;
+      text-anchor:middle;
+      stroke-width:.20902258px
+    }
+    .BlackAverageButton,
+    .BlackLargeButton,
+    .BlackSquare,
+    .EncoderFader,
+    .GreyButton {
+      opacity:1;
+      stroke-linejoin:round;
+      stroke-opacity:1;
+      fill-opacity:1;
+      stroke:#000;
+      stroke-miterlimit:4;
+      stroke-dasharray:none;
+      stroke-width:1;
+      fill:#000
+    }
+    .GreyButton{
+      stroke-dashoffset:0;
+      stroke:#515151;
+      stroke-linecap:butt;
+      fill:#eaeaea
+    }
+  }
+}
+.Type-Cuelist {
+  color: lighten($CuelistType-Cuelist-From, 20%)
+}
+.Type-Groupmaster,
+.Type-Inhibitive {
+  color: lighten($CuelistType-Inhibitive-From, 20%)
+}
 
-.Button.Empty {
-  & .SButton {
-    background-image: none;
-    border: 2px solid transparent;
-    background-color: inherit;
-  }
-}
-.MPlay .Fader .SButton.ButtonBottom {
-  background-image: none;
-  border: 2px solid transparent;
-  background-color: inherit;
+.Type-Override {
+  color: lighten($CuelistType-Override-From, 20%)
+}   
+
+.Type-Submaster {
+  color: lighten($CuelistType-Groupmaster-From, 20%)
 }
 
-.SButton,
-.SFader {
-  position: relative;
-  width: 100%;
-  text-align: center;
-  border: 2px outset $TouchBackColor;
-  border-radius: 5px;
-  background-color: $black;
-  >.content {
-    position:  absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-  }
-  &:before{
-    content: '';
-    display: block;
-    padding-top: 100%;
-  }
-  & a {
-    color: inherit;
-  }
-  &.ButtonTop,
-  &.ButtonTopTop {
-    background-image: initial !important;
-  }
-  &.ButtonBottom,
-  &.ButtonBottomBottom {
-    background-color: darken($white, 5%);
-  }
+.Type-Timecode {
+  color: lighten($CuelistType-Timecode-From, 20%)
 }
-.SFader {
-  background-image: linear-gradient(180deg, transparent, lighten($header-color, 10%), $header-color);
-  background-position: 5%;
-  background-repeat: repeat-y;
-  background-size: 20% auto;
-  &:before {
-    padding-top: 184%;
-  }
-  &.Type-Cuelist {
-    background-image: linear-gradient(180deg, transparent, lighten($CuelistType-Cuelist-From, 30%), $CuelistType-Cuelist-To);
-  }
-  &.Type-Inhibitive {
-    background-image: linear-gradient(180deg, transparent, lighten($CuelistType-Inhibitive-From, 30%), $CuelistType-Inhibitive-To);
-  }
-  &.Type-Override {
-    background-image: linear-gradient(180deg, transparent, lighten($CuelistType-Override-From, 30%), $CuelistType-Override-To);
-  }
-  &.Type-Groupmaster,
-  &.Type-Submaster {
-    background-image: linear-gradient(180deg, transparent, lighten($CuelistType-Groupmaster-From, 30%), $CuelistType-Groupmaster-To);
-  }
-  &.Type-Timecode {
-    background-image: linear-gradient(180deg, transparent, lighten($CuelistType-Timecode-From, 30%), $CuelistType-Timecode-To);
-  }
-  &.Type-Chase {
-    background-image: linear-gradient(180deg, transparent, lighten($CuelistType-Chase-From, 30%), $CuelistType-Chase-To);
-  }
+
+.Type-Chase {
+  color: lighten($CuelistType-Chase-From, 20%)
 }
-.MTouch,
-.MPlay,
-.Nx2 {
-  border: 2px solid $header-color;
-  border-radius: 2px;
-  background-color: $TouchBackColor;
+.Bank,
+.BankSub {
+  font-family: 'Digital 7';
 }

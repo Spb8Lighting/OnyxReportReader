@@ -13,6 +13,8 @@ $aside-width: 100px;
 $advertisement-svg-height: 400px;
 $table-width: 100%;
 $nav-svg-width-height: 5rem;
+$console-svg-width: 100%;
+$console-svg-display: initial;
 $header-color: #262626!default;
 
 $Onyx-Color1: #5AC8FA;
@@ -63,6 +65,8 @@ $CuelistType-Chase: linear-gradient($CuelistType-Chase-From, $CuelistType-Chase-
 }
 
 @media print {
+  $console-svg-width: 85%;
+  $console-svg-display: block;
   @import 'print';
   @import 'physical';
 }

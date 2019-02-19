@@ -151,9 +151,7 @@ article {
 [data-type="Cuelist"] h3 {
     background-image: $CuelistType-Cuelist;
 }
-.Type-Groupmaster,
 .Type-Submaster,
-[data-type="Groupmaster"] h3,
 [data-type="Submaster"] h3 {
     background-image: $CuelistType-Groupmaster;
 }
@@ -161,7 +159,9 @@ article {
 [data-type="Chase"] h3 {
     background-image: $CuelistType-Chase;
 }
+.Type-Groupmaster,
 .Type-Inhibitive,
+[data-type="Groupmaster"] h3,
 [data-type="Inhibitive"] h3 {
     background-image: $CuelistType-Inhibitive;
 }
@@ -297,7 +297,7 @@ span[data-title]:focus::after {
 }
 .hideButPrint,
 .hide {
-    display: none;
+    display: none!important;
 }
 .rowspan {
     visibility: hidden;
