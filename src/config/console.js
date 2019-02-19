@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="612.5" height="304.5">
+export const MTouch = {
+  SVG: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612.5 304.5">
   <style>
     .FaderLed{fill:currentColor}.Cuelist-Box{font-size:8.36090279px;fill:currentColor;line-height:125%;fill-opacity:1}.Cuelist-Line{text-align:center;text-anchor:middle;stroke-width:.20902258px}.BlackAverageButton,.BlackLargeButton,.BlackSquare,.EncoderFader,.GreyButton{opacity:1;stroke-linejoin:round;stroke-opacity:1;fill-opacity:1;stroke:#000;stroke-miterlimit:4;stroke-dasharray:none;stroke-width:1;fill:#000}.GreyButton{vector-effect:none;stroke-dashoffset:0;stroke:#515151;stroke-linecap:butt;fill:#eaeaea}
   </style>
@@ -28,8 +29,8 @@
   <rect width="29.1" height="28.8" x="486.6" y="66.5" stroke="#000" stroke-linejoin="round" class="BlackSquare" ry="4"/>
   <rect width="29.1" height="28.8" x="518.8" y="66.5" stroke="#000" stroke-linejoin="round" class="BlackSquare" ry="4"/>
   <rect width="29.1" height="28.8" x="551" y="66.5" stroke="#000" stroke-linejoin="round" class="BlackSquare" ry="4"/>
-  <text x="43.7" y="41.8" fill="#009bff" class="Bank" font-family="sans-serif" font-weight="400" letter-spacing="0" transform="scale(1.0095 .99058)" word-spacing="0">
-    <tspan x="43.7" y="41.8" font-family="Digital-7" font-size="24.5" style="line-height:1.25;text-align:center" text-anchor="middle">001</tspan>
+  <text x="43.7" y="41.8" fill="#009bff" class="Bank" font-weight="400" letter-spacing="0" transform="scale(1.0095 .99058)" word-spacing="0">
+    <tspan x="43.7" y="41.8" font-size="24.5" style="line-height:1.25;text-align:center;" text-anchor="middle">001</tspan>
   </text>
   <g>
     <path fill="#fff" d="M37.7 72.2H25.5v-1.6h12.2z"/>
@@ -120,9 +121,9 @@
       <ellipse cx="83.6" cy="194.1" class="FaderLed" rx="2.9" ry="3.4"/>
     </g>
     <text x="86.2" y="256.2" fill="currentColor" class="Cuelist1 Cuelist-Box" font-size="8.4" style="line-height:125%" transform="scale(1.07249 .93241)">
-      <tspan x="86.2" y="256.2" class="Cuelist1-1 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 1</tspan>
-      <tspan x="86.2" y="266.6" class="Cuelist1-2 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 2</tspan>
-      <tspan x="86.2" y="277.1" class="Cuelist1-3 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 3</tspan>
+      <tspan x="86.2" y="256.2" class="Cuelist1-1 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="86.2" y="266.6" class="Cuelist1-2 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="86.2" y="277.1" class="Cuelist1-3 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
     </text>
   </g>
   <g class="Fader2">
@@ -144,9 +145,9 @@
       <ellipse cx="83.6" cy="194.1" class="FaderLed" rx="2.9" ry="3.4"/>
     </g>
     <text x="116.3" y="256.2" fill="currentColor" class="Cuelist2 Cuelist-Box" font-size="8.4" style="line-height:125%" transform="scale(1.07249 .93241)">
-      <tspan x="116.3" y="256.2" class="Cuelist2-1 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 1</tspan>
-      <tspan x="116.3" y="266.6" class="Cuelist2-2 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 2</tspan>
-      <tspan x="116.3" y="277.1" class="Cuelist3-1 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 3</tspan>
+      <tspan x="116.3" y="256.2" class="Cuelist2-1 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="116.3" y="266.6" class="Cuelist2-2 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="116.3" y="277.1" class="Cuelist3-1 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
     </text>
   </g>
   <g class="Fader3">
@@ -168,9 +169,9 @@
       <ellipse cx="83.6" cy="194.1" class="FaderLed" rx="2.9" ry="3.4"/>
     </g>
     <text x="146.5" y="256.2" fill="currentColor" class="Cuelist3 Cuelist-Box" font-size="8.4" style="line-height:125%" transform="scale(1.07249 .93241)">
-      <tspan x="146.5" y="256.2" class="Cuelist3-1 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 1</tspan>
-      <tspan x="146.5" y="266.6" class="Cuelist3-2 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 2</tspan>
-      <tspan x="146.5" y="277.1" class="Cuelist3-3 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 3</tspan>
+      <tspan x="146.5" y="256.2" class="Cuelist3-1 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="146.5" y="266.6" class="Cuelist3-2 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="146.5" y="277.1" class="Cuelist3-3 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
     </text>
   </g>
   <g class="Fader4">
@@ -192,9 +193,9 @@
       <ellipse cx="83.6" cy="194.1" class="FaderLed" rx="2.9" ry="3.4"/>
     </g>
     <text x="176.7" y="256.2" fill="currentColor" class="Cuelist4 Cuelist-Box" font-size="8.4" style="line-height:125%" transform="scale(1.07249 .93241)">
-      <tspan x="176.7" y="256.2" class="Cuelist4-1 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 1</tspan>
-      <tspan x="176.7" y="266.6" class="Cuelist4-2 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 2</tspan>
-      <tspan x="176.7" y="277.1" class="Cuelist4-3 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 3</tspan>
+      <tspan x="176.7" y="256.2" class="Cuelist4-1 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="176.7" y="266.6" class="Cuelist4-2 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="176.7" y="277.1" class="Cuelist4-3 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
     </text>
   </g>
   <g class="Fader5">
@@ -216,9 +217,9 @@
       <ellipse cx="83.6" cy="194.1" class="FaderLed" rx="2.9" ry="3.4"/>
     </g>
     <text x="206.9" y="256.2" fill="currentColor" class="Cuelist5 Cuelist-Box" font-size="8.4" style="line-height:125%" transform="scale(1.07249 .93241)">
-      <tspan x="206.9" y="256.2" class="Cuelist5-1 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 1</tspan>
-      <tspan x="206.9" y="266.6" class="Cuelist5-2 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 2</tspan>
-      <tspan x="206.9" y="277.1" class="Cuelist5-3 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 3</tspan>
+      <tspan x="206.9" y="256.2" class="Cuelist5-1 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="206.9" y="266.6" class="Cuelist5-2 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="206.9" y="277.1" class="Cuelist5-3 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
     </text>
   </g>
   <g class="Fader6">
@@ -240,9 +241,9 @@
       <ellipse cx="83.6" cy="194.1" class="FaderLed" rx="2.9" ry="3.4"/>
     </g>
     <text x="237.2" y="256.2" fill="currentColor" class="Cuelist6 Cuelist-Box" font-size="8.4" style="line-height:125%" transform="scale(1.07249 .93241)">
-      <tspan x="237.2" y="256.2" class="Cuelist6-1 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 1</tspan>
-      <tspan x="237.2" y="266.6" class="Cuelist6-2 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 2</tspan>
-      <tspan x="237.2" y="277.1" class="Cuelist6-3 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 3</tspan>
+      <tspan x="237.2" y="256.2" class="Cuelist6-1 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="237.2" y="266.6" class="Cuelist6-2 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="237.2" y="277.1" class="Cuelist6-3 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
     </text>
   </g>
   <g class="Fader7">
@@ -264,9 +265,9 @@
       <ellipse cx="83.6" cy="194.1" class="FaderLed" rx="2.9" ry="3.4"/>
     </g>
     <text x="267.4" y="256.2" fill="currentColor" class="Cuelist7 Cuelist-Box" font-size="8.4" style="line-height:125%" transform="scale(1.07249 .93241)">
-      <tspan x="267.4" y="256.2" class="Cuelist7-1 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 1</tspan>
-      <tspan x="267.4" y="266.6" class="Cuelist7-2 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 2</tspan>
-      <tspan x="267.4" y="277.1" class="Cuelist7-3 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 3</tspan>
+      <tspan x="267.4" y="256.2" class="Cuelist7-1 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="267.4" y="266.6" class="Cuelist7-2 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="267.4" y="277.1" class="Cuelist7-3 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
     </text>
   </g>
   <g class="Fader8">
@@ -288,9 +289,9 @@
       <ellipse cx="83.6" cy="194.1" class="FaderLed" rx="2.9" ry="3.4"/>
     </g>
     <text x="297.6" y="256.2" fill="currentColor" class="Cuelist8 Cuelist-Box" font-size="8.4" style="line-height:125%" transform="scale(1.07249 .93241)">
-      <tspan x="297.6" y="256.2" class="Cuelist8-1 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 1</tspan>
-      <tspan x="297.6" y="266.6" class="Cuelist8-2 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 2</tspan>
-      <tspan x="297.6" y="277.1" class="Cuelist8-3 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 3</tspan>
+      <tspan x="297.6" y="256.2" class="Cuelist8-1 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="297.6" y="266.6" class="Cuelist8-2 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="297.6" y="277.1" class="Cuelist8-3 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
     </text>
   </g>
   <g class="Fader9">
@@ -312,9 +313,9 @@
       <ellipse cx="83.6" cy="194.1" class="FaderLed" rx="2.9" ry="3.4"/>
     </g>
     <text x="327.8" y="256.2" fill="currentColor" class="Cuelist9 Cuelist-Box" font-size="8.4" style="line-height:125%" transform="scale(1.07249 .93241)">
-      <tspan x="327.8" y="256.2" class="Cuelist9-1 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 1</tspan>
-      <tspan x="327.8" y="266.6" class="Cuelist9-2 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 2</tspan>
-      <tspan x="327.8" y="277.1" class="Cuelist9-3 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 3</tspan>
+      <tspan x="327.8" y="256.2" class="Cuelist9-1 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="327.8" y="266.6" class="Cuelist9-2 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="327.8" y="277.1" class="Cuelist9-3 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
     </text>
   </g>
   <g class="Fader10">
@@ -336,89 +337,90 @@
       <ellipse cx="83.6" cy="194.1" class="FaderLed" rx="2.9" ry="3.4"/>
     </g>
     <text x="358" y="256.2" fill="currentColor" class="Cuelist10 Cuelist-Box" font-size="8.4" style="line-height:125%" transform="scale(1.07249 .93241)">
-      <tspan x="358" y="256.2" class="Cuelist10-1 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 1</tspan>
-      <tspan x="358" y="266.6" class="Cuelist10-2 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 2</tspan>
-      <tspan x="358" y="277.1" class="Cuelist10-3 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 3</tspan>
+      <tspan x="358" y="256.2" class="Cuelist10-1 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="358" y="266.6" class="Cuelist10-2 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="358" y="277.1" class="Cuelist10-3 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
     </text>
   </g>
   <g class="Fader11">
     <rect width="29.1" height="28.8" x="404" y="102.1" fill="#eaeaea" stroke="#515151" stroke-linejoin="round" class="GreyButton" ry="4"/>
     <text x="390.1" y="117.5" fill="currentColor" class="Cuelist11 Cuelist-Box" font-size="8.4" style="line-height:125%" transform="scale(1.07249 .93241)">
-      <tspan x="390.1" y="117.5" class="Cuelist11-1 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 1</tspan>
-      <tspan x="390.1" y="127.9" class="Cuelist11-2 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 2</tspan>
-      <tspan x="390.1" y="138.4" class="Cuelist11-3 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 3</tspan>
+      <tspan x="390.1" y="117.5" class="Cuelist11-1 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="390.1" y="127.9" class="Cuelist11-2 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="390.1" y="138.4" class="Cuelist11-3 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
     </text>
   </g>
   <g class="Fader12">
     <rect width="29.1" height="28.8" x="436.8" y="102.1" fill="#eaeaea" stroke="#515151" stroke-linejoin="round" class="Cuelist-Box GreyButton" font-size="8.4" ry="4" style="line-height:125%"/>
     <text x="420.7" y="117.5" fill="currentColor" class="Cuelist12 Cuelist-Box" font-size="8.4" style="line-height:125%" transform="scale(1.07249 .93241)">
-      <tspan x="420.7" y="117.5" class="Cuelist12-1 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 1</tspan>
-      <tspan x="420.7" y="127.9" class="Cuelist12-2 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 2</tspan>
-      <tspan x="420.7" y="138.4" class="Cuelist12-3 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 3</tspan>
+      <tspan x="420.7" y="117.5" class="Cuelist12-1 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="420.7" y="127.9" class="Cuelist12-2 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="420.7" y="138.4" class="Cuelist12-3 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
     </text>
   </g>
   <g class="Fader13">
     <rect width="29.1" height="28.8" x="404" y="134.4" fill="#eaeaea" stroke="#515151" stroke-linejoin="round" class="GreyButton" ry="4"/>
     <text x="390.1" y="152.1" fill="currentColor" class="Cuelist13 Cuelist-Box" font-size="8.4" style="line-height:125%" transform="scale(1.07249 .93241)">
-      <tspan x="390.1" y="152.1" class="Cuelist13-1 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 1</tspan>
-      <tspan x="390.1" y="162.5" class="Cuelist13-2 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 2</tspan>
-      <tspan x="390.1" y="173" class="Cuelist13-3 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 3</tspan>
+      <tspan x="390.1" y="152.1" class="Cuelist13-1 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="390.1" y="162.5" class="Cuelist13-2 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="390.1" y="173" class="Cuelist13-3 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
     </text>
   </g>
   <g class="Fader14">
     <rect width="29.1" height="28.8" x="436.8" y="134.4" fill="#eaeaea" stroke="#515151" stroke-linejoin="round" class="GreyButton" ry="4"/>
     <text x="420.7" y="152.1" fill="currentColor" class="Cuelist14 Cuelist-Box" font-size="8.4" style="line-height:125%" transform="scale(1.07249 .93241)">
-      <tspan x="420.7" y="152.1" class="Cuelist14-1 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 1</tspan>
-      <tspan x="420.7" y="162.5" class="Cuelist14-2 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 2</tspan>
-      <tspan x="420.7" y="173" class="Cuelist14-3 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 3</tspan>
+      <tspan x="420.7" y="152.1" class="Cuelist14-1 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="420.7" y="162.5" class="Cuelist14-2 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="420.7" y="173" class="Cuelist14-3 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
     </text>
   </g>
   <g class="Fader15">
     <rect width="29.1" height="28.8" x="404" y="166.6" fill="#eaeaea" stroke="#515151" stroke-linejoin="round" class="GreyButton" ry="4"/>
     <text x="390.1" y="186.7" fill="currentColor" class="Cuelist15 Cuelist-Box" font-size="8.4" style="line-height:125%" transform="scale(1.07249 .93241)">
-      <tspan x="390.1" y="186.7" class="Cuelist15-1 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 1</tspan>
-      <tspan x="390.1" y="197.1" class="Cuelist15-2 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 2</tspan>
-      <tspan x="390.1" y="207.6" class="Cuelist15-3 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 3</tspan>
+      <tspan x="390.1" y="186.7" class="Cuelist15-1 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="390.1" y="197.1" class="Cuelist15-2 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="390.1" y="207.6" class="Cuelist15-3 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
     </text>
   </g>
   <g class="Fader16">
     <rect width="29.1" height="28.8" x="436.8" y="166.6" fill="#eaeaea" stroke="#515151" stroke-linejoin="round" class="Cuelist-Box GreyButton" font-size="8.4" ry="4" style="line-height:125%"/>
     <text x="420.7" y="186.7" fill="currentColor" class="Cuelist16 Cuelist-Box" font-size="8.4" style="line-height:125%" transform="scale(1.07249 .93241)">
-      <tspan x="420.7" y="186.7" class="Cuelist16-1 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 1</tspan>
-      <tspan x="420.7" y="197.1" class="Cuelist16-2 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 2</tspan>
-      <tspan x="420.7" y="207.6" class="Cuelist16-3 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 3</tspan>
+      <tspan x="420.7" y="186.7" class="Cuelist16-1 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="420.7" y="197.1" class="Cuelist16-2 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="420.7" y="207.6" class="Cuelist16-3 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
     </text>
   </g>
   <g class="Fader17">
     <rect width="29.1" height="28.8" x="404" y="198.9" fill="#eaeaea" stroke="#515151" stroke-linejoin="round" class="GreyButton" ry="4"/>
     <text x="390.1" y="221.3" fill="currentColor" class="Cuelist17 Cuelist-Box" font-size="8.4" style="line-height:125%" transform="scale(1.07249 .93241)">
-      <tspan x="390.1" y="221.3" class="Cuelist17-1 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 1</tspan>
-      <tspan x="390.1" y="231.7" class="Cuelist17-2 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 2</tspan>
-      <tspan x="390.1" y="242.2" class="Cuelist17-3 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 3</tspan>
+      <tspan x="390.1" y="221.3" class="Cuelist17-1 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="390.1" y="231.7" class="Cuelist17-2 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="390.1" y="242.2" class="Cuelist17-3 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
     </text>
   </g>
   <g class="Fader18">
     <rect width="29.1" height="28.8" x="436.8" y="198.9" fill="#eaeaea" stroke="#515151" stroke-linejoin="round" class="Cuelist-Box GreyButton" font-size="8.4" ry="4" style="line-height:125%"/>
     <text x="420.7" y="221.3" fill="currentColor" class="Cuelist18 Cuelist-Box" font-size="8.4" style="line-height:125%" transform="scale(1.07249 .93241)">
-      <tspan x="420.7" y="221.3" class="Cuelist18-1 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 1</tspan>
-      <tspan x="420.7" y="231.7" class="Cuelist18-2 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 2</tspan>
-      <tspan x="420.7" y="242.2" class="Cuelist18-3 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 3</tspan>
+      <tspan x="420.7" y="221.3" class="Cuelist18-1 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="420.7" y="231.7" class="Cuelist18-2 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="420.7" y="242.2" class="Cuelist18-3 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
     </text>
   </g>
   <g class="Fader19">
     <rect width="29.1" height="28.8" x="404" y="231.1" fill="#eaeaea" stroke="#515151" stroke-linejoin="round" class="GreyButton" ry="4"/>
     <text x="390.1" y="255.9" fill="currentColor" class="Cuelist19 Cuelist-Box" font-size="8.4" style="line-height:125%" transform="scale(1.07249 .93241)">
-      <tspan x="390.1" y="255.9" class="Cuelist19-1 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 1</tspan>
-      <tspan x="390.1" y="266.3" class="Cuelist19-2 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 2</tspan>
-      <tspan x="390.1" y="276.8" class="Cuelist19-3 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 3</tspan>
+      <tspan x="390.1" y="255.9" class="Cuelist19-1 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="390.1" y="266.3" class="Cuelist19-2 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="390.1" y="276.8" class="Cuelist19-3 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
     </text>
   </g>
   <g class="Fader20">
     <rect width="29.1" height="28.8" x="436.8" y="231.1" fill="#eaeaea" stroke="#515151" stroke-linejoin="round" class="GreyButton" ry="4"/>
     <text x="420.7" y="255.9" fill="currentColor" class="Cuelist20 Cuelist-Box" font-size="8.4" style="line-height:125%" transform="scale(1.07249 .93241)">
-      <tspan x="420.7" y="255.9" class="Cuelist20-1 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 1</tspan>
-      <tspan x="420.7" y="266.3" class="Cuelist20-2 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 2</tspan>
-      <tspan x="420.7" y="276.8" class="Cuelist20-3 Cuelist-Line" style="text-align:center" text-anchor="middle">Line 3</tspan>
+      <tspan x="420.7" y="255.9" class="Cuelist20-1 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="420.7" y="266.3" class="Cuelist20-2 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
+      <tspan x="420.7" y="276.8" class="Cuelist20-3 Cuelist-Line" style="text-align:center" text-anchor="middle"></tspan>
     </text>
   </g>
-</svg>
+</svg>`
+}

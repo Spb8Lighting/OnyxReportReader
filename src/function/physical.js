@@ -1,5 +1,14 @@
 import { Db, Get as DbGet } from './../database'
 import { Cuelist as OptionCuelist } from './../config/option'
+import * as Consoles from './../config/console'
+
+const TriDigit = val => {
+  var v = val
+  while ((v + '').length < 3) {
+    v = '0' + v
+  }
+  return v
+}
 const CreateButton = (Class, Cuelist) => {
   let NewClass = Class
   if (OptionCuelist.AlternativePlaybackBack && typeof Cuelist === 'object') {
@@ -116,46 +125,47 @@ export const Console = {
     return Db.transaction('r', Db.Cuelist, Db.Physical, async () => {
       let Prefix = 'MainPlaybackFader'
       let ListOfBanks = await Db.Physical.where('TypePageBank').startsWith(Prefix).uniqueKeys()
-      let MTouch = []
-      MTouch.push('<h2>M-Touch</h2><div class="grid-1 has-gutter">')
-
+      let MTouch = document.createElement('div')
+      MTouch.className = 'M-Touch'
+      let MTouchH2 = document.createElement('h2')
+      MTouchH2.innerHTML = 'M-Touch'
+      MTouch.appendChild(MTouchH2)
+      let parser = new DOMParser()
       for (let z = 0; z < ListOfBanks.length; z++) {
-        let Faders = await DbGet({ Object: 'Physical', Index: 'TypePageBank', ItemID: ListOfBanks[z] })
-        let ActualBankName = Faders.PageBankName ? Faders.PageBankName : `Bank ${z + 1}`
-        MTouch.push(`<div>`)
-        MTouch.push(`<h3>${ActualBankName}</h3>`)
-        // Generate Faders
-        MTouch.push('<div class="MTouch grid-12 has-gutter">')
-        MTouch.push(`<div class="grid-10 col-10">`)
-        for (let i = 1; i <= 10; i++) {
+        let NewMTouch = parser.parseFromString(Consoles.MTouch.SVG, 'image/svg+xml')
+        NewMTouch.querySelector('.Bank tspan').innerHTML = TriDigit(z + 1)
+
+        for (let i = 1; i <= 20; i++) {
           let CurrentFader = await DbGet({ Object: 'Physical', Index: 'TypePageBankPosition', ItemID: `${ListOfBanks[z]}-${i}` })
           if (CurrentFader) {
             let Cuelist = await DbGet({ Object: 'Cuelist', Index: 'ID', ItemID: CurrentFader.CuelistID })
-            Cuelist.FaderID = i
-            MTouch.push(`<div class="Fader">${Fader.Touch.Fader(Cuelist)}</div>`)
-          } else {
-            MTouch.push(`<div class="Fader">${Fader.Touch.Fader(i)}</div>`)
+            CurrentFader = NewMTouch.querySelector(`.Fader${i}`)
+            if (typeof Cuelist === 'object') {
+              CurrentFader.classList.add(`Type-${Cuelist.Type}`)
+              if (Cuelist.Name.length > 6) {
+                let CuelistSplit = Cuelist.Name.split(' ')
+                if (CuelistSplit.length > 1) {
+                  if (CuelistSplit[0]) {
+                    CurrentFader.querySelector(`tspan.Cuelist${i}-1`).innerHTML = `<a href="#Cuelist-${Cuelist.ID}">${CuelistSplit[0]}</a>`
+                  }
+                  if (CuelistSplit[1]) {
+                    CurrentFader.querySelector(`tspan.Cuelist${i}-2`).innerHTML = `<a href="#Cuelist-${Cuelist.ID}">${CuelistSplit[1]}</a>`
+                  }
+                  if (CuelistSplit[2]) {
+                    CurrentFader.querySelector(`tspan.Cuelist${i}-3`).innerHTML = `<a href="#Cuelist-${Cuelist.ID}">${CuelistSplit[2]}</a>`
+                  }
+                } else {
+                  CurrentFader.querySelector(`tspan.Cuelist${i}-2`).innerHTML = `<a href="#Cuelist-${Cuelist.ID}">${Cuelist.Name}</a>`
+                }
+              } else {
+                CurrentFader.querySelector(`tspan.Cuelist${i}-2`).innerHTML = `<a href="#Cuelist-${Cuelist.ID}">${Cuelist.Name}</a>`
+              }
+            }
           }
         }
-        MTouch.push('</div>')
-        MTouch.push(`<div class="grid-2 col-2">`)
-        // Generate buttons
-        for (let i = 11; i <= 20; i++) {
-          let CurrentFader = await DbGet({ Object: 'Physical', Index: 'TypePageBankPosition', ItemID: `${ListOfBanks[z]}-${i}` })
-          if (CurrentFader) {
-            let Cuelist = await DbGet({ Object: 'Cuelist', Index: 'ID', ItemID: CurrentFader.CuelistID })
-            Cuelist.FaderID = i
-            MTouch.push(`<div class="Button">${Fader.Touch.Button(Cuelist)}</div>`)
-          } else {
-            MTouch.push(`<div class="Button">${Fader.Touch.Button(i)}</div>`)
-          }
-        }
-        MTouch.push('</div>')
-        MTouch.push('</div>')
-        MTouch.push('</div>')
+        MTouch.appendChild(NewMTouch.documentElement)
       }
-      MTouch.push('</div>')
-      return MTouch.join('')
+      return MTouch
     })
   },
   MPlay: async () => {
