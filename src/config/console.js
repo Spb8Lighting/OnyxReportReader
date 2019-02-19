@@ -367,7 +367,7 @@ export const MPlay = {
      <text x="116.3" y="256.2" fill="currentColor" class="Cuelist14 Cuelist-Box" font-size="8.36" style="line-height:125%" transform="scale(1.07249 .93241)">
         <tspan x="116.3" y="256.2" class="Cuelist14-1"></tspan>
         <tspan x="116.3" y="266.6" class="Cuelist14-2"></tspan>
-        <tspan x="116.3" y="277.1" class="Cuelist14-1"></tspan>
+        <tspan x="116.3" y="277.1" class="Cuelist14-3"></tspan>
      </text>
   </g>
   <g class="Fader15">
