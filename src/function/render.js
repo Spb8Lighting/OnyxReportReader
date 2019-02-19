@@ -301,6 +301,41 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
     DisplaySetLoaded('Playback', false)
     CurrentTable.querySelectorAll('a').forEach(element => CuelistClick(element))
     PlaybackContent.querySelectorAll('a').forEach(element => CuelistClick(element, true))
+
+    let MTouchDiv = PlaybackContent.querySelector('.M-Touch')
+    let MTouchSVG = MTouchDiv.querySelectorAll('svg')
+    let NumberofMTouch = MTouchSVG.length
+    if (NumberofMTouch > 1) {
+      for(let i=0; i < NumberofMTouch; i++) {
+        let CurrentConsole = MTouchSVG[i]
+        if (i > 0) {
+          CurrentConsole.classList.add('hideButPrint')
+        }
+        let ButtonMinus = CurrentConsole.querySelector('.BankSelector .minus')
+        let ButtonPlus = CurrentConsole.querySelector('.BankSelector .plus')
+
+        ButtonMinus.addEventListener('click', e => {
+          e.preventDefault()
+          let Father = e.target.closest('svg')
+          if (Father.previousSibling !== null && Father.previousSibling.nodeName !== 'svg') {
+            console.log('First Bank')
+          } else {
+            Father.classList.add('hideButPrint')
+            Father.previousSibling.classList.remove('hideButPrint')
+          }
+        })
+        ButtonPlus.addEventListener('click', e => {
+          e.preventDefault()
+          let Father = e.target.closest('svg')
+          if (Father.nextSibling == null || Father.nextSibling.nodeName !== 'svg') {
+            console.log('Last Bank')
+          } else {
+            Father.classList.add('hideButPrint')
+            Father.nextSibling.classList.remove('hideButPrint')
+          }
+        })
+      }
+    }
   }
   // Add Sort function on table
   Sortable(CurrentTable)
