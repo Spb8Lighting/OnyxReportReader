@@ -6,6 +6,7 @@
   & svg {
     display: $console-svg-display;
     width: $console-svg-width;
+    max-width: 1000px;
     margin: 0.5em auto;
     color: transparent;
     text-shadow: 1px 1px 10px rgba($header-color, 0.5);
