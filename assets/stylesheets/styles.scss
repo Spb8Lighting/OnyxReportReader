@@ -65,7 +65,7 @@ $CuelistType-Chase: linear-gradient($CuelistType-Chase-From, $CuelistType-Chase-
 }
 
 @media print {
-  $console-svg-width: 90%;
+  $console-svg-width: 85%;
   $console-svg-display: block;
   @import 'print';
   @import 'physical';
