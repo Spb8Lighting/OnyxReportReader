@@ -87,6 +87,8 @@ const Fader = {
   }
 }
 
+const UcWords = s => s && s[0].toUpperCase() + s.slice(1).toLowerCase()
+
 export const Console = {
   Nx2: async () => {
     return Db.transaction('r', Db.Cuelist, Db.Physical, async () => {
@@ -134,6 +136,7 @@ export const Console = {
       for (let z = 0; z < ListOfBanks.length; z++) {
         let NewMTouch = parser.parseFromString(Consoles.MTouch.SVG, 'image/svg+xml')
         NewMTouch.querySelector('.Bank tspan').innerHTML = TriDigit(z + 1)
+        NewMTouch.querySelector('style').remove()
 
         for (let i = 1; i <= 20; i++) {
           let CurrentFader = await DbGet({ Object: 'Physical', Index: 'TypePageBankPosition', ItemID: `${ListOfBanks[z]}-${i}` })
@@ -142,23 +145,24 @@ export const Console = {
             CurrentFader = NewMTouch.querySelector(`.Fader${i}`)
             if (typeof Cuelist === 'object') {
               CurrentFader.classList.add(`Type-${Cuelist.Type}`)
+              CurrentFader.innerHTML = `<a href="#Cuelist-${Cuelist.ID}">${CurrentFader.innerHTML}</a>`
               if (Cuelist.Name.length > 6) {
                 let CuelistSplit = Cuelist.Name.split(' ')
                 if (CuelistSplit.length > 1) {
                   if (CuelistSplit[0]) {
-                    CurrentFader.querySelector(`tspan.Cuelist${i}-1`).innerHTML = `<a href="#Cuelist-${Cuelist.ID}">${CuelistSplit[0]}</a>`
+                    CurrentFader.querySelector(`tspan.Cuelist${i}-1`).innerHTML = UcWords(CuelistSplit[0])
                   }
                   if (CuelistSplit[1]) {
-                    CurrentFader.querySelector(`tspan.Cuelist${i}-2`).innerHTML = `<a href="#Cuelist-${Cuelist.ID}">${CuelistSplit[1]}</a>`
+                    CurrentFader.querySelector(`tspan.Cuelist${i}-2`).innerHTML = UcWords(CuelistSplit[1])
                   }
                   if (CuelistSplit[2]) {
-                    CurrentFader.querySelector(`tspan.Cuelist${i}-3`).innerHTML = `<a href="#Cuelist-${Cuelist.ID}">${CuelistSplit[2]}</a>`
+                    CurrentFader.querySelector(`tspan.Cuelist${i}-3`).innerHTML = UcWords(CuelistSplit[2])
                   }
                 } else {
-                  CurrentFader.querySelector(`tspan.Cuelist${i}-2`).innerHTML = `<a href="#Cuelist-${Cuelist.ID}">${Cuelist.Name}</a>`
+                  CurrentFader.querySelector(`tspan.Cuelist${i}-2`).innerHTML = UcWords(Cuelist.Name)
                 }
               } else {
-                CurrentFader.querySelector(`tspan.Cuelist${i}-2`).innerHTML = `<a href="#Cuelist-${Cuelist.ID}">${Cuelist.Name}</a>`
+                CurrentFader.querySelector(`tspan.Cuelist${i}-2`).innerHTML = UcWords(Cuelist.Name)
               }
             }
           }

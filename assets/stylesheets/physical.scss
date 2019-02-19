@@ -1,6 +1,48 @@
 .M-Touch svg {
   width: 100%;
-  color: transparent
+  color: transparent;
+  & a {
+    color: inherit;
+  }
+  .FaderLed {
+    fill:currentColor
+  }
+  .Cuelist-Box {
+    font-size:8.36090279px;
+    fill:currentColor;
+    line-height:125%;
+    fill-opacity:1;
+    & tspan {
+      text-align: center;
+      text-anchor: middle;
+    }
+  }
+  .Cuelist-Line {
+    text-align:center;
+    text-anchor:middle;
+    stroke-width:.20902258px
+  }
+  .BlackAverageButton,
+  .BlackLargeButton,
+  .BlackSquare,
+  .EncoderFader,
+  .GreyButton {
+    opacity:1;
+    stroke-linejoin:round;
+    stroke-opacity:1;
+    fill-opacity:1;
+    stroke:#000;
+    stroke-miterlimit:4;
+    stroke-dasharray:none;
+    stroke-width:1;
+    fill:#000
+  }
+  .GreyButton{
+    stroke-dashoffset:0;
+    stroke:#515151;
+    stroke-linecap:butt;
+    fill:#eaeaea
+  }
 }
 .Type-Cuelist {
   color: lighten($CuelistType-Cuelist-From, 20%)
