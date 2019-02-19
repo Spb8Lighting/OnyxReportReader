@@ -127,13 +127,14 @@ export const Console = {
     return Db.transaction('r', Db.Cuelist, Db.Physical, async () => {
       let Prefix = 'MainPlaybackFader'
       let ListOfBanks = await Db.Physical.where('TypePageBank').startsWith(Prefix).uniqueKeys()
+      let NumberOfBanks = ListOfBanks.length
       let MTouch = document.createElement('div')
       MTouch.className = 'M-Touch'
       let MTouchH2 = document.createElement('h2')
-      MTouchH2.innerHTML = 'M-Touch'
+      MTouchH2.innerHTML = `M-Touch <em>(${NumberOfBanks} bank${NumberOfBanks>1 ? 's' : ''})</em>`
       MTouch.appendChild(MTouchH2)
       let parser = new DOMParser()
-      for (let z = 0; z < ListOfBanks.length; z++) {
+      for (let z = 0; z < NumberOfBanks; z++) {
         let NewMTouch = parser.parseFromString(Consoles.MTouch.SVG, 'image/svg+xml')
         NewMTouch.querySelector('.Bank tspan').innerHTML = TriDigit(z + 1)
         NewMTouch.querySelector('style').remove()

@@ -6,6 +6,7 @@ import { SetLoaded as DisplaySetLoaded } from './../display'
 import * as Loader from './../loader'
 import { Sortable } from './tablesorter'
 import { Console } from './physical'
+import Message from './../message'
 
 const GetCuelistProperties = Cuelist => {
   let Content = []
@@ -318,7 +319,7 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
           e.preventDefault()
           let Father = e.target.closest('svg')
           if (Father.previousSibling !== null && Father.previousSibling.nodeName !== 'svg') {
-            console.log('First Bank')
+            Message({ ok: `<em>First Bank!</em>` })
           } else {
             Father.classList.add('hideButPrint')
             Father.previousSibling.classList.remove('hideButPrint')
@@ -328,7 +329,7 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
           e.preventDefault()
           let Father = e.target.closest('svg')
           if (Father.nextSibling == null || Father.nextSibling.nodeName !== 'svg') {
-            console.log('Last Bank')
+            Message({ ok: `<em>Last Bank!</em>` })
           } else {
             Father.classList.add('hideButPrint')
             Father.nextSibling.classList.remove('hideButPrint')

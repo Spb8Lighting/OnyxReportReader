@@ -297,7 +297,7 @@ span[data-title]:focus::after {
 }
 .hideButPrint,
 .hide {
-    display: none;
+    display: none!important;
 }
 .rowspan {
     visibility: hidden;
