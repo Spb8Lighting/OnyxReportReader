@@ -258,9 +258,12 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
   let CurrentTable = LocalConfig.Article.querySelector('table')
   if (Type === 'Cuelist') {
     const CuelistClick = (element, DisplayCuelist = false) => {
-      let Target = document.querySelector(element.hash)
+      let QuerySelector = typeof element.hash !== 'undefined' ? element.hash : element.href.baseVal
+      let Target = document.querySelector(QuerySelector)
+      
       let CuelistArticle = document.getElementById('Cuelist')
       let PlaybackArticle = document.getElementById('Playback')
+      if (Target) {
       // Open Pop-in
       element.addEventListener('click', (e) => {
         e.preventDefault()
@@ -283,18 +286,21 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
         // Manage history
         window.history.pushState(null, document.title, window.location.origin)
       })
+      } else {
+        console.error('Console cuelist listener can\'t be added [Element, Target]', element)
+      }
     }
     // Show Playback
     document.querySelector('label[for="PlaybackXML"]').parentNode.classList.remove('hide')
     let PlaybackContent = document.getElementById('Playback')
-    // PlaybackContent.innerHTML = `<div class="overflow">${await Console.Nx2()}${await Console.MTouch()}${await Console.MPlay()}</div>`
+    //PlaybackContent.innerHTML = `<div class="overflow">${await Console.Nx2()}${await Console.MTouch()}${await Console.MPlay()}</div>`
     let divOverflow = document.createElement('div')
     divOverflow.className = 'overflow'
     divOverflow.appendChild(await Console.MTouch())
     PlaybackContent.appendChild(divOverflow)
     DisplaySetLoaded('Playback', false)
-    //PlaybackContent.querySelectorAll('a').forEach(element => CuelistClick(element, true))
     CurrentTable.querySelectorAll('a').forEach(element => CuelistClick(element))
+    PlaybackContent.querySelectorAll('a').forEach(element => CuelistClick(element, true))
   }
   // Add Sort function on table
   Sortable(CurrentTable)
