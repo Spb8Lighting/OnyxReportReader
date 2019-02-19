@@ -152,7 +152,7 @@ export const Console = {
       let MTouch = document.createElement('div')
       MTouch.className = 'M-Touch'
       let MTouchH2 = document.createElement('h2')
-      MTouchH2.innerHTML = `M-Touch <em>(${NumberOfBanks} bank${NumberOfBanks>1 ? 's' : ''})</em>`
+      MTouchH2.innerHTML = `M-Touch <em>(${NumberOfBanks} bank${NumberOfBanks > 1 ? 's' : ''})</em>`
       MTouch.appendChild(MTouchH2)
       let parser = new DOMParser()
       for (let z = 0; z < NumberOfBanks; z++) {
@@ -185,7 +185,7 @@ export const Console = {
       let MPlay = document.createElement('div')
       MPlay.className = 'M-Play'
       let MPlayH2 = document.createElement('h2')
-      MPlayH2.innerHTML = `M-Play <em>(${NumberOfBanks} bank${NumberOfBanks>1 ? 's' : ''})</em>`
+      MPlayH2.innerHTML = `M-Play <em>(${NumberOfBanks} bank${NumberOfBanks > 1 ? 's' : ''})</em>`
       MPlay.appendChild(MPlayH2)
       let parser = new DOMParser()
       for (let z = 0; z < NumberOfBanks; z += 2) {
@@ -207,7 +207,7 @@ export const Console = {
           }
         }
         for (let i = 1; i <= 24; i++) {
-          let CurrentFader = await DbGet({ Object: 'Physical', Index: 'TypePageBankPosition', ItemID: `${ListOfBanks[z+1]}-${i}` })
+          let CurrentFader = await DbGet({ Object: 'Physical', Index: 'TypePageBankPosition', ItemID: `${ListOfBanks[z + 1]}-${i}` })
           if (CurrentFader) {
             let Cuelist = await DbGet({ Object: 'Cuelist', Index: 'ID', ItemID: CurrentFader.CuelistID })
             CurrentFader = NewMPlay.querySelector(`.Button${i}`)

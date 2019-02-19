@@ -13,7 +13,7 @@ const ConsolePaging = (PlaybackContent, ConsoleClass) => {
   let ConsoleSVG = ConsoleDiv.querySelectorAll('svg')
   let NumberofConsole = ConsoleSVG.length
   if (NumberofConsole > 1) {
-    for(let i=0; i < NumberofConsole; i++) {
+    for (let i = 0; i < NumberofConsole; i++) {
       let CurrentConsole = ConsoleSVG[i]
       if (i > 0) {
         CurrentConsole.classList.add('hideButPrint')
@@ -298,32 +298,32 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
     const CuelistClick = (element, DisplayCuelist = false) => {
       let QuerySelector = typeof element.hash !== 'undefined' ? element.hash : element.href.baseVal
       let Target = document.querySelector(QuerySelector)
-      
+
       let CuelistArticle = document.getElementById('Cuelist')
       let PlaybackArticle = document.getElementById('Playback')
       if (Target) {
-      // Open Pop-in
-      element.addEventListener('click', (e) => {
-        e.preventDefault()
-        Target.classList.remove('hideButPrint')
-        if (DisplayCuelist) {
-          CuelistArticle.classList.add('fade')
-          PlaybackArticle.classList.remove('fade')
-        }
-        // Manage history
-        window.history.pushState(null, document.title, e.target.hash)
-      })
-      // Close button
-      Target.querySelector('a').addEventListener('click', (e) => {
-        e.preventDefault()
-        e.target.parentNode.parentNode.classList.add('hideButPrint')
-        if (DisplayCuelist) {
-          CuelistArticle.classList.remove('fade')
-          PlaybackArticle.classList.add('fade')
-        }
-        // Manage history
-        window.history.pushState(null, document.title, window.location.origin)
-      })
+        // Open Pop-in
+        element.addEventListener('click', (e) => {
+          e.preventDefault()
+          Target.classList.remove('hideButPrint')
+          if (DisplayCuelist) {
+            CuelistArticle.classList.add('fade')
+            PlaybackArticle.classList.remove('fade')
+          }
+          // Manage history
+          window.history.pushState(null, document.title, e.target.hash)
+        })
+        // Close button
+        Target.querySelector('a').addEventListener('click', (e) => {
+          e.preventDefault()
+          e.target.parentNode.parentNode.classList.add('hideButPrint')
+          if (DisplayCuelist) {
+            CuelistArticle.classList.remove('fade')
+            PlaybackArticle.classList.add('fade')
+          }
+          // Manage history
+          window.history.pushState(null, document.title, window.location.origin)
+        })
       } else {
         console.error('Console cuelist listener can\'t be added [Element, Target]', element)
       }
@@ -331,7 +331,7 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
     // Show Playback
     document.querySelector('label[for="PlaybackXML"]').parentNode.classList.remove('hide')
     let PlaybackContent = document.getElementById('Playback')
-    //PlaybackContent.innerHTML = `<div class="overflow">${await Console.Nx2()}${await Console.MTouch()}${await Console.MPlay()}</div>`
+    // PlaybackContent.innerHTML = `<div class="overflow">${await Console.Nx2()}${await Console.MTouch()}${await Console.MPlay()}</div>`
     let divOverflow = document.createElement('div')
     divOverflow.className = 'overflow'
     divOverflow.appendChild(await Console.MTouch())
