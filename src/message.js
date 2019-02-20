@@ -13,11 +13,15 @@ export default message => {
 
   const ShowFooter = () => {
     Footer.classList.add('fade')
-    Footer.style.width = 'inherit'
+    Footer.style.width = ''
+    Footer.style.margin = ''
+    Footer.style.padding = ''
   }
   const HideFooter = () => {
     Footer.classList.remove('fade')
     Footer.style.width = 0
+    Footer.style.margin = 0
+    Footer.style.padding = 0
   }
 
   if (message.error) {
