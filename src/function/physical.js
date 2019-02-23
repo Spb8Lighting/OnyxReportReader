@@ -161,9 +161,8 @@ export const Console = {
       let MTouchH2 = document.createElement('h2')
       MTouchH2.innerHTML = `M-Touch <em>(${NumberOfBanks} bank${NumberOfBanks > 1 ? 's' : ''})</em>`
       MTouch.appendChild(MTouchH2)
-      let MTouchSVG = await Dexie.waitFor(GetConsole('MTouch'))
       for (let z = 0; z < NumberOfBanks; z++) {
-        let NewMTouch = MTouchSVG
+        let NewMTouch = await Dexie.waitFor(GetConsole('MTouch'))
         NewMTouch.querySelector('.Bank tspan').innerHTML = TriDigit(z + 1)
         NewMTouch.querySelector('style').remove()
 
@@ -194,9 +193,8 @@ export const Console = {
       let MPlayH2 = document.createElement('h2')
       MPlayH2.innerHTML = `M-Play <em>(${NumberOfBanks} bank${NumberOfBanks > 1 ? 's' : ''})</em>`
       MPlay.appendChild(MPlayH2)
-      let MPlaySVG = await Dexie.waitFor(GetConsole('MPlay'))
       for (let z = 0; z < NumberOfBanks; z += 2) {
-        let NewMPlay = MPlaySVG
+        let NewMPlay = await Dexie.waitFor(GetConsole('MPlay'))
         NewMPlay.querySelector('.Bank tspan').innerHTML = TriDigit(z + 1)
         NewMPlay.querySelector('.BankSub tspan').innerHTML = TriDigit(z + 2)
         NewMPlay.querySelector('style').remove()
