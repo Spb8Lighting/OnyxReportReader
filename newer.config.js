@@ -11,10 +11,12 @@ const IsDev = (process.env.NODE_ENV === 'development')
 
 let config = {
   mode: process.env.NODE_ENV,
-  entry: ['./src/index.js', './assets/stylesheets/styles.scss', './assets/images/Onyx-Report-Reader.svg', './assets/images/close.svg', './assets/images/settings.svg', './assets/images/changelog.svg', './assets/images/question.svg', './src/html/index.html', './src/manifest.json'],
+  entry: {
+    app: ['./src/index.js', './assets/stylesheets/styles.scss', './assets/images/M-Touch.svg', './assets/images/M-Play.svg', './assets/images/Onyx-Report-Reader.svg', './assets/images/close.svg', './assets/images/settings.svg', './assets/images/changelog.svg', './assets/images/question.svg', './src/html/index.html', './src/manifest.json']
+  },
   output: {
     path: path.resolve(__dirname, './public'),
-    filename: './app.js'
+    filename: './[name].js'
   },
   module: {
     rules: [

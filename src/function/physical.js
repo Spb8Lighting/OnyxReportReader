@@ -1,6 +1,13 @@
+import Dexie from 'dexie'
 import { Db, Get as DbGet } from './../database'
 import { Cuelist as OptionCuelist } from './../config/option'
 import * as Consoles from './../config/console'
+
+const GetConsole = async Name => {
+  let parser = new DOMParser()
+  let Console = await Consoles[Name].SVG()
+  return parser.parseFromString(Console, 'image/svg+xml')
+}
 
 const TriDigit = val => {
   var v = val
@@ -154,9 +161,9 @@ export const Console = {
       let MTouchH2 = document.createElement('h2')
       MTouchH2.innerHTML = `M-Touch <em>(${NumberOfBanks} bank${NumberOfBanks > 1 ? 's' : ''})</em>`
       MTouch.appendChild(MTouchH2)
-      let parser = new DOMParser()
+      let MTouchSVG = await Dexie.waitFor(GetConsole('MTouch'))
       for (let z = 0; z < NumberOfBanks; z++) {
-        let NewMTouch = parser.parseFromString(Consoles.MTouch.SVG, 'image/svg+xml')
+        let NewMTouch = MTouchSVG
         NewMTouch.querySelector('.Bank tspan').innerHTML = TriDigit(z + 1)
         NewMTouch.querySelector('style').remove()
 
@@ -187,13 +194,12 @@ export const Console = {
       let MPlayH2 = document.createElement('h2')
       MPlayH2.innerHTML = `M-Play <em>(${NumberOfBanks} bank${NumberOfBanks > 1 ? 's' : ''})</em>`
       MPlay.appendChild(MPlayH2)
-      let parser = new DOMParser()
+      let MPlaySVG = await Dexie.waitFor(GetConsole('MPlay'))
       for (let z = 0; z < NumberOfBanks; z += 2) {
-        let NewMPlay = parser.parseFromString(Consoles.MPlay.SVG, 'image/svg+xml')
+        let NewMPlay = MPlaySVG
         NewMPlay.querySelector('.Bank tspan').innerHTML = TriDigit(z + 1)
         NewMPlay.querySelector('.BankSub tspan').innerHTML = TriDigit(z + 2)
         NewMPlay.querySelector('style').remove()
-
         for (let i = 1; i <= 24; i++) {
           let CurrentFader = await DbGet({ Object: 'Physical', Index: 'TypePageBankPosition', ItemID: `${ListOfBanks[z]}-${i}` })
           if (CurrentFader) {
