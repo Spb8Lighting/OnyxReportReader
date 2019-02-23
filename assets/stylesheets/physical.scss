@@ -1,5 +1,6 @@
 .M-Touch,
-.M-Play {
+.M-Play,
+.M1HD {
   & h2 em {
     font-size: 0.6em;
   }
@@ -27,9 +28,9 @@
       fill:currentColor
     }
     .Cuelist-Box {
-      font-size:8.36090279px;
+      font-size:8.25px;
       fill:currentColor;
-      line-height:125%;
+      line-height:100%;
       fill-opacity:1;
       & tspan {
         text-align: center;
@@ -90,4 +91,13 @@
 .Bank,
 .BankSub {
   font-family: 'Digital 7';
+}
+.M1HD {
+  & svg {
+    color: $black;
+    max-width: 1300px;
+    & .Cuelist-Box {
+      font-size: 2px;
+      }
+  }
 }

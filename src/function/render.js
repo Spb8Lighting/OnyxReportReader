@@ -334,6 +334,7 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
     // PlaybackContent.innerHTML = `<div class="overflow">${await Console.Nx2()}${await Console.MTouch()}${await Console.MPlay()}</div>`
     let divOverflow = document.createElement('div')
     divOverflow.className = 'overflow'
+    divOverflow.appendChild(await Console.M1())
     divOverflow.appendChild(await Console.MTouch())
     divOverflow.appendChild(await Console.MPlay())
     PlaybackContent.appendChild(divOverflow)
@@ -342,6 +343,7 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
     PlaybackContent.querySelectorAll('a').forEach(element => CuelistClick(element, true))
     ConsolePaging(PlaybackContent, '.M-Touch')
     ConsolePaging(PlaybackContent, '.M-Play')
+    // ConsolePaging(PlaybackContent, '.M1HD')
   }
   // Add Sort function on table
   Sortable(CurrentTable)

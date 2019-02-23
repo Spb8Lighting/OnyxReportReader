@@ -9,3 +9,6 @@ export const MPlay = {
 export const MTouch = {
   SVG: async () => GetSVG('M-Touch.svg')
 }
+export const M1HD = {
+  SVG: async () => GetSVG('M1.svg')
+}
