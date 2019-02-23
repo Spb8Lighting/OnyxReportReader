@@ -28,8 +28,8 @@
   <rect width="29.1" height="28.8" x="486.6" y="66.5" stroke="#000" stroke-linejoin="round" class="BlackSquare" ry="4"/>
   <rect width="29.1" height="28.8" x="518.8" y="66.5" stroke="#000" stroke-linejoin="round" class="BlackSquare" ry="4"/>
   <rect width="29.1" height="28.8" x="551" y="66.5" stroke="#000" stroke-linejoin="round" class="BlackSquare" ry="4"/>
-  <text x="43.7" y="41.8" fill="#009bff" class="Bank" font-family="sans-serif" font-weight="400" letter-spacing="0" transform="scale(1.0095 .99058)" word-spacing="0">
-    <tspan x="43.7" y="41.8" font-family="Digital-7" font-size="24.5" style="line-height:1.25;text-align:center" text-anchor="middle">001</tspan>
+  <text x="43.7" y="41.8" fill="#009bff" class="Bank" font-weight="400" letter-spacing="0" transform="scale(1.0095 .99058)" word-spacing="0">
+    <tspan x="43.7" y="41.8" font-size="24.5" style="line-height:1.25;text-align:center" text-anchor="middle">001</tspan>
   </text>
   <g class="BankSelector">
     <g class="minus">
