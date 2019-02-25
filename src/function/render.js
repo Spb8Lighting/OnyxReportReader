@@ -6,44 +6,7 @@ import { SetLoaded as DisplaySetLoaded } from './../display'
 import * as Loader from './../loader'
 import { Sortable } from './tablesorter'
 import { Console } from './physical'
-import Message from './../message'
-
-const ConsolePaging = (PlaybackContent, ConsoleClass) => {
-  let ConsoleDiv = PlaybackContent.querySelector(ConsoleClass)
-  let ConsoleSVG = ConsoleDiv.querySelectorAll('svg')
-  let NumberofConsole = ConsoleSVG.length
-  if (NumberofConsole > 1) {
-    for (let i = 0; i < NumberofConsole; i++) {
-      let CurrentConsole = ConsoleSVG[i]
-      if (i > 0) {
-        CurrentConsole.classList.add('hideButPrint')
-      }
-      let ButtonMinus = CurrentConsole.querySelector('.BankSelector .minus')
-      let ButtonPlus = CurrentConsole.querySelector('.BankSelector .plus')
-
-      ButtonMinus.addEventListener('click', e => {
-        e.preventDefault()
-        let Father = e.target.closest('svg')
-        if (Father.previousSibling !== null && Father.previousSibling.nodeName !== 'svg') {
-          Message({ ok: `<em>First Bank!</em>` })
-        } else {
-          Father.classList.add('hideButPrint')
-          Father.previousSibling.classList.remove('hideButPrint')
-        }
-      })
-      ButtonPlus.addEventListener('click', e => {
-        e.preventDefault()
-        let Father = e.target.closest('svg')
-        if (Father.nextSibling == null || Father.nextSibling.nodeName !== 'svg') {
-          Message({ ok: `<em>Last Bank!</em>` })
-        } else {
-          Father.classList.add('hideButPrint')
-          Father.nextSibling.classList.remove('hideButPrint')
-        }
-      })
-    }
-  }
-}
+import ConsolePaging from './consolepaging'
 
 const GetCuelistProperties = Cuelist => {
   let Content = []
