@@ -6,7 +6,7 @@
   }
   & svg {
     display: $console-svg-display;
-    height: $console-svg-height;
+    height: #{$console-svg-height}vw;
     color: transparent;
     text-shadow: 1px 1px 10px rgba($header-color, 0.5);
     .BankSelector {
@@ -27,7 +27,6 @@
     }
     .Cuelist-Box {
       font-size:8.25px;
-      fill:currentColor;
       line-height:100%;
       fill-opacity:1;
       & tspan {
@@ -57,7 +56,7 @@
     }
     .GreyButton{
       stroke-dashoffset:0;
-      stroke:#515151;
+      stroke: currentColor;
       stroke-linecap:butt;
       fill:#eaeaea
     }
@@ -93,6 +92,7 @@
 .M1HD {
   & svg {
     color: $black;
+    height: #{$console-svg-height + 8}vw;
     & .Cuelist-Box {
       font-size: 2px;
       }

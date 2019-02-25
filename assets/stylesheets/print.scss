@@ -113,6 +113,14 @@ article {
   page-break-before: always;
   &#Playback {
     page: landscape;
+    &>div>div {
+      >h2 {
+        page-break-before: always;
+      }
+      & .flex-container {
+        display: flex;
+      }
+    }
   }
 }
 .success {

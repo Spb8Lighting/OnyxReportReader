@@ -306,7 +306,7 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
     PlaybackContent.querySelectorAll('a').forEach(element => CuelistClick(element, true))
     ConsolePaging(PlaybackContent, '.M-Touch')
     ConsolePaging(PlaybackContent, '.M-Play')
-    // ConsolePaging(PlaybackContent, '.M1HD')
+    ConsolePaging(PlaybackContent, '.M1HD')
   }
   // Add Sort function on table
   Sortable(CurrentTable)

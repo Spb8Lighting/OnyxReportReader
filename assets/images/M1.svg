@@ -3,38 +3,6 @@
   <style>
       .FaderLed{fill:currentColor}.Cuelist-Box{font-size:8.36090279px;fill:currentColor;line-height:125%;fill-opacity:1}.Cuelist-Line{text-align:center;text-anchor:middle;stroke-width:.20902258px}.BlackAverageButton,.BlackLargeButton,.BlackSquare,.EncoderFader,.GreyButton{opacity:1;stroke-linejoin:round;stroke-opacity:1;fill-opacity:1;stroke:#000;stroke-miterlimit:4;stroke-dasharray:none;stroke-width:1;fill:#000}.GreyButton{vector-effect:none;stroke-dashoffset:0;stroke:#515151;stroke-linecap:butt;fill:#eaeaea}
   </style>
-  <defs>
-    <linearGradient id="Fader">
-      <stop offset="0" stop-color="#fff"/>
-      <stop offset="1" stop-color="#b8b8b8"/>
-    </linearGradient>
-    <linearGradient id="Bank">
-      <stop offset="0" stop-color="#2f2f2f"></stop>
-      <stop offset="1" stop-color="#d3d3d3"></stop>
-    </linearGradient>
-    <linearGradient id="TrackBallButton">
-      <stop offset="0" stop-color="#b9b9b9"/>
-      <stop offset="1" stop-color="#8c8c8c"/>
-    </linearGradient>
-    <linearGradient id="GreenSquare">
-      <stop offset="0" stop-color="#4baf78"/>
-      <stop offset="1" stop-color="#005226"/>
-    </linearGradient>
-    <linearGradient id="TrackBall">
-      <stop offset="0" stop-color="#0282d0"/>
-      <stop offset="1" stop-color="#00446d"/>
-    </linearGradient>
-    <radialGradient id="TrackBallCircle" cx="228.9164" cy="88.459" r="6.7954" fx="228.9164" fy="88.459" gradientTransform="matrix(.94824 0 0 .94824 11.849 4.5788)" gradientUnits="userSpaceOnUse" spreadMethod="pad" xlink:href="#TrackBall"/>
-    <radialGradient id="GreenSquare1" xlink:href="#GreenSquare" cx="211.1427" cy="71.6528" r="4.25" fx="211.1427" fy="71.6528" gradientUnits="userSpaceOnUse"/>
-    <radialGradient id="GreenSquare2" xlink:href="#GreenSquare1" gradientTransform="translate(0 29.8318)" />
-    <radialGradient id="GreenSquare3" xlink:href="#GreenSquare1" gradientTransform="translate(0 7.458)" />
-    <radialGradient id="GreenSquare4" xlink:href="#GreenSquare1" gradientTransform="translate(0 14.9159)" />
-    <radialGradient id="GreenSquare5" xlink:href="#GreenSquare1" gradientTransform="translate(0 22.3738)" />
-    <radialGradient id="TrackBallButton1" xlink:href="#TrackBallButton" cx="225.1379" cy="105.4067" r="2.7137" fx="225.1379" fy="105.4067" gradientUnits="userSpaceOnUse" />
-    <radialGradient id="SubFader" xlink:href="#Fader" gradientTransform="matrix(.97486 0 0 1.20844 5.1175 -1.9871)" cx="203.5969" cy="9.5334" r="2.8579" fx="203.5969" fy="9.5334" gradientUnits="userSpaceOnUse" />
-    <radialGradient id="MainFader" xlink:href="#SubFader" gradientTransform="matrix(1 0 0 .74125 0 2.4668)" />
-    <radialGradient id="BankWheel" cx="211.1427" cy="110.6779" r="6.2245" fx="211.1427" fy="110.6779" gradientTransform="matrix(1 0 0 .41288 0 64.9814)" gradientUnits="userSpaceOnUse" xlink:href="#Bank" />
-  </defs>
   <g class="Background">
     <path fill="#d3d3d3" stroke="#000" stroke-linejoin="round" stroke-width="1.2162478019999998" d="M3.1941.6082A124.5299 402.7811 0 0 0 1.0785 72.793a124.5299 402.7811 0 0 0 2.0701 72.1852h244.8735a124.5299 402.7811 0 0 0 2.1161-72.1852A124.5299 402.7811 0 0 0 248.0675.6082z" paint-order="stroke fill markers"/>
     <g class="ReposeMain" stroke="#000" transform="translate(.6081 -2.0924)">
@@ -44,12 +12,24 @@
       </g>
     </g>
   </g>
-  <g class="RightSide">
-    <g class="Wheel Main">
+  <g class="rightside">
+    <g class="Wheel Main BankSelector">
       <path fill="none" stroke="#7e7e7e" stroke-width=".2646" d="M83.4504 111.4618h2.5"/>
-      <g class="BankSelector" transform="rotate(90 145.6196 45.9387)">
+      <g transform="rotate(90 145.6196 45.9387)">
         <rect width="11.9491" height="4.64" x="205.1682" y="108.3579" fill="url(#BankWheel)" rx="2.32" ry="2.32"/>
         <rect width="9.2496" height="2.5736" x="206.5179" y="109.3911" fill="#fff" rx="1.2868" ry="1.2868"/>
+      </g>
+      <g class="plus">
+        <g fill="#ffeaea" stroke="#000" stroke-width=".0453" transform="matrix(2.20872 0 0 2.20872 -314.1877 -62.8694)">
+          <path d="M179.6244 77.893h-.6572v.6572h-.2001v-.6572h-.6572v-.1929h.6572v-.6571h.2001v.657h.6572z"/>
+        </g>
+        <path fill="transparent" stroke="none" d="M78.4354 106.4618h4.89v5h-4.89z"/>
+      </g>
+      <g class="minus">
+        <g fill="#fff" stroke="#000" stroke-width=".0453" transform="matrix(2.20872 0 0 2.20872 -314.1877 -57.8694)">
+          <path d="M179.6244 77.893h-1.5145v-.1929l1.5145-.0001z"/>
+        </g>
+        <path fill="transparent" stroke="none" d="M78.4354 111.4618h4.89v5h-4.89z"/>
       </g>
     </g>
     <g class="Programmer">
@@ -975,12 +955,24 @@
       </g>
     </g>
   </g>
-  <g class="LeftSide">
-    <g class="Wheel Sub">
+  <g class="leftside">
+    <g class="Wheel Sub BankSelector" >
       <path fill="none" stroke="#7e7e7e" stroke-width=".2646" d="M26.1921 111.4618h2.5"/>
-      <g class="BankSelector" transform="rotate(90 116.9905 17.3096)">
+      <g transform="rotate(90 116.9905 17.3096)">
         <rect width="11.9491" height="4.64" x="205.1682" y="108.3579" fill="url(#BankWheel)" rx="2.32" ry="2.32"/>
         <rect width="9.2496" height="2.5736" x="206.5179" y="109.3911" fill="#fff" rx="1.2868" ry="1.2868"/>
+      </g>
+      <g class="plus" transform="translate(-57.2582)">
+        <g fill="#ffeaea" stroke="#000" stroke-width=".0453" transform="translate(-314.1877 -62.8694) scale(2.20872)">
+          <path d="M179.6244 77.893h-.6572v.6572h-.2001v-.6572h-.6572v-.1929h.6572v-.6571h.2001v.657h.6572z"/>
+        </g>
+        <path fill="transparent" stoke="none" d="M78.4354 106.4618h4.89v5h-4.89z"/>
+      </g>
+      <g class="minus" transform="translate(-57.2582)">
+        <g fill="#fff" stroke="#000" stroke-width=".0453" transform="translate(-314.1877 -57.8694) scale(2.20872)">
+          <path d="M179.6244 77.893h-1.5145v-.1929l1.5145-.0001z"/>
+        </g>
+        <path fill="transparent" stoke="none" d="M78.4354 111.4618h4.89v5h-4.89z" />
       </g>
     </g>
     <g class="SubmasterFaderLevel">
@@ -1334,8 +1326,6 @@
           <tspan x="69.5483" y="87.5"></tspan>
         </text>
       </g>
-    </g>
-        <g>
       <g class="SubFader13">
         <g transform="translate(14.089 54.164)">
           <rect width="5.7976" height="3.0107" x="16.6825" y="40.3849" fill="#2f2f2f" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".5024" ry="0"/>
