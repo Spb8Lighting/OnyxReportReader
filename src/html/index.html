@@ -200,7 +200,9 @@
                 var AppJS = document.createElement('script')
                 AppJS.setAttribute('defer', '')
                 AppJS.setAttribute('src', 'app.js')
-                document.querySelector('body').append(AppJS)
+
+                var Body = document.querySelector('body')
+                Body.append(AppJS)
             }
         </script>
     </body>
