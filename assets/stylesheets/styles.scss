@@ -13,7 +13,7 @@ $aside-width: 100px;
 $advertisement-svg-height: 400px;
 $table-width: 100%;
 $nav-svg-width-height: 5rem;
-$console-svg-width: 100%;
+$console-svg-height: 42;
 $console-svg-display: initial;
 $header-color: #262626!default;
 
@@ -60,12 +60,14 @@ $CuelistType-Chase: linear-gradient($CuelistType-Chase-From, $CuelistType-Chase-
   $table-width: auto;
   $aside-width: 50px;
   $advertisement-svg-height: 400px;
+  $console-svg-height: 36;
   @import '01-structure';
   @import '02-content';
+  @import 'physical';
 }
 
 @media print {
-  $console-svg-width: 85%;
+  $console-svg-height: 48;
   $console-svg-display: block;
   @import 'print';
   @import 'physical';
