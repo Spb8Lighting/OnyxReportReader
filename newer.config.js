@@ -4,12 +4,12 @@ const ExtractTextWebpackPlugin = require('extract-text-webpack-plugin')
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 const OptimizeCSSAssets = require('optimize-css-assets-webpack-plugin')
 const DashboardPlugin = require('webpack-dashboard/plugin')
-const CleanWebpackPlugin = require('clean-webpack-plugin')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const WorkboxPlugin = require('workbox-webpack-plugin')
 const IsDev = (process.env.NODE_ENV === 'development')
 
-let config = {
+const config = {
   mode: process.env.NODE_ENV,
   entry: {
     app: ['./src/index.js', './assets/stylesheets/styles.scss', './assets/images/M1.svg', './assets/images/M-Touch.svg', './assets/images/M-Play.svg', './assets/images/Onyx-Report-Reader.svg', './assets/images/close.svg', './assets/images/settings.svg', './assets/images/changelog.svg', './assets/images/question.svg', './src/html/index.html', './src/manifest.json']
@@ -88,7 +88,7 @@ if (!IsDev) {
     new ExtractTextWebpackPlugin('app.css'),
     new UglifyJSPlugin(),
     new OptimizeCSSAssets(),
-    new CleanWebpackPlugin(['./public'], {
+    new CleanWebpackPlugin({
       verbose: true,
       dry: false
     }),

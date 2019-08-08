@@ -1,3 +1,5 @@
+import { escape } from 'html-escaper'
+
 const StingToBool = Val => {
   if (typeof Val === 'string') {
     switch (Val.toLowerCase().trim()) {
@@ -16,6 +18,10 @@ const StingToBool = Val => {
   } else {
     return false
   }
+}
+
+const EncodeVar = Val => {
+  return Val ? escape(Val) : false
 }
 
 class PhysicalObject {
@@ -37,7 +43,7 @@ export default class CuelistObject {
   constructor (CuelistXML) {
     this.ID = Number(CuelistXML.getAttribute('visualId'))
     this.InternalID = Number(CuelistXML.getAttribute('internalId'))
-    this.Name = CuelistXML.getAttribute('cuelistName') || false
+    this.Name = EncodeVar(CuelistXML.getAttribute('cuelistName'))
     this.Type = CuelistXML.nodeName
     this.PriorityLevel = Number(CuelistXML.getAttribute('priorityLevel'))
     this.BackTrack = StingToBool(CuelistXML.getAttribute('backTrack'))
@@ -71,23 +77,24 @@ export default class CuelistObject {
     this.IgnoreBankChangeRelease = StingToBool(CuelistXML.getAttribute('ignoreBankChangeRelease'))
     // Timecode
     this.TimeCodeSource = CuelistXML.getAttribute('timeCodeSource') || false
-    let OtherAttributes = this.CheckChild(CuelistXML)
+    const OtherAttributes = this.CheckChild(CuelistXML)
     this.Cues = OtherAttributes.Cues
     this.Physicals = OtherAttributes.Physicals.length > 0 ? OtherAttributes.Physicals : false
   }
+
   CheckChild (CuelistXML) {
-    let Cues = []
-    let Physicals = []
-    let Children = CuelistXML.children
+    const Cues = []
+    const Physicals = []
+    const Children = CuelistXML.children
     for (let i = 0; i < Children.length; i++) {
-      if (Children.hasOwnProperty(i)) {
+      if (Object.prototype.hasOwnProperty.call(Children, i)) {
         switch (Children[i].nodeName) {
           case 'Cue':
-            let Cue = {}
+            const Cue = {}
             Cue.InternalRowId = Number(Children[i].getAttribute('internalRowId'))
             Cue.ID = Number(Children[i].getAttribute('cueId'))
-            Cue.Name = Children[i].getAttribute('cueName') || false
-            Cue.Comment = Children[i].getAttribute('comment') || false
+            Cue.Name = EncodeVar(Children[i].getAttribute('cueName'))
+            Cue.Comment = EncodeVar(Children[i].getAttribute('comment'))
             Cue.UsesBase = StingToBool(Children[i].getAttribute('usesBase'))
             Cue.UsesFx = StingToBool(Children[i].getAttribute('usesFx'))
             Cue.UsesTiming = StingToBool(Children[i].getAttribute('usesTiming'))
@@ -101,22 +108,22 @@ export default class CuelistObject {
             break
           case 'PlayBackFader':
             // Main Playback Fader
-            let MainPlaybackFader = {}
+            const MainPlaybackFader = {}
             MainPlaybackFader.PageBank = Children[i].getAttribute('playbackPage')
             MainPlaybackFader.Position = Children[i].getAttribute('playbackNumber')
-            MainPlaybackFader.PageBankName = Children[i].getAttribute('playbackBankName')
+            MainPlaybackFader.PageBankName = EncodeVar(Children[i].getAttribute('playbackBankName'))
             MainPlaybackFader.Type = 'MainPlaybackFader'
             Physicals.push(new PhysicalObject(MainPlaybackFader))
             break
           case 'PlaybackButton':
-            let PlaybackButton = {}
+            const PlaybackButton = {}
             PlaybackButton.PageBank = Children[i].getAttribute('playbackPage')
             PlaybackButton.Position = Children[i].getAttribute('buttonPosition')
             PlaybackButton.Type = 'PlaybackButton'
             Physicals.push(new PhysicalObject(PlaybackButton))
             break
           case 'AnalogFader':
-            let SubmasterPlayback = {}
+            const SubmasterPlayback = {}
             SubmasterPlayback.PageBank = Children[i].getAttribute('playbackPage')
             SubmasterPlayback.Position = Children[i].getAttribute('buttonPosition')
             SubmasterPlayback.Type = 'SubmasterPlayback'
