@@ -15,7 +15,7 @@ export const Remove = content => {
 }
 export const Get = content => {
   if (typeof content.key !== 'undefined') {
-    let LocalKeyContent = StorageMethod.getItem(content.key)
+    const LocalKeyContent = StorageMethod.getItem(content.key)
     if (LocalKeyContent != null) {
       return JSON.parse(LocalKeyContent)
     } else {
@@ -36,8 +36,8 @@ export const Stats = () => {
   let data = ''
   console.groupCollapsed('Current storage:')
   console.groupCollapsed('Details:')
-  for (let key in StorageMethod) {
-    if (StorageMethod.hasOwnProperty(key)) {
+  for (const key in StorageMethod) {
+    if (Object.prototype.hasOwnProperty.call(StorageMethod, key)) {
       data += StorageMethod[key]
       console.log(key + ' = ' + ((StorageMethod[key].length * 16) / (8 * 1024)).toFixed(2) + ' KB')
     }

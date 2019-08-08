@@ -77,7 +77,7 @@ const PatchInvert = {
   RowSpan: false,
   MultiPart: true
 }
-let Patch = []
+const Patch = []
 Patch.push(PatchID)
 Patch.push(PatchName)
 Patch.push(PatchGroup)
@@ -124,7 +124,7 @@ const GroupFixture = {
   RowSpan: false,
   MultiPart: false
 }
-let Group = []
+const Group = []
 Group.push(GroupID)
 Group.push(GroupName)
 if (!Option.Group.HideAutoGroup) {
@@ -202,7 +202,7 @@ const PresetEmbedded = {
   RowSpan: false,
   MultiPart: false
 }
-let Preset = []
+const Preset = []
 Preset.push(PresetPosition)
 Preset.push(PresetType)
 Preset.push(PresetName)
@@ -245,7 +245,7 @@ const CuelistCueNumber = {
   MultiPart: false
 }
 
-let Cuelist = []
+const Cuelist = []
 Cuelist.push(CuelistID)
 Cuelist.push(CuelistType)
 Cuelist.push(CuelistName)
@@ -314,7 +314,7 @@ const CuelistDetailComment = {
   RowSpan: false,
   MultiPart: false
 }
-let CuelistStandard = []
+const CuelistStandard = []
 CuelistStandard.push(CuelistDetailID)
 CuelistStandard.push(CuelistDetailCue)
 CuelistStandard.push(CuelistDetailTrigger)
@@ -324,7 +324,7 @@ CuelistStandard.push(CuelistDetailFadeMode)
 CuelistStandard.push(CuelistDetailUses)
 CuelistStandard.push(CuelistDetailComment)
 
-let CuelistTimecode = []
+const CuelistTimecode = []
 CuelistTimecode.push(CuelistDetailID)
 CuelistTimecode.push(CuelistDetailCue)
 CuelistTimecode.push(CuelistDetailTrigger)
@@ -335,21 +335,21 @@ CuelistTimecode.push(CuelistDetailFadeMode)
 CuelistTimecode.push(CuelistDetailUses)
 CuelistTimecode.push(CuelistDetailComment)
 
-let CuelistChase = []
+const CuelistChase = []
 CuelistChase.push(CuelistDetailID)
 CuelistChase.push(CuelistDetailCue)
 CuelistChase.push(CuelistDetailFadeMode)
 CuelistChase.push(CuelistDetailUses)
 CuelistChase.push(CuelistDetailComment)
 
-let CuelistOverride = []
+const CuelistOverride = []
 CuelistOverride.push(CuelistDetailID)
 CuelistOverride.push(CuelistDetailCue)
 CuelistOverride.push(CuelistDetailFadeMode)
 CuelistOverride.push(CuelistDetailUses)
 CuelistOverride.push(CuelistDetailComment)
 
-let CuelistGroupMaster = []
+const CuelistGroupMaster = []
 CuelistGroupMaster.push(CuelistDetailID)
 CuelistGroupMaster.push(CuelistDetailCue)
 CuelistGroupMaster.push(CuelistDetailUses)

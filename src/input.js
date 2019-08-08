@@ -11,21 +11,21 @@ export default async () => {
   // ########################
   //   Form Configuration
   // ########################
-  let Labels = document.querySelectorAll('aside fieldset:not(.hide) label')
+  const Labels = document.querySelectorAll('aside fieldset:not(.hide) label')
 
   for (let i = 0; i < Labels.length; ++i) {
-    let Label = Labels[i]
-    let LabelFor = Label.getAttribute('for')
-    let LabelName = Config[LabelFor].Name
-    let LabelPicture = Config[LabelFor].Picture
-    let LabelExt = Config[LabelFor].FileExt
-    let InputMatchRegex = Config[LabelFor].Regex
-    let ActicleID = LabelFor.slice(0, -3)
+    const Label = Labels[i]
+    const LabelFor = Label.getAttribute('for')
+    const LabelName = Config[LabelFor].Name
+    const LabelPicture = Config[LabelFor].Picture
+    const LabelExt = Config[LabelFor].FileExt
+    const InputMatchRegex = Config[LabelFor].Regex
+    const ActicleID = LabelFor.slice(0, -3)
 
     // Label display
     Label.innerHTML = `<span>${LabelName}</span>${LabelPicture}<input type="file" name="${LabelFor}" id="${LabelFor}" accept="${LabelExt}" />`
 
-    let Input = document.getElementById(LabelFor)
+    const Input = document.getElementById(LabelFor)
 
     Input.addEventListener('dragover', e => e.target.parentNode.classList.add('dragover'))
     Input.addEventListener('dragleave', e => e.target.parentNode.classList.remove('dragover'))
@@ -33,16 +33,16 @@ export default async () => {
 
     // Input listeners for XML upload
     Input.addEventListener('change', e => {
-      let LoaderName = e.target.id.slice(0, -3)
+      const LoaderName = e.target.id.slice(0, -3)
       Loader[LoaderName].Show()
-      let UploadedFile = e.target.files[0]
+      const UploadedFile = e.target.files[0]
       if (typeof UploadedFile.name !== 'undefined') {
         if (UploadedFile.name.search(InputMatchRegex) === -1) {
           Message({ error: `<em>File selected: ${UploadedFile.name}</em><br />${WordingError.File.Extension} <strong>${LabelExt}</strong>` })
           Loader[LoaderName].Hide()
         } else {
           let reader = new FileReader()
-          let parser = new DOMParser()
+          const parser = new DOMParser()
           let xmlDoc
           reader.addEventListener('load', async e => {
             xmlDoc = parser.parseFromString(e.target.result, 'text/xml')

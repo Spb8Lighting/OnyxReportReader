@@ -4,7 +4,7 @@ const ExtractTextWebpackPlugin = require('extract-text-webpack-plugin')
 const DashboardPlugin = require('webpack-dashboard/plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 
-let config = {
+const config = {
   mode: process.env.NODE_ENV,
   entry: {
     app: ['./src/index.js', './assets/stylesheets/styles.scss', './assets/images/M1.svg', './assets/images/M-Touch.svg', './assets/images/M-Play.svg', './assets/images/Onyx-Report-Reader.svg', './assets/images/close.svg', './assets/images/settings.svg', './assets/images/changelog.svg', './assets/images/question.svg', './src/html/index.html', './src/manifest.json']

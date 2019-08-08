@@ -37,12 +37,13 @@ export default class FixtureObject {
     this.CheckDMXInfos(FixtureXML)
     this.CheckMultipart(FixtureXML)
   }
+
   CheckMultipart (FixtureXML) {
-    let Parts = FixtureXML.getElementsByTagName('Part')
+    const Parts = FixtureXML.getElementsByTagName('Part')
     if (Parts.length > 0) {
       this.Multipart = []
       for (let i = 0; i < Parts.length; i++) {
-        let NewMultiPart = JSON.parse(JSON.stringify(new SubFixtureObject(Parts[i])))
+        const NewMultiPart = JSON.parse(JSON.stringify(new SubFixtureObject(Parts[i])))
         NewMultiPart.ID = String(`${this.ID}.${NewMultiPart.ID}`)
         this.Multipart.push({ ID: NewMultiPart.ID })
         NewMultiPart.Manufacturer = this.Manufacturer
@@ -55,8 +56,9 @@ export default class FixtureObject {
       this.Multipart = false
     }
   }
+
   CheckDMXInfos (FixtureXML) {
-    let DMXInfos = FixtureXML.getElementsByTagName('DMXChannel')[0]
+    const DMXInfos = FixtureXML.getElementsByTagName('DMXChannel')[0]
     if (typeof DMXInfos !== 'undefined') {
       if (DMXInfos.getAttribute('panTiltSwapped') > 0) {
         this.Invert += (OptionPatch.DisplayInvertAxesIcon) ? '<span data-option="swap"><span>Swap</span></span>' : '<span data-title="Pan/Tilt swapped">S</span>'

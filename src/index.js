@@ -23,10 +23,10 @@ Input()
   .then(async () => {
     // Get File data
     await Db.transaction('r', Db.File, Db.Show, Db.Fixture, Db.FixtureGroup, Db.Preset, Db.Cuelist, Db.Physical, async () => {
-      let ReloadPatch = await DbGet({ Object: 'File', ItemID: 'Patch' })
-      let ReloadGroup = await DbGet({ Object: 'File', ItemID: 'FixtureGroup' })
-      let ReloadPreset = await DbGet({ Object: 'File', ItemID: 'Preset' })
-      let ReloadCuelist = await DbGet({ Object: 'File', ItemID: 'Cuelist' })
+      const ReloadPatch = await DbGet({ Object: 'File', ItemID: 'Patch' })
+      const ReloadGroup = await DbGet({ Object: 'File', ItemID: 'FixtureGroup' })
+      const ReloadPreset = await DbGet({ Object: 'File', ItemID: 'Preset' })
+      const ReloadCuelist = await DbGet({ Object: 'File', ItemID: 'Cuelist' })
 
       // Get Patch data
       if (typeof ReloadPatch !== 'undefined') {
@@ -81,7 +81,7 @@ document.querySelector('a[href="#ResetLayout"]').addEventListener('click', e => 
 document.querySelectorAll('#iconbox a').forEach(element => {
   element.addEventListener('click', e => {
     e.preventDefault()
-    let ActualSelector = document.querySelector((e.target.nodeName === 'IMG') ? e.target.parentNode.hash : e.target.hash)
+    const ActualSelector = document.querySelector((e.target.nodeName === 'IMG') ? e.target.parentNode.hash : e.target.hash)
     document.querySelectorAll('nav').forEach(element => {
       if (element === ActualSelector) {
         element.classList.toggle('hide')
@@ -102,7 +102,7 @@ document.querySelector('header').addEventListener('click', e => HideMenu(e))
 // Manage back history
 window.onpopstate = e => {
   console.log(e)
-  let PopInActive = document.querySelector('div.pop-in:not(.hideButPrint)')
+  const PopInActive = document.querySelector('div.pop-in:not(.hideButPrint)')
   if (PopInActive) {
     PopInActive.classList.add('hideButPrint')
   }

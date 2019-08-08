@@ -8,7 +8,7 @@ export default message => {
     clearTimeout(AutoHideFooter)
   }
 
-  let Footer = document.querySelector('footer')
+  const Footer = document.querySelector('footer')
   let FooterDisplay = false
 
   const ShowFooter = () => {
@@ -39,7 +39,7 @@ export default message => {
   }
   if (FooterDisplay) {
     ShowFooter()
-    let AutoHideFooter = setTimeout(() => { HideFooter() }, 5000)
+    const AutoHideFooter = setTimeout(() => { HideFooter() }, 5000)
     Footer.addEventListener('click', () => {
       if (typeof AutoHideFooter !== 'undefined') {
         clearTimeout(AutoHideFooter)

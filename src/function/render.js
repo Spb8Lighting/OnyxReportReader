@@ -9,7 +9,7 @@ import { Console } from './physical'
 import ConsolePaging from './consolepaging'
 
 const GetCuelistProperties = Cuelist => {
-  let Content = []
+  const Content = []
   if (Cuelist.PriorityLevel) {
     Content.push(`Priority: ${Cuelist.PriorityLevel}`)
   }
@@ -41,7 +41,7 @@ const GetCuelistProperties = Cuelist => {
     Content.push(`Ignore Global Release`)
   }
   if (Cuelist.DefaultButtonBehaviour) {
-    let LocalContent = []
+    const LocalContent = []
     LocalContent.push(`Default Button Behavior:`)
     if (Cuelist.DefaultButtonBehaviour === 'Flash') {
       if (Cuelist.flashGo) {
@@ -94,7 +94,7 @@ const GetCuelistProperties = Cuelist => {
 
 const Render = async (Type, SetActive = true, RenderPatch = false) => {
   // Set Parameter following the type to be displayed
-  let LocalConfig = {}
+  const LocalConfig = {}
   switch (Type) {
     case 'Patch':
       LocalConfig.Objects = 'Fixture'
@@ -130,7 +130,7 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
       break
   }
   // Define table content
-  let Content = {
+  const Content = {
     thead: THead(LocalConfig.Table),
     tbody: []
   }
@@ -140,13 +140,13 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
     Content.SubCuelist = []
   }
   // Get objects to be displayed
-  let TypeObjects = await DbGetAll({ Object: LocalConfig.Objects })
-  let NumberOfObjects = Object.keys(TypeObjects).length
+  const TypeObjects = await DbGetAll({ Object: LocalConfig.Objects })
+  const NumberOfObjects = Object.keys(TypeObjects).length
   // Loop through all objects find
   for (let i = 0; i < NumberOfObjects; ++i) {
     // Specific Treatment for Patch
     if (Type === 'Patch') {
-      let Fixture = TypeObjects[i]
+      const Fixture = TypeObjects[i]
       // Restrict the loop to master part, multi-part are threated inside the loop when needed
       if (/^[0-9]+$/.test(Fixture.ID)) {
         let Multipart = 0
@@ -157,7 +157,7 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
         // Multi Part Threatment
         if (Fixture.Multipart) {
           for (let i = 0; i < Multipart; ++i) {
-            let FixturePart = await DbGet({ Object: LocalConfig.Objects, Index: 'ID', ItemID: Fixture.Multipart[i].ID })
+            const FixturePart = await DbGet({ Object: LocalConfig.Objects, Index: 'ID', ItemID: Fixture.Multipart[i].ID })
             FixturePart.Invert = Fixture.Invert
             Content.tbody.push(await TBodyLine(LocalConfig.Table, 0, FixturePart, true))
           }
@@ -189,7 +189,7 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
           break
       }
       Content.Subthead.push(THead(LocalSubConfig))
-      let SubTbody = []
+      const SubTbody = []
       for (let z = 0; z < TypeObjects[i].Cues.length; z++) {
         SubTbody.push(await TBodyLine(LocalSubConfig, 0, TypeObjects[i].Cues[z]))
       }
@@ -256,14 +256,14 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
     `<p>${Content.Description}</p>` + '\n' +
     `<div class="overflow">${Content.Table}${CuelistAdd}</div>`
 
-  let CurrentTable = LocalConfig.Article.querySelector('table')
+  const CurrentTable = LocalConfig.Article.querySelector('table')
   if (Type === 'Cuelist') {
     const CuelistClick = (element, DisplayCuelist = false) => {
-      let QuerySelector = typeof element.hash !== 'undefined' ? element.hash : element.href.baseVal
-      let Target = document.querySelector(QuerySelector)
+      const QuerySelector = typeof element.hash !== 'undefined' ? element.hash : element.href.baseVal
+      const Target = document.querySelector(QuerySelector)
 
-      let CuelistArticle = document.getElementById('Cuelist')
-      let PlaybackArticle = document.getElementById('Playback')
+      const CuelistArticle = document.getElementById('Cuelist')
+      const PlaybackArticle = document.getElementById('Playback')
       if (Target) {
         // Open Pop-in
         element.addEventListener('click', (e) => {
@@ -293,9 +293,9 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
     }
     // Show Playback
     document.querySelector('label[for="PlaybackXML"]').parentNode.classList.remove('hide')
-    let PlaybackContent = document.getElementById('Playback')
+    const PlaybackContent = document.getElementById('Playback')
     // PlaybackContent.innerHTML = `<div class="overflow">${await Console.Nx2()}${await Console.MTouch()}${await Console.MPlay()}</div>`
-    let divOverflow = document.createElement('div')
+    const divOverflow = document.createElement('div')
     divOverflow.className = 'overflow'
     divOverflow.appendChild(await Console.M1())
     divOverflow.appendChild(await Console.MTouch())
@@ -320,7 +320,7 @@ const Render = async (Type, SetActive = true, RenderPatch = false) => {
     }
   } else if (Type === 'Patch') {
     // Show the Patch Group Column
-    let ShowPatchGroup = document.getElementById('HideShow-Patch_Group')
+    const ShowPatchGroup = document.getElementById('HideShow-Patch_Group')
     ShowPatchGroup.checked = 'checked'
     // eslint-disable-next-line no-undef
     ShowPatchGroup.dispatchEvent(new Event('change'))

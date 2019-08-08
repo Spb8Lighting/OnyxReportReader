@@ -1,5 +1,5 @@
 const GetSVG = async SVG => {
-  let response = await window.fetch(`./img/${SVG}`)
+  const response = await window.fetch(`./img/${SVG}`)
   return response.text()
 }
 

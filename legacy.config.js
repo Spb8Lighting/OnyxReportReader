@@ -1,7 +1,7 @@
 const path = require('path')
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 
-let config = {
+const config = {
   mode: process.env.NODE_ENV,
   entry: ['@babel/polyfill', './src/index.js'],
   output: {

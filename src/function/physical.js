@@ -3,8 +3,8 @@ import { Db, Get as DbGet } from './../database'
 import * as Consoles from './../config/console'
 
 const GetConsole = async Name => {
-  let parser = new DOMParser()
-  let Console = await Consoles[Name].SVG()
+  const parser = new DOMParser()
+  const Console = await Consoles[Name].SVG()
   return parser.parseFromString(Console, 'image/svg+xml')
 }
 
@@ -19,9 +19,9 @@ const TriDigit = val => {
 const UcWords = s => s && s[0].toUpperCase() + s.slice(1).toLowerCase()
 
 const FillButton = (CurrentFader, CuelistName, LoopID) => {
-  let TSpan = CurrentFader.querySelectorAll('tspan')
+  const TSpan = CurrentFader.querySelectorAll('tspan')
   if (CuelistName.length > 6) {
-    let CuelistSplit = CuelistName.split(' ')
+    const CuelistSplit = CuelistName.split(' ')
     if (CuelistSplit.length > 1) {
       if (CuelistSplit[0]) {
         TSpan[0].innerHTML = UcWords(CuelistSplit[0])
@@ -44,24 +44,24 @@ export const Console = {
   M1: async () => {
     return Db.transaction('r', Db.Cuelist, Db.Physical, async () => {
       // Get number of bank info per type
-      let MainListOfBanks = await Db.Physical.where('TypePageBank').startsWith('MainPlaybackFader').uniqueKeys()
-      let MainNumberOfBanks = MainListOfBanks.length
+      const MainListOfBanks = await Db.Physical.where('TypePageBank').startsWith('MainPlaybackFader').uniqueKeys()
+      const MainNumberOfBanks = MainListOfBanks.length
 
-      let SubListOfBanks = await Db.Physical.where('TypePageBank').startsWith('SubmasterPlayback').uniqueKeys()
-      let SubNumberOfBanks = SubListOfBanks.length
+      const SubListOfBanks = await Db.Physical.where('TypePageBank').startsWith('SubmasterPlayback').uniqueKeys()
+      const SubNumberOfBanks = SubListOfBanks.length
 
       // Create the console container
-      let MPlay = document.createElement('div')
+      const MPlay = document.createElement('div')
       MPlay.className = 'M1HD'
-      let MPlayH2 = document.createElement('h2')
+      const MPlayH2 = document.createElement('h2')
       MPlayH2.innerHTML = `M1 HD <em>(${MainNumberOfBanks} main bank${MainNumberOfBanks > 1 ? 's' : ''}, ${SubNumberOfBanks} submaster bank${SubNumberOfBanks > 1 ? 's' : ''})</em>`
       MPlay.appendChild(MPlayH2)
 
-      let Wrapper = document.createElement('div')
+      const Wrapper = document.createElement('div')
       Wrapper.className = 'flex-container'
-      let LeftSide = document.createElement('div')
+      const LeftSide = document.createElement('div')
       LeftSide.className = 'LeftSide'
-      let RightSide = document.createElement('div')
+      const RightSide = document.createElement('div')
       RightSide.className = 'RightSide'
 
       // Get the console SVG image
@@ -69,24 +69,24 @@ export const Console = {
       SVGMPlay.querySelector('style').remove()
 
       // Create a dedicated SVG picture for the left part
-      let MPlayLeft = SVGMPlay.cloneNode(true)
+      const MPlayLeft = SVGMPlay.cloneNode(true)
       MPlayLeft.querySelector('svg').setAttribute('viewBox', '0 0 75 145.5864')
       MPlayLeft.querySelector('g.rightside').remove()
 
       // Create a dedicated SVG picture for the right part
-      let MplayRight = SVGMPlay.cloneNode(true)
+      const MplayRight = SVGMPlay.cloneNode(true)
       MplayRight.querySelector('svg').setAttribute('viewBox', '75 0 176.2163 145.5864')
       MplayRight.querySelector('g.leftside').remove()
 
       // Create all parts following the number of main banks
       for (let z = 0; z < MainNumberOfBanks; z++) {
         // Clone SVG picture the current bank
-        let CurrentMplayRight = MplayRight.cloneNode(true)
+        const CurrentMplayRight = MplayRight.cloneNode(true)
         // Loop over number of playbacks for the right side
         for (let i = 1; i <= 10; i++) {
           let CurrentFader = await DbGet({ Object: 'Physical', Index: 'TypePageBankPosition', ItemID: `${MainListOfBanks[z]}-${i}` })
           if (CurrentFader) {
-            let Cuelist = await DbGet({ Object: 'Cuelist', Index: 'ID', ItemID: CurrentFader.CuelistID })
+            const Cuelist = await DbGet({ Object: 'Cuelist', Index: 'ID', ItemID: CurrentFader.CuelistID })
             CurrentFader = CurrentMplayRight.querySelector(`.MainFader${i}`)
             if (typeof Cuelist === 'object') {
               CurrentFader.classList.add(`Type-${Cuelist.Type}`)
@@ -100,13 +100,13 @@ export const Console = {
       // Create all parts following the number of main banks
       for (let z = 0; z < SubNumberOfBanks; z++) {
         // Clone SVG picture the current bank
-        let CurrentMPlayLeft = MPlayLeft.cloneNode(true)
+        const CurrentMPlayLeft = MPlayLeft.cloneNode(true)
 
         // Loop other number of playbacks for the left side
         for (let i = 1; i <= 24; i++) {
           let CurrentFader = await DbGet({ Object: 'Physical', Index: 'TypePageBankPosition', ItemID: `${SubListOfBanks[z]}-${i}` })
           if (CurrentFader) {
-            let Cuelist = await DbGet({ Object: 'Cuelist', Index: 'ID', ItemID: CurrentFader.CuelistID })
+            const Cuelist = await DbGet({ Object: 'Cuelist', Index: 'ID', ItemID: CurrentFader.CuelistID })
             CurrentFader = CurrentMPlayLeft.querySelector(`.SubFader${i}`)
             console.log(CurrentMPlayLeft, i, CurrentFader)
             if (typeof Cuelist === 'object') {
@@ -126,30 +126,30 @@ export const Console = {
   },
   MTouch: async () => {
     return Db.transaction('r', Db.Cuelist, Db.Physical, async () => {
-      let Prefix = 'MainPlaybackFader'
-      let ListOfBanks = await Db.Physical.where('TypePageBank').startsWith(Prefix).uniqueKeys()
-      let NumberOfBanks = ListOfBanks.length
-      let MTouch = document.createElement('div')
+      const Prefix = 'MainPlaybackFader'
+      const ListOfBanks = await Db.Physical.where('TypePageBank').startsWith(Prefix).uniqueKeys()
+      const NumberOfBanks = ListOfBanks.length
+      const MTouch = document.createElement('div')
       MTouch.className = 'M-Touch'
-      let MTouchH2 = document.createElement('h2')
+      const MTouchH2 = document.createElement('h2')
       MTouchH2.innerHTML = `M-Touch <em>(${NumberOfBanks} bank${NumberOfBanks > 1 ? 's' : ''})</em>`
       MTouch.appendChild(MTouchH2)
 
-      let Wrapper = document.createElement('div')
+      const Wrapper = document.createElement('div')
       Wrapper.className = 'flex-container'
-      let LeftSide = document.createElement('div')
+      const LeftSide = document.createElement('div')
       LeftSide.className = 'LeftSide'
 
       const SVGMTouch = await Dexie.waitFor(GetConsole('MTouch'))
       for (let z = 0; z < NumberOfBanks; z++) {
-        let NewMTouch = SVGMTouch.cloneNode(true)
+        const NewMTouch = SVGMTouch.cloneNode(true)
         NewMTouch.querySelector('.Bank tspan').innerHTML = TriDigit(z + 1)
         NewMTouch.querySelector('style').remove()
 
         for (let i = 1; i <= 20; i++) {
           let CurrentFader = await DbGet({ Object: 'Physical', Index: 'TypePageBankPosition', ItemID: `${ListOfBanks[z]}-${i}` })
           if (CurrentFader) {
-            let Cuelist = await DbGet({ Object: 'Cuelist', Index: 'ID', ItemID: CurrentFader.CuelistID })
+            const Cuelist = await DbGet({ Object: 'Cuelist', Index: 'ID', ItemID: CurrentFader.CuelistID })
             CurrentFader = NewMTouch.querySelector(`.MainFader${i}`)
             if (typeof Cuelist === 'object') {
               CurrentFader.classList.add(`Type-${Cuelist.Type}`)
@@ -168,22 +168,22 @@ export const Console = {
   MPlay: async () => {
     return Db.transaction('r', Db.Cuelist, Db.Physical, async () => {
       // Get number of bank info per type
-      let Prefix = 'SubmasterPlayback'
-      let ListOfBanks = await Db.Physical.where('TypePageBank').startsWith(Prefix).uniqueKeys()
-      let NumberOfBanks = ListOfBanks.length
+      const Prefix = 'SubmasterPlayback'
+      const ListOfBanks = await Db.Physical.where('TypePageBank').startsWith(Prefix).uniqueKeys()
+      const NumberOfBanks = ListOfBanks.length
 
       // Create the console container
-      let MPlay = document.createElement('div')
+      const MPlay = document.createElement('div')
       MPlay.className = 'M-Play'
-      let MPlayH2 = document.createElement('h2')
+      const MPlayH2 = document.createElement('h2')
       MPlayH2.innerHTML = `M-Play <em>(${NumberOfBanks} submaster bank${NumberOfBanks > 1 ? 's' : ''})</em>`
       MPlay.appendChild(MPlayH2)
 
-      let Wrapper = document.createElement('div')
+      const Wrapper = document.createElement('div')
       Wrapper.className = 'flex-container'
-      let LeftSide = document.createElement('div')
+      const LeftSide = document.createElement('div')
       LeftSide.className = 'LeftSide'
-      let RightSide = document.createElement('div')
+      const RightSide = document.createElement('div')
       RightSide.className = 'RightSide'
 
       // Get the console SVG image
@@ -191,20 +191,20 @@ export const Console = {
       SVGMPlay.querySelector('style').remove()
 
       // Create a dedicated SVG picture for the left part
-      let MPlayLeft = SVGMPlay.cloneNode(true)
+      const MPlayLeft = SVGMPlay.cloneNode(true)
       MPlayLeft.querySelector('svg').setAttribute('viewBox', '0 0 465 304.5')
       MPlayLeft.querySelector('g.rightside').remove()
 
       // Create a dedicated SVG picture for the right part
-      let MplayRight = SVGMPlay.cloneNode(true)
+      const MplayRight = SVGMPlay.cloneNode(true)
       MplayRight.querySelector('svg').setAttribute('viewBox', '465 0 147.5 304.5')
       MplayRight.querySelector('g.leftside').remove()
 
       // Create all parts following the number of banks
       for (let z = 0; z < NumberOfBanks; z++) {
         // Clone SVG picture the current bank
-        let CurrentMPlayLeft = MPlayLeft.cloneNode(true)
-        let CurrentMplayRight = MplayRight.cloneNode(true)
+        const CurrentMPlayLeft = MPlayLeft.cloneNode(true)
+        const CurrentMplayRight = MplayRight.cloneNode(true)
         // Set the Bank Number
         CurrentMPlayLeft.querySelector('.Bank tspan').innerHTML = TriDigit(z + 1)
         CurrentMplayRight.querySelector('.Bank tspan').innerHTML = TriDigit(z + 1)
@@ -213,7 +213,7 @@ export const Console = {
         for (let i = 1; i <= 24; i++) {
           let CurrentFader = await DbGet({ Object: 'Physical', Index: 'TypePageBankPosition', ItemID: `${ListOfBanks[z]}-${i}` })
           if (CurrentFader) {
-            let Cuelist = await DbGet({ Object: 'Cuelist', Index: 'ID', ItemID: CurrentFader.CuelistID })
+            const Cuelist = await DbGet({ Object: 'Cuelist', Index: 'ID', ItemID: CurrentFader.CuelistID })
             CurrentFader = CurrentMPlayLeft.querySelector(`.SubFader${i}`)
             if (typeof Cuelist === 'object') {
               CurrentFader.classList.add(`Type-${Cuelist.Type}`)
@@ -226,7 +226,7 @@ export const Console = {
         for (let i = 1; i <= 24; i++) {
           let CurrentFader = await DbGet({ Object: 'Physical', Index: 'TypePageBankPosition', ItemID: `${ListOfBanks[z]}-${i}` })
           if (CurrentFader) {
-            let Cuelist = await DbGet({ Object: 'Cuelist', Index: 'ID', ItemID: CurrentFader.CuelistID })
+            const Cuelist = await DbGet({ Object: 'Cuelist', Index: 'ID', ItemID: CurrentFader.CuelistID })
             CurrentFader = CurrentMplayRight.querySelector(`.Button${i}`)
             if (typeof Cuelist === 'object') {
               CurrentFader.classList.add(`Type-${Cuelist.Type}`)

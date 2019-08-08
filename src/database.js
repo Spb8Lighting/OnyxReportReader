@@ -68,11 +68,11 @@ export const Delete = async Data => {
 }
 export const Fixture = {
   RemoveGroup: async () => {
-    let Fixtures = await GetAll({ Object: 'Fixture' })
-    let FixturesCount = Object.keys(Fixtures).length
+    const Fixtures = await GetAll({ Object: 'Fixture' })
+    const FixturesCount = Object.keys(Fixtures).length
     if (FixturesCount > 0) {
       for (let i = 0; i < FixturesCount; ++i) {
-        let Fixture = Fixtures[i]
+        const Fixture = Fixtures[i]
         if (Fixture.Groups.length > 0) {
           Fixture.Groups = []
           await Update({ Object: 'Fixture', Item: Fixture })

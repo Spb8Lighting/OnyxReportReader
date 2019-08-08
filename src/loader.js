@@ -3,9 +3,9 @@ const $FixtureGroup = document.querySelector('label[for="FixtureGroupXML"]')
 const $Preset = document.querySelector('label[for="PresetXML"]')
 const $Cuelist = document.querySelector('label[for="CuelistXML"]')
 
-let AddLoader = Sel => Sel.classList.add('working')
+const AddLoader = Sel => Sel.classList.add('working')
 
-let RemoveLoader = Sel => Sel.classList.remove('working')
+const RemoveLoader = Sel => Sel.classList.remove('working')
 
 export const Patch = {
   Show: () => AddLoader($Patch),

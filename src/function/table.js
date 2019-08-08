@@ -37,14 +37,14 @@ const PresetInfo = Preset => {
 
 const GetAllFixtures = async (ListOfFixtures, index = false) => {
   let Fixtures = 0
-  let FixtureList = []
+  const FixtureList = []
   if (ListOfFixtures) {
     Fixtures = Object.keys(ListOfFixtures).length
   }
   if (Fixtures > 0) {
     for (let i = 0; i < Fixtures; ++i) {
-      let Fixture = ListOfFixtures[i]
-      let FixtureDB = await DbGet({ Object: 'Fixture', Index: (index) ? 'ID' : 'Ref', ItemID: Fixture })
+      const Fixture = ListOfFixtures[i]
+      const FixtureDB = await DbGet({ Object: 'Fixture', Index: (index) ? 'ID' : 'Ref', ItemID: Fixture })
       if (FixtureDB) {
         FixtureList.push(`<span data-title="${FixtureInfo(FixtureDB)}">${FixtureDB.ID}</span>`)
       }
@@ -57,14 +57,14 @@ const GetAllFixtures = async (ListOfFixtures, index = false) => {
 
 const GetAllPresets = async (ListOfPresets) => {
   let Presets = 0
-  let PresetList = []
+  const PresetList = []
   if (ListOfPresets) {
     Presets = Object.keys(ListOfPresets).length
   }
   if (Presets > 0) {
     for (let i = 0; i < Presets; ++i) {
-      let Preset = ListOfPresets[i]
-      let PresetDB = await DbGet({ Object: 'Preset', Index: 'ID', ItemID: Preset })
+      const Preset = ListOfPresets[i]
+      const PresetDB = await DbGet({ Object: 'Preset', Index: 'ID', ItemID: Preset })
       if (PresetDB) {
         PresetList.push(`<span data-title="${PresetInfo(PresetDB)}">${PresetDB.Name}</span>`)
       }
@@ -76,10 +76,10 @@ const GetAllPresets = async (ListOfPresets) => {
 }
 
 const GetAllGroups = async Fixture => {
-  let Groups = []
+  const Groups = []
   if (Fixture.Groups) {
     for (let i = 0; i < Object.keys(Fixture.Groups).length; i++) {
-      let Group = await DbGet({ Object: 'FixtureGroup', ItemID: Fixture.Groups[i] })
+      const Group = await DbGet({ Object: 'FixtureGroup', ItemID: Fixture.Groups[i] })
       if (Group) {
         Groups.push(`<span data-title="${GroupInfo(Group)}">${Group.Name}</span>`)
       }
@@ -96,9 +96,9 @@ const NotFalse = (val, join = false) => {
 
 export const THead = Config => {
   let Thead = '<tr>' + '\n'
-  let TheadLength = Config.length
+  const TheadLength = Config.length
   for (let i = 0; i < TheadLength; ++i) {
-    let ClassAttribut = Config[i].Show ? Config[i].ID : `${Config[i].ID} hide`
+    const ClassAttribut = Config[i].Show ? Config[i].ID : `${Config[i].ID} hide`
     Thead += '\t' + `<th class="${ClassAttribut}">${Config[i].Name}</th>` + '\n'
   }
   Thead += '</tr>'
@@ -153,7 +153,7 @@ const PresetType = val => {
       return val
     }
   } else if (typeof val === 'object') {
-    let Temp = []
+    const Temp = []
     for (let i = 0; i < val.length; i++) {
       Temp.push(PresetType(val[i]))
     }
@@ -164,11 +164,11 @@ const PresetType = val => {
 }
 
 export const TBodyLine = async (Config, Multipart, Data, Restricted = false) => {
-  let MultiPartClass = Restricted ? 'Patch_MultiPart' : 'MultiPart'
-  let MultiPartID = Multipart > 0 || Restricted ? ` class="${MultiPartClass}" data-id="${Data.ID}"` : ''
+  const MultiPartClass = Restricted ? 'Patch_MultiPart' : 'MultiPart'
+  const MultiPartID = Multipart > 0 || Restricted ? ` class="${MultiPartClass}" data-id="${Data.ID}"` : ''
   let Tbody = `<tr${MultiPartID}>` + '\n'
-  let Table = Config
-  let TbodyLength = Table.length
+  const Table = Config
+  const TbodyLength = Table.length
   for (let i = 0; i < TbodyLength; ++i) {
     let ClassAttribut = Table[i].Show ? Table[i].ID : `${Table[i].ID} hide`
     let RowContent = ''
@@ -233,7 +233,7 @@ export const TBodyLine = async (Config, Multipart, Data, Restricted = false) => 
         RowContent = PresetType(Data.Usage)
         break
       case 'Preset_Fixtures':
-        let Fixtures = Common.AssignObject(Data.UsedFor, Data.UnusedFor)
+        const Fixtures = Common.AssignObject(Data.UsedFor, Data.UnusedFor)
         if (Fixtures) {
           RowContent = NotFalse(await GetAllFixtures(Fixtures, true))
         } else {
@@ -277,7 +277,7 @@ export const TBodyLine = async (Config, Multipart, Data, Restricted = false) => 
         RowContent = NotFalse(Data.FadeMode)
         break
       case 'Cuelist_DetailUses':
-        let RowC = []
+        const RowC = []
         if (Data.MarkCue) {
           RowC.push('M')
         }

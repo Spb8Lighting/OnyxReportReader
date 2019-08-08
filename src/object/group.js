@@ -14,8 +14,9 @@ export default class FixtureGroupObject {
     this.Fixtures = Fixtures
     this.CheckMask(GroupXML)
   }
+
   static async Init (CustomID, GroupXML) {
-    let Fixture = GroupXML.getElementsByTagName('Fixture')
+    const Fixture = GroupXML.getElementsByTagName('Fixture')
     let Fixtures = false
     if (Fixture.length > 0) {
       Fixtures = {}
@@ -26,8 +27,9 @@ export default class FixtureGroupObject {
     }
     return new FixtureGroupObject(CustomID, GroupXML, Fixtures)
   }
+
   CheckMask (GroupXML) {
-    let Mask = GroupXML.getElementsByTagName('Mask')[0]
+    const Mask = GroupXML.getElementsByTagName('Mask')[0]
     if (typeof Mask !== 'undefined') {
       this.Mask = true
     }

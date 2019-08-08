@@ -7,7 +7,7 @@ export default class PresetObject {
    */
   constructor (PresetXML) {
     this.ID = PresetXML.getAttribute('ID')
-    let TypePosition = this.ID.match(/^([A-Z0-9 ]+) ([0-9]+)$/i)
+    const TypePosition = this.ID.match(/^([A-Z0-9 ]+) ([0-9]+)$/i)
     this.Type = TypePosition[1]
     this.Position = TypePosition[2]
     this.Name = ((PresetXML.getAttribute('name') != null) ? PresetXML.getAttribute('name') : '')
@@ -18,6 +18,7 @@ export default class PresetObject {
     this.UsedByPreset = this.CheckTag('PresetUsedByPreset', 'Source', PresetXML, true)
     this.State = this.CheckState()
   }
+
   CheckState () {
     if (Object.keys(this.UsedFor).length === 0 && Object.keys(this.UnusedFor).length === 0) {
       return WordingPreset.Status.NoFixture
@@ -29,12 +30,13 @@ export default class PresetObject {
       return WordingPreset.Status.PartialUse
     }
   }
+
   CheckTag (MainTag, SubTag, PresetXML, Attribute = false) {
-    let TableReturn = (MainTag === 'PresetUsage') ? [] : {}
-    let MainSelector = PresetXML.getElementsByTagName(MainTag)[0]
+    const TableReturn = (MainTag === 'PresetUsage') ? [] : {}
+    const MainSelector = PresetXML.getElementsByTagName(MainTag)[0]
     if (typeof MainSelector !== 'undefined') {
-      let SubSelectors = MainSelector.getElementsByTagName(SubTag)
-      let SubSelectorsLength = SubSelectors.length
+      const SubSelectors = MainSelector.getElementsByTagName(SubTag)
+      const SubSelectorsLength = SubSelectors.length
       if (SubSelectorsLength > 0) {
         for (let i = 0; i < SubSelectorsLength; i++) {
           if (Attribute) {

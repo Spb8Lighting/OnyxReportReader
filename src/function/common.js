@@ -1,8 +1,8 @@
-let AssignObject = (Obj1, Obj2) => {
-  let MergeObject = {}
+const AssignObject = (Obj1, Obj2) => {
+  const MergeObject = {}
   let Id = 0
-  let Object1Length = Object.keys(Obj1).length
-  let Object2Length = Object.keys(Obj2).length
+  const Object1Length = Object.keys(Obj1).length
+  const Object2Length = Object.keys(Obj2).length
   if (Object1Length === 0 && Object2Length === 0) {
     return false
   }
