@@ -1,0 +1,977 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type='text/xsl' href='PresetReport.Onyx.xslt'?>
+<Presets showName="Macha 21 Juin" showBuild="67240981" cnt="139" cntInUse="115" cntUnused="10" cntEmpty="14">
+<Preset ID="Beam 1" name="No prism">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 2" name="Prism fixed">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 3" name="Focus Near">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 4" name="Frost 100%">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 5" name="Zoom 100%">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 9" name="Prism Rot CW Slow">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>64</Fixture><Fixture>65</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 10" name="Prism Rot CCW Slow">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 11" name="Focus Middle">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 12" name="Frost 50%">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 13" name="Zoom 50%">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 17" name="Prism Rot CW Fast">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>64</Fixture><Fixture>65</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 18" name="Prism Rot CCW Fast">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 19" name="Focus Far">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 20" name="Frost 0%">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 21" name="Zoom 0%">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 1" name="CTB">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>9</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Spot White" id="25"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 2" name="White">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>9</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Spot White" id="25"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 3" name="CTO">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>9</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Spot Orange" id="29"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 4" name="Salmon">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>9</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Spot Red" id="27"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 5" name="Red">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>9</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Spot Red" id="27"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 6" name="Peach">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>9</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Spot Orange" id="29"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 7" name="Orange">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>9</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Spot Orange" id="29"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 8" name="Yellow">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>9</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Spot Yellow" id="35"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 9" name="Lime">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>9</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Spot Green" id="31"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 10" name="Green">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>9</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Spot Green" id="31"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 11" name="Turquoise">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>9</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Spot Cyan" id="37"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 12" name="Cyan">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>9</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Spot Cyan" id="37"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 13" name="Azure">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>9</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Spot Cyan" id="37"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 14" name="Light Blue">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>9</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Spot Cyan" id="37"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 15" name="Blue">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>9</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Spot Blue" id="33"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 16" name="Dark Blue">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>9</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Spot Blue" id="33"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 17" name="Lavender">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>9</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Spot Magenta" id="39"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 18" name="Uv">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>9</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Spot Magenta" id="39"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 19" name="Bright Pink">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>9</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Spot Magenta" id="39"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 20" name="Pink">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>9</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Spot Magenta" id="39"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 21" name="Flash Pink">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>9</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Spot Magenta" id="39"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 22" name="Sunset Pink">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>9</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Spot Magenta" id="39"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 23" name="Magenta">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>9</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Spot Magenta" id="39"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 25" name="Spot White">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset><Source group="Color" name="CTB" id="1"></Source><Source group="Color" name="White" id="2"></Source></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 26" name="Spot White Red">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 27" name="Spot Red">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset><Source group="Color" name="Salmon" id="4"></Source><Source group="Color" name="Red" id="5"></Source></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 28" name="Spot Red Orange">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 29" name="Spot Orange">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset><Source group="Color" name="CTO" id="3"></Source><Source group="Color" name="Peach" id="6"></Source><Source group="Color" name="Orange" id="7"></Source></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 30" name="Spot Orange Green">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 31" name="Spot Green">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset><Source group="Color" name="Lime" id="9"></Source><Source group="Color" name="Green" id="10"></Source></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 32" name="Spot Green Blue">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 33" name="Spot Blue">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset><Source group="Color" name="Blue" id="15"></Source><Source group="Color" name="Dark Blue" id="16"></Source></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 34" name="Spot Blue Yellow">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 35" name="Spot Yellow">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset><Source group="Color" name="Yellow" id="8"></Source></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 36" name="Spot Yellow Cyan">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 37" name="Spot Cyan">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset><Source group="Color" name="Turquoise" id="11"></Source><Source group="Color" name="Cyan" id="12"></Source><Source group="Color" name="Azure" id="13"></Source><Source group="Color" name="Light Blue" id="14"></Source></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 38" name="Spot Cyan Magenta">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 39" name="Spot Magenta">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset><Source group="Color" name="Lavender" id="17"></Source><Source group="Color" name="Uv" id="18"></Source><Source group="Color" name="Bright Pink" id="19"></Source><Source group="Color" name="Pink" id="20"></Source><Source group="Color" name="Flash Pink" id="21"></Source><Source group="Color" name="Sunset Pink" id="22"></Source><Source group="Color" name="Magenta" id="23"></Source></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 1" name="Rainbow">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 8" name="Max Speed Color">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 1" name="No Gobo">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 2" name="Gobo fixed">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 4" name="Gobo 01">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 5" name="Gobo 02">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 6" name="Gobo 03">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 7" name="Gobo 04">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 8" name="Gobo 05">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 9" name="Gobo Rot CW Slow">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>64</Fixture><Fixture>65</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 10" name="Gobo Rot CW Fast">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>64</Fixture><Fixture>65</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 12" name="Gobo 06">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 13" name="Gobo 07">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 14" name="Gobo 08">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 17" name="Gobo Rot CCW Slow">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 18" name="Gobo Rot CCW Fast">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 20" name="Gobo 01 S">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 21" name="Gobo 02 S">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 22" name="Gobo 03 S">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 23" name="Gobo 04 S">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 24" name="Gobo 05 S">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 28" name="Gobo 06 S">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 29" name="Gobo 07 S">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 30" name="Gobo 08 S">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 36" name="Gobo 09">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 37" name="Gobo 10">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 38" name="Gobo 11">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 39" name="Gobo 12">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 40" name="Gobo 13">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 44" name="Gobo 14">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 1" name="Dimmer 100%">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>1</Fixture><Fixture>10</Fixture><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>2</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>3</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>4</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>5</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>6</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>7</Fixture><Fixture>8</Fixture><Fixture>9</Fixture></UnusedValuesFor>
+<PresetUsesPreset><Source group="Intensity" name="Full" id="42"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 2" name="Strobe Fast">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 3" name="Shutter Open">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 6" name="Swing Max">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>1</Fixture><Fixture>10</Fixture><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>17</Fixture><Fixture>18</Fixture><Fixture>2</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>3</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>4</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>5</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>6</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>7</Fixture><Fixture>8</Fixture><Fixture>9</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset><Source group="Intensity" name="Par Sym 4" id="8"></Source><Source group="Intensity" name="Par Sym" id="16"></Source><Source group="Intensity" name="Par 3" id="24"></Source><Source group="Intensity" name="Par Block RDM" id="32"></Source><Source group="Intensity" name="Par 1" id="40"></Source><Source group="Intensity" name="Par Group" id="48"></Source><Source group="Intensity" name="Par 1 Ext" id="56"></Source></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 8" name="Par Sym 4">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture></UnusedValuesFor>
+<PresetUsesPreset><Source group="Intensity" name="Swing Max" id="6"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 9" name="Dimmer 50%">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 10" name="Strobe Mid">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 11" name="Shutter Closed">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 16" name="Par Sym">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Intensity" name="Swing Max" id="6"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 17" name="Dimmer 0%">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>1</Fixture><Fixture>10</Fixture><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>2</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>3</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>4</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>5</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>6</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>7</Fixture><Fixture>8</Fixture><Fixture>9</Fixture></UnusedValuesFor>
+<PresetUsesPreset><Source group="Intensity" name="Zero" id="41"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 18" name="Strobe Low">
+<PresetUsage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 24" name="Par 3">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Intensity" name="Swing Max" id="6"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 32" name="Par Block RDM">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Intensity" name="Swing Max" id="6"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 40" name="Par 1">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Intensity" name="Swing Max" id="6"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 41" name="Zero">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>1</Fixture><Fixture>10</Fixture><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>2</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>3</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>4</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>5</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>6</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>7</Fixture><Fixture>8</Fixture><Fixture>9</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset><Source group="Intensity" name="Dimmer 0%" id="17"></Source></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 42" name="Full">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor><Fixture>1</Fixture><Fixture>10</Fixture><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>2</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>3</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>4</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>5</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>6</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>7</Fixture><Fixture>8</Fixture><Fixture>9</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset><Source group="Intensity" name="Dimmer 100%" id="1"></Source></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 48" name="Par Group">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Intensity" name="Swing Max" id="6"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 56" name="Par 1 Ext">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Intensity" name="Swing Max" id="6"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 1" name="Tableau 1">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 2" name="Tableau 2">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 3" name="Tableau 3">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 4" name="Tableau 4">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Pan Tilt" name="Tableau Centre" id="9"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 5" name="Tableau 5">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Pan Tilt" name="Tableau Centre" id="9"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 6" name="Tableau 6">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 8" name="Artiste">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 9" name="Tableau Centre">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset><Source group="Pan Tilt" name="Tableau 4" id="4"></Source><Source group="Pan Tilt" name="Tableau 5" id="5"></Source></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 10" name="Centre 2">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 17" name="Haut">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 25" name="PT Fly High">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 26" name="PT Mid High">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 28" name="PT Cross High">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 31" name="Swing JC">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 32" name="Circle">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 33" name="PT Base">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 34" name="PT Ouvert">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 35" name="PT Center">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 36" name="PT Cross">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 39" name="Swing Alt">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 40" name="Half Circle">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 41" name="PT Droit">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 42" name="PT Open 2">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 43" name="PT Center Back">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 47" name="Swing B2">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 48" name="Height">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 49" name="PT Droit Haut">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 50" name="PT Jar">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 55" name="Swing 3">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 56" name="Double Eight">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 58" name="PT Cour">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 63" name="Swing  Step">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 64" name="AIDS">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 72" name="Matrix">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Special 1" name="Default Values">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Special 10" name="HighLight 0">
+<PresetUsage><Usage>Intensity</Usage><Usage>Pan Tilt</Usage><Usage>Color</Usage><Usage>Gobo</Usage><Usage>Beam</Usage><Usage>Beam Effects</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>1</Fixture><Fixture>10</Fixture><Fixture>101</Fixture><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>17</Fixture><Fixture>18</Fixture><Fixture>2</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>3</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>4</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>5</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>6</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>7</Fixture><Fixture>8</Fixture><Fixture>9</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Special 11" name="HighLight 1">
+<PresetUsage><Usage>Intensity</Usage><Usage>Color</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>9</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Special 21" name="LowLight 1">
+<PresetUsage><Usage>Intensity</Usage><Usage>Color</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>11</Fixture><Fixture>15</Fixture><Fixture>16</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>56</Fixture><Fixture>57</Fixture><Fixture>58</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>65</Fixture><Fixture>9</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+</Presets>
