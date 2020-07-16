@@ -44,6 +44,9 @@ export default class FixtureObject {
       this.Multipart = []
       for (let i = 0; i < Parts.length; i++) {
         const NewMultiPart = JSON.parse(JSON.stringify(new SubFixtureObject(Parts[i])))
+        if (i > 0 && NewMultiPart.ID === 1) {
+          NewMultiPart.ID = `${NewMultiPart.ID}.${i}`
+        }
         NewMultiPart.ID = String(`${this.ID}.${NewMultiPart.ID}`)
         this.Multipart.push({ ID: NewMultiPart.ID })
         NewMultiPart.Manufacturer = this.Manufacturer
