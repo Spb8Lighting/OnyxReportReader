@@ -29,8 +29,8 @@ export default class FixtureObject {
     this.Model = FixtureXML.getAttribute('model')
     this.Mode = FixtureXML.getAttribute('displayName').replace(`${this.Model} `, '')
     this.Invert = ''
-    this.Universe = false
-    this.Address = false
+    this.Universe = 0
+    this.Address = 0
     this.UsedFor = []
     this.NeverUsedFor = []
     this.Groups = []

@@ -42,7 +42,8 @@ export default class PresetObject {
           if (Attribute) {
             TableReturn[i] = `${SubSelectors[i].getAttribute('group')} ${SubSelectors[i].getAttribute('id')}`
           } else {
-            TableReturn[i] = (MainTag === 'PresetUsage') ? SubSelectors[i].innerHTML : Number(SubSelectors[i].innerHTML)
+            const TagValue = SubSelectors[i].innerHTML
+            TableReturn[i] = (MainTag === 'PresetUsage') ? TagValue : ((isNaN(TagValue)) ? Number(TagValue.split('.')[0] + '.' + (TagValue.split('.')[1]++)) : Number(TagValue))
           }
         }
         return TableReturn
