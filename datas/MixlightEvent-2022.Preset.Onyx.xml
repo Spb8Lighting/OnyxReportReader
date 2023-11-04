@@ -1,0 +1,1936 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type='text/xsl' href='PresetReport.Onyx.xslt'?>
+<Presets showName="MixlightEvent-2022" showBuild="67699936" cnt="276" cntInUse="240" cntUnused="36" cntEmpty="0">
+<Preset ID="Beam Effects 1" name="Lyre Bottom Black">
+<PresetUsage><Usage>Intensity</Usage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UnusedValuesFor>
+<PresetUsesPreset><Source group="Intensity" name="I - 0%" id="1"></Source><Source group="Pan Tilt" name="Tilt Straight" id="4"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam Effects 2" name="Lyre Top On">
+<PresetUsage><Usage>Intensity</Usage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UnusedValuesFor>
+<PresetUsesPreset><Source group="Intensity" name="I - 100%" id="3"></Source><Source group="Pan Tilt" name="Tilt Mid Air" id="8"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 1" name="Focus Gobo 1">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset><Source group="Gobo" name="Beam Reducer Mid" id="1"></Source><Source group="Gobo" name="Beam Reducer Tiny" id="2"></Source><Source group="Gobo" name="Reducer Shake" id="10"></Source><Source group="Gobo" name="Reducer Tiny Shake" id="11"></Source><Source group="Gobo" name="Multi Dots Shake" id="12"></Source><Source group="Gobo" name="Triangles Lines Shake" id="13"></Source><Source group="Gobo" name="Sun Lines Shake" id="14"></Source><Source group="Gobo" name="Rosace Shake" id="15"></Source><Source group="Gobo" name="Sun Shake" id="16"></Source><Source group="Gobo" name="Fire Shake" id="17"></Source></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 2" name="Focus Gobo 2">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset><Source group="Gobo" name="Triangle" id="19"></Source><Source group="Gobo" name="Tri Wave" id="20"></Source><Source group="Gobo" name="Fan" id="21"></Source><Source group="Gobo" name="Tri Dots" id="22"></Source><Source group="Gobo" name="Star" id="23"></Source><Source group="Gobo" name="Big Dot and dots" id="24"></Source><Source group="Gobo" name="Triangle Shake" id="26"></Source><Source group="Gobo" name="Tri waves Shak" id="27"></Source><Source group="Gobo" name="Fan Shake" id="28"></Source><Source group="Gobo" name="Tri Dots Shake" id="29"></Source><Source group="Gobo" name="Star Shake" id="30"></Source><Source group="Gobo" name="Big Dots Shakes" id="31"></Source></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 5" name="Zoom Wide">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 6" name="Zoom Narrow">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 8" name="Prism Open">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 9" name="Prism 3F">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 11" name="CW Fast">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 12" name="CW Slow">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 13" name="CCW Fast">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>63</Fixture><Fixture>64</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 14" name="CCW Slow">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>63</Fixture><Fixture>64</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Beam 15" name="Rot Stop">
+<PresetUsage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 1" name="Basic Preset">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>20</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>24</Fixture><Fixture>25</Fixture><Fixture>26</Fixture><Fixture>27</Fixture><Fixture>28</Fixture><Fixture>29</Fixture><Fixture>30</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>35</Fixture><Fixture>36</Fixture><Fixture>37</Fixture><Fixture>40</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>49</Fixture><Fixture>50</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>70.1</Fixture><Fixture>70.2</Fixture><Fixture>70.3</Fixture><Fixture>70.4</Fixture><Fixture>70.5</Fixture><Fixture>70.6</Fixture><Fixture>70.7</Fixture><Fixture>70.8</Fixture><Fixture>70.9</Fixture><Fixture>71.1</Fixture><Fixture>71.2</Fixture><Fixture>71.3</Fixture><Fixture>71.4</Fixture><Fixture>71.5</Fixture><Fixture>71.6</Fixture><Fixture>71.7</Fixture><Fixture>71.8</Fixture><Fixture>71.9</Fixture><Fixture>80.1</Fixture><Fixture>80.10</Fixture><Fixture>80.11</Fixture><Fixture>80.12</Fixture><Fixture>80.13</Fixture><Fixture>80.14</Fixture><Fixture>80.15</Fixture><Fixture>80.16</Fixture><Fixture>80.2</Fixture><Fixture>80.3</Fixture><Fixture>80.4</Fixture><Fixture>80.5</Fixture><Fixture>80.6</Fixture><Fixture>80.7</Fixture><Fixture>80.8</Fixture><Fixture>80.9</Fixture><Fixture>90</Fixture><Fixture>91</Fixture><Fixture>92</Fixture><Fixture>93</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset><Source group="Color" name="White" id="2"></Source><Source group="Color" name="Red" id="5"></Source><Source group="Color" name="Orange" id="6"></Source><Source group="Color" name="Yellow" id="7"></Source><Source group="Color" name="Lime" id="8"></Source><Source group="Color" name="Green" id="9"></Source><Source group="Color" name="Cyan" id="10"></Source><Source group="Color" name="Azure" id="11"></Source><Source group="Color" name="Blue" id="12"></Source><Source group="Color" name="Congo Blue" id="13"></Source><Source group="Color" name="Fushia" id="14"></Source><Source group="Color" name="Magenta" id="15"></Source><Source group="Color" name="Pink" id="16"></Source><Source group="Color" name="Full White" id="3"></Source><Source group="Color" name="CTO" id="4"></Source></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 2" name="White">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>20</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>24</Fixture><Fixture>25</Fixture><Fixture>26</Fixture><Fixture>27</Fixture><Fixture>28</Fixture><Fixture>29</Fixture><Fixture>30</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>35</Fixture><Fixture>36</Fixture><Fixture>37</Fixture><Fixture>40</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>49</Fixture><Fixture>50</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>70.1</Fixture><Fixture>70.2</Fixture><Fixture>70.3</Fixture><Fixture>70.4</Fixture><Fixture>70.5</Fixture><Fixture>70.6</Fixture><Fixture>70.7</Fixture><Fixture>70.8</Fixture><Fixture>70.9</Fixture><Fixture>71.1</Fixture><Fixture>71.2</Fixture><Fixture>71.3</Fixture><Fixture>71.4</Fixture><Fixture>71.5</Fixture><Fixture>71.6</Fixture><Fixture>71.7</Fixture><Fixture>71.8</Fixture><Fixture>71.9</Fixture><Fixture>80.1</Fixture><Fixture>80.10</Fixture><Fixture>80.11</Fixture><Fixture>80.12</Fixture><Fixture>80.13</Fixture><Fixture>80.14</Fixture><Fixture>80.15</Fixture><Fixture>80.16</Fixture><Fixture>80.2</Fixture><Fixture>80.3</Fixture><Fixture>80.4</Fixture><Fixture>80.5</Fixture><Fixture>80.6</Fixture><Fixture>80.7</Fixture><Fixture>80.8</Fixture><Fixture>80.9</Fixture><Fixture>90</Fixture><Fixture>91</Fixture><Fixture>92</Fixture><Fixture>93</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Basic Preset" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 3" name="Full White">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>20</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>24</Fixture><Fixture>25</Fixture><Fixture>26</Fixture><Fixture>27</Fixture><Fixture>28</Fixture><Fixture>29</Fixture><Fixture>30</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>35</Fixture><Fixture>36</Fixture><Fixture>37</Fixture><Fixture>40</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>49</Fixture><Fixture>50</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>70.1</Fixture><Fixture>70.2</Fixture><Fixture>70.3</Fixture><Fixture>70.4</Fixture><Fixture>70.5</Fixture><Fixture>70.6</Fixture><Fixture>70.7</Fixture><Fixture>70.8</Fixture><Fixture>70.9</Fixture><Fixture>71.1</Fixture><Fixture>71.2</Fixture><Fixture>71.3</Fixture><Fixture>71.4</Fixture><Fixture>71.5</Fixture><Fixture>71.6</Fixture><Fixture>71.7</Fixture><Fixture>71.8</Fixture><Fixture>71.9</Fixture><Fixture>80.1</Fixture><Fixture>80.10</Fixture><Fixture>80.11</Fixture><Fixture>80.12</Fixture><Fixture>80.13</Fixture><Fixture>80.14</Fixture><Fixture>80.15</Fixture><Fixture>80.16</Fixture><Fixture>80.2</Fixture><Fixture>80.3</Fixture><Fixture>80.4</Fixture><Fixture>80.5</Fixture><Fixture>80.6</Fixture><Fixture>80.7</Fixture><Fixture>80.8</Fixture><Fixture>80.9</Fixture><Fixture>90</Fixture><Fixture>91</Fixture><Fixture>92</Fixture><Fixture>93</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Basic Preset" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 4" name="CTO">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>20</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>24</Fixture><Fixture>25</Fixture><Fixture>26</Fixture><Fixture>27</Fixture><Fixture>28</Fixture><Fixture>29</Fixture><Fixture>30</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>35</Fixture><Fixture>36</Fixture><Fixture>37</Fixture><Fixture>40</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>49</Fixture><Fixture>50</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>70.1</Fixture><Fixture>70.2</Fixture><Fixture>70.3</Fixture><Fixture>70.4</Fixture><Fixture>70.5</Fixture><Fixture>70.6</Fixture><Fixture>70.7</Fixture><Fixture>70.8</Fixture><Fixture>70.9</Fixture><Fixture>71.1</Fixture><Fixture>71.2</Fixture><Fixture>71.3</Fixture><Fixture>71.4</Fixture><Fixture>71.5</Fixture><Fixture>71.6</Fixture><Fixture>71.7</Fixture><Fixture>71.8</Fixture><Fixture>71.9</Fixture><Fixture>80.1</Fixture><Fixture>80.10</Fixture><Fixture>80.11</Fixture><Fixture>80.12</Fixture><Fixture>80.13</Fixture><Fixture>80.14</Fixture><Fixture>80.15</Fixture><Fixture>80.16</Fixture><Fixture>80.2</Fixture><Fixture>80.3</Fixture><Fixture>80.4</Fixture><Fixture>80.5</Fixture><Fixture>80.6</Fixture><Fixture>80.7</Fixture><Fixture>80.8</Fixture><Fixture>80.9</Fixture><Fixture>90</Fixture><Fixture>91</Fixture><Fixture>92</Fixture><Fixture>93</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Basic Preset" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 5" name="Red">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>20</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>24</Fixture><Fixture>25</Fixture><Fixture>26</Fixture><Fixture>27</Fixture><Fixture>28</Fixture><Fixture>29</Fixture><Fixture>30</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>35</Fixture><Fixture>36</Fixture><Fixture>37</Fixture><Fixture>40</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>49</Fixture><Fixture>50</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>70.1</Fixture><Fixture>70.2</Fixture><Fixture>70.3</Fixture><Fixture>70.4</Fixture><Fixture>70.5</Fixture><Fixture>70.6</Fixture><Fixture>70.7</Fixture><Fixture>70.8</Fixture><Fixture>70.9</Fixture><Fixture>71.1</Fixture><Fixture>71.2</Fixture><Fixture>71.3</Fixture><Fixture>71.4</Fixture><Fixture>71.5</Fixture><Fixture>71.6</Fixture><Fixture>71.7</Fixture><Fixture>71.8</Fixture><Fixture>71.9</Fixture><Fixture>80.1</Fixture><Fixture>80.10</Fixture><Fixture>80.11</Fixture><Fixture>80.12</Fixture><Fixture>80.13</Fixture><Fixture>80.14</Fixture><Fixture>80.15</Fixture><Fixture>80.16</Fixture><Fixture>80.2</Fixture><Fixture>80.3</Fixture><Fixture>80.4</Fixture><Fixture>80.5</Fixture><Fixture>80.6</Fixture><Fixture>80.7</Fixture><Fixture>80.8</Fixture><Fixture>80.9</Fixture><Fixture>90</Fixture><Fixture>91</Fixture><Fixture>92</Fixture><Fixture>93</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Basic Preset" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 6" name="Orange">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>20</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>24</Fixture><Fixture>25</Fixture><Fixture>26</Fixture><Fixture>27</Fixture><Fixture>28</Fixture><Fixture>29</Fixture><Fixture>30</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>35</Fixture><Fixture>36</Fixture><Fixture>37</Fixture><Fixture>40</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>49</Fixture><Fixture>50</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>70.1</Fixture><Fixture>70.2</Fixture><Fixture>70.3</Fixture><Fixture>70.4</Fixture><Fixture>70.5</Fixture><Fixture>70.6</Fixture><Fixture>70.7</Fixture><Fixture>70.8</Fixture><Fixture>70.9</Fixture><Fixture>71.1</Fixture><Fixture>71.2</Fixture><Fixture>71.3</Fixture><Fixture>71.4</Fixture><Fixture>71.5</Fixture><Fixture>71.6</Fixture><Fixture>71.7</Fixture><Fixture>71.8</Fixture><Fixture>71.9</Fixture><Fixture>80.1</Fixture><Fixture>80.10</Fixture><Fixture>80.11</Fixture><Fixture>80.12</Fixture><Fixture>80.13</Fixture><Fixture>80.14</Fixture><Fixture>80.15</Fixture><Fixture>80.16</Fixture><Fixture>80.2</Fixture><Fixture>80.3</Fixture><Fixture>80.4</Fixture><Fixture>80.5</Fixture><Fixture>80.6</Fixture><Fixture>80.7</Fixture><Fixture>80.8</Fixture><Fixture>80.9</Fixture><Fixture>90</Fixture><Fixture>91</Fixture><Fixture>92</Fixture><Fixture>93</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Basic Preset" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 7" name="Yellow">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>20</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>24</Fixture><Fixture>25</Fixture><Fixture>26</Fixture><Fixture>27</Fixture><Fixture>28</Fixture><Fixture>29</Fixture><Fixture>30</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>35</Fixture><Fixture>36</Fixture><Fixture>37</Fixture><Fixture>40</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>49</Fixture><Fixture>50</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>70.1</Fixture><Fixture>70.2</Fixture><Fixture>70.3</Fixture><Fixture>70.4</Fixture><Fixture>70.5</Fixture><Fixture>70.6</Fixture><Fixture>70.7</Fixture><Fixture>70.8</Fixture><Fixture>70.9</Fixture><Fixture>71.1</Fixture><Fixture>71.2</Fixture><Fixture>71.3</Fixture><Fixture>71.4</Fixture><Fixture>71.5</Fixture><Fixture>71.6</Fixture><Fixture>71.7</Fixture><Fixture>71.8</Fixture><Fixture>71.9</Fixture><Fixture>80.1</Fixture><Fixture>80.10</Fixture><Fixture>80.11</Fixture><Fixture>80.12</Fixture><Fixture>80.13</Fixture><Fixture>80.14</Fixture><Fixture>80.15</Fixture><Fixture>80.16</Fixture><Fixture>80.2</Fixture><Fixture>80.3</Fixture><Fixture>80.4</Fixture><Fixture>80.5</Fixture><Fixture>80.6</Fixture><Fixture>80.7</Fixture><Fixture>80.8</Fixture><Fixture>80.9</Fixture><Fixture>90</Fixture><Fixture>91</Fixture><Fixture>92</Fixture><Fixture>93</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Basic Preset" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 8" name="Lime">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>20</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>24</Fixture><Fixture>25</Fixture><Fixture>26</Fixture><Fixture>27</Fixture><Fixture>28</Fixture><Fixture>29</Fixture><Fixture>30</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>35</Fixture><Fixture>36</Fixture><Fixture>37</Fixture><Fixture>40</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>49</Fixture><Fixture>50</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>70.1</Fixture><Fixture>70.2</Fixture><Fixture>70.3</Fixture><Fixture>70.4</Fixture><Fixture>70.5</Fixture><Fixture>70.6</Fixture><Fixture>70.7</Fixture><Fixture>70.8</Fixture><Fixture>70.9</Fixture><Fixture>71.1</Fixture><Fixture>71.2</Fixture><Fixture>71.3</Fixture><Fixture>71.4</Fixture><Fixture>71.5</Fixture><Fixture>71.6</Fixture><Fixture>71.7</Fixture><Fixture>71.8</Fixture><Fixture>71.9</Fixture><Fixture>80.1</Fixture><Fixture>80.10</Fixture><Fixture>80.11</Fixture><Fixture>80.12</Fixture><Fixture>80.13</Fixture><Fixture>80.14</Fixture><Fixture>80.15</Fixture><Fixture>80.16</Fixture><Fixture>80.2</Fixture><Fixture>80.3</Fixture><Fixture>80.4</Fixture><Fixture>80.5</Fixture><Fixture>80.6</Fixture><Fixture>80.7</Fixture><Fixture>80.8</Fixture><Fixture>80.9</Fixture><Fixture>90</Fixture><Fixture>91</Fixture><Fixture>92</Fixture><Fixture>93</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Basic Preset" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 9" name="Green">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>20</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>24</Fixture><Fixture>25</Fixture><Fixture>26</Fixture><Fixture>27</Fixture><Fixture>28</Fixture><Fixture>29</Fixture><Fixture>30</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>35</Fixture><Fixture>36</Fixture><Fixture>37</Fixture><Fixture>40</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>49</Fixture><Fixture>50</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>70.1</Fixture><Fixture>70.2</Fixture><Fixture>70.3</Fixture><Fixture>70.4</Fixture><Fixture>70.5</Fixture><Fixture>70.6</Fixture><Fixture>70.7</Fixture><Fixture>70.8</Fixture><Fixture>70.9</Fixture><Fixture>71.1</Fixture><Fixture>71.2</Fixture><Fixture>71.3</Fixture><Fixture>71.4</Fixture><Fixture>71.5</Fixture><Fixture>71.6</Fixture><Fixture>71.7</Fixture><Fixture>71.8</Fixture><Fixture>71.9</Fixture><Fixture>80.1</Fixture><Fixture>80.10</Fixture><Fixture>80.11</Fixture><Fixture>80.12</Fixture><Fixture>80.13</Fixture><Fixture>80.14</Fixture><Fixture>80.15</Fixture><Fixture>80.16</Fixture><Fixture>80.2</Fixture><Fixture>80.3</Fixture><Fixture>80.4</Fixture><Fixture>80.5</Fixture><Fixture>80.6</Fixture><Fixture>80.7</Fixture><Fixture>80.8</Fixture><Fixture>80.9</Fixture><Fixture>90</Fixture><Fixture>91</Fixture><Fixture>92</Fixture><Fixture>93</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Basic Preset" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 10" name="Cyan">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>20</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>24</Fixture><Fixture>25</Fixture><Fixture>26</Fixture><Fixture>27</Fixture><Fixture>28</Fixture><Fixture>29</Fixture><Fixture>30</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>35</Fixture><Fixture>36</Fixture><Fixture>37</Fixture><Fixture>40</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>49</Fixture><Fixture>50</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>70.1</Fixture><Fixture>70.2</Fixture><Fixture>70.3</Fixture><Fixture>70.4</Fixture><Fixture>70.5</Fixture><Fixture>70.6</Fixture><Fixture>70.7</Fixture><Fixture>70.8</Fixture><Fixture>70.9</Fixture><Fixture>71.1</Fixture><Fixture>71.2</Fixture><Fixture>71.3</Fixture><Fixture>71.4</Fixture><Fixture>71.5</Fixture><Fixture>71.6</Fixture><Fixture>71.7</Fixture><Fixture>71.8</Fixture><Fixture>71.9</Fixture><Fixture>80.1</Fixture><Fixture>80.10</Fixture><Fixture>80.11</Fixture><Fixture>80.12</Fixture><Fixture>80.13</Fixture><Fixture>80.14</Fixture><Fixture>80.15</Fixture><Fixture>80.16</Fixture><Fixture>80.2</Fixture><Fixture>80.3</Fixture><Fixture>80.4</Fixture><Fixture>80.5</Fixture><Fixture>80.6</Fixture><Fixture>80.7</Fixture><Fixture>80.8</Fixture><Fixture>80.9</Fixture><Fixture>90</Fixture><Fixture>91</Fixture><Fixture>92</Fixture><Fixture>93</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Basic Preset" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 11" name="Azure">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>20</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>24</Fixture><Fixture>25</Fixture><Fixture>26</Fixture><Fixture>27</Fixture><Fixture>28</Fixture><Fixture>29</Fixture><Fixture>30</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>35</Fixture><Fixture>36</Fixture><Fixture>37</Fixture><Fixture>40</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>49</Fixture><Fixture>50</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>70.1</Fixture><Fixture>70.2</Fixture><Fixture>70.3</Fixture><Fixture>70.4</Fixture><Fixture>70.5</Fixture><Fixture>70.6</Fixture><Fixture>70.7</Fixture><Fixture>70.8</Fixture><Fixture>70.9</Fixture><Fixture>71.1</Fixture><Fixture>71.2</Fixture><Fixture>71.3</Fixture><Fixture>71.4</Fixture><Fixture>71.5</Fixture><Fixture>71.6</Fixture><Fixture>71.7</Fixture><Fixture>71.8</Fixture><Fixture>71.9</Fixture><Fixture>80.1</Fixture><Fixture>80.10</Fixture><Fixture>80.11</Fixture><Fixture>80.12</Fixture><Fixture>80.13</Fixture><Fixture>80.14</Fixture><Fixture>80.15</Fixture><Fixture>80.16</Fixture><Fixture>80.2</Fixture><Fixture>80.3</Fixture><Fixture>80.4</Fixture><Fixture>80.5</Fixture><Fixture>80.6</Fixture><Fixture>80.7</Fixture><Fixture>80.8</Fixture><Fixture>80.9</Fixture><Fixture>90</Fixture><Fixture>91</Fixture><Fixture>92</Fixture><Fixture>93</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Basic Preset" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 12" name="Blue">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>20</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>24</Fixture><Fixture>25</Fixture><Fixture>26</Fixture><Fixture>27</Fixture><Fixture>28</Fixture><Fixture>29</Fixture><Fixture>30</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>35</Fixture><Fixture>36</Fixture><Fixture>37</Fixture><Fixture>40</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>49</Fixture><Fixture>50</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>70.1</Fixture><Fixture>70.2</Fixture><Fixture>70.3</Fixture><Fixture>70.4</Fixture><Fixture>70.5</Fixture><Fixture>70.6</Fixture><Fixture>70.7</Fixture><Fixture>70.8</Fixture><Fixture>70.9</Fixture><Fixture>71.1</Fixture><Fixture>71.2</Fixture><Fixture>71.3</Fixture><Fixture>71.4</Fixture><Fixture>71.5</Fixture><Fixture>71.6</Fixture><Fixture>71.7</Fixture><Fixture>71.8</Fixture><Fixture>71.9</Fixture><Fixture>80.1</Fixture><Fixture>80.10</Fixture><Fixture>80.11</Fixture><Fixture>80.12</Fixture><Fixture>80.13</Fixture><Fixture>80.14</Fixture><Fixture>80.15</Fixture><Fixture>80.16</Fixture><Fixture>80.2</Fixture><Fixture>80.3</Fixture><Fixture>80.4</Fixture><Fixture>80.5</Fixture><Fixture>80.6</Fixture><Fixture>80.7</Fixture><Fixture>80.8</Fixture><Fixture>80.9</Fixture><Fixture>90</Fixture><Fixture>91</Fixture><Fixture>92</Fixture><Fixture>93</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Basic Preset" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 13" name="Congo Blue">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>20</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>24</Fixture><Fixture>25</Fixture><Fixture>26</Fixture><Fixture>27</Fixture><Fixture>28</Fixture><Fixture>29</Fixture><Fixture>30</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>35</Fixture><Fixture>36</Fixture><Fixture>37</Fixture><Fixture>40</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>49</Fixture><Fixture>50</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>70.1</Fixture><Fixture>70.2</Fixture><Fixture>70.3</Fixture><Fixture>70.4</Fixture><Fixture>70.5</Fixture><Fixture>70.6</Fixture><Fixture>70.7</Fixture><Fixture>70.8</Fixture><Fixture>70.9</Fixture><Fixture>71.1</Fixture><Fixture>71.2</Fixture><Fixture>71.3</Fixture><Fixture>71.4</Fixture><Fixture>71.5</Fixture><Fixture>71.6</Fixture><Fixture>71.7</Fixture><Fixture>71.8</Fixture><Fixture>71.9</Fixture><Fixture>80.1</Fixture><Fixture>80.10</Fixture><Fixture>80.11</Fixture><Fixture>80.12</Fixture><Fixture>80.13</Fixture><Fixture>80.14</Fixture><Fixture>80.15</Fixture><Fixture>80.16</Fixture><Fixture>80.2</Fixture><Fixture>80.3</Fixture><Fixture>80.4</Fixture><Fixture>80.5</Fixture><Fixture>80.6</Fixture><Fixture>80.7</Fixture><Fixture>80.8</Fixture><Fixture>80.9</Fixture><Fixture>90</Fixture><Fixture>91</Fixture><Fixture>92</Fixture><Fixture>93</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Basic Preset" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 14" name="Fushia">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>20</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>24</Fixture><Fixture>25</Fixture><Fixture>26</Fixture><Fixture>27</Fixture><Fixture>28</Fixture><Fixture>29</Fixture><Fixture>30</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>35</Fixture><Fixture>36</Fixture><Fixture>37</Fixture><Fixture>40</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>49</Fixture><Fixture>50</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>70.1</Fixture><Fixture>70.2</Fixture><Fixture>70.3</Fixture><Fixture>70.4</Fixture><Fixture>70.5</Fixture><Fixture>70.6</Fixture><Fixture>70.7</Fixture><Fixture>70.8</Fixture><Fixture>70.9</Fixture><Fixture>71.1</Fixture><Fixture>71.2</Fixture><Fixture>71.3</Fixture><Fixture>71.4</Fixture><Fixture>71.5</Fixture><Fixture>71.6</Fixture><Fixture>71.7</Fixture><Fixture>71.8</Fixture><Fixture>71.9</Fixture><Fixture>80.1</Fixture><Fixture>80.10</Fixture><Fixture>80.11</Fixture><Fixture>80.12</Fixture><Fixture>80.13</Fixture><Fixture>80.14</Fixture><Fixture>80.15</Fixture><Fixture>80.16</Fixture><Fixture>80.2</Fixture><Fixture>80.3</Fixture><Fixture>80.4</Fixture><Fixture>80.5</Fixture><Fixture>80.6</Fixture><Fixture>80.7</Fixture><Fixture>80.8</Fixture><Fixture>80.9</Fixture><Fixture>90</Fixture><Fixture>91</Fixture><Fixture>92</Fixture><Fixture>93</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Basic Preset" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 15" name="Magenta">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>20</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>24</Fixture><Fixture>25</Fixture><Fixture>26</Fixture><Fixture>27</Fixture><Fixture>28</Fixture><Fixture>29</Fixture><Fixture>30</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>35</Fixture><Fixture>36</Fixture><Fixture>37</Fixture><Fixture>40</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>49</Fixture><Fixture>50</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>70.1</Fixture><Fixture>70.2</Fixture><Fixture>70.3</Fixture><Fixture>70.4</Fixture><Fixture>70.5</Fixture><Fixture>70.6</Fixture><Fixture>70.7</Fixture><Fixture>70.8</Fixture><Fixture>70.9</Fixture><Fixture>71.1</Fixture><Fixture>71.2</Fixture><Fixture>71.3</Fixture><Fixture>71.4</Fixture><Fixture>71.5</Fixture><Fixture>71.6</Fixture><Fixture>71.7</Fixture><Fixture>71.8</Fixture><Fixture>71.9</Fixture><Fixture>80.1</Fixture><Fixture>80.10</Fixture><Fixture>80.11</Fixture><Fixture>80.12</Fixture><Fixture>80.13</Fixture><Fixture>80.14</Fixture><Fixture>80.15</Fixture><Fixture>80.16</Fixture><Fixture>80.2</Fixture><Fixture>80.3</Fixture><Fixture>80.4</Fixture><Fixture>80.5</Fixture><Fixture>80.6</Fixture><Fixture>80.7</Fixture><Fixture>80.8</Fixture><Fixture>80.9</Fixture><Fixture>90</Fixture><Fixture>91</Fixture><Fixture>92</Fixture><Fixture>93</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Basic Preset" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 16" name="Pink">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>20</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>24</Fixture><Fixture>25</Fixture><Fixture>26</Fixture><Fixture>27</Fixture><Fixture>28</Fixture><Fixture>29</Fixture><Fixture>30</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>35</Fixture><Fixture>36</Fixture><Fixture>37</Fixture><Fixture>40</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>49</Fixture><Fixture>50</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>70.1</Fixture><Fixture>70.2</Fixture><Fixture>70.3</Fixture><Fixture>70.4</Fixture><Fixture>70.5</Fixture><Fixture>70.6</Fixture><Fixture>70.7</Fixture><Fixture>70.8</Fixture><Fixture>70.9</Fixture><Fixture>71.1</Fixture><Fixture>71.2</Fixture><Fixture>71.3</Fixture><Fixture>71.4</Fixture><Fixture>71.5</Fixture><Fixture>71.6</Fixture><Fixture>71.7</Fixture><Fixture>71.8</Fixture><Fixture>71.9</Fixture><Fixture>80.1</Fixture><Fixture>80.10</Fixture><Fixture>80.11</Fixture><Fixture>80.12</Fixture><Fixture>80.13</Fixture><Fixture>80.14</Fixture><Fixture>80.15</Fixture><Fixture>80.16</Fixture><Fixture>80.2</Fixture><Fixture>80.3</Fixture><Fixture>80.4</Fixture><Fixture>80.5</Fixture><Fixture>80.6</Fixture><Fixture>80.7</Fixture><Fixture>80.8</Fixture><Fixture>80.9</Fixture><Fixture>90</Fixture><Fixture>91</Fixture><Fixture>92</Fixture><Fixture>93</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Color" name="Basic Preset" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 18" name="Open">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 19" name="Open/Red">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 20" name="Red">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 21" name="Red/Orange">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 22" name="Orange">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 23" name="Orange/Green">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 24" name="Green">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 25" name="Green/Blue">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 26" name="Blue">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 27" name="Blue/Yellow">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 28" name="Yellow">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 29" name="Yellow/Cyan">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 30" name="Cyan">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 31" name="Cyan/Magenta">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Color 32" name="Magenta">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 1" name="White/Red">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 2" name="White/Orange">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 3" name="White/Yellow">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 4" name="White/Lime">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 5" name="White/Green">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 6" name="White/Cyan">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 7" name="White/Azure">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 8" name="White/Blue">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 9" name="White/Congo">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 10" name="White/Fushia">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 11" name="White/Magenta">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 12" name="White/Pink">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 13" name="Red/White">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 14" name="Red/Orange">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 15" name="Red/Yellow">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 16" name="Red/Lime">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 17" name="Red/Green">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 18" name="Red/Cyan">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 19" name="Red/Azure">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 20" name="Red/Blue">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 21" name="Red/Congo">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 22" name="Red/Fushia">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 23" name="Red/Magenta">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 24" name="Red/Pink">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 25" name="Orange White">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 26" name="Orange/Red">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 27" name="Orange/Yellow">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 28" name="Orange/Lime">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 29" name="Orange/Green">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 30" name="Orange/Cyan">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 31" name="Orange/Azure">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 32" name="Orange/Blue">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 33" name="Orange/Congo">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 34" name="Orange/Fushia">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 35" name="Orange/Magenta">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 36" name="Orange/Pink">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 37" name="Yellow/White">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 38" name="Yellow/Red">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 39" name="Yellow/Orange">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 40" name="Yellow/Lime">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 41" name="Yellow/Green">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 42" name="Yellow/Cyan">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 43" name="Yellow/Azure">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 44" name="Yellow/Blue">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 45" name="Yellow/Congo">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 46" name="Yellow/Fushia">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 47" name="Yellow/Magenta">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 48" name="Yellow/Pink">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 49" name="Lime/White">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 50" name="Lime/Red">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 51" name="Lime/Orange">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 52" name="Lime/Yellow">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 53" name="Lime/Green">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 54" name="Lime/Cyan">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 55" name="Lime/Azure">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 56" name="Lime/Blue">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 57" name="Lime/Congo">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 58" name="Lime/Fushia">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 59" name="Lime/Magenta">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 60" name="Lime/Pink">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 61" name="Green/White">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 62" name="Green/Red">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 63" name="Green/Orange">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 64" name="Green/Yellow">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 65" name="Green/Lime">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 66" name="Green/Cyan">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 67" name="Green/Azure">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 68" name="Green/Blue">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 69" name="Green/Congo">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 70" name="Green/Fushia">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 71" name="Green/Magenta">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 72" name="Green/Pink">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 73" name="Cyan/White">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 74" name="Cyan/Red">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 75" name="Cyan/Orange">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 76" name="Cyan/Yellow">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 77" name="Cyan/Lime">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 78" name="Cyan/Green">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 79" name="Cyan/Azure">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 80" name="Cyan/Blue">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 81" name="Cyan/Congo">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 82" name="Cyan/Fushia">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 83" name="Cyan/Magenta">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 84" name="Cyan/Pink">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 85" name="Azure/White">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 86" name="Azure/Red">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 87" name="Azure/Orange">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 88" name="Azure/Yellow">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 89" name="Azure/Lime">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 90" name="Azure/Green">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 91" name="Azure/Cyan">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 92" name="Azure/Blue">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 93" name="Azure/Congo">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 94" name="Azure/Fushia">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 95" name="Azure/Magenta">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 96" name="Azure/Pink">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 97" name="Blue/White">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 98" name="Blue/Red">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 99" name="Blue/Orange">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 100" name="Blue/Yellow">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 101" name="Blue/Lime">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 102" name="Blue/Green">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 103" name="Blue/Cyan">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 104" name="Blue/Azure">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 105" name="Blue/Congo">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 106" name="Blue Fushia">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 107" name="Blue/Magenta">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 108" name="Blue/Pink">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 109" name="Congo/White">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 110" name="Congo/Red">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 111" name="Congo/Orange">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 112" name="Congo/Yellow">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 113" name="Congo/Lime">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 114" name="Congo/Green">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 115" name="Congo/Cyan">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 116" name="Congo/Azure">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 117" name="Congo/Blue">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 118" name="Congo/Fushia">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 119" name="Congo/Magenta">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 120" name="Congo/Pink">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 121" name="Fushia/White">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 122" name="Fushia/Red">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 123" name="Fushia/Orange">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 124" name="Fushia/Yellow">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 125" name="Fushia/Lime">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 126" name="Fushia/Green">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 127" name="Fushia/Cyan">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 128" name="Fushia/Azure">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 129" name="Fushia/Blue">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 130" name="Fushia/Congo">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 131" name="Fushia/Magenta">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 132" name="Fushia/Pink">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 133" name="Magenta/White">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 134" name="Magenta/Red">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 135" name="Magenta/Orange">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 136" name="Magenta/Yellow">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 137" name="Magenta/Lime">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 138" name="Magenta/Green">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 139" name="Magenta/Cyan">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 140" name="Magenta/Azure">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 141" name="Magenta/Blue">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 142" name="Magenta/Congo">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 143" name="Magenta/Fushia">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 144" name="Magenta/Pink">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 145" name="Pink/White">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 146" name="Pink/Red">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 147" name="Pink/Orange">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 148" name="Pink/Yellow">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 149" name="Pink/Lime">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 150" name="Pink/Green">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 151" name="Pink/Cyan">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 152" name="Pink/Azure">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 153" name="Pink/Blue">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 154" name="Pink/Congo">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 155" name="Pink/Fushia">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 156" name="Pink/Magenta">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 158" name="Open">
+<PresetUsage><Usage>Intensity</Usage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.4</Fixture><Fixture>501.0.4</Fixture><Fixture>502.0.4</Fixture><Fixture>503.0.4</Fixture><Fixture>504.0.4</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 160" name="Open FX">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.1.1</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>501.1.1</Fixture><Fixture>502.1.1</Fixture><Fixture>503.1.1</Fixture><Fixture>504.1.1</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 161" name="Left Right">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam Effects</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.1.1</Fixture><Fixture>501.1.1</Fixture><Fixture>502.1.1</Fixture><Fixture>503.1.1</Fixture><Fixture>504.1.1</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 162" name="Sym Vertical Lines">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam Effects</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.1.1</Fixture><Fixture>500.1.2</Fixture><Fixture>500.1.3</Fixture><Fixture>501.1.1</Fixture><Fixture>501.1.2</Fixture><Fixture>501.1.3</Fixture><Fixture>502.1.3</Fixture><Fixture>503.1.3</Fixture><Fixture>504.1.3</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>502.1.1</Fixture><Fixture>502.1.2</Fixture><Fixture>503.1.1</Fixture><Fixture>503.1.2</Fixture><Fixture>504.1.1</Fixture><Fixture>504.1.2</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 163" name="Circle Right Left">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam Effects</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.1.1</Fixture><Fixture>500.1.2</Fixture><Fixture>501.1.1</Fixture><Fixture>501.1.2</Fixture><Fixture>502.1.1</Fixture><Fixture>502.1.2</Fixture><Fixture>503.1.1</Fixture><Fixture>503.1.2</Fixture><Fixture>504.1.1</Fixture><Fixture>504.1.2</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 164" name="Circle Pulse">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam Effects</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.1.1</Fixture><Fixture>501.1.1</Fixture><Fixture>502.1.1</Fixture><Fixture>503.1.1</Fixture><Fixture>504.1.1</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 165" name="Smoke">
+<PresetUsage><Usage>Pan Tilt</Usage><Usage>Gobo</Usage><Usage>Beam Effects</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.1.1</Fixture><Fixture>500.1.2</Fixture><Fixture>501.1.1</Fixture><Fixture>501.1.2</Fixture><Fixture>502.1.1</Fixture><Fixture>502.1.2</Fixture><Fixture>503.1.1</Fixture><Fixture>503.1.2</Fixture><Fixture>504.1.1</Fixture><Fixture>504.1.2</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 166" name="Square">
+<PresetUsage><Usage>Pan Tilt</Usage><Usage>Gobo</Usage><Usage>Beam Effects</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.1.1</Fixture><Fixture>500.1.3</Fixture><Fixture>501.1.1</Fixture><Fixture>501.1.3</Fixture><Fixture>502.1.1</Fixture><Fixture>502.1.3</Fixture><Fixture>503.1.1</Fixture><Fixture>503.1.3</Fixture><Fixture>504.1.1</Fixture><Fixture>504.1.3</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 167" name="Lines">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam Effects</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.1.1</Fixture><Fixture>500.1.2</Fixture><Fixture>500.1.3</Fixture><Fixture>501.1.1</Fixture><Fixture>501.1.2</Fixture><Fixture>501.1.3</Fixture><Fixture>502.1.1</Fixture><Fixture>502.1.2</Fixture><Fixture>502.1.3</Fixture><Fixture>503.1.1</Fixture><Fixture>503.1.2</Fixture><Fixture>503.1.3</Fixture><Fixture>504.1.1</Fixture><Fixture>504.1.2</Fixture><Fixture>504.1.3</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 168" name="High Circle">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.0</Fixture><Fixture>500.1.1</Fixture><Fixture>501.0.0</Fixture><Fixture>501.1.1</Fixture><Fixture>502.0.0</Fixture><Fixture>502.1.1</Fixture><Fixture>503.0.0</Fixture><Fixture>503.1.1</Fixture><Fixture>504.0.0</Fixture><Fixture>504.1.1</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 169" name="Square Bounce">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.0</Fixture><Fixture>500.1.1</Fixture><Fixture>501.0.0</Fixture><Fixture>501.1.1</Fixture><Fixture>502.0.0</Fixture><Fixture>502.1.1</Fixture><Fixture>503.0.0</Fixture><Fixture>503.1.1</Fixture><Fixture>504.0.0</Fixture><Fixture>504.1.1</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 170" name="Triangle Bounce">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.0</Fixture><Fixture>500.1.1</Fixture><Fixture>501.0.0</Fixture><Fixture>501.1.1</Fixture><Fixture>502.0.0</Fixture><Fixture>502.1.1</Fixture><Fixture>503.0.0</Fixture><Fixture>503.1.1</Fixture><Fixture>504.0.0</Fixture><Fixture>504.1.1</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 171" name="Double Circle">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.0.0</Fixture><Fixture>500.1.1</Fixture><Fixture>501.0.0</Fixture><Fixture>501.1.1</Fixture><Fixture>502.0.0</Fixture><Fixture>502.1.1</Fixture><Fixture>503.0.0</Fixture><Fixture>503.1.1</Fixture><Fixture>504.0.0</Fixture><Fixture>504.1.1</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 172" name="Cool Circle">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.1.1</Fixture><Fixture>501.1.1</Fixture><Fixture>502.1.1</Fixture><Fixture>503.1.1</Fixture><Fixture>504.1.1</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 173" name="Bubble">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.1.1</Fixture><Fixture>501.1.1</Fixture><Fixture>502.1.1</Fixture><Fixture>503.1.1</Fixture><Fixture>504.1.1</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 174" name="Mesmering">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.1.1</Fixture><Fixture>501.1.1</Fixture><Fixture>502.1.1</Fixture><Fixture>503.1.1</Fixture><Fixture>504.1.1</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Framing 175" name="Random">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>500.1.1</Fixture><Fixture>501.1.1</Fixture><Fixture>502.1.1</Fixture><Fixture>503.1.1</Fixture><Fixture>504.1.1</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 1" name="Beam Reducer Mid">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Beam" name="Focus Gobo 1" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset><Source group="Gobo" name="Multi Dots" id="3"></Source><Source group="Gobo" name="Triangle Lines" id="4"></Source><Source group="Gobo" name="Sun Lines" id="5"></Source><Source group="Gobo" name="Rosace" id="6"></Source><Source group="Gobo" name="Sun" id="7"></Source><Source group="Gobo" name="Fire" id="8"></Source></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 2" name="Beam Reducer Tiny">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Beam" name="Focus Gobo 1" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 3" name="Multi Dots">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Gobo" name="Beam Reducer Mid" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 4" name="Triangle Lines">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Gobo" name="Beam Reducer Mid" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 5" name="Sun Lines">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Gobo" name="Beam Reducer Mid" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 6" name="Rosace">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Gobo" name="Beam Reducer Mid" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 7" name="Sun">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Gobo" name="Beam Reducer Mid" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 8" name="Fire">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Gobo" name="Beam Reducer Mid" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 10" name="Reducer Shake">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Beam" name="Focus Gobo 1" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 11" name="Reducer Tiny Shake">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Beam" name="Focus Gobo 1" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 12" name="Multi Dots Shake">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Beam" name="Focus Gobo 1" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 13" name="Triangles Lines Shake">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Beam" name="Focus Gobo 1" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 14" name="Sun Lines Shake">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Beam" name="Focus Gobo 1" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 15" name="Rosace Shake">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Beam" name="Focus Gobo 1" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 16" name="Sun Shake">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Beam" name="Focus Gobo 1" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 17" name="Fire Shake">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Beam" name="Focus Gobo 1" id="1"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 19" name="Triangle">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Beam" name="Focus Gobo 2" id="2"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 20" name="Tri Wave">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Beam" name="Focus Gobo 2" id="2"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 21" name="Fan">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Beam" name="Focus Gobo 2" id="2"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 22" name="Tri Dots">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Beam" name="Focus Gobo 2" id="2"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 23" name="Star">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Beam" name="Focus Gobo 2" id="2"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 24" name="Big Dot and dots">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset><Source group="Beam" name="Focus Gobo 2" id="2"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 26" name="Triangle Shake">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UnusedValuesFor>
+<PresetUsesPreset><Source group="Beam" name="Focus Gobo 2" id="2"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 27" name="Tri waves Shak">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UnusedValuesFor>
+<PresetUsesPreset><Source group="Beam" name="Focus Gobo 2" id="2"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 28" name="Fan Shake">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UnusedValuesFor>
+<PresetUsesPreset><Source group="Beam" name="Focus Gobo 2" id="2"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 29" name="Tri Dots Shake">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UnusedValuesFor>
+<PresetUsesPreset><Source group="Beam" name="Focus Gobo 2" id="2"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 30" name="Star Shake">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UnusedValuesFor>
+<PresetUsesPreset><Source group="Beam" name="Focus Gobo 2" id="2"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 31" name="Big Dots Shakes">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UnusedValuesFor>
+<PresetUsesPreset><Source group="Beam" name="Focus Gobo 2" id="2"></Source></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 33" name="Open">
+<PresetUsage><Usage>Gobo</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 35" name="CW Fast">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>63</Fixture><Fixture>64</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 36" name="CW Slow">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>63</Fixture><Fixture>64</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 38" name="CCW Fast">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 39" name="CCW Slow">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor><Fixture>63</Fixture><Fixture>64</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Gobo 40" name="Rot Stop">
+<PresetUsage><Usage>Gobo</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 1" name="I - 0%">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor><Fixture>1</Fixture><Fixture>100</Fixture><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>2</Fixture><Fixture>20</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>24</Fixture><Fixture>25</Fixture><Fixture>26</Fixture><Fixture>27</Fixture><Fixture>28</Fixture><Fixture>29</Fixture><Fixture>3</Fixture><Fixture>30</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>35</Fixture><Fixture>36</Fixture><Fixture>37</Fixture><Fixture>4</Fixture><Fixture>40</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>49</Fixture><Fixture>5</Fixture><Fixture>50</Fixture><Fixture>500.0.0</Fixture><Fixture>501.0.0</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>6</Fixture><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>7</Fixture><Fixture>70.0</Fixture><Fixture>70.1</Fixture><Fixture>70.2</Fixture><Fixture>70.3</Fixture><Fixture>70.4</Fixture><Fixture>70.5</Fixture><Fixture>70.6</Fixture><Fixture>70.7</Fixture><Fixture>70.8</Fixture><Fixture>70.9</Fixture><Fixture>71.0</Fixture><Fixture>71.1</Fixture><Fixture>71.2</Fixture><Fixture>71.3</Fixture><Fixture>71.4</Fixture><Fixture>71.5</Fixture><Fixture>71.6</Fixture><Fixture>71.7</Fixture><Fixture>71.8</Fixture><Fixture>71.9</Fixture><Fixture>8</Fixture><Fixture>80.1</Fixture><Fixture>80.10</Fixture><Fixture>80.11</Fixture><Fixture>80.12</Fixture><Fixture>80.13</Fixture><Fixture>80.14</Fixture><Fixture>80.15</Fixture><Fixture>80.16</Fixture><Fixture>80.2</Fixture><Fixture>80.3</Fixture><Fixture>80.4</Fixture><Fixture>80.5</Fixture><Fixture>80.6</Fixture><Fixture>80.7</Fixture><Fixture>80.8</Fixture><Fixture>80.9</Fixture><Fixture>90</Fixture><Fixture>91</Fixture><Fixture>92</Fixture><Fixture>93</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>500.1.1</Fixture><Fixture>500.1.2</Fixture><Fixture>500.1.3</Fixture><Fixture>501.1.1</Fixture><Fixture>501.1.2</Fixture><Fixture>501.1.3</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset><Source group="Beam Effects" name="Lyre Bottom Black" id="1"></Source></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 2" name="I - 50%">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>1</Fixture><Fixture>100</Fixture><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>2</Fixture><Fixture>20</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>24</Fixture><Fixture>25</Fixture><Fixture>26</Fixture><Fixture>27</Fixture><Fixture>28</Fixture><Fixture>29</Fixture><Fixture>3</Fixture><Fixture>30</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>35</Fixture><Fixture>36</Fixture><Fixture>37</Fixture><Fixture>4</Fixture><Fixture>40</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>49</Fixture><Fixture>5</Fixture><Fixture>50</Fixture><Fixture>500.0.0</Fixture><Fixture>500.1.1</Fixture><Fixture>500.1.2</Fixture><Fixture>500.1.3</Fixture><Fixture>501.0.0</Fixture><Fixture>501.1.1</Fixture><Fixture>501.1.2</Fixture><Fixture>501.1.3</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>6</Fixture><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>7</Fixture><Fixture>70.0</Fixture><Fixture>70.1</Fixture><Fixture>70.2</Fixture><Fixture>70.3</Fixture><Fixture>70.4</Fixture><Fixture>70.5</Fixture><Fixture>70.6</Fixture><Fixture>70.7</Fixture><Fixture>70.8</Fixture><Fixture>70.9</Fixture><Fixture>71.0</Fixture><Fixture>71.1</Fixture><Fixture>71.2</Fixture><Fixture>71.3</Fixture><Fixture>71.4</Fixture><Fixture>71.5</Fixture><Fixture>71.6</Fixture><Fixture>71.7</Fixture><Fixture>71.8</Fixture><Fixture>71.9</Fixture><Fixture>8</Fixture><Fixture>80.1</Fixture><Fixture>80.10</Fixture><Fixture>80.11</Fixture><Fixture>80.12</Fixture><Fixture>80.13</Fixture><Fixture>80.14</Fixture><Fixture>80.15</Fixture><Fixture>80.16</Fixture><Fixture>80.2</Fixture><Fixture>80.3</Fixture><Fixture>80.4</Fixture><Fixture>80.5</Fixture><Fixture>80.6</Fixture><Fixture>80.7</Fixture><Fixture>80.8</Fixture><Fixture>80.9</Fixture><Fixture>90</Fixture><Fixture>91</Fixture><Fixture>92</Fixture><Fixture>93</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 3" name="I - 100%">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor><Fixture>1</Fixture><Fixture>100</Fixture><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>2</Fixture><Fixture>20</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>24</Fixture><Fixture>25</Fixture><Fixture>26</Fixture><Fixture>27</Fixture><Fixture>28</Fixture><Fixture>29</Fixture><Fixture>3</Fixture><Fixture>30</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>35</Fixture><Fixture>36</Fixture><Fixture>37</Fixture><Fixture>4</Fixture><Fixture>40</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>49</Fixture><Fixture>5</Fixture><Fixture>50</Fixture><Fixture>500.0.0</Fixture><Fixture>501.0.0</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>6</Fixture><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>7</Fixture><Fixture>70.0</Fixture><Fixture>70.1</Fixture><Fixture>70.2</Fixture><Fixture>70.3</Fixture><Fixture>70.4</Fixture><Fixture>70.5</Fixture><Fixture>70.6</Fixture><Fixture>70.7</Fixture><Fixture>70.8</Fixture><Fixture>70.9</Fixture><Fixture>71.0</Fixture><Fixture>71.1</Fixture><Fixture>71.2</Fixture><Fixture>71.3</Fixture><Fixture>71.4</Fixture><Fixture>71.5</Fixture><Fixture>71.6</Fixture><Fixture>71.7</Fixture><Fixture>71.8</Fixture><Fixture>71.9</Fixture><Fixture>8</Fixture><Fixture>80.1</Fixture><Fixture>80.10</Fixture><Fixture>80.11</Fixture><Fixture>80.12</Fixture><Fixture>80.13</Fixture><Fixture>80.14</Fixture><Fixture>80.15</Fixture><Fixture>80.16</Fixture><Fixture>80.2</Fixture><Fixture>80.3</Fixture><Fixture>80.4</Fixture><Fixture>80.5</Fixture><Fixture>80.6</Fixture><Fixture>80.7</Fixture><Fixture>80.8</Fixture><Fixture>80.9</Fixture><Fixture>90</Fixture><Fixture>91</Fixture><Fixture>92</Fixture><Fixture>93</Fixture></UsedValuesFor>
+<UnusedValuesFor><Fixture>500.1.1</Fixture><Fixture>500.1.2</Fixture><Fixture>500.1.3</Fixture><Fixture>501.1.1</Fixture><Fixture>501.1.2</Fixture><Fixture>501.1.3</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset><Source group="Beam Effects" name="Lyre Top On" id="2"></Source></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 5" name="Strobe Slow">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 6" name="Strobe Mid">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Intensity 7" name="Strobe High">
+<PresetUsage><Usage>Intensity</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 1" name="Default">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>70.0</Fixture><Fixture>71.0</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 2" name="Tilt Max">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>70.0</Fixture><Fixture>71.0</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 3" name="Tilt Min">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>70.0</Fixture><Fixture>71.0</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 4" name="Tilt Straight">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>70.0</Fixture><Fixture>71.0</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset><Source group="Beam Effects" name="Lyre Bottom Black" id="1"></Source></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 5" name="Tilt Mid Scne">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 6" name="Tilt Front Scene">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 7" name="Tilt DTG">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>70.0</Fixture><Fixture>71.0</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 8" name="Tilt Mid Air">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>70.0</Fixture><Fixture>71.0</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset><Source group="Beam Effects" name="Lyre Top On" id="2"></Source></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 9" name="Tilt Under Roof">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>70.0</Fixture><Fixture>71.0</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 10" name="Pan Straight">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>70.0</Fixture><Fixture>71.0</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 11" name="Pan Opened">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>70.0</Fixture><Fixture>71.0</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 12" name="Pan Closed">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>70.0</Fixture><Fixture>71.0</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 13" name="Pan Center">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>70.0</Fixture><Fixture>71.0</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Pan Tilt 14" name="Pan Crossed">
+<PresetUsage><Usage>Pan Tilt</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Special 1" name="Default Values">
+<PresetUsage><Usage>Intensity</Usage><Usage>Pan Tilt</Usage><Usage>Gobo</Usage><Usage>Beam</Usage><Usage>Beam Effects</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>1000</Fixture><Fixture>500.1.1</Fixture><Fixture>501.1.1</Fixture><Fixture>502.1.1</Fixture><Fixture>503.1.1</Fixture><Fixture>504.1.1</Fixture><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>70.0</Fixture><Fixture>71.0</Fixture><Fixture>90</Fixture><Fixture>91</Fixture><Fixture>92</Fixture><Fixture>93</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Special 10" name="HighLight 0">
+<PresetUsage><Usage>Intensity</Usage><Usage>Pan Tilt</Usage><Usage>Color</Usage><Usage>Gobo</Usage><Usage>Beam</Usage><Usage>Beam Effects</Usage><Usage>Framing</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>1</Fixture><Fixture>100</Fixture><Fixture>1000</Fixture><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>2</Fixture><Fixture>20</Fixture><Fixture>200</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>24</Fixture><Fixture>25</Fixture><Fixture>26</Fixture><Fixture>27</Fixture><Fixture>28</Fixture><Fixture>29</Fixture><Fixture>3</Fixture><Fixture>30</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>35</Fixture><Fixture>36</Fixture><Fixture>37</Fixture><Fixture>4</Fixture><Fixture>40</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>49</Fixture><Fixture>5</Fixture><Fixture>50</Fixture><Fixture>500.0.0</Fixture><Fixture>500.0.4</Fixture><Fixture>500.1.1</Fixture><Fixture>500.1.2</Fixture><Fixture>500.1.3</Fixture><Fixture>501.0.0</Fixture><Fixture>501.0.4</Fixture><Fixture>501.1.1</Fixture><Fixture>501.1.2</Fixture><Fixture>501.1.3</Fixture><Fixture>502.0.0</Fixture><Fixture>502.0.4</Fixture><Fixture>502.1.1</Fixture><Fixture>502.1.2</Fixture><Fixture>502.1.3</Fixture><Fixture>503.0.0</Fixture><Fixture>503.0.4</Fixture><Fixture>503.1.1</Fixture><Fixture>503.1.2</Fixture><Fixture>503.1.3</Fixture><Fixture>504.0.0</Fixture><Fixture>504.0.4</Fixture><Fixture>504.1.1</Fixture><Fixture>504.1.2</Fixture><Fixture>504.1.3</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>6</Fixture><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>7</Fixture><Fixture>70.0</Fixture><Fixture>70.1</Fixture><Fixture>70.2</Fixture><Fixture>70.3</Fixture><Fixture>70.4</Fixture><Fixture>70.5</Fixture><Fixture>70.6</Fixture><Fixture>70.7</Fixture><Fixture>70.8</Fixture><Fixture>70.9</Fixture><Fixture>71.0</Fixture><Fixture>71.1</Fixture><Fixture>71.2</Fixture><Fixture>71.3</Fixture><Fixture>71.4</Fixture><Fixture>71.5</Fixture><Fixture>71.6</Fixture><Fixture>71.7</Fixture><Fixture>71.8</Fixture><Fixture>71.9</Fixture><Fixture>8</Fixture><Fixture>80.1</Fixture><Fixture>80.10</Fixture><Fixture>80.11</Fixture><Fixture>80.12</Fixture><Fixture>80.13</Fixture><Fixture>80.14</Fixture><Fixture>80.15</Fixture><Fixture>80.16</Fixture><Fixture>80.2</Fixture><Fixture>80.3</Fixture><Fixture>80.4</Fixture><Fixture>80.5</Fixture><Fixture>80.6</Fixture><Fixture>80.7</Fixture><Fixture>80.8</Fixture><Fixture>80.9</Fixture><Fixture>90</Fixture><Fixture>91</Fixture><Fixture>92</Fixture><Fixture>93</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Special 11" name="HighLight 1">
+<PresetUsage><Usage>Intensity</Usage><Usage>Color</Usage><Usage>Beam</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>90</Fixture><Fixture>91</Fixture><Fixture>92</Fixture><Fixture>93</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Special 15" name="HighLight 5">
+<PresetUsage><Usage>Intensity</Usage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>100</Fixture><Fixture>101</Fixture><Fixture>102</Fixture><Fixture>103</Fixture><Fixture>110</Fixture><Fixture>111</Fixture><Fixture>20</Fixture><Fixture>21</Fixture><Fixture>22</Fixture><Fixture>23</Fixture><Fixture>24</Fixture><Fixture>25</Fixture><Fixture>26</Fixture><Fixture>27</Fixture><Fixture>28</Fixture><Fixture>29</Fixture><Fixture>30</Fixture><Fixture>31</Fixture><Fixture>32</Fixture><Fixture>33</Fixture><Fixture>34</Fixture><Fixture>35</Fixture><Fixture>36</Fixture><Fixture>37</Fixture><Fixture>40</Fixture><Fixture>41</Fixture><Fixture>42</Fixture><Fixture>43</Fixture><Fixture>44</Fixture><Fixture>45</Fixture><Fixture>46</Fixture><Fixture>47</Fixture><Fixture>48</Fixture><Fixture>49</Fixture><Fixture>50</Fixture><Fixture>51</Fixture><Fixture>52</Fixture><Fixture>53</Fixture><Fixture>54</Fixture><Fixture>55</Fixture><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture><Fixture>70.0</Fixture><Fixture>70.1</Fixture><Fixture>70.2</Fixture><Fixture>70.3</Fixture><Fixture>70.4</Fixture><Fixture>70.5</Fixture><Fixture>70.6</Fixture><Fixture>70.7</Fixture><Fixture>70.8</Fixture><Fixture>70.9</Fixture><Fixture>71.0</Fixture><Fixture>71.1</Fixture><Fixture>71.2</Fixture><Fixture>71.3</Fixture><Fixture>71.4</Fixture><Fixture>71.5</Fixture><Fixture>71.6</Fixture><Fixture>71.7</Fixture><Fixture>71.8</Fixture><Fixture>71.9</Fixture><Fixture>80.1</Fixture><Fixture>80.10</Fixture><Fixture>80.11</Fixture><Fixture>80.12</Fixture><Fixture>80.13</Fixture><Fixture>80.14</Fixture><Fixture>80.15</Fixture><Fixture>80.16</Fixture><Fixture>80.2</Fixture><Fixture>80.3</Fixture><Fixture>80.4</Fixture><Fixture>80.5</Fixture><Fixture>80.6</Fixture><Fixture>80.7</Fixture><Fixture>80.8</Fixture><Fixture>80.9</Fixture><Fixture>90</Fixture><Fixture>91</Fixture><Fixture>92</Fixture><Fixture>93</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+<Preset ID="Special 21" name="LowLight 1">
+<PresetUsage><Usage>Color</Usage></PresetUsage>
+<UsedValuesFor></UsedValuesFor>
+<UnusedValuesFor><Fixture>60</Fixture><Fixture>61</Fixture><Fixture>62</Fixture><Fixture>63</Fixture><Fixture>64</Fixture></UnusedValuesFor>
+<PresetUsesPreset></PresetUsesPreset>
+<PresetUsedByPreset></PresetUsedByPreset>
+</Preset>
+</Presets>
