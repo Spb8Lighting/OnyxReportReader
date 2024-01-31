@@ -1,4 +1,4 @@
-import { Preset as WordingPreset } from './../config/wording'
+import { Preset as WordingPreset } from './../config/wording.js'
 
 export default class PresetObject {
   /**
