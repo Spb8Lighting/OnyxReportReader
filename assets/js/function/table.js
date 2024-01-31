@@ -193,13 +193,13 @@ export const TBodyLine = async (Config, Multipart, Data, Restricted = false) => 
         RowContent = NotFalse(await GetAllGroups(Data))
         break
       case 'Patch_Fixture':
-        RowContent = `<a target="_blank" href="https://onyxfixturefinder.com/fixture/${encodeURIComponent(Data.Manufacturer)}/${encodeURIComponent(Data.Model)}" />${Data.Manufacturer} - ${Data.Model}</a> <em>(${Data.Mode})</em>`
+        RowContent = `${Data.Manufacturer} - ${Data.Model} <em>(${Data.Mode})</em>`
         break
       case 'Patch_Manufacturer':
-        RowContent = `<a target="_blank" href="https://onyxfixturefinder.com/#SearchMode=live&amp;DisplayMode=1&amp;Manufacturer=${encodeURIComponent(Data.Manufacturer)}" />${Data.Manufacturer}</a>`
+        RowContent = Data.Manufacturer
         break
       case 'Patch_Model':
-        RowContent = `<a target="_blank" href="https://onyxfixturefinder.com/fixture/${encodeURIComponent(Data.Manufacturer)}/${encodeURIComponent(Data.Model)}" />${Data.Model}</a>`
+        RowContent = Data.Model
         break
       case 'Patch_Mode':
         RowContent = Data.Mode
