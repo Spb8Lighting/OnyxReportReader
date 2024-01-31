@@ -15,13 +15,13 @@ Onyx Report Reader is a PWA (Progressive Web App) which allow you to install it 
 
 ### Desktop with Chrome
 
-Visit the website http://report.onyxfixturefinder.com, then open your Chrome Menu (on top right), then select "Install Onyx Report Reader".
+Visit the website https://spb8lighting.github.io/OnyxReportReader, then open your Chrome Menu (on top right), then select "Install Onyx Report Reader".
 
 More general detail available there https://love2dev.com/blog/chrome-desktop-pwa/
 
 ### Mobile with Chrome
 
-Visit the website http://report.onyxfixturefinder.com. A notification will pop-up at the bottom of the page to allow you to install this application.
+Visit the website https://spb8lighting.github.io/OnyxReportReader/. A notification will pop-up at the bottom of the page to allow you to install this application.
 
 ## Layout
 
